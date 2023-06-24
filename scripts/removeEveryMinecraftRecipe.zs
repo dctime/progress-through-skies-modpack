@@ -1,0 +1,2 @@
+craftingTable.removeAll();
+furnace.removeAll();

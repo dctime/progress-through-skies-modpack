@@ -1,0 +1,17 @@
+{
+	id: "553fb82d-2e40-495a-862e-ffddc73623ce"
+	type: "player"
+	player_name: "DCtime"
+	ranks: {
+		553fb82d-2e40-495a-862e-ffddc73623ce: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "DCtime"
+		"ftbteams:description": ""
+		"ftbteams:color": "#CAFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

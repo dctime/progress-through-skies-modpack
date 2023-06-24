@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "5E36CEFC8468C9D2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2FE75340B2873C2B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "30D9115DA190F580"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FE75340B2873C2B"]
+			id: "21306D08E892BE86"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "23F304F8F35FD0F4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Welcome!"
+}

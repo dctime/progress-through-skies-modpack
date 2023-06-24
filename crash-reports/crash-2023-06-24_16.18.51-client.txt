@@ -1,0 +1,240 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2023-06-24 16:18:51
+Description: mouseClicked event handler
+
+java.lang.IllegalArgumentException: Template file "default.nbt" does not exist: default
+	at de.melanx.skyblockbuilder.template.TemplateLoader.updateTemplates(TemplateLoader.java:31) ~[SkyblockBuilder-1.19.2-4.2.10.jar%23163!/:1.19.2-4.2.10] {re:classloading}
+	at de.melanx.skyblockbuilder.EventListener.onConfigChange(EventListener.java:229) ~[SkyblockBuilder-1.19.2-4.2.10.jar%23163!/:1.19.2-4.2.10] {re:classloading}
+	at de.melanx.skyblockbuilder.__EventListener_onConfigChange_ConfigLoadedEvent.invoke(.dynamic) ~[SkyblockBuilder-1.19.2-4.2.10.jar%23163!/:1.19.2-4.2.10] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at org.moddingx.libx.impl.config.ConfigImpl.restore(ConfigImpl.java:311) ~[LibX-1.19.2-4.2.8.jar%23160!/:1.19.2-4.2.8] {re:classloading}
+	at org.moddingx.libx.impl.config.ConfigEvents.clientPlayerLeave(ConfigEvents.java:40) ~[LibX-1.19.2-4.2.8.jar%23160!/:1.19.2-4.2.8] {re:classloading,pl:runtimedistcleaner:A}
+	at org.moddingx.libx.impl.config.__ConfigEvents_clientPlayerLeave_LoggingOut.invoke(.dynamic) ~[LibX-1.19.2-4.2.8.jar%23160!/:1.19.2-4.2.8] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.client.ForgeHooksClient.firePlayerLogout(ForgeHooksClient.java:940) ~[forge-1.19.2-43.2.0-universal.jar%23170!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.m_91320_(Minecraft.java:2080) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.PauseScreen.m_96314_(PauseScreen.java:83) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.gui.components.Button.m_5691_(Button.java:43) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:110) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,re:mixin}
+	at net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:522) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23144!/:build 7] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23136!/:build 7] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23144!/:build 7] {}
+	at com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at de.melanx.skyblockbuilder.template.TemplateLoader.updateTemplates(TemplateLoader.java:31) ~[SkyblockBuilder-1.19.2-4.2.10.jar%23163!/:1.19.2-4.2.10] {re:classloading}
+	at de.melanx.skyblockbuilder.EventListener.onConfigChange(EventListener.java:229) ~[SkyblockBuilder-1.19.2-4.2.10.jar%23163!/:1.19.2-4.2.10] {re:classloading}
+	at de.melanx.skyblockbuilder.__EventListener_onConfigChange_ConfigLoadedEvent.invoke(.dynamic) ~[SkyblockBuilder-1.19.2-4.2.10.jar%23163!/:1.19.2-4.2.10] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at org.moddingx.libx.impl.config.ConfigImpl.restore(ConfigImpl.java:311) ~[LibX-1.19.2-4.2.8.jar%23160!/:1.19.2-4.2.8] {re:classloading}
+	at org.moddingx.libx.impl.config.ConfigEvents.clientPlayerLeave(ConfigEvents.java:40) ~[LibX-1.19.2-4.2.8.jar%23160!/:1.19.2-4.2.8] {re:classloading,pl:runtimedistcleaner:A}
+	at org.moddingx.libx.impl.config.__ConfigEvents_clientPlayerLeave_LoggingOut.invoke(.dynamic) ~[LibX-1.19.2-4.2.8.jar%23160!/:1.19.2-4.2.8] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2385!/:?] {}
+	at net.minecraftforge.client.ForgeHooksClient.firePlayerLogout(ForgeHooksClient.java:940) ~[forge-1.19.2-43.2.0-universal.jar%23170!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.m_91320_(Minecraft.java:2080) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.PauseScreen.m_96314_(PauseScreen.java:83) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.gui.components.Button.m_5691_(Button.java:43) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:110) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,re:mixin}
+	at net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:522) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23144!/:build 7] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23136!/:build 7] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23144!/:build 7] {}
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.screens.PauseScreen
+Stacktrace:
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:522) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23144!/:build 7] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23136!/:build 7] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23144!/:build 7] {}
+	at com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['DCtime'/1, l='ClientLevel', x=5.54, y=-58.00, z=1.64]]
+	Chunk stats: 961, 612
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 1622 game time, 1622 day time
+	Server brand: forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.m_6026_(ClientLevel.java:450) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2278) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:717) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23165!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2388!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, Mod Resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 641362232 bytes (611 MiB) / 3078619136 bytes (2936 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+	Identifier: Intel64 Family 6 Model 165 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x9bc4
+	Graphics card #0 versionInfo: DriverVersion=27.20.100.8280
+	Graphics card #1 name: NVIDIA GeForce GTX 1650 Ti
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x1f95
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.1748
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 21651.98
+	Virtual memory used (MB): 19154.45
+	Swap memory total (MB): 5436.93
+	Swap memory used (MB): 839.13
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx12288m -Xms256m
+	Launched Version: forge-43.2.0
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce GTX 1650 Ti/PCIe/SSE2 GL version 3.2.0 NVIDIA 517.48, NVIDIA Corporation
+	Window size: 1920x1080
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 8x Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		client-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		LibX-1.19.2-4.2.8.jar                             |LibX                          |libx                          |1.19.2-4.2.8        |DONE      |Manifest: NOSIGNATURE
+		SkyblockBuilder-1.19.2-4.2.10.jar                 |Skyblock Builder              |skyblockbuilder               |1.19.2-4.2.10       |DONE      |Manifest: NOSIGNATURE
+		CraftTweaker-forge-1.19.2-10.1.45.jar             |CraftTweaker                  |crafttweaker                  |10.1.45             |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.2.0-universal.jar                 |Forge                         |forge                         |43.2.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		progressthroughskies-1.19.2-0.0.1.jar             |Example Mod                   |progressthroughskies          |1.19.2-0.0.1        |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.19.2-7.2.0.jar                          |Placebo                       |placebo                       |7.2.0               |DONE      |Manifest: NOSIGNATURE
+		ToastControl-1.19.2-7.0.0.jar                     |Toast Control                 |toastcontrol                  |7.0.0               |DONE      |Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.6.0.1015.jar                  |Just Enough Items             |jei                           |11.6.0.1015         |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 1e937937-5032-4eaf-bd74-236f4e40b99d
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

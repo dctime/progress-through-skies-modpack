@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bedrock_dust_to_cobble_stone"
+	group: ""
+	id: "0DB8DB559670837F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "2AF7CE9D5C0FB575"
+		tasks: [{
+			id: "503E8AAE1DC737D0"
+			item: "progressthroughskies:bedrock_dust"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Bedrock"
+}
