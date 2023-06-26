@@ -22,6 +22,12 @@
 		{
 			dependencies: ["2FE75340B2873C2B"]
 			id: "21306D08E892BE86"
+			rewards: [{
+				count: 64
+				id: "5B7ABF47F25020C5"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{

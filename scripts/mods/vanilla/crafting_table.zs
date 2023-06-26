@@ -1,7 +1,14 @@
 craftingTable.removeByModid("minecraft");
 
-// craftingTable.addShaped("bedrock_dust_to_bedrock_gravel", <item:progressthroughskies:bedrock_gravel>,
-// [
-//     [<item:progressthroughskies:bedrock_dust>, <item:progressthroughskies:bedrock_dust>],
-//     [<item:progressthroughskies:bedrock_dust>, <item:progressthroughskies:bedrock_dust>],
-// ]);
+
+craftingTable.addShaped("gravel_dust_to_gravel", <item:minecraft:gravel>,
+[
+    [<item:progressthroughskies:gravel_dust>, <item:progressthroughskies:gravel_dust>],
+    [<item:progressthroughskies:gravel_dust>, <item:progressthroughskies:gravel_dust>],
+]);
+
+craftingTable.addShaped("sand_dust_to_sand", <item:minecraft:sand>,
+[
+    [<item:progressthroughskies:sand_dust>, <item:progressthroughskies:sand_dust>],
+    [<item:progressthroughskies:sand_dust>, <item:progressthroughskies:sand_dust>],
+]);

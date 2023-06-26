@@ -3,6 +3,7 @@
 	default_quest_shape: "diamond"
 	filename: "bedrock_dust_to_cobble_stone"
 	group: ""
+	icon: "progressthroughskies:dusted_bedrock"
 	id: "0DB8DB559670837F"
 	order_index: 1
 	quest_links: [ ]
@@ -52,6 +53,42 @@
 			x: 2.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["4D7ABD89528033C9"]
+			id: "13DFA25B11F091BB"
+			tasks: [{
+				id: "0928CA3C53C7FB69"
+				item: "compressium:gravel_1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7304BD6C3EC9B0AF"]
+			id: "069E5DDB10C37CA6"
+			tasks: [{
+				id: "0E48EC8FA296B804"
+				item: "compressium:sand_1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"13DFA25B11F091BB"
+				"069E5DDB10C37CA6"
+			]
+			id: "4497CD8B64389408"
+			tasks: [{
+				id: "146C13A94E56FE6F"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
 	]
-	title: "Bedrock"
+	title: "Bedrock Punching"
 }

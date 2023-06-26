@@ -1,39 +1,163 @@
-[11:01:34.901][INFO]: Successfully injected RecipeFS file system
-[11:01:34.925][INFO]: Successfully identified and loaded plugin jeitweaker:common
-[11:01:34.940][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[11:01:34.942][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[11:01:34.960][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
-[11:01:34.963][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
-[11:01:34.970][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
-[11:01:34.970][INFO]: Running JeiTweaker plugin initialization
-[11:01:34.988][INFO]: JeiTweaker plugin initialization completed successfully
-[11:01:35.649][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[11:01:35.651][INFO]: - 'crafttweaker' at version '10.1.45'
-[11:01:35.651][INFO]: - 'exnihilosequentia' at version '4.2.0'
-[11:01:35.651][INFO]: - 'jeitweaker' at version '4.0.12'
-[11:01:39.906][INFO]: Started loading scripts for loader 'initialize'
-[11:01:40.441][INFO]: Compiling and executing scripts
-[11:01:40.636][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[11:01:41.060][INFO]: Execution for loader 'initialize' completed successfully
-[11:02:07.762][INFO]: Started loading scripts for loader 'tags'
-[11:02:07.783][INFO]: Compiling and executing scripts
-[11:02:07.802][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[11:02:07.810][INFO]: Execution for loader 'tags' completed successfully
-[11:02:08.943][INFO]: Started loading scripts for loader 'crafttweaker'
-[11:02:08.961][INFO]: Compiling and executing scripts
-[11:02:09.302][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[11:02:09.303][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[11:02:09.305][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[11:02:09.322][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:compost" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:crook" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:crucible" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:fluid_on_top" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:fluid_transform" recipes
-[11:02:09.323][INFO]: Removing all "exnihilosequentia:hammer" recipes
-[11:02:09.324][INFO]: Removing all "exnihilosequentia:heat" recipes
-[11:02:09.324][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[11:02:09.325][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[11:02:09.326][INFO]: Execution for loader 'crafttweaker' completed successfully
-[11:02:09.328][INFO]: This reload was made possible by Pongo Sapiens and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[12:23:11.899][INFO]: Successfully injected RecipeFS file system
+[12:23:11.943][INFO]: Successfully identified and loaded plugin jeitweaker:common
+[12:23:11.990][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[12:23:11.992][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[12:23:12.067][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[12:23:12.069][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[12:23:12.076][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[12:23:12.076][INFO]: Running JeiTweaker plugin initialization
+[12:23:12.089][INFO]: JeiTweaker plugin initialization completed successfully
+[12:23:13.137][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[12:23:13.138][INFO]: - 'crafttweaker' at version '10.1.45'
+[12:23:13.138][INFO]: - 'exnihilosequentia' at version '4.2.0'
+[12:23:13.138][INFO]: - 'jeitweaker' at version '4.0.12'
+[12:23:16.819][INFO]: Started loading scripts for loader 'initialize'
+[12:23:17.507][INFO]: Compiling and executing scripts
+[12:23:17.590][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[12:23:17.839][INFO]: Execution for loader 'initialize' completed successfully
+[12:30:56.325][INFO]: Started loading scripts for loader 'tags'
+[12:30:56.349][INFO]: Compiling and executing scripts
+[12:30:56.369][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[12:30:56.379][INFO]: Execution for loader 'tags' completed successfully
+[12:30:57.664][INFO]: Started loading scripts for loader 'crafttweaker'
+[12:30:57.683][INFO]: Compiling and executing scripts
+[12:30:58.033][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[12:30:58.034][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[12:30:58.034][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[12:30:58.036][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[12:30:58.059][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[12:30:58.061][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:30:58.061][INFO]: Removing all "exnihilosequentia:compost" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:crook" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:crucible" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:fluid_on_top" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:fluid_transform" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:hammer" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:heat" recipes
+[12:30:58.063][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:30:58.064][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[12:30:58.069][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[12:30:58.069][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[12:30:58.069][INFO]: Execution for loader 'crafttweaker' completed successfully
+[12:30:58.072][INFO]: This reload was made possible by Hooley and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[12:33:16.368][INFO]: Item: <item:compressium:gravel_1> * 5
+[12:33:16.369][INFO]: Block: <block:compressium:gravel_1>
+[12:33:16.369][INFO]: BlockState: <blockstate:compressium:gravel_1>
+[12:33:16.372][INFO]: Block Tag Entries
+[12:33:16.373][INFO]:     -  <tag:blocks:minecraft:mineable/shovel>
+[12:33:16.373][INFO]:     -  <tag:blocks:forge:needs_wood_tool>
+[12:33:23.675][INFO]: Item: <item:compressium:gravel_1>
+[12:33:23.675][INFO]: Block: <block:compressium:gravel_1>
+[12:33:23.675][INFO]: BlockState: <blockstate:compressium:gravel_1>
+[12:33:23.675][INFO]: Block Tag Entries
+[12:33:23.675][INFO]:     -  <tag:blocks:minecraft:mineable/shovel>
+[12:33:23.675][INFO]:     -  <tag:blocks:forge:needs_wood_tool>
+[12:42:50.537][INFO]: Started loading scripts for loader 'tags'
+[12:42:50.538][INFO]: Undoing previous actions
+[12:42:50.554][INFO]: Compiling and executing scripts
+[12:42:50.559][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[12:42:50.569][INFO]: Execution for loader 'tags' completed successfully
+[12:42:51.702][INFO]: Started loading scripts for loader 'crafttweaker'
+[12:42:51.703][INFO]: Undoing previous actions
+[12:42:51.721][INFO]: Compiling and executing scripts
+[12:42:51.830][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[12:42:51.830][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[12:42:51.830][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[12:42:51.830][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[12:42:51.853][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[12:42:51.854][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_to_compressed_gravel' that outputs: '<item:compressium:gravel_1>'
+[12:42:51.855][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_gravel_to_gravel' that outputs: '<item:minecraft:gravel> * 4'
+[12:42:51.855][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:compost" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:crook" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:crucible" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:fluid_on_top" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:fluid_transform" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:hammer" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:heat" recipes
+[12:42:51.856][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:42:51.856][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[12:42:51.858][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[12:42:51.858][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[12:42:51.859][INFO]: Execution for loader 'crafttweaker' completed successfully
+[12:42:51.860][INFO]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[12:44:53.890][INFO]: Started loading scripts for loader 'tags'
+[12:44:53.890][INFO]: Undoing previous actions
+[12:44:53.907][INFO]: Compiling and executing scripts
+[12:44:53.910][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[12:44:53.919][INFO]: Execution for loader 'tags' completed successfully
+[12:44:55.026][INFO]: Started loading scripts for loader 'crafttweaker'
+[12:44:55.026][INFO]: Undoing previous actions
+[12:44:55.038][INFO]: Compiling and executing scripts
+[12:44:55.132][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[12:44:55.133][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[12:44:55.133][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[12:44:55.133][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[12:44:55.150][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[12:44:55.152][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_to_compressed_gravel' that outputs: '<item:compressium:gravel_1>'
+[12:44:55.153][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_gravel_to_gravel' that outputs: '<item:minecraft:gravel> * 4'
+[12:44:55.153][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_compressed_sand' that outputs: '<item:compressium:sand_1>'
+[12:44:55.154][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_to_sand' that outputs: '<item:minecraft:sand> * 4'
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:compost" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:crook" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:crucible" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:fluid_on_top" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:fluid_transform" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:hammer" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:heat" recipes
+[12:44:55.155][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:44:55.156][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[12:44:55.157][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[12:44:55.157][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[12:44:55.157][INFO]: Execution for loader 'crafttweaker' completed successfully
+[12:44:55.159][INFO]: This reload was made possible by Hooley and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[12:46:58.785][INFO]: Item: <item:minecraft:cobblestone>
+[12:46:58.785][INFO]: Block: <block:minecraft:cobblestone>
+[12:46:58.785][INFO]: BlockState: <blockstate:minecraft:cobblestone>
+[12:46:58.785][INFO]: Item Tag Entries
+[12:46:58.785][INFO]:     -  <tag:items:minecraft:stone_crafting_materials>
+[12:46:58.786][INFO]:     -  <tag:items:minecraft:stone_tool_materials>
+[12:46:58.786][INFO]:     -  <tag:items:forge:cobblestone>
+[12:46:58.786][INFO]:     -  <tag:items:forge:cobblestone/normal>
+[12:46:58.786][INFO]: Block Tag Entries
+[12:46:58.786][INFO]:     -  <tag:blocks:forge:cobblestone/normal>
+[12:46:58.786][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
+[12:46:58.786][INFO]:     -  <tag:blocks:exnihilosequentia:mineable/hammer>
+[12:46:58.786][INFO]:     -  <tag:blocks:forge:cobblestone>
+[12:48:23.621][INFO]: Started loading scripts for loader 'tags'
+[12:48:23.621][INFO]: Undoing previous actions
+[12:48:23.632][INFO]: Compiling and executing scripts
+[12:48:23.637][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[12:48:23.643][INFO]: Execution for loader 'tags' completed successfully
+[12:48:24.679][INFO]: Started loading scripts for loader 'crafttweaker'
+[12:48:24.679][INFO]: Undoing previous actions
+[12:48:24.693][INFO]: Compiling and executing scripts
+[12:48:24.775][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[12:48:24.775][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[12:48:24.776][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[12:48:24.776][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[12:48:24.796][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[12:48:24.798][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_to_compressed_gravel' that outputs: '<item:compressium:gravel_1>'
+[12:48:24.798][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_gravel_to_gravel' that outputs: '<item:minecraft:gravel> * 4'
+[12:48:24.798][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_compressed_sand' that outputs: '<item:compressium:sand_1>'
+[12:48:24.799][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_to_sand' that outputs: '<item:minecraft:sand> * 4'
+[12:48:24.799][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_to_cobble' that outputs: '<item:minecraft:cobblestone>'
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:compost" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:crook" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:crucible" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:fluid_on_top" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:fluid_transform" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:hammer" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:heat" recipes
+[12:48:24.800][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[12:48:24.800][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[12:48:24.802][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[12:48:24.802][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[12:48:24.803][INFO]: Execution for loader 'crafttweaker' completed successfully
+[12:48:24.804][INFO]: This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
