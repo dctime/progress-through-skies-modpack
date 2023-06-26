@@ -1,20 +1,57 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
 	filename: "bedrock_dust_to_cobble_stone"
 	group: ""
 	id: "0DB8DB559670837F"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "2AF7CE9D5C0FB575"
-		tasks: [{
-			id: "503E8AAE1DC737D0"
-			item: "progressthroughskies:bedrock_dust"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["2FE75340B2873C2B"]
+			dependency_requirement: "one_completed"
+			id: "2AF7CE9D5C0FB575"
+			tasks: [{
+				id: "503E8AAE1DC737D0"
+				item: "progressthroughskies:bedrock_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF7CE9D5C0FB575"]
+			id: "6CE107B223465D5E"
+			tasks: [{
+				id: "4A5600D09451C380"
+				item: "progressthroughskies:bedrock_gravel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CE107B223465D5E"]
+			id: "7304BD6C3EC9B0AF"
+			tasks: [{
+				id: "152A8AE6D73EBCC6"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CE107B223465D5E"]
+			id: "4D7ABD89528033C9"
+			tasks: [{
+				id: "64EE65E548447369"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
 	title: "Bedrock"
 }
