@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "water_is_life"
+	group: "766CAEA53D3DA96F"
+	id: "051133FFE0746AF3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D955AF98A83DE0A"]
+			id: "5C3B5D7DEFF83474"
+			tasks: [{
+				id: "42AC61CE97B0FA2C"
+				item: "progressthroughskies:rain_wand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "0D955AF98A83DE0A"
+			subtitle: "Well I tried my best to make the stone barrel recipe xd"
+			tasks: [{
+				id: "2C46B09F8B2B6AC6"
+				item: "exnihilosequentia:stone_barrel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "7FC063C25B05920B"
+			tasks: [{
+				id: "00BED074F913BF42"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7FC063C25B05920B"
+				"5C3B5D7DEFF83474"
+			]
+			id: "5A7D3AD2FC61F53B"
+			tasks: [{
+				id: "2A33B1A101C3F5AF"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A7D3AD2FC61F53B"]
+			id: "12E3643E6BDD1750"
+			tasks: [{
+				id: "09C4D6045DCA1D13"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12E3643E6BDD1750"]
+			id: "5A138AA24943076A"
+			tasks: [{
+				id: "64E116A58EBEAE33"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+	]
+	title: "Water is Life"
+}

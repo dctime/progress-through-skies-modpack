@@ -26,7 +26,7 @@
 	netherBarrelSoundsEnabled = true
 	#How much fluid rain will fill per iteration (Default: 2)
 	#Range: > 1
-	rainFillAmount = 2
+	rainFillAmount = 10
 
 	#Mob Spawn Configs
 	[barrel.mob_spawn]
@@ -92,7 +92,7 @@
 	minStringCount = 2
 	#Number of times the crook will "break" a leaf block to get drops (Default: 3)
 	#Range: > 1
-	vanillaDropSimulateCount = 3
+	vanillaDropSimulateCount = 1
 
 #Durability Configs
 [durability]

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "bedrock_dust_to_cobble_stone"
-	group: ""
+	group: "766CAEA53D3DA96F"
 	icon: "progressthroughskies:dusted_bedrock"
 	id: "0DB8DB559670837F"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

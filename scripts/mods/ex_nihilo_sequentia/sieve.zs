@@ -1,13 +1,12 @@
 <recipetype:exnihilosequentia:sieve>.removeAll();
-<recipetype:exnihilosequentia:compost>.removeAll();
-<recipetype:exnihilosequentia:crook>.removeAll();
-<recipetype:exnihilosequentia:crucible>.removeAll();
-<recipetype:exnihilosequentia:fluid_item>.removeAll();
-<recipetype:exnihilosequentia:fluid_on_top>.removeAll();
-<recipetype:exnihilosequentia:fluid_transform>.removeAll();
-<recipetype:exnihilosequentia:hammer>.removeAll();
-<recipetype:exnihilosequentia:heat>.removeAll();
-<recipetype:exnihilosequentia:sieve>.removeAll();
+craftingTable.removeByModid("exnihilosequentia");
+
+
+craftingTable.addShaped("stone_crook", <item:exnihilosequentia:stone_crook>,
+[
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+    [<item:minecraft:air>, <item:minecraft:cobblestone>],
+]);
 
 // <recipetype:exnihilosequentia:sieve>
 //     .create("sieve_bedrock_gravel_for_gravel")
