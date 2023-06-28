@@ -19,6 +19,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["21306D08E892BE86"]
 			description: [""]
 			id: "0D955AF98A83DE0A"
 			subtitle: "Well I tried my best to make the stone barrel recipe xd"
@@ -31,6 +32,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["21306D08E892BE86"]
 			id: "7FC063C25B05920B"
 			tasks: [{
 				id: "00BED074F913BF42"

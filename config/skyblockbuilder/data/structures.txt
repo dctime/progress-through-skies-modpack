@@ -3,10 +3,12 @@ minecraft:bastion_remnant
 minecraft:buried_treasure
 minecraft:desert_pyramid
 minecraft:end_city
+tetra:extractor_ruin
 minecraft:fortress
 minecraft:igloo
 minecraft:jungle_pyramid
 minecraft:mansion
+ae2:meteorite
 minecraft:mineshaft
 minecraft:mineshaft_mesa
 minecraft:monument
@@ -14,6 +16,7 @@ minecraft:nether_fossil
 minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
 minecraft:pillager_outpost
+tetra:regular_ruin
 minecraft:ruined_portal
 minecraft:ruined_portal_desert
 minecraft:ruined_portal_jungle

@@ -8,14 +8,23 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Well. You have no idea why there is only bedrock in the world right?"
+				""
+				"Do you know that you blow up a black hole bomb and now everything is vaporized."
+				""
+				"&e&nGood Luck :)&r&r"
+			]
 			id: "2FE75340B2873C2B"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Mods Mixture"
 			tasks: [{
 				id: "30D9115DA190F580"
 				title: "Welcome"
 				type: "checkmark"
 			}]
+			title: "Welcome To PTS"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -35,6 +44,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			title: "Go the \"Bedrock Punching\" Chapter"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -54,8 +64,120 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
+			title: "Go to \"Water is life\" Chapter"
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4F552F492BE6F86F"]
+			id: "5822EA6CAC2D0A05"
+			size: 1.5d
+			tasks: [{
+				id: "5B606F0BDD22A987"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "WIP Copper"
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["314FCD5C93EFA7F9"]
+			id: "7AAA6F85BDE0E95D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "456EF998A304267D"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "489b2f0b-9c15-41b0-b2db-0dfdf5580023"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C33E83EA8CD5B20"
+					item: {
+						Count: 1b
+						id: "woodenbucket:wooden_bucket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4F552F492BE6F86F"
+				"05382F78CB0D7895"
+			]
+			icon: "minecraft:cobblestone"
+			id: "7DC159176A7E8D30"
+			shape: "gear"
+			tasks: [{
+				id: "11E93CE378ED4FF3"
+				title: "Automate cobble"
+				type: "checkmark"
+			}]
+			title: "WIP"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["314FCD5C93EFA7F9"]
+			id: "47D3E229BBD4DC14"
+			shape: "circle"
+			tasks: [
+				{
+					id: "145B95946398C23F"
+					item: "exnihilosequentia:cooked_silkworm"
+					type: "item"
+				}
+				{
+					id: "6CE19B8549EDDA46"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F552F492BE6F86F"]
+			id: "314FCD5C93EFA7F9"
+			shape: "circle"
+			tasks: [{
+				id: "336CED13667FB895"
+				item: "ilikewood:oak_sawmill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F552F492BE6F86F"]
+			id: "445756FDEAEC49AB"
+			shape: "circle"
+			tasks: [{
+				id: "0BF0A27FE87445B8"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
 		}
 	]
 	title: "Welcome!"

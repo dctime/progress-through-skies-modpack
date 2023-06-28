@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "the_first_metal"
+	group: "766CAEA53D3DA96F"
+	id: "21E4924279D06C04"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "506EBC7FECF05AD2"
+			tasks: [
+				{
+					id: "0B21B5BE7D3E44BC"
+					item: "exnihilosequentia:oak_sieve"
+					type: "item"
+				}
+				{
+					id: "221038A323912805"
+					item: "exnihilosequentia:string_mesh"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "74B00AF720F1259A"
+			tasks: [{
+				id: "12885D85A7493FB1"
+				item: "mekanism:clump_copper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4E378D486FFC0C8A"
+			tasks: [{
+				id: "38E4592D6F02893B"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "5D4F7A861CC3FC3C"
+			tasks: [{
+				id: "5F331A962EAD5C81"
+				item: "mekanism:shard_copper"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7AE1914399D2B8BF"
+			tasks: [{
+				id: "4773CA275FAB56DD"
+				item: "alltheores:dirty_copper_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "0A28A32A1535B3BB"
+			tasks: [{
+				id: "35D21F66CD6F2A6A"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "7CEF7DCE3C82D6F4"
+			tasks: [{
+				id: "1D5C39837384F8E6"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "4C59D97FDF61278C"
+			tasks: [{
+				id: "52B1B101BEFB6DE9"
+				item: "alltheores:copper_nugget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "0E0C7F223277225A"
+			shape: "circle"
+			tasks: [{
+				id: "487A5E14CB08F1C4"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+	]
+	title: "The First Metal[WIP]"
+}

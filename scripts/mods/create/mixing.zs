@@ -1,0 +1,2 @@
+<recipetype:create:mixing>.removeAll();
+

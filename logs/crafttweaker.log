@@ -1,372 +1,290 @@
-[17:16:26.528][INFO]: Successfully injected RecipeFS file system
-[17:16:26.712][INFO]: Successfully identified and loaded plugin jeitweaker:common
-[17:16:26.805][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[17:16:26.812][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[17:16:26.817][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
-[17:16:26.963][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
-[17:16:26.964][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
-[17:16:26.982][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
-[17:16:26.982][INFO]: Running JeiTweaker plugin initialization
-[17:16:27.037][INFO]: JeiTweaker plugin initialization completed successfully
-[17:16:28.786][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[17:16:28.788][INFO]: - 'crafttweaker' at version '10.1.45'
-[17:16:28.790][INFO]: - 'exnihilosequentia' at version '4.2.0'
-[17:16:28.790][INFO]: - 'immersiveengineering' at version '1.19.2-9.2.2-165'
-[17:16:28.790][INFO]: - 'jeitweaker' at version '4.0.12'
-[17:16:28.790][INFO]: - 'mekanism' at version '10.3.8'
-[17:16:32.870][INFO]: Started loading scripts for loader 'mekanismcontent'
-[17:16:33.310][INFO]: Compiling and executing scripts
-[17:16:34.137][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:16:34.280][INFO]: Execution for loader 'mekanismcontent' completed successfully
-[17:16:34.281][INFO]: Registering 0 custom gases.
-[17:16:34.285][INFO]: Registering 0 custom infuse types.
-[17:16:34.290][INFO]: Registering 0 custom pigments.
-[17:16:34.293][INFO]: Registering 0 custom robit skins.
-[17:16:34.296][INFO]: Registering 0 custom slurries.
-[17:16:41.132][INFO]: Started loading scripts for loader 'initialize'
-[17:16:41.175][INFO]: Compiling and executing scripts
-[17:16:41.176][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:16:41.194][INFO]: Execution for loader 'initialize' completed successfully
-[17:22:55.717][INFO]: Started loading scripts for loader 'tags'
-[17:22:55.732][INFO]: Compiling and executing scripts
-[17:22:55.738][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:22:55.747][INFO]: Execution for loader 'tags' completed successfully
-[17:22:56.917][INFO]: Started loading scripts for loader 'crafttweaker'
-[17:22:56.935][INFO]: Compiling and executing scripts
-[17:22:57.068][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:22:57.069][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
-[17:22:57.069][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
-[17:22:57.072][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
-[17:22:57.072][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[17:22:57.072][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
-[17:22:57.072][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
-[17:22:57.073][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
-[17:22:57.073][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
-[17:22:57.073][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
-[17:22:57.073][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
-[17:22:57.073][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
-[17:22:57.073][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[17:22:57.111][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
-[17:22:57.116][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
-[17:22:57.117][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
-[17:22:57.117][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
-[17:22:57.117][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
-[17:22:57.118][INFO]: Removing all "exnihilosequentia:crook" recipes
-[17:22:57.119][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
-[17:22:57.119][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[17:22:57.119][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_organic' that outputs: '<item:minecraft:air>'
-[17:22:57.121][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[17:22:57.121][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
-[17:22:57.125][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
-[17:22:57.126][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
-[17:22:57.126][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
-[17:22:57.127][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
-[17:22:57.127][INFO]: Removing all "thermal:fisher_boost" recipes
-[17:22:57.127][INFO]: Removing all "thermal:hive_extractor" recipes
-[17:22:57.128][INFO]: Removing all "thermal:tree_extractor" recipes
-[17:22:57.128][INFO]: Removing all "thermal:tree_extractor_boost" recipes
-[17:22:57.128][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[17:22:57.129][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
-[17:22:57.129][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
-[17:22:57.129][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
-[17:22:57.129][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
-[17:22:57.129][INFO]: Execution for loader 'crafttweaker' completed successfully
-[17:22:57.135][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[17:37:09.769][INFO]: Item: <item:minecraft:stone_pressure_plate>
-[17:37:09.770][INFO]: Block: <block:minecraft:stone_pressure_plate>
-[17:37:09.772][INFO]: BlockState: <blockstate:minecraft:stone_pressure_plate:powered=false>
-[17:37:09.773][INFO]: Block Tag Entries
-[17:37:09.774][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
-[17:37:09.775][INFO]:     -  <tag:blocks:minecraft:wall_post_override>
-[17:37:09.775][INFO]:     -  <tag:blocks:immersiveengineering:mineable/drill>
-[17:37:09.775][INFO]:     -  <tag:blocks:cucumber:mineable/paxel>
-[17:37:09.775][INFO]:     -  <tag:blocks:minecraft:stone_pressure_plates>
-[17:37:09.775][INFO]:     -  <tag:blocks:minecraft:pressure_plates>
-[17:37:09.775][INFO]:     -  <tag:blocks:exnihilosequentia:mineable/hammer>
-[17:37:33.407][INFO]: Item: <item:minecraft:cobblestone>
-[17:37:33.407][INFO]: Block: <block:minecraft:cobblestone>
-[17:37:33.407][INFO]: BlockState: <blockstate:minecraft:cobblestone>
-[17:37:33.407][INFO]: Item Tag Entries
-[17:37:33.407][INFO]:     -  <tag:items:forge:cobblestone/normal>
-[17:37:33.407][INFO]:     -  <tag:items:forge:cobblestone>
-[17:37:33.407][INFO]:     -  <tag:items:minecraft:stone_tool_materials>
-[17:37:33.407][INFO]:     -  <tag:items:minecraft:stone_crafting_materials>
-[17:37:33.408][INFO]: Block Tag Entries
-[17:37:33.408][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
-[17:37:33.408][INFO]:     -  <tag:blocks:forge:cobblestone>
-[17:37:33.408][INFO]:     -  <tag:blocks:forge:cobblestone/normal>
-[17:37:33.408][INFO]:     -  <tag:blocks:cucumber:mineable/paxel>
-[17:37:33.408][INFO]:     -  <tag:blocks:immersiveengineering:mineable/drill>
-[17:37:33.408][INFO]:     -  <tag:blocks:exnihilosequentia:mineable/hammer>
-[17:37:49.222][INFO]: Started loading scripts for loader 'tags'
-[17:37:49.222][INFO]: Undoing previous actions
-[17:37:49.244][INFO]: Compiling and executing scripts
-[17:37:49.248][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:37:49.258][INFO]: Execution for loader 'tags' completed successfully
-[17:37:50.459][INFO]: Started loading scripts for loader 'crafttweaker'
-[17:37:50.459][INFO]: Undoing previous actions
-[17:37:50.481][INFO]: Compiling and executing scripts
-[17:37:50.690][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:37:50.690][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
-[17:37:50.691][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
-[17:37:50.692][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
-[17:37:50.692][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[17:37:50.692][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
-[17:37:50.692][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
-[17:37:50.693][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
-[17:37:50.693][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
-[17:37:50.693][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
-[17:37:50.693][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
-[17:37:50.693][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
-[17:37:50.693][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[17:37:50.731][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
-[17:37:50.733][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
-[17:37:50.733][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
-[17:37:50.733][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
-[17:37:50.733][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
-[17:37:50.734][INFO]: Removing all "exnihilosequentia:crook" recipes
-[17:37:50.734][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
-[17:37:50.736][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[17:37:50.736][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_organic' that outputs: '<item:minecraft:air>'
-[17:37:50.736][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[17:37:50.737][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
-[17:37:50.739][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
-[17:37:50.739][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
-[17:37:50.740][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
-[17:37:50.741][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
-[17:37:50.742][INFO]: Removing all "thermal:fisher_boost" recipes
-[17:37:50.742][INFO]: Removing all "thermal:hive_extractor" recipes
-[17:37:50.742][INFO]: Removing all "thermal:tree_extractor" recipes
-[17:37:50.742][INFO]: Removing all "thermal:tree_extractor_boost" recipes
-[17:37:50.743][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[17:37:50.744][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
-[17:37:50.745][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
-[17:37:50.745][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
-[17:37:50.746][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
-[17:37:50.746][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
-[17:37:50.746][INFO]: Execution for loader 'crafttweaker' completed successfully
-[17:37:50.750][INFO]: This reload was made possible by Spencer Gilbert and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[17:38:26.248][INFO]: Started loading scripts for loader 'tags'
-[17:38:26.248][INFO]: Undoing previous actions
-[17:38:26.265][INFO]: Compiling and executing scripts
-[17:38:26.271][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:38:26.282][INFO]: Execution for loader 'tags' completed successfully
-[17:38:27.468][INFO]: Started loading scripts for loader 'crafttweaker'
-[17:38:27.468][INFO]: Undoing previous actions
-[17:38:27.485][INFO]: Compiling and executing scripts
-[17:38:27.632][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:38:27.632][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
-[17:38:27.633][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
-[17:38:27.633][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
-[17:38:27.633][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[17:38:27.634][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
-[17:38:27.634][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
-[17:38:27.634][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
-[17:38:27.634][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
-[17:38:27.634][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
-[17:38:27.634][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
-[17:38:27.635][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
-[17:38:27.635][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[17:38:27.661][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
-[17:38:27.663][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
-[17:38:27.663][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
-[17:38:27.663][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
-[17:38:27.664][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
-[17:38:27.664][INFO]: Removing all "exnihilosequentia:crook" recipes
-[17:38:27.664][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
-[17:38:27.665][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[17:38:27.666][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_organic' that outputs: '<item:minecraft:air>'
-[17:38:27.666][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[17:38:27.666][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
-[17:38:27.667][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
-[17:38:27.668][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
-[17:38:27.668][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
-[17:38:27.669][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
-[17:38:27.669][INFO]: Removing all "thermal:fisher_boost" recipes
-[17:38:27.669][INFO]: Removing all "thermal:hive_extractor" recipes
-[17:38:27.669][INFO]: Removing all "thermal:tree_extractor" recipes
-[17:38:27.669][INFO]: Removing all "thermal:tree_extractor_boost" recipes
-[17:38:27.670][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[17:38:27.671][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
-[17:38:27.672][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
-[17:38:27.672][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
-[17:38:27.672][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
-[17:38:27.672][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
-[17:38:27.672][INFO]: Execution for loader 'crafttweaker' completed successfully
-[17:38:27.676][INFO]: This reload was made possible by AdaraChristine and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[17:39:21.398][INFO]: Item: <item:minecraft:cobblestone>
-[17:39:21.399][INFO]: Block: <block:minecraft:cobblestone>
-[17:39:21.399][INFO]: BlockState: <blockstate:minecraft:cobblestone>
-[17:39:21.399][INFO]: Item Tag Entries
-[17:39:21.399][INFO]:     -  <tag:items:forge:cobblestone/normal>
-[17:39:21.399][INFO]:     -  <tag:items:forge:cobblestone>
-[17:39:21.399][INFO]:     -  <tag:items:minecraft:stone_tool_materials>
-[17:39:21.399][INFO]:     -  <tag:items:minecraft:stone_crafting_materials>
-[17:39:21.399][INFO]: Block Tag Entries
-[17:39:21.399][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
-[17:39:21.399][INFO]:     -  <tag:blocks:forge:cobblestone>
-[17:39:21.399][INFO]:     -  <tag:blocks:forge:cobblestone/normal>
-[17:39:21.399][INFO]:     -  <tag:blocks:cucumber:mineable/paxel>
-[17:39:21.399][INFO]:     -  <tag:blocks:immersiveengineering:mineable/drill>
-[17:39:21.400][INFO]:     -  <tag:blocks:exnihilosequentia:mineable/hammer>
-[17:41:13.518][INFO]: Item: <item:exnihilosequentia:stone_barrel>
-[17:41:13.519][INFO]: Block: <block:exnihilosequentia:stone_barrel>
-[17:41:13.519][INFO]: BlockState: <blockstate:exnihilosequentia:stone_barrel>
-[17:41:13.519][INFO]: Block Tag Entries
-[17:41:13.519][INFO]:     -  <tag:blocks:exnihilosequentia:mineable/hammer>
-[17:41:47.398][INFO]: Item: <item:exnihilosequentia:stone_barrel>
-[17:41:47.398][INFO]: Block: <block:exnihilosequentia:stone_barrel>
-[17:41:47.398][INFO]: BlockState: <blockstate:exnihilosequentia:stone_barrel>
-[17:41:47.398][INFO]: Block Tag Entries
-[17:41:47.398][INFO]:     -  <tag:blocks:exnihilosequentia:mineable/hammer>
-[17:42:17.690][INFO]: Started loading scripts for loader 'tags'
-[17:42:17.690][INFO]: Undoing previous actions
-[17:42:17.706][INFO]: Compiling and executing scripts
-[17:42:17.710][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:42:17.719][INFO]: Execution for loader 'tags' completed successfully
-[17:42:18.869][INFO]: Started loading scripts for loader 'crafttweaker'
-[17:42:18.869][INFO]: Undoing previous actions
-[17:42:18.887][INFO]: Compiling and executing scripts
-[17:42:19.040][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:42:19.040][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
-[17:42:19.040][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
-[17:42:19.041][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
-[17:42:19.041][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[17:42:19.041][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
-[17:42:19.041][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
-[17:42:19.042][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
-[17:42:19.042][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
-[17:42:19.042][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
-[17:42:19.042][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
-[17:42:19.042][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
-[17:42:19.042][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[17:42:19.066][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
-[17:42:19.069][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
-[17:42:19.069][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
-[17:42:19.070][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
-[17:42:19.070][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
-[17:42:19.070][INFO]: Removing all "exnihilosequentia:crook" recipes
-[17:42:19.070][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
-[17:42:19.070][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[17:42:19.071][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_organic' that outputs: '<item:minecraft:air>'
-[17:42:19.071][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[17:42:19.071][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
-[17:42:19.072][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
-[17:42:19.073][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
-[17:42:19.074][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
-[17:42:19.075][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
-[17:42:19.076][INFO]: Removing all "thermal:fisher_boost" recipes
-[17:42:19.076][INFO]: Removing all "thermal:hive_extractor" recipes
-[17:42:19.077][INFO]: Removing all "thermal:tree_extractor" recipes
-[17:42:19.077][INFO]: Removing all "thermal:tree_extractor_boost" recipes
-[17:42:19.077][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[17:42:19.079][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
-[17:42:19.079][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
-[17:42:19.079][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
-[17:42:19.079][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
-[17:42:19.079][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
-[17:42:19.079][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
-[17:42:19.079][INFO]: Execution for loader 'crafttweaker' completed successfully
-[17:42:19.082][INFO]: This reload was made possible by Hooley and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[17:49:51.554][INFO]: Started loading scripts for loader 'tags'
-[17:49:51.554][INFO]: Undoing previous actions
-[17:49:51.570][INFO]: Compiling and executing scripts
-[17:49:51.575][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:49:51.584][INFO]: Execution for loader 'tags' completed successfully
-[17:49:52.743][INFO]: Started loading scripts for loader 'crafttweaker'
-[17:49:52.743][INFO]: Undoing previous actions
-[17:49:52.760][INFO]: Compiling and executing scripts
-[17:49:52.911][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:49:52.911][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
-[17:49:52.911][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
-[17:49:52.912][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
-[17:49:52.912][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[17:49:52.912][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
-[17:49:52.912][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
-[17:49:52.912][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
-[17:49:52.913][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
-[17:49:52.913][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
-[17:49:52.913][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
-[17:49:52.913][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
-[17:49:52.913][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[17:49:52.944][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
-[17:49:52.945][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
-[17:49:52.946][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
-[17:49:52.946][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
-[17:49:52.946][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
-[17:49:52.947][INFO]: Removing all "exnihilosequentia:crook" recipes
-[17:49:52.947][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
-[17:49:52.948][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[17:49:52.948][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_organic' that outputs: '<item:minecraft:air>'
-[17:49:52.948][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[17:49:52.948][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
-[17:49:52.950][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
-[17:49:52.950][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
-[17:49:52.951][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
-[17:49:52.952][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
-[17:49:52.952][INFO]: Removing all "thermal:fisher_boost" recipes
-[17:49:52.953][INFO]: Removing all "thermal:hive_extractor" recipes
-[17:49:52.953][INFO]: Removing all "thermal:tree_extractor" recipes
-[17:49:52.953][INFO]: Removing all "thermal:tree_extractor_boost" recipes
-[17:49:52.954][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[17:49:52.955][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
-[17:49:52.956][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
-[17:49:52.956][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
-[17:49:52.956][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
-[17:49:52.956][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
-[17:49:52.958][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
-[17:49:52.958][INFO]: Execution for loader 'crafttweaker' completed successfully
-[17:49:52.960][INFO]: This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[17:52:55.360][INFO]: Item: <item:progressthroughskies:bedrock_gravel>
-[17:52:55.360][INFO]: Block: <block:progressthroughskies:bedrock_gravel>
-[17:52:55.360][INFO]: BlockState: <blockstate:progressthroughskies:bedrock_gravel>
-[17:53:07.496][INFO]: Started loading scripts for loader 'tags'
-[17:53:07.496][INFO]: Undoing previous actions
-[17:53:07.514][INFO]: Compiling and executing scripts
-[17:53:07.516][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[17:53:07.523][INFO]: Execution for loader 'tags' completed successfully
-[17:53:08.547][INFO]: Started loading scripts for loader 'crafttweaker'
-[17:53:08.547][INFO]: Undoing previous actions
-[17:53:08.561][INFO]: Compiling and executing scripts
-[17:53:08.693][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[17:53:08.693][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
-[17:53:08.694][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
-[17:53:08.695][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
-[17:53:08.695][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
-[17:53:08.695][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
-[17:53:08.716][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
-[17:53:08.718][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
-[17:53:08.718][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
-[17:53:08.719][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
-[17:53:08.719][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
-[17:53:08.720][INFO]: Removing all "exnihilosequentia:crook" recipes
-[17:53:08.720][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
-[17:53:08.721][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
-[17:53:08.721][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_grass' that outputs: '<item:minecraft:air>'
-[17:53:08.721][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:bedrock_gravel_to_dirt' that outputs: '<item:minecraft:air>'
-[17:53:08.722][INFO]: Removing all "exnihilosequentia:sieve" recipes
-[17:53:08.722][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
-[17:53:08.723][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
-[17:53:08.724][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
-[17:53:08.724][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
-[17:53:08.725][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
-[17:53:08.725][INFO]: Removing all "thermal:fisher_boost" recipes
-[17:53:08.725][INFO]: Removing all "thermal:hive_extractor" recipes
-[17:53:08.725][INFO]: Removing all "thermal:tree_extractor" recipes
-[17:53:08.725][INFO]: Removing all "thermal:tree_extractor_boost" recipes
-[17:53:08.725][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
-[17:53:08.726][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
-[17:53:08.726][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
-[17:53:08.727][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
-[17:53:08.727][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
-[17:53:08.727][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
-[17:53:08.727][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
-[17:53:08.727][INFO]: Execution for loader 'crafttweaker' completed successfully
-[17:53:08.731][INFO]: This reload was made possible by Fbigummy and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:50:35.068][INFO]: Successfully injected RecipeFS file system
+[16:50:35.164][INFO]: Successfully identified and loaded plugin jeitweaker:common
+[16:50:35.198][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[16:50:35.200][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[16:50:35.211][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[16:50:35.216][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[16:50:35.301][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[16:50:35.303][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[16:50:35.319][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[16:50:35.319][INFO]: Running JeiTweaker plugin initialization
+[16:50:35.368][INFO]: JeiTweaker plugin initialization completed successfully
+[16:50:37.890][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[16:50:37.893][INFO]: - 'crafttweaker' at version '10.1.46'
+[16:50:37.893][INFO]: - 'exnihilosequentia' at version '4.2.0'
+[16:50:37.894][INFO]: - 'farmersdelight' at version '1.19-1.2.1'
+[16:50:37.894][INFO]: - 'immersiveengineering' at version '1.19.2-9.2.2-165'
+[16:50:37.894][INFO]: - 'jeitweaker' at version '4.0.12'
+[16:50:37.894][INFO]: - 'mekanism' at version '10.3.8'
+[16:50:43.802][INFO]: Started loading scripts for loader 'mekanismcontent'
+[16:50:44.061][INFO]: Compiling and executing scripts
+[16:50:44.536][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:50:44.625][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[16:50:44.625][INFO]: Registering 0 custom gases.
+[16:50:44.629][INFO]: Registering 0 custom infuse types.
+[16:50:44.633][INFO]: Registering 0 custom pigments.
+[16:50:44.635][INFO]: Registering 0 custom robit skins.
+[16:50:44.637][INFO]: Registering 0 custom slurries.
+[16:50:50.445][INFO]: Started loading scripts for loader 'initialize'
+[16:50:50.479][INFO]: Compiling and executing scripts
+[16:50:50.481][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:50:50.498][INFO]: Execution for loader 'initialize' completed successfully
+[16:51:58.163][INFO]: Started loading scripts for loader 'tags'
+[16:51:58.180][INFO]: Compiling and executing scripts
+[16:51:58.187][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:51:58.195][INFO]: Execution for loader 'tags' completed successfully
+[16:51:59.982][INFO]: Started loading scripts for loader 'crafttweaker'
+[16:51:59.996][INFO]: Compiling and executing scripts
+[16:52:00.124][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:52:00.125][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[16:52:00.126][INFO]: Loading file 'mods\create\crafting.zs' with priority 0
+[16:52:00.126][INFO]: Loading file 'mods\create\mixing.zs' with priority 0
+[16:52:00.129][INFO]: Loading file 'mods\cyclic\melter.zs' with priority 0
+[16:52:00.129][INFO]: Loading file 'mods\cyclic\solidify.zs' with priority 0
+[16:52:00.129][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
+[16:52:00.129][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
+[16:52:00.130][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[16:52:00.130][INFO]: Loading file 'mods\farmers_delight\cutting.zs' with priority 0
+[16:52:00.130][INFO]: Loading file 'mods\i_like_wood\crafting.zs' with priority 0
+[16:52:00.130][INFO]: Loading file 'mods\i_like_wood\sawmilling.zs' with priority 0
+[16:52:00.131][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\progressionthroughskies\info.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
+[16:52:00.132][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[16:52:00.133][INFO]: Loading file 'mods\wooden_bucket\crafting.zs' with priority 0
+[16:52:00.181][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[16:52:00.188][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
+[16:52:00.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
+[16:52:00.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
+[16:52:00.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
+[16:52:00.190][INFO]: Removing "minecraft:crafting" recipes with modid: "create"
+[16:52:00.192][INFO]: Removing all "create:mixing" recipes
+[16:52:00.193][INFO]: Removing all "cyclic:melter" recipes
+[16:52:00.197][INFO]: Adding 'cyclic:melter' recipe, with name: 'crafttweaker:melt_bedrock_dust_to_lava' that outputs: '<item:minecraft:air>'
+[16:52:00.198][INFO]: Removing all "cyclic:solidifier" recipes
+[16:52:00.198][INFO]: Adding 'cyclic:solidifier' recipe, with name: 'crafttweaker:solidify_lava_to_cobble' that outputs: '<item:minecraft:cobblestone> * 64'
+[16:52:00.198][INFO]: Removing all "exnihilosequentia:crook" recipes
+[16:52:00.199][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_infested_leaves' that outputs: '<item:minecraft:air>'
+[16:52:00.199][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
+[16:52:00.199][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[16:52:00.199][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_grass' that outputs: '<item:minecraft:air>'
+[16:52:00.201][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:bedrock_gravel_to_dirt' that outputs: '<item:minecraft:air>'
+[16:52:00.201][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:light_gray_wool_to_white_wool' that outputs: '<item:minecraft:air>'
+[16:52:00.201][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[16:52:00.201][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
+[16:52:00.203][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
+[16:52:00.203][INFO]: Removing all "farmersdelight:cutting" recipes
+[16:52:00.204][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:cutting_board_test' that outputs: '<item:minecraft:flint>'
+[16:52:00.204][INFO]: Removing "minecraft:crafting" recipes with modid: "ilikewood"
+[16:52:00.207][INFO]: Removing "ilikewood:sawmilling" recipes with modid: "ilikewood"
+[16:52:00.216][INFO]: Adding information for ingredient <item:exnihilosequentia:oak_sieve> to JEI
+[16:52:00.218][INFO]: Adding information for ingredient <item:ilikewood:oak_log_pile> to JEI
+[16:52:00.220][INFO]: Adding information for ingredient <item:woodenbucket:wooden_bucket>.withTag({Damage: 0}) to JEI
+[16:52:00.221][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_sieve' that outputs: '<item:exnihilosequentia:oak_sieve>'
+[16:52:00.221][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_log_pile' that outputs: '<item:ilikewood:oak_log_pile>'
+[16:52:00.221][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:wooden_bucket' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 0})'
+[16:52:00.222][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_post' that outputs: '<item:ilikewood:oak_post>'
+[16:52:00.222][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:tetra_workbench' that outputs: '<item:tetra:basic_workbench>'
+[16:52:00.223][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
+[16:52:00.224][INFO]: Adding information for ingredient <item:progressthroughskies:bedrock_dust> to JEI
+[16:52:00.224][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
+[16:52:00.225][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
+[16:52:00.225][INFO]: Removing all "thermal:fisher_boost" recipes
+[16:52:00.226][INFO]: Removing all "thermal:hive_extractor" recipes
+[16:52:00.226][INFO]: Removing all "thermal:tree_extractor" recipes
+[16:52:00.226][INFO]: Removing all "thermal:tree_extractor_boost" recipes
+[16:52:00.226][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[16:52:00.227][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[16:52:00.227][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[16:52:00.227][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
+[16:52:00.227][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
+[16:52:00.227][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
+[16:52:00.227][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
+[16:52:00.228][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:string_mesh' that outputs: '<item:exnihilosequentia:string_mesh>'
+[16:52:00.228][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:campfire' that outputs: '<item:minecraft:campfire>'
+[16:52:00.228][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:oak_sawmill' that outputs: '<item:ilikewood:oak_sawmill>'
+[16:52:00.228][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tetra_hammer' that outputs: '<item:tetra:modular_double>.withTag({"double/handle": "double/basic_handle", "double/head_left": "double/basic_hammer_left", "double/head_right": "double/basic_hammer_right", id: "ba3eda65-65d3-4329-b355-aa77759d2967", "double/basic_hammer_right_material": "basic_hammer/oak", Damage: 0, "double/basic_handle_material": "basic_handle/stick", "double/basic_hammer_left_material": "basic_hammer/oak"})'
+[16:52:00.229][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bed' that outputs: '<item:minecraft:white_bed>'
+[16:52:00.229][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:light_gray_wool' that outputs: '<item:minecraft:light_gray_wool>'
+[16:52:00.229][INFO]: Removing "minecraft:crafting" recipes with modid: "woodenbucket"
+[16:52:00.230][INFO]: Execution for loader 'crafttweaker' completed successfully
+[16:52:00.234][INFO]: This reload was made possible by Jessie Sims and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:52:11.554][INFO]: Started loading scripts for loader 'tags'
+[16:52:11.555][INFO]: Undoing previous actions
+[16:52:11.569][INFO]: Compiling and executing scripts
+[16:52:11.572][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:52:11.580][INFO]: Execution for loader 'tags' completed successfully
+[16:52:12.848][INFO]: Started loading scripts for loader 'crafttweaker'
+[16:52:12.848][INFO]: Undoing previous actions
+[16:52:12.859][INFO]: Compiling and executing scripts
+[16:52:12.949][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:52:12.949][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[16:52:12.950][INFO]: Loading file 'mods\create\crafting.zs' with priority 0
+[16:52:12.950][INFO]: Loading file 'mods\create\mixing.zs' with priority 0
+[16:52:12.950][INFO]: Loading file 'mods\cyclic\melter.zs' with priority 0
+[16:52:12.950][INFO]: Loading file 'mods\cyclic\solidify.zs' with priority 0
+[16:52:12.950][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
+[16:52:12.951][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
+[16:52:12.951][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[16:52:12.951][INFO]: Loading file 'mods\farmers_delight\cutting.zs' with priority 0
+[16:52:12.951][INFO]: Loading file 'mods\i_like_wood\crafting.zs' with priority 0
+[16:52:12.951][INFO]: Loading file 'mods\i_like_wood\sawmilling.zs' with priority 0
+[16:52:12.951][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\progressionthroughskies\info.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
+[16:52:12.952][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[16:52:12.953][INFO]: Loading file 'mods\wooden_bucket\crafting.zs' with priority 0
+[16:52:12.981][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[16:52:12.983][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
+[16:52:12.983][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
+[16:52:12.983][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
+[16:52:12.983][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
+[16:52:12.983][INFO]: Removing "minecraft:crafting" recipes with modid: "create"
+[16:52:12.986][INFO]: Removing all "create:mixing" recipes
+[16:52:12.986][INFO]: Removing all "cyclic:melter" recipes
+[16:52:12.986][INFO]: Adding 'cyclic:melter' recipe, with name: 'crafttweaker:melt_bedrock_dust_to_lava' that outputs: '<item:minecraft:air>'
+[16:52:12.987][INFO]: Removing all "cyclic:solidifier" recipes
+[16:52:12.987][INFO]: Adding 'cyclic:solidifier' recipe, with name: 'crafttweaker:solidify_lava_to_cobble' that outputs: '<item:minecraft:cobblestone> * 64'
+[16:52:12.987][INFO]: Removing all "exnihilosequentia:crook" recipes
+[16:52:12.988][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_infested_leaves' that outputs: '<item:minecraft:air>'
+[16:52:12.988][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
+[16:52:12.988][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[16:52:12.988][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_grass' that outputs: '<item:minecraft:air>'
+[16:52:12.988][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:bedrock_gravel_to_dirt' that outputs: '<item:minecraft:air>'
+[16:52:12.989][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:light_gray_wool_to_white_wool' that outputs: '<item:minecraft:air>'
+[16:52:12.989][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[16:52:12.989][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
+[16:52:12.990][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
+[16:52:12.990][INFO]: Removing all "farmersdelight:cutting" recipes
+[16:52:12.990][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:cutting_board_test' that outputs: '<item:minecraft:flint>'
+[16:52:12.990][INFO]: Removing "minecraft:crafting" recipes with modid: "ilikewood"
+[16:52:12.992][INFO]: Removing "ilikewood:sawmilling" recipes with modid: "ilikewood"
+[16:52:12.992][INFO]: Adding information for ingredient <item:exnihilosequentia:oak_sieve> to JEI
+[16:52:12.993][INFO]: Adding information for ingredient <item:ilikewood:oak_log_pile> to JEI
+[16:52:12.993][INFO]: Adding information for ingredient <item:woodenbucket:wooden_bucket>.withTag({Damage: 0}) to JEI
+[16:52:12.993][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_sieve' that outputs: '<item:exnihilosequentia:oak_sieve>'
+[16:52:12.993][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_log_pile' that outputs: '<item:ilikewood:oak_log_pile>'
+[16:52:12.994][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:wooden_bucket' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 0})'
+[16:52:12.994][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_post' that outputs: '<item:ilikewood:oak_post>'
+[16:52:12.994][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:tetra_workbench' that outputs: '<item:tetra:basic_workbench>'
+[16:52:12.994][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
+[16:52:12.995][INFO]: Adding information for ingredient <item:progressthroughskies:bedrock_dust> to JEI
+[16:52:12.995][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
+[16:52:12.997][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
+[16:52:12.997][INFO]: Removing all "thermal:fisher_boost" recipes
+[16:52:12.997][INFO]: Removing all "thermal:hive_extractor" recipes
+[16:52:12.997][INFO]: Removing all "thermal:tree_extractor" recipes
+[16:52:12.998][INFO]: Removing all "thermal:tree_extractor_boost" recipes
+[16:52:12.998][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[16:52:12.999][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[16:52:13.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[16:52:13.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
+[16:52:13.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
+[16:52:13.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
+[16:52:13.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
+[16:52:13.001][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:string_mesh' that outputs: '<item:exnihilosequentia:string_mesh>'
+[16:52:13.001][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:campfire' that outputs: '<item:minecraft:campfire>'
+[16:52:13.001][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:oak_sawmill' that outputs: '<item:ilikewood:oak_sawmill>'
+[16:52:13.002][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tetra_hammer' that outputs: '<item:tetra:modular_double>.withTag({"double/handle": "double/basic_handle", "double/head_left": "double/basic_hammer_left", "double/head_right": "double/basic_hammer_right", id: "ba3eda65-65d3-4329-b355-aa77759d2967", "double/basic_hammer_right_material": "basic_hammer/oak", Damage: 0, "double/basic_handle_material": "basic_handle/stick", "double/basic_hammer_left_material": "basic_hammer/oak"})'
+[16:52:13.002][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bed' that outputs: '<item:minecraft:white_bed>'
+[16:52:13.002][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:light_gray_wool' that outputs: '<item:minecraft:light_gray_wool>'
+[16:52:13.003][INFO]: Removing "minecraft:crafting" recipes with modid: "woodenbucket"
+[16:52:13.003][INFO]: Execution for loader 'crafttweaker' completed successfully
+[16:52:13.007][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:52:26.873][INFO]: Started loading scripts for loader 'tags'
+[16:52:26.873][INFO]: Undoing previous actions
+[16:52:26.882][INFO]: Compiling and executing scripts
+[16:52:26.884][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:52:26.892][INFO]: Execution for loader 'tags' completed successfully
+[16:52:28.052][INFO]: Started loading scripts for loader 'crafttweaker'
+[16:52:28.052][INFO]: Undoing previous actions
+[16:52:28.062][INFO]: Compiling and executing scripts
+[16:52:28.142][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:52:28.142][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[16:52:28.142][INFO]: Loading file 'mods\create\crafting.zs' with priority 0
+[16:52:28.142][INFO]: Loading file 'mods\create\mixing.zs' with priority 0
+[16:52:28.142][INFO]: Loading file 'mods\cyclic\melter.zs' with priority 0
+[16:52:28.142][INFO]: Loading file 'mods\cyclic\solidify.zs' with priority 0
+[16:52:28.143][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
+[16:52:28.143][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
+[16:52:28.143][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[16:52:28.143][INFO]: Loading file 'mods\farmers_delight\cutting.zs' with priority 0
+[16:52:28.143][INFO]: Loading file 'mods\i_like_wood\crafting.zs' with priority 0
+[16:52:28.143][INFO]: Loading file 'mods\i_like_wood\sawmilling.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\progressionthroughskies\info.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
+[16:52:28.144][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[16:52:28.145][INFO]: Loading file 'mods\wooden_bucket\crafting.zs' with priority 0
+[16:52:28.171][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[16:52:28.173][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
+[16:52:28.173][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
+[16:52:28.174][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
+[16:52:28.174][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
+[16:52:28.174][INFO]: Removing "minecraft:crafting" recipes with modid: "create"
+[16:52:28.176][INFO]: Removing all "create:mixing" recipes
+[16:52:28.177][INFO]: Removing all "cyclic:melter" recipes
+[16:52:28.177][INFO]: Adding 'cyclic:melter' recipe, with name: 'crafttweaker:melt_bedrock_dust_to_lava' that outputs: '<item:minecraft:air>'
+[16:52:28.178][INFO]: Removing all "cyclic:solidifier" recipes
+[16:52:28.178][INFO]: Adding 'cyclic:solidifier' recipe, with name: 'crafttweaker:solidify_lava_to_cobble' that outputs: '<item:minecraft:cobblestone> * 64'
+[16:52:28.178][INFO]: Removing all "exnihilosequentia:crook" recipes
+[16:52:28.179][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_infested_leaves' that outputs: '<item:minecraft:air>'
+[16:52:28.179][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
+[16:52:28.179][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[16:52:28.179][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_grass' that outputs: '<item:minecraft:air>'
+[16:52:28.179][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:bedrock_gravel_to_dirt' that outputs: '<item:minecraft:air>'
+[16:52:28.180][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:light_gray_wool_to_white_wool' that outputs: '<item:minecraft:air>'
+[16:52:28.180][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[16:52:28.180][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
+[16:52:28.181][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
+[16:52:28.182][INFO]: Removing all "farmersdelight:cutting" recipes
+[16:52:28.182][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:cutting_board_test' that outputs: '<item:minecraft:flint>'
+[16:52:28.182][INFO]: Removing "minecraft:crafting" recipes with modid: "ilikewood"
+[16:52:28.184][INFO]: Removing "ilikewood:sawmilling" recipes with modid: "ilikewood"
+[16:52:28.184][INFO]: Adding information for ingredient <item:exnihilosequentia:oak_sieve> to JEI
+[16:52:28.184][INFO]: Adding information for ingredient <item:ilikewood:oak_log_pile> to JEI
+[16:52:28.185][INFO]: Adding information for ingredient <item:woodenbucket:wooden_bucket>.withTag({Damage: 0}) to JEI
+[16:52:28.185][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_sieve' that outputs: '<item:exnihilosequentia:oak_sieve>'
+[16:52:28.185][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_log_pile' that outputs: '<item:ilikewood:oak_log_pile>'
+[16:52:28.185][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:wooden_bucket' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 0})'
+[16:52:28.186][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_post' that outputs: '<item:ilikewood:oak_post>'
+[16:52:28.186][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:tetra_workbench' that outputs: '<item:tetra:basic_workbench>'
+[16:52:28.186][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
+[16:52:28.186][INFO]: Adding information for ingredient <item:progressthroughskies:bedrock_dust> to JEI
+[16:52:28.186][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
+[16:52:28.187][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rock_gen' that outputs: '<item:thermal:device_rock_gen>'
+[16:52:28.187][INFO]: Removing all "thermal:fisher_boost" recipes
+[16:52:28.187][INFO]: Removing all "thermal:hive_extractor" recipes
+[16:52:28.187][INFO]: Removing all "thermal:tree_extractor" recipes
+[16:52:28.187][INFO]: Removing all "thermal:tree_extractor_boost" recipes
+[16:52:28.188][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[16:52:28.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[16:52:28.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[16:52:28.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
+[16:52:28.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_to_sandstone' that outputs: '<item:minecraft:sandstone>'
+[16:52:28.189][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
+[16:52:28.190][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
+[16:52:28.190][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:string_mesh' that outputs: '<item:exnihilosequentia:string_mesh>'
+[16:52:28.190][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:campfire' that outputs: '<item:minecraft:campfire>'
+[16:52:28.190][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:oak_sawmill' that outputs: '<item:ilikewood:oak_sawmill>'
+[16:52:28.191][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tetra_hammer' that outputs: '<item:tetra:modular_double>.withTag({"double/handle": "double/basic_handle", "double/head_left": "double/basic_hammer_left", "double/head_right": "double/basic_hammer_right", id: "ba3eda65-65d3-4329-b355-aa77759d2967", "double/basic_hammer_right_material": "basic_hammer/oak", Damage: 0, "double/basic_handle_material": "basic_handle/stick", "double/basic_hammer_left_material": "basic_hammer/oak"})'
+[16:52:28.191][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bed' that outputs: '<item:minecraft:white_bed>'
+[16:52:28.191][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:light_gray_wool' that outputs: '<item:minecraft:light_gray_wool>'
+[16:52:28.192][INFO]: Removing "minecraft:crafting" recipes with modid: "woodenbucket"
+[16:52:28.192][INFO]: Execution for loader 'crafttweaker' completed successfully
+[16:52:28.196][INFO]: This reload was made possible by Pongo Sapiens and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

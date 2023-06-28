@@ -30,6 +30,7 @@ minecraft:lukewarm_ocean
 minecraft:lush_caves
 minecraft:mangrove_swamp
 minecraft:meadow
+integrateddynamics:meneglin
 minecraft:mushroom_fields
 minecraft:nether_wastes
 minecraft:ocean
@@ -47,6 +48,7 @@ minecraft:snowy_slopes
 minecraft:snowy_taiga
 minecraft:soul_sand_valley
 minecraft:sparse_jungle
+ae2:spatial_storage
 minecraft:stony_peaks
 minecraft:stony_shore
 minecraft:sunflower_plains

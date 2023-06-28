@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "766CAEA53D3DA96F", title: "Progression" }]
+	chapter_groups: [
+		{ id: "766CAEA53D3DA96F", title: "Progression" }
+		{ id: "54F41CD78FED2FED", title: "AUTOmation" }
+	]
 }

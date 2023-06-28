@@ -1,0 +1,3 @@
+#52B53D minecraft:air
+#D02259 progressthroughskies:bedrock_gravel
+#517451 progressthroughskies:dusted_bedrock

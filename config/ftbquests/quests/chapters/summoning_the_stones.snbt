@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "summoning_the_stones"
+	group: "54F41CD78FED2FED"
+	id: "409F69251BCF5A12"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05382F78CB0D7895"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "55E165E130A743A2"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "2E423599175E4878"
+			tasks: [{
+				id: "3252C31071F9283C"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "133271006E94A173"
+			tasks: [{
+				id: "1372AD0A50302DE0"
+				item: "clickmachine:auto_clicker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0FE1960D6EF9A335"
+			tasks: [{
+				id: "45659772A1DC41CD"
+				item: "progressthroughskies:bedrock_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "24B2C4D614406D59"
+			tasks: [{
+				id: "6D367A0DEF71119F"
+				item: "cyclic:melter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "26965F1781593A04"
+			tasks: [{
+				id: "48734314C45416C3"
+				item: "cyclic:solidifier"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "43F9C016854CCB07"
+			tasks: [{
+				id: "1525866A93D2F9EE"
+				item: "cyclic:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "033F80D43BA6C11C"
+			tasks: [{
+				id: "5EF0D3288E4220B7"
+				item: "cyclic:item_pipe"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "Summoning the stones[WIP]"
+}

@@ -10,7 +10,6 @@
 	quests: [
 		{
 			dependencies: ["2FE75340B2873C2B"]
-			dependency_requirement: "one_completed"
 			id: "2AF7CE9D5C0FB575"
 			tasks: [{
 				id: "503E8AAE1DC737D0"
