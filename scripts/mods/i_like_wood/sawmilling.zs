@@ -1,11 +1,8 @@
-import mods.jeitweaker.Jei;
-import crafttweaker.api.text.Component;
+
 
 <recipetype:ilikewood:sawmilling>.removeByModid("ilikewood");
 
-Jei.addIngredientInformation(<item:exnihilosequentia:oak_sieve>, Component.literal("Can be sawmilled by Oak Log using I Like Wood Mod's Sawingmill"));
-Jei.addIngredientInformation(<item:ilikewood:oak_log_pile>, Component.literal("Can be sawmilled by Oak Log using I Like Wood Mod's Sawingmill"));
-Jei.addIngredientInformation(<item:woodenbucket:wooden_bucket>, Component.literal("Can be sawmilled by Oak Log using I Like Wood Mod's Sawingmill"));
+
 
 <recipetype:ilikewood:sawmilling>.addJsonRecipe("oak_sieve",
 {"type": "forge:conditional",

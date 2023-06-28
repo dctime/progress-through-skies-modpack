@@ -19,12 +19,6 @@ craftingTable.addShaped("compressed_sand_and_gravel_to_cobble", <item:minecraft:
     [<item:compressium:sand_1>, <item:compressium:gravel_1>]
 ]);
 
-craftingTable.addShaped("sand_to_sandstone", <item:minecraft:sandstone>,
-[
-    [<item:minecraft:sand>, <item:minecraft:sand>],
-    [<item:minecraft:sand>, <item:minecraft:sand>]
-]);
-
 craftingTable.addShaped("stone_pressure_plate", <item:minecraft:stone_pressure_plate>,
 [
     [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>]
