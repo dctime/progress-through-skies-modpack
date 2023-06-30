@@ -92,7 +92,7 @@
     }
   ]});
 
-<recipetype:ilikewood:sawmilling>.addJsonRecipe("tetra_workbench",
+<recipetype:ilikewood:sawmilling>.addJsonRecipe("crafting_table",
 {"type": "forge:conditional",
   "recipes": [
     {
@@ -107,8 +107,50 @@
         "ingredient": {
           "item": "minecraft:oak_log"
         },
-        "result": "tetra:basic_workbench",
+        "result": "minecraft:crafting_table",
         "count":1
+      }
+    }
+  ]});
+
+  <recipetype:ilikewood:sawmilling>.addJsonRecipe("wooden_hopper",
+{"type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ilikewood"
+        }
+      ],
+      "recipe": {
+        "type": "ilikewood:sawmilling",
+        "ingredient": {
+          "item": "minecraft:oak_log"
+        },
+        "result": "cyclic:hopper",
+        "count":1
+      }
+    }
+  ]});
+
+    <recipetype:ilikewood:sawmilling>.addJsonRecipe("oak_slab",
+{"type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ilikewood"
+        }
+      ],
+      "recipe": {
+        "type": "ilikewood:sawmilling",
+        "ingredient": {
+          "item": "minecraft:oak_log"
+        },
+        "result": "minecraft:oak_slab",
+        "count":2
       }
     }
   ]});

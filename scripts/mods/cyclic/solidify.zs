@@ -27,3 +27,28 @@
 		"count": 64
 	}
 });
+
+<recipetype:cyclic:solidifier>.addJsonRecipe("solidify_wax_to_tallow",
+{
+	"type": "cyclic:solidifier",
+	"ingredients": [
+		{
+			"item": "minecraft:string"
+		},
+		{
+			"item": "minecraft:string"
+		}
+	],
+	"energy": {
+		"rfpertick": 0,
+		"ticks": 30
+	},
+	"mix": {
+		"fluid": "cyclic:wax",
+		"count": 1000
+	},
+	"result": {
+		"item": "occultism:candle_white",
+		"count": 2
+	}
+});

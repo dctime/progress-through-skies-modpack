@@ -22,6 +22,7 @@ minecraft:forest
 minecraft:frozen_ocean
 minecraft:frozen_peaks
 minecraft:frozen_river
+quark:glimmering_weald
 minecraft:grove
 minecraft:ice_spikes
 minecraft:jagged_peaks

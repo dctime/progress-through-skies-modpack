@@ -58,7 +58,7 @@
 			id: "7AE1914399D2B8BF"
 			tasks: [{
 				id: "4773CA275FAB56DD"
-				item: "alltheores:dirty_copper_dust"
+				item: "mekanism:dirty_dust_copper"
 				type: "item"
 			}]
 			x: -1.5d
@@ -83,16 +83,6 @@
 			}]
 			x: 0.5d
 			y: -1.5d
-		}
-		{
-			id: "4C59D97FDF61278C"
-			tasks: [{
-				id: "52B1B101BEFB6DE9"
-				item: "alltheores:copper_nugget"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
 		}
 		{
 			id: "0E0C7F223277225A"

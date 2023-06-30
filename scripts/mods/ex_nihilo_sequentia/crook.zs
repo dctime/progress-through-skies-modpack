@@ -9,4 +9,6 @@
     .create("crook_grass")
     .setInput(<item:minecraft:grass_block>)
     .addDrop(<item:exnihilosequentia:silkworm>, 0.5)
+    .addDrop(<item:occultism:datura_seeds>, 0.5)
     .addDrop(<item:minecraft:oak_sapling>, 0.5);
+    

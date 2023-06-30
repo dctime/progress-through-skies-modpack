@@ -1,0 +1,66 @@
+{
+    "id": "aluminum",
+    "source": "modded",
+    "localizedName": "Aluminum",
+    "processedTypes": [
+      "ore",
+      "storage_block",
+      "ingot",
+      "nugget",
+      "raw",
+      "dust",
+      "plate",
+      "gear",
+      "rod",
+      "sword",
+      "pickaxe",
+      "axe",
+      "shovel",
+      "hoe",
+      "paxel",
+      "helmet",
+      "chestplate",
+      "leggings",
+      "boots",
+      "shield",
+      "cluster",
+      "fluid",
+      "slurry",
+      "crystal",
+      "shard",
+      "clump",
+      "dirty_dust",
+      "gas",
+      "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 2,
+      "isBurnable": true,
+      "burnTime": 1600,
+      "isEmissive": true,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "c5dbed",
+      "materialColor": "c5dbed",
+      "gasColor":"98b350",
+      "oxidizationColor": "781c22"
+    },
+    "gas": {
+      "isBurnable": true,
+      "burnTime": 40,
+      "energyDensity": 200,
+      "isRadioactive": true,
+      "radioactivity": 0.5,
+      "isCoolant": true,
+      "coolantType": "heated",
+      "thermalEnthalpy": 0.4,
+      "conductivity": 0.7
+    },
+    "compat": {
+      "create": true,
+      "occultism": false,
+      "mekanism": true
+    }
+  }

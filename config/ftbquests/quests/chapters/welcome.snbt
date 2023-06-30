@@ -29,7 +29,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2FE75340B2873C2B"]
+			dependencies: [
+				"2FE75340B2873C2B"
+				"0DB8DB559670837F"
+			]
+			icon: "minecraft:cobblestone"
 			id: "21306D08E892BE86"
 			rewards: [{
 				count: 64
@@ -40,16 +44,19 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "23F304F8F35FD0F4"
-				item: "minecraft:cobblestone"
-				type: "item"
+				id: "3E7839C599C129B0"
+				type: "checkmark"
 			}]
 			title: "Go the \"Bedrock Punching\" Chapter"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["21306D08E892BE86"]
+			dependencies: [
+				"21306D08E892BE86"
+				"051133FFE0746AF3"
+			]
+			icon: "minecraft:oak_log"
 			id: "4F552F492BE6F86F"
 			rewards: [{
 				count: 64
@@ -60,9 +67,8 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "1C5C7E9E78207328"
-				item: "minecraft:oak_log"
-				type: "item"
+				id: "672E42B67674F01E"
+				type: "checkmark"
 			}]
 			title: "Go to \"Water is life\" Chapter"
 			x: 4.5d
@@ -120,23 +126,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4F552F492BE6F86F"
-				"05382F78CB0D7895"
-			]
-			icon: "minecraft:cobblestone"
-			id: "7DC159176A7E8D30"
-			shape: "gear"
-			tasks: [{
-				id: "11E93CE378ED4FF3"
-				title: "Automate cobble"
-				type: "checkmark"
-			}]
-			title: "WIP"
-			x: 4.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["314FCD5C93EFA7F9"]
 			id: "47D3E229BBD4DC14"
 			shape: "circle"
@@ -178,6 +167,20 @@
 			}]
 			x: 5.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["4F552F492BE6F86F"]
+			icon: "minecraft:cobblestone"
+			id: "3C17E472CB27FD04"
+			shape: "gear"
+			tasks: [{
+				id: "20F6112BF390DE79"
+				title: "Enable Example"
+				type: "checkmark"
+			}]
+			title: "Cobble Automation"
+			x: 4.5d
+			y: 2.0d
 		}
 	]
 	title: "Welcome!"

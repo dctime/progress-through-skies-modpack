@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "gear"
 	filename: "summoning_the_stones"
 	group: "54F41CD78FED2FED"
 	id: "409F69251BCF5A12"
@@ -8,87 +8,435 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["26965F1781593A04"]
 			id: "05382F78CB0D7895"
 			tasks: [{
 				consume_items: true
-				count: 1024L
-				id: "55E165E130A743A2"
+				count: 2048L
+				id: "3F9DC584DDC0BC91"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["24B2C4D614406D59"]
 			id: "2E423599175E4878"
 			tasks: [{
 				id: "3252C31071F9283C"
-				item: "minecraft:lava_bucket"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:lava"
+						}
+					}
+				}
 				type: "item"
 			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"01B771971FCC1685"
+				"2BEB3A43CCED0AF3"
+				"2E6C6F976E146F54"
+				"2D464760737110A6"
+				"07516D56DCACC1E7"
+			]
+			description: ["{image:modpackdctime:textures/misc/auto_clicker_craft_ritual.png width:100 height:100 align:1 fit:true}"]
 			id: "133271006E94A173"
-			tasks: [{
-				id: "1372AD0A50302DE0"
-				item: "clickmachine:auto_clicker"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "1372AD0A50302DE0"
+					item: "clickmachine:auto_clicker"
+					type: "item"
+				}
+				{
+					hasCustomPicture: false
+					id: "20ACDD7EF9F5EDFA"
+					ignoreState: true
+					layer: true
+					name: "craft_auto_clicker_ritual"
+					rightclick: false
+					type: "questsadditions:structure"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["133271006E94A173"]
 			id: "0FE1960D6EF9A335"
 			tasks: [{
 				id: "45659772A1DC41CD"
 				item: "progressthroughskies:bedrock_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["180D27B4B190913A"]
 			id: "24B2C4D614406D59"
 			tasks: [{
 				id: "6D367A0DEF71119F"
 				item: "cyclic:melter"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"6BBCE46BD88F42D3"
+				"4AE526069B1DB386"
+				"2E423599175E4878"
+			]
 			id: "26965F1781593A04"
 			tasks: [{
 				id: "48734314C45416C3"
 				item: "cyclic:solidifier"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
-			id: "43F9C016854CCB07"
+			dependencies: ["2E070AD612936786"]
+			id: "180D27B4B190913A"
 			tasks: [{
-				id: "1525866A93D2F9EE"
-				item: "cyclic:fluid_pipe"
+				id: "468FEC48FC534614"
+				item: "progressthroughskies:bedrock_gravel"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			id: "1550F1173496769B"
+			shape: "circle"
+			tasks: [{
+				id: "6D48C758F4FE2E84"
+				item: "cyclic:hopper_fluid"
+				type: "item"
+			}]
+			x: 1.5d
 			y: 1.0d
 		}
 		{
-			id: "033F80D43BA6C11C"
+			dependencies: ["0FE1960D6EF9A335"]
+			id: "2E070AD612936786"
 			tasks: [{
-				id: "5EF0D3288E4220B7"
-				item: "cyclic:item_pipe"
+				id: "4EB0E0143F834A5F"
+				item: "cyclic:packager"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FE1960D6EF9A335"]
+			id: "6BBCE46BD88F42D3"
+			tasks: [{
+				id: "3CA6F507C77D4FFA"
+				item: "progressthroughskies:sand_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FE1960D6EF9A335"]
+			id: "4AE526069B1DB386"
+			tasks: [{
+				id: "401350D27C6D8166"
+				item: "progressthroughskies:gravel_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			id: "10B10CAA603F859E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D33CBDD93F9352D"
+					item: "exnihilosequentia:oak_sieve"
+					type: "item"
+				}
+				{
+					id: "0CECB19FACC08FD1"
+					item: "exnihilosequentia:string_mesh"
+					type: "item"
+				}
+			]
+			x: -7.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["10B10CAA603F859E"]
+			id: "07516D56DCACC1E7"
+			shape: "circle"
+			tasks: [{
+				id: "5AECF3B9478B1F44"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			id: "495FD6ECAE464021"
+			shape: "circle"
+			tasks: [{
+				id: "308C62CCA695C735"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["495FD6ECAE464021"]
+			id: "2D464760737110A6"
+			shape: "circle"
+			tasks: [{
+				id: "1E4B8317FFA3EA55"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			id: "4E03AF61D26DF290"
+			shape: "circle"
+			tasks: [{
+				id: "6CF85FB639B0F50D"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			id: "73119B9FAAE39600"
+			shape: "circle"
+			tasks: [{
+				id: "094C083F94DEC03A"
+				item: "cyclic:hopper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E03AF61D26DF290"]
+			id: "2BEB3A43CCED0AF3"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7C188D43D05A698F"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F23F3E67F51D890"
+					item: "occultism:brush"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01D01071F06E7049"]
+			id: "2E6C6F976E146F54"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F3FC0FC7D9904D1"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "3D912AEA80C5B8A3"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			description: [
+				"Remember shifting or sprinting can speed up the growing process."
+				""
+				"{image:modpackdctime:textures/misc/spirit_fire.png width:160 height:90 align:1}"
+				"{image:modpackdctime:textures/misc/spirit_fire_2.png width:160 height:90 align:1}"
+			]
+			icon: "occultism:spirit_fire"
+			id: "01D01071F06E7049"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0E9881DC2E112B8F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "occultism:spirit_fire"
+					type: "observation"
+				}
+				{
+					id: "3E1AE38254320E8B"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					id: "39CBA80D3A194772"
+					item: "occultism:datura_seeds"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6718829F7585BEAC"]
+			id: "50583D2AB3A56F72"
+			shape: "circle"
+			tasks: [{
+				id: "1B21659640134890"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "thermal:resin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50583D2AB3A56F72"]
+			id: "570C1835E379EE19"
+			shape: "circle"
+			tasks: [{
+				id: "51124189CB311D30"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "cyclic:wax"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"570C1835E379EE19"
+				"5AC0D25C41CA1ED7"
+			]
+			id: "379D9842170D6DF5"
+			shape: "circle"
+			tasks: [{
+				id: "30D780ED0ABFE3AD"
+				item: "cyclic:solidifier"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["379D9842170D6DF5"]
+			id: "01B771971FCC1685"
+			shape: "circle"
+			tasks: [{
+				id: "0209D341426E2214"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20F6112BF390DE79"]
+			id: "6718829F7585BEAC"
+			shape: "circle"
+			tasks: [{
+				id: "2F249654626156BE"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "57349C3FA04278E6"
+			shape: "circle"
+			tasks: [{
+				id: "0B1BEF4384A48A54"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4251DF6A1A4C1D37"]
+			id: "5AC0D25C41CA1ED7"
+			shape: "circle"
+			tasks: [{
+				id: "22F4DB78C7DE3874"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57349C3FA04278E6"]
+			id: "4251DF6A1A4C1D37"
+			shape: "circle"
+			tasks: [{
+				id: "07FD02BA5D4D6204"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
 	]
-	title: "Summoning the stones[WIP]"
+	title: "Summoning the Stones"
 }

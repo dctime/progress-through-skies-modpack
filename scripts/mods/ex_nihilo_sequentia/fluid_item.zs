@@ -17,3 +17,15 @@
     .setFluidInTank(<fluid:minecraft:water>)
     .setInputItem(<item:minecraft:light_gray_wool>)
     .setResult(<item:minecraft:white_wool>);
+
+<recipetype:exnihilosequentia:fluid_item>
+    .create("cobblestone_to_limestone")
+    .setFluidInTank(<fluid:exnihilosequentia:sea_water>)
+    .setInputItem(<item:minecraft:cobblestone>)
+    .setResult(<item:create:limestone>);
+
+<recipetype:exnihilosequentia:fluid_item>
+    .create("log_to_paper")
+    .setFluidInTank(<fluid:minecraft:water>)
+    .setInputItem(<item:minecraft:oak_log>)
+    .setResult(<item:quark:paper_wall_big>);

@@ -19,7 +19,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["21306D08E892BE86"]
+			dependencies: ["0DB8DB559670837F"]
 			description: [""]
 			id: "0D955AF98A83DE0A"
 			subtitle: "Well I tried my best to make the stone barrel recipe xd"
@@ -32,7 +32,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["21306D08E892BE86"]
+			dependencies: ["0DB8DB559670837F"]
 			id: "7FC063C25B05920B"
 			tasks: [{
 				id: "00BED074F913BF42"
@@ -58,6 +58,7 @@
 		}
 		{
 			dependencies: ["5A7D3AD2FC61F53B"]
+			description: ["Remember shifting or sprinting can speed up the growing process"]
 			id: "12E3643E6BDD1750"
 			tasks: [{
 				id: "09C4D6045DCA1D13"

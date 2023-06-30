@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/shield",
+  "overrides": [
+    {
+      "model": "emendatusenigmatica:item/aluminum_shield_blocking",
+      "predicate": {
+        "emendatusenigmatica:blocking": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "particle": "minecraft:block/dark_oak_planks"
+  }
+}

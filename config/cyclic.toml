@@ -409,7 +409,7 @@
 		[cyclic.blocks.packager]
 			#Power per recipe in the packager
 			#Range: 0 ~ 64000
-			energy_cost = 50
+			energy_cost = 0
 
 		[cyclic.blocks.collector_fluid]
 			#Power per use collector_fluid

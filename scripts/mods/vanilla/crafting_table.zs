@@ -64,3 +64,18 @@ craftingTable.addShaped("light_gray_wool", <item:minecraft:light_gray_wool>,
     [<item:minecraft:string>, <item:minecraft:string>],
     [<item:minecraft:string>, <item:minecraft:string>]
 ]);
+
+craftingTable.addShaped("stone_cutter", <item:minecraft:stonecutter>,
+[
+    [<item:minecraft:stone_pressure_plate>, <item:minecraft:air>],
+    [<item:ilikewood:oak_log_pile>, <item:minecraft:cobblestone>]
+]);
+
+craftingTable.addShapeless("fire_charge", <item:minecraft:fire_charge>, [<item:minecraft:flint>, <item:minecraft:oak_sapling>]);
+
+craftingTable.addShapeless("paper", <item:minecraft:paper>*3, [<item:quark:paper_wall_big>]);
+
+craftingTable.addShapeless("craft_sand_paper", <item:create:sand_paper>, [<item:minecraft:paper>, <item:progressthroughskies:sand_dust>]);
+
+craftingTable.addShapeless("glass_blower", <item:chipped:glassblower>, [<item:minecraft:blast_furnace>, <item:minecraft:crafting_table>]);
+
