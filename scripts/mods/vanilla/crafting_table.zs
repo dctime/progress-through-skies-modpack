@@ -79,3 +79,20 @@ craftingTable.addShapeless("craft_sand_paper", <item:create:sand_paper>, [<item:
 
 craftingTable.addShapeless("glass_blower", <item:chipped:glassblower>, [<item:minecraft:blast_furnace>, <item:minecraft:crafting_table>]);
 
+craftingTable.addShapeless("tinker_table", <item:chipped:tinkering_table>, [<item:minecraft:redstone>, <item:minecraft:crafting_table>]);
+
+craftingTable.addShapeless("redstone_to_tiny_redstone", <item:tinyredstone:tiny_redstone>*4, [<item:minecraft:redstone>]);
+
+craftingTable.addShapeless("tiny_redstone_to_redstone", <item:minecraft:redstone>, [<item:tinyredstone:tiny_redstone>, <item:tinyredstone:tiny_redstone>, <item:tinyredstone:tiny_redstone>, <item:tinyredstone:tiny_redstone>]);
+
+craftingTable.addShaped("craft_mason_table", <item:chipped:mason_table>,
+[
+    [<item:minecraft:polished_andesite>, <item:minecraft:polished_andesite>],
+    [<item:minecraft:stick>, <item:minecraft:stick>]
+]);
+
+craftingTable.addShaped("craft_carpenters_table", <item:chipped:carpenters_table>,
+[
+    [<item:minecraft:oak_slab>, <item:minecraft:oak_slab>],
+    [<item:minecraft:stick>, <item:minecraft:stick>]
+]);

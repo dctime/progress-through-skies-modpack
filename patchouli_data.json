@@ -1,5 +1,17 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "rftoolsbase:manual": {
+      "viewedEntries": [
+        "xnet:simple/controller",
+        "rftoolsbase:machines/infusing",
+        "xnet:simple/cables",
+        "xnet:simple/connector",
+        "xnet:wireless/wireless_router"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

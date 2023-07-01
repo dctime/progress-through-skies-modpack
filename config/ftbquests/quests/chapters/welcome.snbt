@@ -91,6 +91,7 @@
 			dependencies: ["314FCD5C93EFA7F9"]
 			id: "7AAA6F85BDE0E95D"
 			shape: "circle"
+			subtitle: "Crafting Tables are just crafting ingredients"
 			tasks: [
 				{
 					id: "456EF998A304267D"
@@ -127,8 +128,10 @@
 		}
 		{
 			dependencies: ["314FCD5C93EFA7F9"]
+			description: ["{image:modpackdctime:textures/misc/campfire_cooking.png width:160 height:100 align:1 fit:true}"]
 			id: "47D3E229BBD4DC14"
 			shape: "circle"
+			subtitle: "Light source and food source"
 			tasks: [
 				{
 					id: "145B95946398C23F"
@@ -141,8 +144,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4F552F492BE6F86F"]
@@ -153,24 +156,31 @@
 				item: "ilikewood:oak_sawmill"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F552F492BE6F86F"]
 			id: "445756FDEAEC49AB"
 			shape: "circle"
+			subtitle: "Remember the silk worm"
 			tasks: [{
 				id: "0BF0A27FE87445B8"
 				item: "minecraft:white_bed"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F552F492BE6F86F"]
-			icon: "minecraft:cobblestone"
+			icon: {
+				Count: 1b
+				id: "emendatusenigmatica:enigmatic_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3C17E472CB27FD04"
 			shape: "gear"
 			tasks: [{
@@ -178,9 +188,41 @@
 				title: "Enable Example"
 				type: "checkmark"
 			}]
-			title: "Cobble Automation"
+			title: "Automation"
 			x: 4.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["314FCD5C93EFA7F9"]
+			id: "79502FE85639B614"
+			shape: "circle"
+			subtitle: "Expand your base with cheap halfslab"
+			tasks: [{
+				id: "73A34074286680EB"
+				item: "minecraft:oak_slab"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["314FCD5C93EFA7F9"]
+			id: "172E33282C9D6485"
+			shape: "circle"
+			tasks: [
+				{
+					id: "02337BA9E154CFD0"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "036F7EA6BE301F0D"
+					item: "storagedrawers:oak_full_drawers_1"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
 		}
 	]
 	title: "Welcome!"

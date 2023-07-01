@@ -71,6 +71,7 @@
 		{
 			dependencies: ["12E3643E6BDD1750"]
 			id: "5A138AA24943076A"
+			subtitle: "Collect reward at welcome page"
 			tasks: [{
 				id: "64E116A58EBEAE33"
 				item: "minecraft:oak_log"

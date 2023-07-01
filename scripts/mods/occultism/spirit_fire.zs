@@ -95,3 +95,35 @@ for damage in 0 .. 24
   }
 });
 
+<recipetype:occultism:spirit_fire>.addJsonRecipe("stick_to_morphingtool",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "item": "morphtool:tool"
+  }
+});
+
+<recipetype:occultism:spirit_fire>.addJsonRecipe("bedrock_dust_to_redstone",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "progressthroughskies:bedrock_dust"
+  },
+  "result": {
+    "item": "minecraft:redstone"
+  }
+});
+
+<recipetype:occultism:spirit_fire>.addJsonRecipe("stone_to_andesite",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "result": {
+    "item": "minecraft:andesite"
+  }
+});

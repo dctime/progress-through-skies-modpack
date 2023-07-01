@@ -17,3 +17,21 @@
         ]
     }
 );
+
+<recipetype:create:sandpaper_polishing>.addJsonRecipe("polish_andesite",
+    {
+        "type": "create:sandpaper_polishing",
+        "ingredients": 
+        [
+            {
+                "item": "minecraft:andesite"
+            }
+        ],
+        "results": 
+        [
+            {
+                "item": "minecraft:polished_andesite"
+            }
+        ]
+    }
+);

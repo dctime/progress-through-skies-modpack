@@ -11,6 +11,7 @@
 		{
 			dependencies: ["2FE75340B2873C2B"]
 			id: "2AF7CE9D5C0FB575"
+			subtitle: "Sneak hold right click on the dusted bedrock to get bedrock dust"
 			tasks: [{
 				id: "503E8AAE1DC737D0"
 				item: "progressthroughskies:bedrock_dust"
@@ -80,6 +81,7 @@
 				"069E5DDB10C37CA6"
 			]
 			id: "4497CD8B64389408"
+			subtitle: "Collect reward at welcome page"
 			tasks: [{
 				id: "146C13A94E56FE6F"
 				item: "minecraft:cobblestone"

@@ -1,6 +1,6 @@
 furnace.removeByModid("minecraft");
 
-furnace.addJsonRecipe("recipe_name", 
+furnace.addJsonRecipe("cobblestone_to_cobbled_deepslate", 
     {
         ingredient: <item:minecraft:cobblestone>,
         result: <item:minecraft:cobbled_deepslate>.registryName,

@@ -154,3 +154,45 @@
       }
     }
   ]});
+
+  <recipetype:ilikewood:sawmilling>.addJsonRecipe("tree_extractor",
+{"type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ilikewood"
+        }
+      ],
+      "recipe": {
+        "type": "ilikewood:sawmilling",
+        "ingredient": {
+          "item": "minecraft:oak_log"
+        },
+        "result": "thermal:device_tree_extractor",
+        "count":1
+      }
+    }
+  ]});
+
+<recipetype:ilikewood:sawmilling>.addJsonRecipe("chest",
+{"type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ilikewood"
+        }
+      ],
+      "recipe": {
+        "type": "ilikewood:sawmilling",
+        "ingredient": {
+          "item": "minecraft:oak_log"
+        },
+        "result": "minecraft:chest",
+        "count":1
+      }
+    }
+  ]});
