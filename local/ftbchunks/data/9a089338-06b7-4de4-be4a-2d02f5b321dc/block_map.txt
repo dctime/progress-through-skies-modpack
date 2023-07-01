@@ -1,8 +1,11 @@
 #52B53D minecraft:air
 #05F7C6 clickmachine:auto_clicker
+#32C230 mekanism:basic_logistical_transporter
+#23344A mekanism:basic_mechanical_pipe
 #4E5B9C tetra:basic_workbench
 #D02259 progressthroughskies:bedrock_gravel
 #7F8A04 minecraft:blast_furnace
+#913453 cyclic:breaker
 #FC842A minecraft:campfire
 #CF0EA2 occultism:candle_white
 #CC0363 chipped:carpenters_table
@@ -36,11 +39,14 @@
 #E187DD exnihilosequentia:oak_sieve
 #374FD3 minecraft:oak_slab
 #EA6753 cyclic:packager
+#675AB2 cyclic:placer
+#EA3611 minecraft:polished_deepslate
 #DF2185 tinyredstone:redstone_panel
 #721B63 minecraft:redstone_wire
 #2248CC occultism:sacrificial_bowl
 #DC7735 cyclic:solidifier
 #9B7494 cyclic:soundproofing
+#3B2C64 cyclic:soundproofing_ghost
 #7C5BEF occultism:spirit_fire
 #C283C5 exnihilosequentia:stone_barrel
 #2E9337 minecraft:stonecutter

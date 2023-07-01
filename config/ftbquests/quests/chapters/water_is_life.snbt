@@ -3,6 +3,7 @@
 	default_quest_shape: "diamond"
 	filename: "water_is_life"
 	group: "766CAEA53D3DA96F"
+	icon: "minecraft:oak_log"
 	id: "051133FFE0746AF3"
 	order_index: 1
 	quest_links: [ ]

@@ -3,12 +3,17 @@
 	default_quest_shape: "gear"
 	filename: "summoning_the_stones"
 	group: "54F41CD78FED2FED"
+	icon: "minecraft:cobblestone"
 	id: "409F69251BCF5A12"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["26965F1781593A04"]
+			description: [
+				"My Design :)"
+				"{image:modpackdctime:textures/misc/cobble_gen.png width:320 height:180 align:1}"
+			]
 			id: "05382F78CB0D7895"
 			tasks: [{
 				consume_items: true
@@ -142,18 +147,18 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0FE1960D6EF9A335"]
+			dependencies: ["3368E6C2DE338726"]
 			id: "6BBCE46BD88F42D3"
 			tasks: [{
 				id: "3CA6F507C77D4FFA"
 				item: "progressthroughskies:sand_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0FE1960D6EF9A335"]
+			dependencies: ["3368E6C2DE338726"]
 			id: "4AE526069B1DB386"
 			tasks: [{
 				id: "401350D27C6D8166"
@@ -164,7 +169,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["20F6112BF390DE79"]
+			dependencies: ["051133FFE0746AF3"]
 			id: "10B10CAA603F859E"
 			shape: "circle"
 			tasks: [
@@ -195,7 +200,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["20F6112BF390DE79"]
+			dependencies: ["051133FFE0746AF3"]
 			id: "495FD6ECAE464021"
 			shape: "circle"
 			tasks: [{
@@ -219,7 +224,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["20F6112BF390DE79"]
+			dependencies: ["051133FFE0746AF3"]
 			id: "4E03AF61D26DF290"
 			shape: "circle"
 			tasks: [{
@@ -275,7 +280,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["20F6112BF390DE79"]
+			dependencies: ["051133FFE0746AF3"]
 			description: [
 				"Remember shifting or sprinting can speed up the growing process."
 				""
@@ -389,7 +394,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["20F6112BF390DE79"]
+			dependencies: ["051133FFE0746AF3"]
 			id: "6718829F7585BEAC"
 			shape: "circle"
 			tasks: [{
@@ -401,6 +406,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "57349C3FA04278E6"
 			shape: "circle"
 			tasks: [{
@@ -537,6 +543,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["0FE1960D6EF9A335"]
 			id: "0B896FA347CA2E45"
 			tasks: [{
 				id: "2420074F2B9C235E"
@@ -547,14 +554,51 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["0B896FA347CA2E45"]
 			id: "3368E6C2DE338726"
 			tasks: [{
 				id: "3838EA6CD18F8844"
 				item: "cyclic:breaker"
 				type: "item"
 			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3FFAD16A3BBEE644"]
+			id: "609CF1CDD4BF1B0C"
+			shape: "circle"
+			tasks: [{
+				id: "40176E766D0EC3DF"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["609CF1CDD4BF1B0C"]
+			id: "2F99A7A94FBAD79F"
+			shape: "circle"
+			tasks: [{
+				id: "50DD26E724AD019B"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0B896FA347CA2E45"]
+			id: "09B595B669E4566A"
+			shape: "circle"
+			tasks: [{
+				id: "28A2C33812FAE9E9"
+				item: "cyclic:soundproofing"
+				type: "item"
+			}]
 			x: -0.5d
-			y: -4.0d
+			y: -5.0d
 		}
 	]
 	title: "Summoning the Stones"

@@ -72,7 +72,7 @@
 				id: "672E42B67674F01E"
 				type: "checkmark"
 			}]
-			title: "Go to \"Water is life\" Chapter"
+			title: "Go to \"Water is Life\" Chapter"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -175,7 +175,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4F552F492BE6F86F"]
+			dependencies: [
+				"4F552F492BE6F86F"
+				"05382F78CB0D7895"
+			]
 			icon: {
 				Count: 1b
 				id: "emendatusenigmatica:enigmatic_hammer"
@@ -186,11 +189,11 @@
 			id: "3C17E472CB27FD04"
 			shape: "gear"
 			tasks: [{
-				id: "20F6112BF390DE79"
-				title: "Enable Example"
+				id: "2ED0EC9C4C67AA2D"
+				title: "Completed "
 				type: "checkmark"
 			}]
-			title: "Automation"
+			title: "Go to \"Summoning the Stones\" chapter"
 			x: 4.5d
 			y: 2.0d
 		}
