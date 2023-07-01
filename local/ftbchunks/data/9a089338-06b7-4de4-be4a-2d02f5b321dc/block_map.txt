@@ -25,6 +25,8 @@
 #38EE63 exnihilosequentia:infesting_leaves
 #4E69A2 trashcans:item_trash_can
 #83CED3 minecraft:lava
+#04388B trashcans:liquid_trash_can
+#9DA81C mekanism:logistical_sorter
 #565EEA chipped:mason_table
 #EB6C34 cyclic:melter
 #F24163 storagedrawers:oak_full_drawers_1
@@ -38,6 +40,7 @@
 #721B63 minecraft:redstone_wire
 #2248CC occultism:sacrificial_bowl
 #DC7735 cyclic:solidifier
+#9B7494 cyclic:soundproofing
 #7C5BEF occultism:spirit_fire
 #C283C5 exnihilosequentia:stone_barrel
 #2E9337 minecraft:stonecutter

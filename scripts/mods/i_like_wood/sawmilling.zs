@@ -150,7 +150,7 @@
           "item": "minecraft:oak_log"
         },
         "result": "minecraft:oak_slab",
-        "count":2
+        "count":8
       }
     }
   ]});

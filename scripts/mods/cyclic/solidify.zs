@@ -16,7 +16,7 @@
 	],
 	"energy": {
 		"rfpertick": 0,
-		"ticks": 200
+		"ticks": 30
 	},
 	"mix": {
 		"fluid": "minecraft:lava",

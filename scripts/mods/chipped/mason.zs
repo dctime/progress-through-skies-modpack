@@ -3,7 +3,9 @@ import crafttweaker.api.item.IItemStack;
 var polished_andesite_machine =
 [
     <item:minecraft:polished_andesite>,
-    <item:cyclic:collector>
+    <item:cyclic:collector>,
+    <item:cyclic:breaker>,
+    <item:cyclic:placer>
 ] as IItemStack[];
 
 var polished_deepslate_machine =
@@ -14,6 +16,7 @@ var polished_deepslate_machine =
 
 var cobblestone_machine =
 [
+    <item:minecraft:cobblestone>,
     <item:trashcans:item_trash_can>,
     <item:trashcans:liquid_trash_can>,
     <item:trashcans:energy_trash_can>,
