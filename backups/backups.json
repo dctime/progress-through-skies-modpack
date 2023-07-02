@@ -2,19 +2,6 @@
   "backups": [
     {
       "worldName": "New World (1)",
-      "createTime": 1688193000442,
-      "backupLocation": "C:\\Users\\danie\\curseforge\\minecraft\\Instances\\Progress Through Skies\\backups\\2023-7-1_14-30-0.zip",
-      "size": 0,
-      "ratio": 0.18712625,
-      "sha1": "88f7b72ae22248596be98f18373d7ec87d10250e",
-      "preview": "",
-      "snapshot": false,
-      "backupName": "automated",
-      "backupFormat": "ZIP",
-      "complete": true
-    },
-    {
-      "worldName": "New World (1)",
       "createTime": 1688194800228,
       "backupLocation": "C:\\Users\\danie\\curseforge\\minecraft\\Instances\\Progress Through Skies\\backups\\2023-7-1_15-0-0.zip",
       "size": 0,
@@ -59,6 +46,19 @@
       "size": 0,
       "ratio": 0.18649128,
       "sha1": "db83f9b6aed52929636178fc44c5ea6559fca80c",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "New World (1)",
+      "createTime": 1688299200848,
+      "backupLocation": "C:\\Users\\danie\\curseforge\\minecraft\\Instances\\Progress Through Skies\\backups\\2023-7-2_20-0-0.zip",
+      "size": 0,
+      "ratio": 0.19323269,
+      "sha1": "ebdc737ee43690bc39d3369b06b667183fe30c31",
       "preview": "",
       "snapshot": false,
       "backupName": "automated",
