@@ -19,6 +19,12 @@ var storage_upgrade =
     <item:minecraft:oak_slab>
 ] as IItemStack[];
 
+var log_machine =
+[
+    <item:thermal:device_tree_extractor>,
+    <item:minecraft:oak_log>
+] as IItemStack[];
+
 for item in wooden_storage_block
 {
     <tag:items:forge:wooden_storage_block>.add(item);
@@ -30,6 +36,11 @@ for item in storage_upgrade
     <tag:items:forge:storage_upgrade>.add(item);
 }
 
+for item in log_machine
+{
+    <tag:items:forge:log_machine>.add(item);
+}
+
 <recipetype:chipped:carpenters_table>.removeAll();
 
 <recipetype:chipped:carpenters_table>.addJsonRecipe("carpenter_table",
@@ -38,7 +49,8 @@ for item in storage_upgrade
         "tags": 
         [
             "forge:wooden_storage_block",
-            "forge:storage_upgrade"
+            "forge:storage_upgrade",
+            "forge:log_machine"
         ]
     }
 );
