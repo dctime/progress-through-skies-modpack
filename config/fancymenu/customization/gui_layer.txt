@@ -270,23 +270,6 @@ customization {
 }
 
 customization {
-  orientation = top-left
-  audio_source:2b111c2c-fcf5-448b-8002-125caa6f64ae1688306331095 = fancymenu_data/sounds/menu1.ogg;EXTERNAL_LOCAL;100;0
-  channel = music
-  audio_source:a05ff01b-7098-42e8-9a45-b8c0bc33aeab1688306450977 = fancymenu_data/sounds/menu2.ogg;EXTERNAL_LOCAL;100;0
-  loop = true
-  x = 11
-  width = 50
-  audio_source:503d24dd-6d2d-49f6-9221-1ba00b91b1f01688306460859 = fancymenu_data/sounds/menu3.ogg;EXTERNAL_LOCAL;100;0
-  action = custom_layout_element:fancymenu_extension:audio_item
-  actionid = fdd66898-66a1-438e-bc71-eecaced587e31688306316858
-  y = 70
-  audio_source:e0c25d84-f410-4a7d-8eb4-88b10ba0d42c1688306469455 = fancymenu_data/sounds/menu4.ogg;EXTERNAL_LOCAL;100;0
-  once_per_session = false
-  height = 50
-}
-
-customization {
   path = fancymenu_data/logistic_sorter.png
   orientation = top-right
   x = -284
@@ -317,5 +300,22 @@ customization {
   actionid = 1953ebda-f3d7-4f73-ba1e-cc369205b66d1688306786157
   y = 68
   height = 17
+}
+
+customization {
+  audio_source:279c89ab-7691-42a0-8e7c-36ca97afc6831688312419856 = fancymenu_data/sounds/menu1.ogg;EXTERNAL_LOCAL;100;0
+  orientation = top-left
+  audio_source:e3047b07-b01c-4fe1-a923-d42f1de0c59f1688312440767 = fancymenu_data/sounds/menu4.ogg;EXTERNAL_LOCAL;100;0
+  channel = music
+  audio_source:00293f7c-0fea-4d2b-8ab4-babc9e778d1c1688312433903 = fancymenu_data/sounds/menu3.ogg;EXTERNAL_LOCAL;100;0
+  loop = true
+  x = 62
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = e8d9c694-7a30-4219-bebb-20edd910e5ba1688312415797
+  y = 70
+  once_per_session = false
+  audio_source:16a3fa93-4e27-4308-8d25-358ca9b098e21688312427086 = fancymenu_data/sounds/menu2.ogg;EXTERNAL_LOCAL;100;0
+  height = 50
 }
 

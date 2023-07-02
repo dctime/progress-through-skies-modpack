@@ -7,127 +7,127 @@
             {
                 "name": "music/game/an_ordinary_day",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/ancestry",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/calm1",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/calm2",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/calm3",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/comforting_memories",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/floating_dream",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/hal1",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/hal2",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/hal3",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/hal4",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/infinite_amethyst",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/left_to_bloom",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/nuance1",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/nuance2",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/one_more_day",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/piano1",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/piano2",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/piano3",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/stand_tall",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             },
             {
                 "name": "music/game/wending",
                 "stream": true,
-                "volume": 0.3,
+                "volume": 0.1,
                 "weight": 10000
             } 
         ]
