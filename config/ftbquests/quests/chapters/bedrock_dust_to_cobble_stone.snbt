@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2FE75340B2873C2B"]
+			description: ["It's dusted bedrock, while means that you can you can get a lot of dust from it."]
 			id: "2AF7CE9D5C0FB575"
 			subtitle: "Sneak hold right click on the dusted bedrock to get bedrock dust"
 			tasks: [{
@@ -22,6 +23,7 @@
 		}
 		{
 			dependencies: ["2AF7CE9D5C0FB575"]
+			description: ["The power of steve."]
 			id: "6CE107B223465D5E"
 			tasks: [{
 				id: "4A5600D09451C380"
@@ -33,6 +35,7 @@
 		}
 		{
 			dependencies: ["6CE107B223465D5E"]
+			description: ["Break bedrock gravel you made to have a chance to get sand dust, then combine these to get sand."]
 			id: "7304BD6C3EC9B0AF"
 			tasks: [{
 				id: "152A8AE6D73EBCC6"
@@ -44,6 +47,7 @@
 		}
 		{
 			dependencies: ["6CE107B223465D5E"]
+			description: ["Break bedrock gravel you made to have a chance to get gravel dust, then combine these to get sand."]
 			id: "4D7ABD89528033C9"
 			tasks: [{
 				id: "64EE65E548447369"
@@ -55,6 +59,7 @@
 		}
 		{
 			dependencies: ["4D7ABD89528033C9"]
+			description: ["Steve is very powerful."]
 			id: "13DFA25B11F091BB"
 			tasks: [{
 				id: "0928CA3C53C7FB69"
@@ -66,6 +71,7 @@
 		}
 		{
 			dependencies: ["7304BD6C3EC9B0AF"]
+			description: ["Steve is very powerful."]
 			id: "069E5DDB10C37CA6"
 			tasks: [{
 				id: "0E48EC8FA296B804"
@@ -80,6 +86,7 @@
 				"13DFA25B11F091BB"
 				"069E5DDB10C37CA6"
 			]
+			description: ["Now craft cobblestone by using the strong force of the steve's hand."]
 			id: "4497CD8B64389408"
 			subtitle: "Collect reward at welcome page"
 			tasks: [{

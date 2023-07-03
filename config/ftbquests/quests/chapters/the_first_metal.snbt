@@ -8,92 +8,145 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "506EBC7FECF05AD2"
-			tasks: [
-				{
-					id: "0B21B5BE7D3E44BC"
-					item: "exnihilosequentia:oak_sieve"
-					type: "item"
+			id: "10819B167A2936B5"
+			tasks: [{
+				id: "4C42BA05ECBA0263"
+				item: {
+					Count: 1b
+					id: "chiselsandbits:chisel_stone"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					id: "221038A323912805"
-					item: "exnihilosequentia:string_mesh"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			id: "74B00AF720F1259A"
-			tasks: [{
-				id: "12885D85A7493FB1"
-				item: "mekanism:clump_copper"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "4E378D486FFC0C8A"
-			tasks: [{
-				id: "38E4592D6F02893B"
-				item: "minecraft:string"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			id: "5D4F7A861CC3FC3C"
-			tasks: [{
-				id: "5F331A962EAD5C81"
-				item: "mekanism:shard_copper"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			id: "7AE1914399D2B8BF"
-			tasks: [{
-				id: "4773CA275FAB56DD"
-				item: "mekanism:dirty_dust_copper"
 				type: "item"
 			}]
 			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "283B3564A5B6E01E"
+			tasks: [{
+				id: "00DBD9DF4F2F386A"
+				item: {
+					Count: 1b
+					id: "chiselsandbits:block_bit"
+					tag: {
+						block_information: {
+							state: "{\"Name\":\"minecraft:cobblestone\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "11B8673E1BF0B1D4"
+			tasks: [{
+				id: "25726B9AC19BA8A6"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "150FF9B23EE4E72D"
+			tasks: [{
+				id: "4A2E4B3A3E58C649"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22202E279655A5E6"]
+			id: "2F964135D9F27DA8"
+			tasks: [{
+				id: "424B005947A2ECE2"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "5BDADFBA9E1160BB"
+			tasks: [{
+				id: "39F9A9BC80AAEC41"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 0.0d
 		}
 		{
-			id: "0A28A32A1535B3BB"
+			id: "56D604C340CEA267"
 			tasks: [{
-				id: "35D21F66CD6F2A6A"
-				item: "minecraft:furnace"
+				id: "2C5F752B9CC14E7A"
+				item: "create:andesite_scaffolding"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "7ACAF602249E9810"
+			tasks: [{
+				id: "556F3311824D3515"
+				item: "minecraft:dark_oak_planks"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "4FF9F72154108A02"
+			tasks: [{
+				id: "654DA2C791C2FCD9"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: -1.5d
 			y: -1.5d
 		}
 		{
-			id: "7CEF7DCE3C82D6F4"
+			id: "22202E279655A5E6"
 			tasks: [{
-				id: "1D5C39837384F8E6"
-				item: "farmersdelight:cutting_board"
+				id: "4774AE849D9CD75D"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
-			id: "0E0C7F223277225A"
-			shape: "circle"
+			id: "20B0E40151AE6716"
 			tasks: [{
-				id: "487A5E14CB08F1C4"
-				item: "minecraft:white_bed"
+				id: "1D05759F65C12253"
+				item: "immersiveengineering:workbench"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "47245D95065E1E14"
+			tasks: [{
+				id: "5E29975AD427EE5C"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
 		}
 	]
 	title: "The First Metal[WIP]"

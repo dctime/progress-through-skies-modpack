@@ -1,0 +1,13 @@
+// 1.19.2	2023-07-03T22:33:43.0735926	EE Mekanism Addon Recipes
+5fff955bab79fc05f9cdaab8cfea7910a24b33b7 data/emendatusenigmatica/recipes/clump/from_raw/copper.json
+10c01cff3e6e6d3da35cb7aa503d0606b2282606 data/emendatusenigmatica/recipes/clump/from_raw_block/copper.json
+9d906c05f6e80877e7fb6c114e318b2a7c34c3be data/emendatusenigmatica/recipes/clump/from_shard/copper.json
+a072ece99f75d430db64762cc40f76917aa5821b data/emendatusenigmatica/recipes/crystal/from_slurry/copper.json
+909842415b96acf2447d618f7c4bf5591de71cb9 data/emendatusenigmatica/recipes/dirty_dust/from_clump/copper.json
+de3df40edf40262e5da4db9d05b205b59fc7f4b4 data/emendatusenigmatica/recipes/dust/from_dirty_dust/copper.json
+424626b9b3cd7d72006ae9de0ec8f99f93399c94 data/emendatusenigmatica/recipes/shard/from_crystal/copper.json
+464df4c8b9c84da515668c99033d603c450739b5 data/emendatusenigmatica/recipes/shard/from_raw/copper.json
+a9880cfef7ef38d9853a2d571cee73bf90f4446d data/emendatusenigmatica/recipes/shard/from_raw_block/copper.json
+70b13cf6baaa619cbe159e6b155f2406da526733 data/emendatusenigmatica/recipes/slurry/clean/copper.json
+6d31ac4b0d12ac93e2d5f6521feac41734a4dcc6 data/emendatusenigmatica/recipes/slurry/dirty/from_raw/copper.json
+9536e2e423fc3f14f49ec31a4fe7435caf1a3558 data/emendatusenigmatica/recipes/slurry/dirty/from_raw_block/copper.json

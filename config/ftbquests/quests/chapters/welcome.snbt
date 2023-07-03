@@ -13,10 +13,9 @@
 				""
 				"Do you know that you blow up a black hole bomb and now everything is vaporized."
 				""
-				"&e&nGood Luck :)&r&r"
+				"Now go to the first quest chapter on the left hand side. &e&nGood Luck :)&r&r"
 				""
 				"Oh I added lots of visual and sound ASMR :)"
-				"Don't you like synthwave? Well, you can turn the music volume off if you want..."
 			]
 			id: "2FE75340B2873C2B"
 			shape: "gear"
@@ -36,6 +35,7 @@
 				"2FE75340B2873C2B"
 				"0DB8DB559670837F"
 			]
+			description: ["First, you need to know how to turn bedrock into easy to process cobblestone."]
 			icon: "minecraft:cobblestone"
 			id: "21306D08E892BE86"
 			rewards: [{
@@ -59,6 +59,7 @@
 				"21306D08E892BE86"
 				"051133FFE0746AF3"
 			]
+			description: ["Wood is much easier to change its shape compare to stone."]
 			icon: "minecraft:oak_log"
 			id: "4F552F492BE6F86F"
 			rewards: [{
@@ -86,12 +87,13 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			title: "WIP Copper"
+			title: "WIP"
 			x: 6.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["314FCD5C93EFA7F9"]
+			description: ["Well, you will going to make several wooden hammers. You can't make tools in crafting tables."]
 			id: "7AAA6F85BDE0E95D"
 			shape: "circle"
 			subtitle: "Crafting Tables are just crafting ingredients"
@@ -131,7 +133,11 @@
 		}
 		{
 			dependencies: ["314FCD5C93EFA7F9"]
-			description: ["{image:modpackdctime:textures/misc/campfire_cooking.png width:160 height:100 align:1 fit:true}"]
+			description: [
+				"Ha you cant craft torches in this modpack. Torches are too OP."
+				""
+				"{image:modpackdctime:textures/misc/campfire_cooking.png width:160 height:100 align:1 fit:true}"
+			]
 			id: "47D3E229BBD4DC14"
 			shape: "circle"
 			subtitle: "Light source and food source"
@@ -152,6 +158,7 @@
 		}
 		{
 			dependencies: ["4F552F492BE6F86F"]
+			description: ["We need it to process wood."]
 			id: "314FCD5C93EFA7F9"
 			shape: "circle"
 			tasks: [{
@@ -164,9 +171,10 @@
 		}
 		{
 			dependencies: ["4F552F492BE6F86F"]
+			description: ["Working without sleeping is very bad for health."]
 			id: "445756FDEAEC49AB"
 			shape: "circle"
-			subtitle: "Remember the silk worm"
+			subtitle: "Remember the silk worm will do something to the leaves."
 			tasks: [{
 				id: "0BF0A27FE87445B8"
 				item: "minecraft:white_bed"
@@ -180,6 +188,7 @@
 				"4F552F492BE6F86F"
 				"05382F78CB0D7895"
 			]
+			description: ["Next we need to get some precious materials from stone. But first, you'll gonna need a lot of stone."]
 			icon: {
 				Count: 1b
 				id: "emendatusenigmatica:enigmatic_hammer"
@@ -191,7 +200,6 @@
 			shape: "gear"
 			tasks: [{
 				id: "2ED0EC9C4C67AA2D"
-				title: "Completed "
 				type: "checkmark"
 			}]
 			title: "Go to \"Summoning the Stones\" chapter"
@@ -200,6 +208,7 @@
 		}
 		{
 			dependencies: ["314FCD5C93EFA7F9"]
+			description: ["Don't ask me why there are no oak planks."]
 			id: "79502FE85639B614"
 			shape: "circle"
 			subtitle: "Expand your base with cheap halfslab"
@@ -213,22 +222,62 @@
 		}
 		{
 			dependencies: ["314FCD5C93EFA7F9"]
+			description: ["A simple storage to store your garbage."]
 			id: "172E33282C9D6485"
 			shape: "circle"
-			tasks: [
-				{
-					id: "02337BA9E154CFD0"
-					item: "minecraft:chest"
-					type: "item"
-				}
-				{
-					id: "036F7EA6BE301F0D"
-					item: "storagedrawers:oak_full_drawers_1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02337BA9E154CFD0"
+				item: "minecraft:chest"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			icon: "minecraft:oak_sign"
+			id: "43321EF9318ED9B2"
+			shape: "circle"
+			subtitle: "Remember, JEI is installed."
+			tasks: [{
+				id: "474C5588B270FD18"
+				type: "checkmark"
+			}]
+			title: "JEI"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F2D090CC226DF58"
+			shape: "circle"
+			subtitle: "Ulitimine is OP."
+			tasks: [{
+				id: "7241ADCFCEBBD2AB"
+				type: "checkmark"
+			}]
+			title: "FTB Ultimine"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Don't you like synthwave? Well, you can turn the music volume off if you want..."]
+			icon: "minecraft:note_block"
+			id: "12EAC9D3695ED4E5"
+			shape: "circle"
+			subtitle: "I love it! How about you?"
+			tasks: [{
+				id: "6707DBC2E1BBF743"
+				type: "checkmark"
+			}]
+			title: "Synthwave!"
+			x: -2.5d
+			y: 0.0d
 		}
 	]
 	title: "Welcome!"

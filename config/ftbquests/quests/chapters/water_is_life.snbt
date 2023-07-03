@@ -10,7 +10,9 @@
 	quests: [
 		{
 			dependencies: ["0D955AF98A83DE0A"]
+			description: ["God, there is no water here. (Showing it sand and gravel)"]
 			id: "5C3B5D7DEFF83474"
+			subtitle: "Place the barrel to collect water from rain."
 			tasks: [{
 				id: "42AC61CE97B0FA2C"
 				item: "progressthroughskies:rain_wand"
@@ -21,7 +23,7 @@
 		}
 		{
 			dependencies: ["0DB8DB559670837F"]
-			description: [""]
+			description: ["A barrel should have 5 sides..."]
 			id: "0D955AF98A83DE0A"
 			subtitle: "Well I tried my best to make the stone barrel recipe xd"
 			tasks: [{
@@ -34,6 +36,7 @@
 		}
 		{
 			dependencies: ["0DB8DB559670837F"]
+			description: ["Sticky stuff."]
 			id: "7FC063C25B05920B"
 			tasks: [{
 				id: "00BED074F913BF42"
@@ -48,6 +51,7 @@
 				"7FC063C25B05920B"
 				"5C3B5D7DEFF83474"
 			]
+			description: ["Sticky stuff with grass on it."]
 			id: "5A7D3AD2FC61F53B"
 			tasks: [{
 				id: "2A33B1A101C3F5AF"
@@ -71,6 +75,7 @@
 		}
 		{
 			dependencies: ["12E3643E6BDD1750"]
+			description: ["It's wood, it's LIFE, baby!"]
 			id: "5A138AA24943076A"
 			subtitle: "Collect reward at welcome page"
 			tasks: [{

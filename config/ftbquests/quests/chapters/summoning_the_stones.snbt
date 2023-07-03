@@ -15,6 +15,7 @@
 				"{image:modpackdctime:textures/misc/cobble_gen.png width:320 height:180 align:1}"
 			]
 			id: "05382F78CB0D7895"
+			subtitle: "Finally :) Collect reward at the home page."
 			tasks: [{
 				consume_items: true
 				count: 2048L
@@ -58,7 +59,11 @@
 				"07516D56DCACC1E7"
 			]
 			description: [
-				"If you want to stop rewiewing the hologram, place the hologram and click the task that you accidently clicked again."
+				"Click the \"build structure\" task to start placing your hologram."
+				""
+				"After that, right click somewhere to place the hologram and start building the structure."
+				""
+				"If you want to stop rewiewing the hologram, click the \"build structure task\"."
 				""
 				"Ignore the error of different drawing that you draw on the ground."
 				""
@@ -90,6 +95,7 @@
 		{
 			dependencies: ["1C0CBD6283D68182"]
 			id: "0FE1960D6EF9A335"
+			subtitle: "Spam right click with the clicker."
 			tasks: [{
 				id: "45659772A1DC41CD"
 				item: "progressthroughskies:bedrock_dust"
@@ -101,6 +107,7 @@
 		{
 			dependencies: ["180D27B4B190913A"]
 			id: "24B2C4D614406D59"
+			subtitle: "Get lava"
 			tasks: [{
 				id: "6D367A0DEF71119F"
 				item: "cyclic:melter"
@@ -116,6 +123,7 @@
 				"2E423599175E4878"
 			]
 			id: "26965F1781593A04"
+			subtitle: "A powerful cobblegen"
 			tasks: [{
 				id: "48734314C45416C3"
 				item: "cyclic:solidifier"
@@ -127,6 +135,7 @@
 		{
 			dependencies: ["2E070AD612936786"]
 			id: "180D27B4B190913A"
+			subtitle: "Behaves like gravel."
 			tasks: [{
 				id: "468FEC48FC534614"
 				item: "progressthroughskies:bedrock_gravel"
@@ -138,6 +147,7 @@
 		{
 			dependencies: ["0FE1960D6EF9A335"]
 			id: "2E070AD612936786"
+			subtitle: "Package bedrock dust into bedrock gravel."
 			tasks: [{
 				id: "4EB0E0143F834A5F"
 				item: "cyclic:packager"
@@ -149,6 +159,7 @@
 		{
 			dependencies: ["3368E6C2DE338726"]
 			id: "6BBCE46BD88F42D3"
+			subtitle: "Use collector to collect it."
 			tasks: [{
 				id: "3CA6F507C77D4FFA"
 				item: "progressthroughskies:sand_dust"
@@ -160,6 +171,7 @@
 		{
 			dependencies: ["3368E6C2DE338726"]
 			id: "4AE526069B1DB386"
+			subtitle: "Use collector to collect it."
 			tasks: [{
 				id: "401350D27C6D8166"
 				item: "progressthroughskies:gravel_dust"
@@ -170,8 +182,10 @@
 		}
 		{
 			dependencies: ["051133FFE0746AF3"]
+			description: [""]
 			id: "10B10CAA603F859E"
 			shape: "circle"
+			subtitle: "Get precious materials from dusted stuff."
 			tasks: [
 				{
 					id: "1D33CBDD93F9352D"
@@ -189,8 +203,10 @@
 		}
 		{
 			dependencies: ["10B10CAA603F859E"]
+			description: [""]
 			id: "07516D56DCACC1E7"
 			shape: "circle"
+			subtitle: "Shiny."
 			tasks: [{
 				id: "5AECF3B9478B1F44"
 				item: "minecraft:amethyst_shard"
@@ -201,8 +217,10 @@
 		}
 		{
 			dependencies: ["051133FFE0746AF3"]
+			description: [""]
 			id: "495FD6ECAE464021"
 			shape: "circle"
+			subtitle: "Process stone by using this."
 			tasks: [{
 				id: "308C62CCA695C735"
 				item: "minecraft:stonecutter"
@@ -213,8 +231,10 @@
 		}
 		{
 			dependencies: ["495FD6ECAE464021"]
+			description: ["It still works as a original dispenser by the way."]
 			id: "2D464760737110A6"
 			shape: "circle"
+			subtitle: "It's just a crafting ingredient."
 			tasks: [{
 				id: "1E4B8317FFA3EA55"
 				item: "minecraft:dispenser"
@@ -225,8 +245,10 @@
 		}
 		{
 			dependencies: ["051133FFE0746AF3"]
+			description: ["Do you know that lime stone a kind of stone which is formed under the ocean water?"]
 			id: "4E03AF61D26DF290"
 			shape: "circle"
+			subtitle: "Another kind of stone."
 			tasks: [{
 				id: "6CF85FB639B0F50D"
 				item: "create:limestone"
@@ -237,8 +259,13 @@
 		}
 		{
 			dependencies: ["4E03AF61D26DF290"]
+			description: [
+				"Chalks are made of limestone."
+				"Erase by right clicking with the brush."
+			]
 			id: "2BEB3A43CCED0AF3"
 			shape: "circle"
+			subtitle: "Your drawing tool."
 			tasks: [
 				{
 					id: "7C188D43D05A698F"
@@ -262,8 +289,10 @@
 		}
 		{
 			dependencies: ["01D01071F06E7049"]
+			description: ["A item handle. You have to place items on the regular bowl first before you place stuff on the golden one."]
 			id: "2E6C6F976E146F54"
 			shape: "circle"
+			subtitle: "Where the item is going to be sacrificed."
 			tasks: [
 				{
 					id: "3F3FC0FC7D9904D1"
@@ -321,7 +350,7 @@
 			dependencies: ["6718829F7585BEAC"]
 			id: "50583D2AB3A56F72"
 			shape: "circle"
-			subtitle: "Use new bucket if doesn't match"
+			subtitle: "Use new bucket if the quest deny to submit."
 			tasks: [{
 				id: "1B21659640134890"
 				item: {
@@ -345,7 +374,7 @@
 			dependencies: ["50583D2AB3A56F72"]
 			id: "570C1835E379EE19"
 			shape: "circle"
-			subtitle: "Check the usage(JEI) of the wooden resin bucket, and use new bucket if it doesn't match."
+			subtitle: "Check the usage(JEI) of the wooden resin bucket, and use new bucket if it doesn't submit."
 			tasks: [{
 				id: "4DF99AB1DFC599D7"
 				item: {
@@ -371,8 +400,10 @@
 				"570C1835E379EE19"
 				"5AC0D25C41CA1ED7"
 			]
+			description: ["It got two inputs: 3 items slots and a fluid container. Item slots are shapeless. Check JEI for more information."]
 			id: "379D9842170D6DF5"
 			shape: "circle"
+			subtitle: "Solidifies stuff"
 			tasks: [{
 				id: "30D780ED0ABFE3AD"
 				item: "cyclic:solidifier"
@@ -385,6 +416,7 @@
 			dependencies: ["379D9842170D6DF5"]
 			id: "01B771971FCC1685"
 			shape: "circle"
+			subtitle: "Make the atmosphere spooky."
 			tasks: [{
 				id: "0209D341426E2214"
 				item: "occultism:candle_white"
@@ -397,6 +429,7 @@
 			dependencies: ["051133FFE0746AF3"]
 			id: "6718829F7585BEAC"
 			shape: "circle"
+			subtitle: "Get it by sawmilling the log."
 			tasks: [{
 				id: "2F249654626156BE"
 				item: "thermal:device_tree_extractor"
@@ -407,8 +440,10 @@
 		}
 		{
 			dependencies: ["051133FFE0746AF3"]
+			description: [""]
 			id: "57349C3FA04278E6"
 			shape: "circle"
+			subtitle: "Burn something with fire."
 			tasks: [{
 				id: "0B1BEF4384A48A54"
 				item: "minecraft:furnace"
@@ -432,8 +467,10 @@
 		}
 		{
 			dependencies: ["57349C3FA04278E6"]
+			description: [""]
 			id: "4251DF6A1A4C1D37"
 			shape: "circle"
+			subtitle: "Another furnace that burns with higher temperture."
 			tasks: [{
 				id: "07FD02BA5D4D6204"
 				item: "minecraft:blast_furnace"
@@ -444,8 +481,10 @@
 		}
 		{
 			dependencies: ["01D01071F06E7049"]
+			description: ["It can be combine with wrenches in your crafting grid. When pointing at a modded block, it simply turns into the wrench which matches the mod which adds the block."]
 			id: "0B83BE41B58F9B28"
 			shape: "circle"
+			subtitle: "Super wrench."
 			tasks: [{
 				id: "6E03F7315A6C3BC0"
 				item: "morphtool:tool"
@@ -456,6 +495,7 @@
 		}
 		{
 			dependencies: ["5AC0D25C41CA1ED7"]
+			description: ["You should really check out how to use logistic sorters. No more thermal servo. :)"]
 			id: "3FFAD16A3BBEE644"
 			shape: "circle"
 			subtitle: "No worries, I have lower the sound of mekanism."
@@ -476,8 +516,10 @@
 		}
 		{
 			dependencies: ["0B83BE41B58F9B28"]
+			description: [""]
 			id: "328FE6CE34AAF517"
 			shape: "circle"
+			subtitle: "Mekanism's wrench."
 			tasks: [{
 				id: "37089A6D38E1BA4E"
 				item: "mekanism:configurator"
@@ -489,6 +531,7 @@
 		}
 		{
 			dependencies: ["0B83BE41B58F9B28"]
+			description: ["It's \"tiny\" redstone.  You will gonna need it to control the mekanism's logistic sorter."]
 			id: "13CFE74D758C3E7D"
 			shape: "circle"
 			subtitle: "Redstone is EE's dream"
@@ -520,6 +563,7 @@
 		{
 			dependencies: ["133271006E94A173"]
 			id: "1C0CBD6283D68182"
+			subtitle: "Collects items dropped in the world."
 			tasks: [{
 				id: "62A06DE3CC648DE8"
 				item: "cyclic:collector"
@@ -534,17 +578,19 @@
 				"3FFAD16A3BBEE644"
 			]
 			id: "7D306897C3469F5B"
+			subtitle: "ULTIMATE trash can"
 			tasks: [{
 				id: "2079C2B0C23A79A5"
 				item: "trashcans:ultimate_trash_can"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0FE1960D6EF9A335"]
 			id: "0B896FA347CA2E45"
+			subtitle: "places blocks in front of the machine"
 			tasks: [{
 				id: "2420074F2B9C235E"
 				item: "cyclic:placer"
@@ -556,6 +602,7 @@
 		{
 			dependencies: ["0B896FA347CA2E45"]
 			id: "3368E6C2DE338726"
+			subtitle: "Break blocks in front of the machine."
 			tasks: [{
 				id: "3838EA6CD18F8844"
 				item: "cyclic:breaker"
@@ -566,8 +613,10 @@
 		}
 		{
 			dependencies: ["3FFAD16A3BBEE644"]
+			description: [""]
 			id: "609CF1CDD4BF1B0C"
 			shape: "circle"
+			subtitle: "A new way to store items."
 			tasks: [{
 				id: "40176E766D0EC3DF"
 				item: "storagedrawers:oak_full_drawers_1"
@@ -580,6 +629,7 @@
 			dependencies: ["609CF1CDD4BF1B0C"]
 			id: "2F99A7A94FBAD79F"
 			shape: "circle"
+			subtitle: "Very cheap, convenient upgrades"
 			tasks: [{
 				id: "50DD26E724AD019B"
 				item: "storagedrawers:upgrade_template"
@@ -592,6 +642,7 @@
 			dependencies: ["0B896FA347CA2E45"]
 			id: "09B595B669E4566A"
 			shape: "circle"
+			subtitle: "Place it nearby the sound source to prevent breaking your ear drums."
 			tasks: [{
 				id: "28A2C33812FAE9E9"
 				item: "cyclic:soundproofing"

@@ -28,7 +28,7 @@
 	#Energy per operation tick (Joules).
 	chemicalInfuser = "200"
 	#Energy per operation tick (Joules).
-	chemicalInjectionChamber = "400"
+	chemicalInjectionChamber = "10"
 	#Energy per operation tick (Joules).
 	precisionSawmill = "50"
 	#Energy per operation tick (Joules).

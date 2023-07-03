@@ -1,0 +1,45 @@
+{
+    "id": "copper",
+    "source": "modded",
+    "localizedName": "Copper",
+    "processedTypes": [
+      "ingot",
+      "storage_block",
+      "nugget",
+      "raw",
+      "dust",
+      "plate",
+      "gear",
+      "rod",
+      "cluster",
+      "fluid",
+      "slurry",
+      "crystal",
+      "shard",
+      "clump",
+      "dirty_dust",
+      "gas",
+      "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "b87333",
+      "particlesColor": "b87333",
+      "materialColor": "b87333",
+      "gasColor":"b87333",
+      "oxidizationColor": "a4674c"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 1.5
+    }
+  }
