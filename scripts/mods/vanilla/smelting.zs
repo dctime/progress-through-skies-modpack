@@ -8,3 +8,12 @@ furnace.addJsonRecipe("cobblestone_to_cobbled_deepslate",
         cookingtime:10
     }
  );
+
+ furnace.addJsonRecipe("oak_log_to_dark_oak_log", 
+    {
+        ingredient: <item:minecraft:oak_log>,
+        result: <item:minecraft:dark_oak_log>.registryName,
+        experience: 0.35 as float,
+        cookingtime:10
+    }
+ );

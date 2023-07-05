@@ -96,3 +96,4 @@ craftingTable.addShaped("craft_carpenters_table", <item:chipped:carpenters_table
     [<item:minecraft:oak_slab>, <item:minecraft:oak_slab>],
     [<item:minecraft:stick>, <item:minecraft:stick>]
 ]);
+

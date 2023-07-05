@@ -1,16 +1,17 @@
-[14:38:08] [INFO ] server_scripts:script.js:3: Hello, World! (You will see this line every time server resources reload)
-[14:38:08] [INFO ] Loaded script server_scripts:script.js in 0.001 s
-[14:38:08] [INFO ] Loaded 1/1 KubeJS server scripts in 0.016 s
-[14:38:08] [INFO ] Scripts loaded
-[14:38:08] [INFO ] Scanning recipes...
-[14:38:25] [WARN ] Failed to parse recipe 'biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
-[14:38:25] [WARN ] Failed to parse recipe biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
-[14:38:25] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_redstone_wall_torch[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
-[14:38:25] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_fire[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
-[14:38:25] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_soul_fire[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
-[14:38:25] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_wall_torch[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
-[14:38:25] [INFO ] Found 17646 recipes and 4 failed recipes in 961.6 ms
-[14:38:25] [INFO ] Posted recipe events in 1.177 ms
-[14:38:26] [INFO ] Modified & removed recipes in 362.8 ms
-[14:38:26] [INFO ] Added recipes in 376.0 μs
-[14:38:26] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[19:44:26] [INFO ] server_scripts:script.js:3: Hello, World! (You will see this line every time server resources reload)
+[19:44:26] [INFO ] Loaded script server_scripts:script.js in 0.01 s
+[19:44:26] [INFO ] Loaded 1/1 KubeJS server scripts in 0.042 s
+[19:44:26] [INFO ] Scripts loaded
+[19:44:26] [INFO ] Scanning recipes...
+[19:44:31] [WARN ] Failed to parse recipe 'biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+[19:44:31] [WARN ] Failed to parse recipe biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+[19:44:31] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_soul_fire[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
+[19:44:31] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_lava[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
+[19:44:31] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_redstone_wall_torch[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
+[19:44:31] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_fire[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
+[19:44:32] [WARN ] Failed to parse recipe 'exnihilosequentia:heat/ens_wall_torch[exnihilosequentia:heat]'! Falling back to vanilla: java.util.NoSuchElementException: No value present
+[19:44:32] [INFO ] Found 23348 recipes and 5 failed recipes in 1.630 s
+[19:44:32] [INFO ] Posted recipe events in 1.963 ms
+[19:44:32] [INFO ] Modified & removed recipes in 671.9 ms
+[19:44:32] [INFO ] Added recipes in 8.700 μs
+[19:44:32] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

@@ -4,3 +4,4 @@ stoneCutter.addRecipe("dispenser", <item:minecraft:dispenser>, <item:compressium
 stoneCutter.addRecipe("furnace", <item:minecraft:furnace>, <item:compressium:cobblestone_1>);
 
 stoneCutter.addRecipe("blast_furnace", <item:minecraft:blast_furnace>, <item:minecraft:polished_deepslate>);
+stoneCutter.addRecipe("craft_basin", <item:create:basin>, <item:minecraft:polished_blackstone>);

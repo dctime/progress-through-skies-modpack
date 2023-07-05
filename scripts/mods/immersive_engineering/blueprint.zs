@@ -26,3 +26,23 @@ import mods.immersiveengineering.Blueprint;
         }
     }
 );
+
+<recipetype:immersiveengineering:blueprint>.addJsonRecipe("craft_encased_fan",
+    {
+        "type": "immersiveengineering:blueprint",
+        "category": "components",
+        "inputs": 
+        [
+            {
+                "item": "create:andesite_casing"
+            },
+            {
+                "item": "ad_astra:engine_fan"
+            }
+        ],
+        "result": 
+        {
+            "item": "create:encased_fan"
+        }
+    }
+);

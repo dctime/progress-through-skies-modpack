@@ -35,3 +35,21 @@
         ]
     }
 );
+
+<recipetype:create:sandpaper_polishing>.addJsonRecipe("polish_blackstone",
+    {
+        "type": "create:sandpaper_polishing",
+        "ingredients": 
+        [
+            {
+                "item": "chipped:cobbled_blackstone"
+            }
+        ],
+        "results": 
+        [
+            {
+                "item": "minecraft:polished_blackstone"
+            }
+        ]
+    }
+);

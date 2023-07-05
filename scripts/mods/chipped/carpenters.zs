@@ -25,6 +25,13 @@ var log_machine =
     <item:minecraft:oak_log>
 ] as IItemStack[];
 
+var cog_wheels =
+[
+    <item:create:shaft>,
+    <item:create:cogwheel>,
+    <item:create:large_cogwheel>
+] as IItemStack[];
+
 for item in wooden_storage_block
 {
     <tag:items:forge:wooden_storage_block>.add(item);
@@ -41,6 +48,11 @@ for item in log_machine
     <tag:items:forge:log_machine>.add(item);
 }
 
+for item in cog_wheels
+{
+    <tag:items:forge:cog_wheels>.add(item);
+}
+
 <recipetype:chipped:carpenters_table>.removeAll();
 
 <recipetype:chipped:carpenters_table>.addJsonRecipe("carpenter_table",
@@ -50,7 +62,8 @@ for item in log_machine
         [
             "forge:wooden_storage_block",
             "forge:storage_upgrade",
-            "forge:log_machine"
+            "forge:log_machine",
+            "forge:cog_wheels"
         ]
     }
 );

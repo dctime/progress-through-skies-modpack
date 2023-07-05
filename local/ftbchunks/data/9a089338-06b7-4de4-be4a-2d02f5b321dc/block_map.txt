@@ -1,5 +1,6 @@
 #52B53D minecraft:air
 #E76FC6 pneumaticcraft:air_compressor
+#A4683B create:andesite_casing
 #89AB26 create:andesite_scaffolding
 #9D292C botania:apothecary_default
 #05F7C6 clickmachine:auto_clicker
@@ -8,7 +9,9 @@
 #32C230 mekanism:basic_logistical_transporter
 #23344A mekanism:basic_mechanical_pipe
 #4E5B9C tetra:basic_workbench
+#E152BD create:basin
 #D02259 progressthroughskies:bedrock_gravel
+#DBAA89 chiselsandbits:bit_storage
 #7F8A04 minecraft:blast_furnace
 #FFC34F mekanism:bounding_block
 #913453 cyclic:breaker
@@ -22,8 +25,10 @@
 #6E4E7A chiselsandbits:chiseledrock
 #504168 ic2:chunkloader
 #9EC980 immersiveengineering:circuit_table
+#0D6E43 chipped:cobbled_blackstone
 #2848C0 minecraft:cobbled_deepslate
 #058353 minecraft:cobblestone
+#B76D44 create:cogwheel
 #531031 immersiveengineering:coke_oven
 #7E82C3 immersiveengineering:cokebrick
 #6CDEF4 cyclic:collector
@@ -39,6 +44,7 @@
 #517451 progressthroughskies:dusted_bedrock
 #FDB3B3 kubejs:dusted_water
 #225317 ic2:electric_blast_furnace
+#8ECC79 assemblylinemachines:electric_grinder
 #688996 pneumaticcraft:electrostatic_compressor
 #009B14 minecraft:farmland
 #8F3A54 industrialforegoing:fermentation_station
@@ -47,6 +53,8 @@
 #C34942 occultism:golden_sacrificial_bowl
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
+#87B5C3 create:hand_crank
+#04EF85 create:haunted_bell
 #0DDEDC exnihilosequentia:infested_leaves
 #38EE63 exnihilosequentia:infesting_leaves
 #4E69A2 trashcans:item_trash_can
@@ -54,10 +62,12 @@
 #83CED3 minecraft:lava
 #04388B trashcans:liquid_trash_can
 #9DA81C mekanism:logistical_sorter
+#B3761E thermal:machine_crafter
 #F80505 thermal:machine_pyrolyzer
 #565EEA chipped:mason_table
 #5BD5E4 industrialforegoing:material_stonework_factory
 #839E5A integrateddynamics:mechanical_drying_basin
+#E638FD create:mechanical_mixer
 #EB6C34 cyclic:melter
 #52E3AF minecraft:mud
 #7530C9 electrodynamics:multisubnode
@@ -71,6 +81,7 @@
 #EA6753 cyclic:packager
 #57A2E9 mekanism:painting_machine
 #675AB2 cyclic:placer
+#274219 minecraft:polished_blackstone_pressure_plate
 #EA3611 minecraft:polished_deepslate
 #5F0D54 mekanism:pressurized_reaction_chamber
 #DF2185 tinyredstone:redstone_panel
@@ -81,13 +92,16 @@
 #815EB2 mekanismgenerators:solar_generator
 #7D61FE powah:solar_panel_nitro
 #6A06B7 powah:solar_panel_starter
+#DAA5F9 ic2:solar_turbine
 #DC7735 cyclic:solidifier
 #9B7494 cyclic:soundproofing
 #3B2C64 cyclic:soundproofing_ghost
+#D665ED occultism:spirit_attuned_crystal
 #7C5BEF occultism:spirit_fire
 #4AFD83 industrialforegoing:spores_recreator
 #C283C5 exnihilosequentia:stone_barrel
 #2E9337 minecraft:stonecutter
+#A061A1 botania:stripped_dreamwood_log
 #3CE0C1 pneumaticcraft:thermopneumatic_processing_plant
 #28EC0F chipped:tinkering_table
 #8E5C2B mekanism:ultimate_injecting_factory
