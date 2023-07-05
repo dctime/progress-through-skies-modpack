@@ -1,5 +1,6 @@
 minecraft:overworld
-minecraft:the_nether
+assemblylinemachines:chaos_plane
 minecraft:the_end
+minecraft:the_nether
 compactmachines:compact_world
 ae2:spatial_storage

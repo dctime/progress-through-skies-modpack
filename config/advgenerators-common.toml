@@ -197,3 +197,10 @@
 			#Range: > 1
 			Capacity = 25000000
 
+[Integration]
+
+	[Integration.IC2C]
+		#EU per FE Ratio
+		#Range: 0.0 ~ 10.0
+		Ratio = 0.25
+

@@ -48,8 +48,8 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			id: "150FF9B23EE4E72D"
@@ -58,8 +58,8 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["22202E279655A5E6"]
@@ -79,8 +79,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "56D604C340CEA267"
@@ -89,28 +89,8 @@
 				item: "create:andesite_scaffolding"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			id: "7ACAF602249E9810"
-			tasks: [{
-				id: "556F3311824D3515"
-				item: "minecraft:dark_oak_planks"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			id: "4FF9F72154108A02"
-			tasks: [{
-				id: "654DA2C791C2FCD9"
-				item: "minecraft:oak_planks"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			id: "22202E279655A5E6"
@@ -139,14 +119,144 @@
 			y: 0.5d
 		}
 		{
-			id: "47245D95065E1E14"
+			id: "39BD8F9F2431F4AC"
 			tasks: [{
-				id: "5E29975AD427EE5C"
-				item: "immersiveengineering:craftingtable"
+				id: "6796F4E039DB3E1A"
+				item: "create:cogwheel"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "737910FDFA7B03B6"
+			tasks: [{
+				id: "5161992B24AB4C3C"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "41D877A038584E06"
+			tasks: [{
+				id: "741A01C564E7A9D9"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "393F064655A983FE"
+			tasks: [{
+				id: "291847AC95F0F29D"
+				item: "create:piston_extension_pole"
+				type: "item"
+			}]
+			x: 2.0d
 			y: -0.5d
+		}
+		{
+			id: "76E5D840FD584D35"
+			tasks: [{
+				id: "5C0729A0825C4214"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "0DA16EDC533118B6"
+			tasks: [{
+				id: "7B7220D375048BA0"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "2F7D92B07C1CC11E"
+			tasks: [{
+				id: "0CA54DC44D548A7E"
+				item: "emendatusenigmatica:copper_nugget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "0FB5E3CFDC40C7C1"
+			tasks: [{
+				id: "4509C3DC83B36659"
+				item: "emendatusenigmatica:copper_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "7F09A1A4646E402A"
+			tasks: [{
+				id: "6B7FDDB0DF6F8B63"
+				item: "integrateddynamics:mechanical_drying_basin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "52176C61FD20AFC1"
+			tasks: [{
+				id: "3A655C6AEBBFC84C"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "39371F05FD56B3CE"
+			tasks: [{
+				id: "451154B95E82DCC2"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "progressthroughskies:dusted_water_fluid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "37A27C547ECBCBA8"
+			tasks: [{
+				id: "46F8C3C696E47326"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "24DABD96D407FD57"
+			tasks: [{
+				id: "27D5B448C29FBD5C"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
 		}
 	]
 	title: "The First Metal[WIP]"

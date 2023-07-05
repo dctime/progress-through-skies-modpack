@@ -4,6 +4,9 @@ minecraft:basalt_deltas
 minecraft:beach
 minecraft:birch_forest
 minecraft:cold_ocean
+assemblylinemachines:corrupt_desert
+assemblylinemachines:corrupt_forest
+assemblylinemachines:corrupt_plains
 minecraft:crimson_forest
 minecraft:dark_forest
 minecraft:deep_cold_ocean
