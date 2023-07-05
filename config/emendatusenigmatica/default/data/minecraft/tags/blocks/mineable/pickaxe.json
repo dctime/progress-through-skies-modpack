@@ -1,5 +1,13 @@
 {
   "values": [
+    "emendatusenigmatica:gold_block",
+    "emendatusenigmatica:raw_gold_block",
+    "emendatusenigmatica:budding_gold",
+    "emendatusenigmatica:small_gold_bud",
+    "emendatusenigmatica:medium_gold_bud",
+    "emendatusenigmatica:large_gold_bud",
+    "emendatusenigmatica:gold_cluster",
+    "emendatusenigmatica:gold_cluster_shard_block",
     "emendatusenigmatica:copper_block",
     "emendatusenigmatica:exposed_copper",
     "emendatusenigmatica:weathered_copper",
