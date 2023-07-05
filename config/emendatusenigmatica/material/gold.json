@@ -3,23 +3,25 @@
     "source": "vanilla",
     "localizedName": "Gold",
     "processedTypes": [
-      "ingot",
-      "storage_block",
-      "nugget",
-      "raw",
-      "dust",
-      "plate",
-      "gear",
-      "rod",
-      "cluster",
-      "fluid",
-      "slurry",
-      "crystal",
-      "shard",
-      "clump",
-      "dirty_dust",
-      "gas",
-      "crushed_ore"
+        "storage_block",
+        "ingot",
+        "ore",
+        "raw",
+        "nugget",
+        "dust",
+        "plate",
+        "gear",
+        "rod",
+        "fluid",
+        "cluster",
+        "infuse_type",
+        "gas",
+        "slurry",
+        "crystal",
+        "shard",
+        "clump",
+        "dirty_dust",
+        "crushed_ore"
     ],
     "properties": {
       "materialType": "metal",
@@ -29,11 +31,10 @@
       "hasOxidization": false
     },
     "colors": {
-      "fluidColor": "b87333",
-      "particlesColor": "b87333",
-      "materialColor": "b87333",
-      "gasColor":"b87333",
-      "oxidizationColor": "a4674c"
+      "fluidColor": "ffd700",
+      "particlesColor": "ffd700",
+      "materialColor": "ffd700",
+      "gasColor":"ffd700"
     },
     "gas": {
       "isBurnable": false,

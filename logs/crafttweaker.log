@@ -1,33 +1,395 @@
-[20:32:57.042][INFO]: Successfully injected RecipeFS file system
-[20:32:57.084][INFO]: Successfully identified and loaded plugin jeitweaker:common
-[20:32:57.114][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[20:32:57.118][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[20:32:57.120][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
-[20:32:57.122][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[20:32:57.162][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
-[20:32:57.163][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
-[20:32:57.181][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
-[20:32:57.181][INFO]: Running JeiTweaker plugin initialization
-[20:32:57.224][INFO]: JeiTweaker plugin initialization completed successfully
-[20:32:59.556][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[20:32:59.559][INFO]: - 'crafttweaker' at version '10.1.46'
-[20:32:59.560][INFO]: - 'exnihilosequentia' at version '4.2.0'
-[20:32:59.560][INFO]: - 'extendedcrafting' at version '5.1.6'
-[20:32:59.560][INFO]: - 'farmersdelight' at version '1.19-1.2.1'
-[20:32:59.561][INFO]: - 'immersiveengineering' at version '1.19.2-9.2.2-165'
-[20:32:59.561][INFO]: - 'jeitweaker' at version '4.0.12'
-[20:32:59.561][INFO]: - 'mekanism' at version '10.3.8'
-[20:32:59.561][INFO]: - 'pneumaticcraft' at version '1.19.2-4.3.5-25'
-[20:33:13.683][INFO]: Started loading scripts for loader 'mekanismcontent'
-[20:33:13.937][INFO]: Compiling and executing scripts
-[20:33:14.472][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:33:14.554][INFO]: Execution for loader 'mekanismcontent' completed successfully
-[20:33:14.554][INFO]: Registering 0 custom gases.
-[20:33:14.559][INFO]: Registering 0 custom infuse types.
-[20:33:14.568][INFO]: Registering 0 custom pigments.
-[20:33:14.574][INFO]: Registering 0 custom robit skins.
-[20:33:14.580][INFO]: Registering 0 custom slurries.
-[20:33:30.292][INFO]: Started loading scripts for loader 'initialize'
-[20:33:30.340][INFO]: Compiling and executing scripts
-[20:33:30.343][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:33:30.357][INFO]: Execution for loader 'initialize' completed successfully
+[21:06:15.585][INFO]: Successfully injected RecipeFS file system
+[21:06:15.601][INFO]: Successfully identified and loaded plugin jeitweaker:common
+[21:06:15.632][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[21:06:15.632][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[21:06:15.632][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[21:06:15.632][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[21:06:15.679][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[21:06:15.679][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[21:06:15.679][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[21:06:15.679][INFO]: Running JeiTweaker plugin initialization
+[21:06:15.710][INFO]: JeiTweaker plugin initialization completed successfully
+[21:06:17.041][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[21:06:17.043][INFO]: - 'crafttweaker' at version '10.1.46'
+[21:06:17.043][INFO]: - 'exnihilosequentia' at version '4.2.0'
+[21:06:17.043][INFO]: - 'extendedcrafting' at version '5.1.6'
+[21:06:17.043][INFO]: - 'farmersdelight' at version '1.19-1.2.1'
+[21:06:17.043][INFO]: - 'immersiveengineering' at version '1.19.2-9.2.2-165'
+[21:06:17.043][INFO]: - 'jeitweaker' at version '4.0.12'
+[21:06:17.043][INFO]: - 'mekanism' at version '10.3.8'
+[21:06:17.044][INFO]: - 'pneumaticcraft' at version '1.19.2-4.3.5-25'
+[21:06:29.609][INFO]: Started loading scripts for loader 'mekanismcontent'
+[21:06:29.977][INFO]: Compiling and executing scripts
+[21:06:30.645][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:06:30.842][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[21:06:30.844][INFO]: Registering 0 custom gases.
+[21:06:30.858][INFO]: Registering 0 custom infuse types.
+[21:06:30.882][INFO]: Registering 0 custom pigments.
+[21:06:30.894][INFO]: Registering 0 custom robit skins.
+[21:06:30.903][INFO]: Registering 0 custom slurries.
+[21:06:47.968][INFO]: Started loading scripts for loader 'initialize'
+[21:06:48.001][INFO]: Compiling and executing scripts
+[21:06:48.002][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:06:48.015][INFO]: Execution for loader 'initialize' completed successfully
+[21:07:46.790][INFO]: Started loading scripts for loader 'tags'
+[21:07:46.806][INFO]: Compiling and executing scripts
+[21:07:46.810][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:07:46.823][INFO]: Execution for loader 'tags' completed successfully
+[21:07:49.368][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:07:49.384][INFO]: Compiling and executing scripts
+[21:07:49.550][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:07:49.550][INFO]: Loading file 'mods\ad_astra\crafting.zs' with priority 0
+[21:07:49.550][INFO]: Loading file 'mods\ae2\crafting.zs' with priority 0
+[21:07:49.550][INFO]: Loading file 'mods\ae2\smelting.zs' with priority 0
+[21:07:49.550][INFO]: Loading file 'mods\applied_mekanism\crafting.zs' with priority 0
+[21:07:49.550][INFO]: Loading file 'mods\botania\petal_apothecary.zs' with priority 0
+[21:07:49.550][INFO]: Loading file 'mods\building_gadgets\crafting.zs' with priority 0
+[21:07:49.550][INFO]: Loading file 'mods\chipped\carpenters.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\chipped\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\chipped\glassblower.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\chipped\mason.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\chipped\tinker.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\chiselsandbits\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\click_machine\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\compressium\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\item_application.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\mixing.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\sand_paper.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\smelting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\splashing.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\create\stonecutting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\cyclic\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\cyclic\melter.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\cyclic\smelting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\cyclic\solidify.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\emendatusenigmatica\crafting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\emendatusenigmatica\smelting.zs' with priority 0
+[21:07:49.560][INFO]: Loading file 'mods\ex_nihilo_sequentia\crook.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\ex_nihilo_sequentia\fluid_item.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\ex_nihilo_sequentia\sieve.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\ex_nihilo_sequentia\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\farmers_delight\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\farmers_delight\cutting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\farmers_delight\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\ftbquests\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\i_like_wood\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\i_like_wood\info.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\i_like_wood\sawmilling.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\immersive_engineering\blueprint.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\immersive_engineering\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\immersive_engineering\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\integrated_dynamics\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\integrated_dynamics\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\itemfilters\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\mekanism\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\mekanism\injecting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\mekanism\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\morphtool\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\naturesaura\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\occultism\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\occultism\ritual.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\occultism\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\occultism\spirit_fire.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\progressionthroughskies\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\progressionthroughskies\info.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\quark\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\quark\smelting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\rftools\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\storage_drawers\crafting.zs' with priority 0
+[21:07:49.565][INFO]: Loading file 'mods\tetra\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\tetra\info.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\thermal\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\thermal\fisher_boost.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\thermal\hive_extractor.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\thermal\rock_gen.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\thermal\smelting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\thermal\tree_extractor.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\tinygates\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\tinyredstone\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\tombstone\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\trashcans\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\trashcans\stonecutter.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\vanilla\blast_furnace.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\vanilla\block_loot_table.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\vanilla\crafting_table.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\vanilla\info.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\vanilla\smelting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\vanilla\stonecutter.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\wooden_bucket\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\woodenhopper\crafting.zs' with priority 0
+[21:07:49.570][INFO]: Loading file 'mods\xnet\crafting.zs' with priority 0
+[21:07:49.690][INFO]: Removing "minecraft:crafting" recipes with modid: "ad_astra"
+[21:07:49.700][INFO]: Removing "minecraft:crafting" recipes with modid: "ae2"
+[21:07:49.703][INFO]: Removing "minecraft:smelting" recipes with modid: "ae2"
+[21:07:49.703][INFO]: Removing "minecraft:crafting" recipes with modid: "appmek"
+[21:07:49.703][INFO]: Removing all "botania:petal_apothecary" recipes
+[21:07:49.703][INFO]: Removing "minecraft:crafting" recipes with modid: "buildinggadgets"
+[21:07:49.710][INFO]: Registering new items tag with name <tag:items:forge:wooden_storage_block>
+[21:07:49.710][INFO]: Adding: [minecraft:chest] to tag: <tag:items:forge:wooden_storage_block>
+[21:07:49.720][INFO]: Adding: [storagedrawers:oak_full_drawers_1, storagedrawers:oak_full_drawers_2, storagedrawers:oak_full_drawers_4, storagedrawers:oak_half_drawers_1, storagedrawers:oak_half_drawers_2, storagedrawers:oak_half_drawers_4, storagedrawers:spruce_full_drawers_1, storagedrawers:spruce_full_drawers_2, storagedrawers:spruce_full_drawers_4, storagedrawers:spruce_half_drawers_1, storagedrawers:spruce_half_drawers_2, storagedrawers:spruce_half_drawers_4, storagedrawers:birch_full_drawers_1, storagedrawers:birch_full_drawers_2, storagedrawers:birch_full_drawers_4, storagedrawers:birch_half_drawers_1, storagedrawers:birch_half_drawers_2, storagedrawers:birch_half_drawers_4, storagedrawers:jungle_full_drawers_1, storagedrawers:jungle_full_drawers_2, storagedrawers:jungle_full_drawers_4, storagedrawers:jungle_half_drawers_1, storagedrawers:jungle_half_drawers_2, storagedrawers:jungle_half_drawers_4, storagedrawers:acacia_full_drawers_1, storagedrawers:acacia_full_drawers_2, storagedrawers:acacia_full_drawers_4, storagedrawers:acacia_half_drawers_1, storagedrawers:acacia_half_drawers_2, storagedrawers:acacia_half_drawers_4, storagedrawers:dark_oak_full_drawers_1, storagedrawers:dark_oak_full_drawers_2, storagedrawers:dark_oak_full_drawers_4, storagedrawers:dark_oak_half_drawers_1, storagedrawers:dark_oak_half_drawers_2, storagedrawers:dark_oak_half_drawers_4, storagedrawers:crimson_full_drawers_1, storagedrawers:crimson_full_drawers_2, storagedrawers:crimson_full_drawers_4, storagedrawers:crimson_half_drawers_1, storagedrawers:crimson_half_drawers_2, storagedrawers:crimson_half_drawers_4, storagedrawers:warped_full_drawers_1, storagedrawers:warped_full_drawers_2, storagedrawers:warped_full_drawers_4, storagedrawers:warped_half_drawers_1, storagedrawers:warped_half_drawers_2, storagedrawers:warped_half_drawers_4] to tag: <tag:items:forge:wooden_storage_block>
+[21:07:49.720][INFO]: Registering new items tag with name <tag:items:forge:storage_upgrade>
+[21:07:49.720][INFO]: Adding: [storagedrawers:void_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.720][INFO]: Adding: [storagedrawers:upgrade_template] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:emerald_storage_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:redstone_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:conversion_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:min_redstone_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:max_redstone_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:fill_level_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [storagedrawers:illumination_upgrade] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Adding: [minecraft:oak_slab] to tag: <tag:items:forge:storage_upgrade>
+[21:07:49.725][INFO]: Registering new items tag with name <tag:items:forge:log_machine>
+[21:07:49.725][INFO]: Adding: [thermal:device_tree_extractor] to tag: <tag:items:forge:log_machine>
+[21:07:49.725][INFO]: Adding: [minecraft:oak_log] to tag: <tag:items:forge:log_machine>
+[21:07:49.725][INFO]: Registering new items tag with name <tag:items:forge:cog_wheels>
+[21:07:49.725][INFO]: Adding: [create:shaft] to tag: <tag:items:forge:cog_wheels>
+[21:07:49.730][INFO]: Adding: [create:cogwheel] to tag: <tag:items:forge:cog_wheels>
+[21:07:49.730][INFO]: Adding: [create:large_cogwheel] to tag: <tag:items:forge:cog_wheels>
+[21:07:49.730][INFO]: Removing all "chipped:carpenters_table" recipes
+[21:07:49.740][INFO]: Adding 'chipped:carpenters_table' recipe, with name: 'crafttweaker:carpenter_table' that outputs: '<item:minecraft:air>'
+[21:07:49.740][INFO]: Removing "minecraft:crafting" recipes with modid: "chipped"
+[21:07:49.740][INFO]: Registering new items tag with name <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [cyclic:solidifier] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [cyclic:melter] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [minecraft:glass] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:ultimate_universal_cable] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:ultimate_mechanical_pipe] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:ultimate_pressurized_tube] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:ultimate_logistical_transporter] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:ultimate_thermodynamic_conductor] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:ultimate_fluid_tank] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:basic_universal_cable] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:basic_mechanical_pipe] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:basic_pressurized_tube] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Adding: [mekanism:basic_logistical_transporter] to tag: <tag:items:forge:glass_machine>
+[21:07:49.740][INFO]: Removing all "chipped:glassblower" recipes
+[21:07:49.750][INFO]: Adding 'chipped:glassblower' recipe, with name: 'crafttweaker:glass_blowing' that outputs: '<item:minecraft:air>'
+[21:07:49.750][INFO]: Registering new items tag with name <tag:items:forge:polished_andesite_machine>
+[21:07:49.750][INFO]: Adding: [minecraft:polished_andesite] to tag: <tag:items:forge:polished_andesite_machine>
+[21:07:49.750][INFO]: Adding: [cyclic:collector] to tag: <tag:items:forge:polished_andesite_machine>
+[21:07:49.750][INFO]: Adding: [cyclic:breaker] to tag: <tag:items:forge:polished_andesite_machine>
+[21:07:49.750][INFO]: Adding: [cyclic:placer] to tag: <tag:items:forge:polished_andesite_machine>
+[21:07:49.750][INFO]: Registering new items tag with name <tag:items:forge:polished_deepslate_machine>
+[21:07:49.750][INFO]: Adding: [minecraft:polished_deepslate] to tag: <tag:items:forge:polished_deepslate_machine>
+[21:07:49.750][INFO]: Adding: [mekanism:logistical_sorter] to tag: <tag:items:forge:polished_deepslate_machine>
+[21:07:49.750][INFO]: Registering new items tag with name <tag:items:forge:cobblestone_machine>
+[21:07:49.750][INFO]: Adding: [minecraft:cobblestone] to tag: <tag:items:forge:cobblestone_machine>
+[21:07:49.750][INFO]: Adding: [trashcans:item_trash_can] to tag: <tag:items:forge:cobblestone_machine>
+[21:07:49.750][INFO]: Adding: [trashcans:liquid_trash_can] to tag: <tag:items:forge:cobblestone_machine>
+[21:07:49.755][INFO]: Adding: [trashcans:energy_trash_can] to tag: <tag:items:forge:cobblestone_machine>
+[21:07:49.755][INFO]: Adding: [trashcans:ultimate_trash_can] to tag: <tag:items:forge:cobblestone_machine>
+[21:07:49.755][INFO]: Registering new items tag with name <tag:items:forge:stone_plate_machine>
+[21:07:49.755][INFO]: Adding: [minecraft:stone_pressure_plate] to tag: <tag:items:forge:stone_plate_machine>
+[21:07:49.755][INFO]: Adding: [ad_astra:engine_fan] to tag: <tag:items:forge:stone_plate_machine>
+[21:07:49.755][INFO]: Removing all "chipped:mason_table" recipes
+[21:07:49.755][INFO]: Adding 'chipped:mason_table' recipe, with name: 'crafttweaker:mason_table' that outputs: '<item:minecraft:air>'
+[21:07:49.755][INFO]: Registering new items tag with name <tag:items:forge:wrench_list>
+[21:07:49.755][INFO]: Adding: [minecraft:stick] to tag: <tag:items:forge:wrench_list>
+[21:07:49.755][INFO]: Adding: [mekanism:configurator] to tag: <tag:items:forge:wrench_list>
+[21:07:49.755][INFO]: Adding: [tinyredstone:redstone_wrench] to tag: <tag:items:forge:wrench_list>
+[21:07:49.760][INFO]: Registering new items tag with name <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinyredstone:tiny_button, tinyredstone:tiny_comparator, tinyredstone:tiny_lever, tinyredstone:tiny_observer, tinyredstone:tiny_piston, tinyredstone:tiny_redstone, tinyredstone:tiny_redstone_block, tinyredstone:tiny_redstone_lamp, tinyredstone:tiny_redstone_torch, tinyredstone:tiny_repeater, tinyredstone:tiny_solid_block, tinyredstone:tiny_sticky_piston, tinyredstone:tiny_stone_button, tinyredstone:tiny_super_repeater, tinyredstone:tiny_transparent_block] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_and_gate] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_or_gate] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_xor_gate] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_not_gate] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_clock] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_counter] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_rs_latch] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_edge_detector] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Adding: [tinygates:tiny_t_flip_flop] to tag: <tag:items:forge:tiny_redstone_list>
+[21:07:49.760][INFO]: Registering new items tag with name <tag:items:forge:wool_function_block_list>
+[21:07:49.760][INFO]: Adding: [cyclic:soundproofing] to tag: <tag:items:forge:wool_function_block_list>
+[21:07:49.760][INFO]: Adding: [minecraft:white_wool] to tag: <tag:items:forge:wool_function_block_list>
+[21:07:49.760][INFO]: Removing all "chipped:mechanist_workbench" recipes
+[21:07:49.760][INFO]: Adding 'chipped:mechanist_workbench' recipe, with name: 'crafttweaker:mechanist_workbench' that outputs: '<item:minecraft:air>'
+[21:07:49.760][INFO]: Removing "minecraft:crafting" recipes with modid: "chiselsandbits"
+[21:07:49.766][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_chisel' that outputs: '<item:chiselsandbits:chisel_stone>'
+[21:07:49.766][INFO]: Removing "minecraft:crafting" recipes with modid: "clickmachine"
+[21:07:49.770][INFO]: Removing "minecraft:crafting" recipes with modid: "compressium"
+[21:07:49.770][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_gravel_1' that outputs: '<item:compressium:gravel_1>'
+[21:07:49.770][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_gravel_1' that outputs: '<item:minecraft:gravel> * 4'
+[21:07:49.770][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_sand_1' that outputs: '<item:compressium:sand_1>'
+[21:07:49.770][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_sand_1' that outputs: '<item:minecraft:sand> * 4'
+[21:07:49.770][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compress_to_cobblestone_1' that outputs: '<item:compressium:cobblestone_1>'
+[21:07:49.770][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:decompress_cobblestone_1' that outputs: '<item:minecraft:cobblestone> * 4'
+[21:07:49.770][INFO]: Removing "minecraft:crafting" recipes with modid: "create"
+[21:07:49.770][INFO]: Removing all "create:item_application" recipes
+[21:07:49.770][INFO]: Adding 'create:item_application' recipe, with name: 'crafttweaker:andesite_casing' that outputs: '<item:create:andesite_casing>'
+[21:07:49.770][INFO]: Removing all "create:mixing" recipes
+[21:07:49.770][INFO]: Adding 'create:mixing' recipe, with name: 'crafttweaker:dusted_water' that outputs: '<item:minecraft:air>'
+[21:07:49.770][INFO]: Removing all "create:sandpaper_polishing" recipes
+[21:07:49.770][INFO]: Adding 'create:sandpaper_polishing' recipe, with name: 'crafttweaker:polish_deepslate_cobblestone' that outputs: '<item:minecraft:polished_deepslate>'
+[21:07:49.780][INFO]: Adding 'create:sandpaper_polishing' recipe, with name: 'crafttweaker:polish_andesite' that outputs: '<item:minecraft:polished_andesite>'
+[21:07:49.780][INFO]: Adding 'create:sandpaper_polishing' recipe, with name: 'crafttweaker:polish_blackstone' that outputs: '<item:minecraft:polished_blackstone>'
+[21:07:49.780][INFO]: Removing "minecraft:smelting" recipes with modid: "create"
+[21:07:49.780][INFO]: Adding 'create:splashing' recipe, with name: 'crafttweaker:clean_to_get_cobbled_blackstone' that outputs: '<item:chipped:cobbled_blackstone>'
+[21:07:49.781][INFO]: Removing "minecraft:stonecutting" recipes with modid: "create"
+[21:07:49.781][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:shaft' that outputs: '<item:create:shaft> * 9'
+[21:07:49.781][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:scaffolding' that outputs: '<item:create:andesite_scaffolding> * 2'
+[21:07:49.781][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:whisk' that outputs: '<item:create:whisk>'
+[21:07:49.781][INFO]: Removing "minecraft:crafting" recipes with modid: "cyclic"
+[21:07:49.781][INFO]: Removing all "cyclic:melter" recipes
+[21:07:49.781][INFO]: Adding 'cyclic:melter' recipe, with name: 'crafttweaker:melt_bedrock_gravel_to_lava' that outputs: '<item:minecraft:air>'
+[21:07:49.781][INFO]: Removing "minecraft:smelting" recipes with modid: "cyclic"
+[21:07:49.781][INFO]: Removing all "cyclic:solidifier" recipes
+[21:07:49.781][INFO]: Adding 'cyclic:solidifier' recipe, with name: 'crafttweaker:solidify_lava_to_cobble' that outputs: '<item:minecraft:cobblestone> * 64'
+[21:07:49.781][INFO]: Adding 'cyclic:solidifier' recipe, with name: 'crafttweaker:solidify_wax_to_tallow' that outputs: '<item:occultism:candle_white> * 2'
+[21:07:49.781][INFO]: Removing "minecraft:crafting" recipes with modid: "emendatusenigmatica"
+[21:07:49.790][INFO]: Removing "minecraft:smelting" recipes with modid: "emendatusenigmatica"
+[21:07:49.790][INFO]: Removing all "exnihilosequentia:crook" recipes
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_infested_leaves' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:crook' recipe, with name: 'crafttweaker:crook_grass' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Removing all "exnihilosequentia:fluid_item" recipes
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:dirt_to_grass' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:bedrock_gravel_to_dirt' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:light_gray_wool_to_white_wool' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:cobblestone_to_limestone' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:fluid_item' recipe, with name: 'crafttweaker:log_to_paper' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Removing all "exnihilosequentia:sieve" recipes
+[21:07:49.790][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilosequentia"
+[21:07:49.790][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_crook' that outputs: '<item:exnihilosequentia:stone_crook>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:sieve' recipe, with name: 'crafttweaker:sieve_bedrock_gravel_for_amethyst_shards' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Adding 'exnihilosequentia:sieve' recipe, with name: 'crafttweaker:sieve_bedrock_gravel_get_gold_dust' that outputs: '<item:minecraft:air>'
+[21:07:49.790][INFO]: Removing "minecraft:smelting" recipes with modid: "exnihilosequentia"
+[21:07:49.790][INFO]: Removing "minecraft:crafting" recipes with modid: "farmersdelight"
+[21:07:49.797][INFO]: Removing all "farmersdelight:cutting" recipes
+[21:07:49.797][INFO]: Removing "minecraft:smelting" recipes with modid: "farmersdelight"
+[21:07:49.797][INFO]: Removing "minecraft:crafting" recipes with modid: "ftbquests"
+[21:07:49.800][INFO]: Removing "minecraft:crafting" recipes with modid: "ilikewood"
+[21:07:49.810][INFO]: Adding information for ingredient <item:exnihilosequentia:oak_sieve> to JEI
+[21:07:49.810][INFO]: Adding information for ingredient <item:ilikewood:oak_log_pile> to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:woodenbucket:wooden_bucket>.withTag({Damage: 0}) to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:ilikewood:oak_post> to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:cyclic:hopper> to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:thermal:device_tree_extractor> to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:minecraft:crafting_table> to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:minecraft:chest> to JEI
+[21:07:49.813][INFO]: Adding information for ingredient <item:minecraft:oak_slab> to JEI
+[21:07:49.813][INFO]: Removing "ilikewood:sawmilling" recipes with modid: "ilikewood"
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_sieve' that outputs: '<item:exnihilosequentia:oak_sieve>'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_log_pile' that outputs: '<item:ilikewood:oak_log_pile>'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:wooden_bucket' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 0})'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_post' that outputs: '<item:ilikewood:oak_post>'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:crafting_table' that outputs: '<item:minecraft:crafting_table>'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:wooden_hopper' that outputs: '<item:cyclic:hopper>'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:oak_slab' that outputs: '<item:minecraft:oak_slab> * 8'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:chest' that outputs: '<item:minecraft:chest>'
+[21:07:49.813][INFO]: Adding 'ilikewood:sawmilling' recipe, with name: 'crafttweaker:piston_pole' that outputs: '<item:create:piston_extension_pole>'
+[21:07:49.813][INFO]: Removing all "immersiveengineering:blueprint" recipes
+[21:07:49.813][INFO]: Adding 'immersiveengineering:blueprint' recipe, with name: 'crafttweaker:craft_mechanical_mixer' that outputs: '<item:create:mechanical_mixer>'
+[21:07:49.813][INFO]: Adding 'immersiveengineering:blueprint' recipe, with name: 'crafttweaker:craft_encased_fan' that outputs: '<item:create:encased_fan>'
+[21:07:49.813][INFO]: Removing "minecraft:crafting" recipes with modid: "immersiveengineering"
+[21:07:49.813][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:craft_engineers_workbench' that outputs: '<item:immersiveengineering:workbench>'
+[21:07:49.820][INFO]: Removing "minecraft:smelting" recipes with modid: "immersiveengineering"
+[21:07:49.820][INFO]: Removing "minecraft:crafting" recipes with modid: "integrateddynamics"
+[21:07:49.820][INFO]: Removing "minecraft:smelting" recipes with modid: "integrateddynamics"
+[21:07:49.820][INFO]: Removing "minecraft:crafting" recipes with modid: "itemfilters"
+[21:07:49.820][INFO]: Removing "minecraft:crafting" recipes with modid: "mekanism"
+[21:07:49.820][INFO]: Removing "minecraft:crafting" recipes with modid: "mekanismgenerators"
+[21:07:49.820][INFO]: Removing "minecraft:crafting" recipes with modid: "exnihilomekanism"
+[21:07:49.825][INFO]: Removing all "mekanism:injecting" recipes
+[21:07:49.825][INFO]: Removing "minecraft:smelting" recipes with modid: "mekanism"
+[21:07:49.825][INFO]: Removing 'minecraft:crafting' recipe(s) with name(s): '[morphtool:tool]'
+[21:07:49.825][INFO]: Removing "minecraft:crafting" recipes with modid: "naturesaura"
+[21:07:49.825][INFO]: Removing "minecraft:crafting" recipes with modid: "occultism"
+[21:07:49.825][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:chalk_brush' that outputs: '<item:occultism:brush>'
+[21:07:49.830][INFO]: Adding 'occultism:ritual' recipe, with name: 'crafttweaker:craft_auto_clicker' that outputs: '<item:clickmachine:auto_clicker>'
+[21:07:49.830][INFO]: Adding 'occultism:ritual' recipe, with name: 'crafttweaker:soul_sand' that outputs: '<item:minecraft:soul_sand>'
+[21:07:49.830][INFO]: Removing "minecraft:smelting" recipes with modid: "occultism"
+[21:07:49.830][INFO]: Removing all "occultism:spirit_fire" recipes
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:impure_white_chalk' that outputs: '<item:occultism:chalk_white_impure>'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:white_chalk' that outputs: '<item:occultism:chalk_white>'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:sacrifice_bowl_from_pressure_plate' that outputs: '<item:occultism:sacrificial_bowl>'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:golden_sacrifice_bowl_from_sacrifice_bowl' that outputs: '<item:occultism:golden_sacrificial_bowl>'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:sacrifice_bowl_from_golden_sacrifice_bowl' that outputs: '<item:occultism:sacrificial_bowl>'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_0' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 0, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}})'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_1' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 1, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(1)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_2' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 2, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(2)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_3' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 3, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(3)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_4' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 4, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(4)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_5' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 5, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(5)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_6' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 6, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(6)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_7' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 7, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(7)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_8' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 8, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(8)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_9' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 9, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(9)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_10' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 10, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(10)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_11' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 11, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(11)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_12' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 12, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(12)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_13' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 13, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(13)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_14' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 14, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(14)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_15' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 15, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(15)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_16' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 16, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(16)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_17' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 17, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(17)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_18' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 18, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(18)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_19' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 19, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(19)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_20' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 20, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(20)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_21' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 21, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(21)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_22' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 22, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(22)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:resin_to_wax_23' that outputs: '<item:woodenbucket:wooden_bucket>.withTag({Damage: 23, Fluid: {FluidName: "cyclic:wax", Damage: 0, Amount: 1000}}).withDamage(23)'
+[21:07:49.830][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:crafting_table_to_packager' that outputs: '<item:cyclic:packager>'
+[21:07:49.840][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:stick_to_morphingtool' that outputs: '<item:morphtool:tool>'
+[21:07:49.840][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:bedrock_dust_to_redstone' that outputs: '<item:minecraft:redstone>'
+[21:07:49.840][INFO]: Adding 'occultism:spirit_fire' recipe, with name: 'crafttweaker:stone_to_andesite' that outputs: '<item:minecraft:andesite>'
+[21:07:49.840][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:rain_wand' that outputs: '<item:progressthroughskies:rain_wand>'
+[21:07:49.840][INFO]: Adding information for ingredient <item:progressthroughskies:bedrock_dust> to JEI
+[21:07:49.840][INFO]: Adding information for ingredient <item:progressthroughskies:gravel_dust> to JEI
+[21:07:49.840][INFO]: Adding information for ingredient <item:progressthroughskies:sand_dust> to JEI
+[21:07:49.840][INFO]: Removing "minecraft:crafting" recipes with modid: "quark"
+[21:07:49.840][INFO]: Removing "minecraft:smelting" recipes with modid: "quark"
+[21:07:49.840][INFO]: Removing "minecraft:crafting" recipes with modid: "rftoolsbase"
+[21:07:49.840][INFO]: Removing "minecraft:crafting" recipes with modid: "storagedrawers"
+[21:07:49.845][INFO]: Removing "minecraft:crafting" recipes with modid: "tetra"
+[21:07:49.845][INFO]: Adding information for ingredient <item:minecraft:crafting_table> to JEI
+[21:07:49.845][INFO]: Removing "minecraft:crafting" recipes with modid: "thermal"
+[21:07:49.845][INFO]: Removing all "thermal:fisher_boost" recipes
+[21:07:49.845][INFO]: Removing all "thermal:hive_extractor" recipes
+[21:07:49.845][INFO]: Removing "minecraft:smelting" recipes with modid: "thermal"
+[21:07:49.845][INFO]: Removing all "thermal:tree_extractor" recipes
+[21:07:49.845][INFO]: Removing all "thermal:tree_extractor_boost" recipes
+[21:07:49.845][INFO]: Adding 'thermal:tree_extractor' recipe, with name: 'crafttweaker:oak_resin' that outputs: '<item:minecraft:air>'
+[21:07:49.845][INFO]: Removing "minecraft:crafting" recipes with modid: "tinygates"
+[21:07:49.845][INFO]: Removing "minecraft:crafting" recipes with modid: "tinyredstone"
+[21:07:49.850][INFO]: Removing "minecraft:crafting" recipes with modid: "tombstone"
+[21:07:49.850][INFO]: Removing "minecraft:crafting" recipes with modid: "trashcans"
+[21:07:49.850][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:blast_sand_for_glass' that outputs: '<item:minecraft:glass>'
+[21:07:49.850][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:blast_pressure_plate_from_redstone_panel' that outputs: '<item:tinyredstone:redstone_panel>'
+[21:07:49.850][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:cobblestone_to_stone' that outputs: '<item:minecraft:stone>'
+[21:07:49.850][INFO]: Removing "minecraft:crafting" recipes with modid: "minecraft"
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gravel_dust_to_gravel' that outputs: '<item:minecraft:gravel>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sand_dust_to_sand' that outputs: '<item:minecraft:sand>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compressed_sand_and_gravel_to_cobble' that outputs: '<item:minecraft:cobblestone>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_pressure_plate' that outputs: '<item:minecraft:stone_pressure_plate>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_barrel' that outputs: '<item:exnihilosequentia:stone_barrel>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:string_mesh' that outputs: '<item:exnihilosequentia:string_mesh>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:campfire' that outputs: '<item:minecraft:campfire>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:oak_sawmill' that outputs: '<item:ilikewood:oak_sawmill>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tetra_hammer' that outputs: '<item:tetra:modular_double>.withTag({"double/handle": "double/basic_handle", "double/head_left": "double/basic_hammer_left", "double/head_right": "double/basic_hammer_right", id: "ba3eda65-65d3-4329-b355-aa77759d2967", "double/basic_hammer_right_material": "basic_hammer/oak", Damage: 0, "double/basic_handle_material": "basic_handle/stick", "double/basic_hammer_left_material": "basic_hammer/oak"})'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bed' that outputs: '<item:minecraft:white_bed>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:light_gray_wool' that outputs: '<item:minecraft:light_gray_wool>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_cutter' that outputs: '<item:minecraft:stonecutter>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fire_charge' that outputs: '<item:minecraft:fire_charge>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:paper' that outputs: '<item:minecraft:paper> * 3'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:craft_sand_paper' that outputs: '<item:create:sand_paper>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:glass_blower' that outputs: '<item:chipped:glassblower>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:tinker_table' that outputs: '<item:chipped:tinkering_table>'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:redstone_to_tiny_redstone' that outputs: '<item:tinyredstone:tiny_redstone> * 4'
+[21:07:49.850][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:tiny_redstone_to_redstone' that outputs: '<item:minecraft:redstone>'
+[21:07:49.860][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:craft_mason_table' that outputs: '<item:chipped:mason_table>'
+[21:07:49.860][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:craft_carpenters_table' that outputs: '<item:chipped:carpenters_table>'
+[21:07:49.860][INFO]: Adding information for ingredient <item:minecraft:stick> to JEI
+[21:07:49.860][INFO]: Removing "minecraft:smelting" recipes with modid: "minecraft"
+[21:07:49.861][INFO]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:cobblestone_to_cobbled_deepslate' that outputs: '<item:minecraft:cobbled_deepslate>'
+[21:07:49.861][INFO]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:oak_log_to_dark_oak_log' that outputs: '<item:minecraft:dark_oak_log>'
+[21:07:49.861][INFO]: Removing "minecraft:stonecutting" recipes with modid: "minecraft"
+[21:07:49.861][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:dispenser' that outputs: '<item:minecraft:dispenser>'
+[21:07:49.861][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:furnace' that outputs: '<item:minecraft:furnace>'
+[21:07:49.861][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:07:49.861][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:craft_basin' that outputs: '<item:create:basin>'
+[21:07:49.861][INFO]: Removing "minecraft:crafting" recipes with modid: "woodenbucket"
+[21:07:49.861][INFO]: Removing "minecraft:crafting" recipes with modid: "bucketlib"
+[21:07:49.861][INFO]: Removing "minecraft:crafting" recipes with modid: "woodenhopper"
+[21:07:49.861][INFO]: Removing "minecraft:crafting" recipes with modid: "xnet"
+[21:07:49.861][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:07:49.876][INFO]: This reload was made possible by Jessie Sims and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

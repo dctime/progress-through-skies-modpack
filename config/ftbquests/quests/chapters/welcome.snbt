@@ -279,6 +279,19 @@
 			x: -2.5d
 			y: 0.0d
 		}
+		{
+			icon: "minecraft:obsidian"
+			id: "553BCC153D7AD854"
+			shape: "circle"
+			subtitle: "OOF"
+			tasks: [{
+				id: "04BAF3E260144BDC"
+				title: "No Nether portal"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
 	]
 	title: "Welcome!"
 }

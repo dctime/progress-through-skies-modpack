@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-05T20:33:15.2130303	EE Mekanism Addon Item Tags
+// 1.19.2	2023-07-05T21:06:31.769428	EE Mekanism Addon Item Tags
 7aba5d8f9da9fbff73f81aeb2ca1c0fe00df86a8 data/mekanism/tags/items/clumps.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
@@ -8,6 +8,9 @@
 8ea10c633757101ad2bf3914b2c94b2e9bb8454c data/mekanism/tags/items/dirty_dusts.json
 6fc092563c8ceb9a3be7c7e4c4e20722022d35db data/mekanism/tags/items/dirty_dusts/copper.json
 638de7c65cadcd847907b4001e65a7a3da3b6dac data/mekanism/tags/items/dirty_dusts/gold.json
+197a5e2a3de9272a8698510ce73fec7cf31a56a7 data/mekanism/tags/items/enriched.json
+98615124d672b0c3e9ea13337cd65458b75f3b0f data/mekanism/tags/items/enriched/copper.json
+f2dabd43335e9a5b65d99ad9813f341c9a279b42 data/mekanism/tags/items/enriched/gold.json
 2db21502aabd81708226d12900b50695f3481387 data/mekanism/tags/items/shards.json
 9a9ca4ee6be77dcbb089ce1bc6155f6cd02e220f data/mekanism/tags/items/shards/copper.json
 f593ece874b87777b2557b375afe2d43a77a6897 data/mekanism/tags/items/shards/gold.json
