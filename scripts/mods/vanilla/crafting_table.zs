@@ -1,6 +1,12 @@
-craftingTable.removeByModid("minecraft");
-craftingTable.removeByModid("hostilenetwork");
+for mod in loadedMods.getMods()
+{
+    if (mod.id() != "morphtool")
+    {
+        craftingTable.removeByModid(mod.id());
+    }
+}
 
+craftingTable.removeByName("morphtool:tool");
 
 craftingTable.addShaped("gravel_dust_to_gravel", <item:minecraft:gravel>,
 [
@@ -105,3 +111,57 @@ craftingTable.addShaped("clay_block", <item:minecraft:clay>,
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>]
 ]);
+
+craftingTable.addShapeless("rain_wand", <item:progressthroughskies:rain_wand>,
+    [<item:progressthroughskies:gravel_dust>, <item:exnihilosequentia:stone_crook>, <item:progressthroughskies:sand_dust>]
+);
+
+craftingTable.addShaped("chalk_brush", <item:occultism:brush>,
+[
+    [<item:minecraft:oak_slab>, <item:minecraft:oak_slab>],
+    [<item:minecraft:white_wool>, <item:minecraft:white_wool>]
+]);
+
+craftingTable.addShaped("craft_engineers_workbench", <item:immersiveengineering:workbench>,
+[
+    [<item:minecraft:crafting_table>, <item:minecraft:dark_oak_log>],
+    [<item:minecraft:stick>, <item:minecraft:stick>]
+]);
+
+craftingTable.addShaped("compress_to_gravel_1", <item:compressium:gravel_1>,
+[
+    [<item:minecraft:gravel>, <item:minecraft:gravel>],
+    [<item:minecraft:gravel>, <item:minecraft:gravel>],
+]);
+
+craftingTable.addShaped("decompress_gravel_1", <item:minecraft:gravel> * 4,
+[
+    [<item:compressium:gravel_1>],
+]);
+
+craftingTable.addShaped("compress_to_sand_1", <item:compressium:sand_1>,
+[
+    [<item:minecraft:sand>, <item:minecraft:sand>],
+    [<item:minecraft:sand>, <item:minecraft:sand>],
+]);
+
+craftingTable.addShaped("decompress_sand_1", <item:minecraft:sand> * 4,
+[
+    [<item:compressium:sand_1>],
+]);
+
+craftingTable.addShaped("compress_to_cobblestone_1", <item:compressium:cobblestone_1>,
+[
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+]);
+
+craftingTable.addShaped("decompress_cobblestone_1", <item:minecraft:cobblestone> * 4,
+[
+    [<item:compressium:cobblestone_1>],
+]);
+
+craftingTable.addShaped("stone_chisel", <item:chiselsandbits:chisel_stone>,
+    [[<item:minecraft:stone_pressure_plate>],
+    [<item:minecraft:stick>]]
+);

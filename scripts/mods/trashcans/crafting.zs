@@ -1,2 +1,0 @@
-craftingTable.removeByModid("trashcans");
-

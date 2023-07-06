@@ -1,6 +1,8 @@
 #1A1803 create:adjustable_chain_gearshift
 #52B53D minecraft:air
 #E76FC6 pneumaticcraft:air_compressor
+#C2E278 additional_lights:al_lamp_cobblestone
+#2E8295 additional_lights:al_lamp_oak_planks
 #222F76 createaddition:alternator
 #17F1FF create:analog_lever
 #A4683B create:andesite_casing
@@ -60,6 +62,10 @@
 #507780 extractinator:extractinator
 #009B14 minecraft:farmland
 #8F3A54 industrialforegoing:fermentation_station
+#F69F49 additional_lights:fire_for_fire_pit_l
+#F69F50 additional_lights:fire_for_fire_pit_s
+#BDA880 additional_lights:fire_for_standing_torch_l
+#BDA887 additional_lights:fire_for_standing_torch_s
 #740445 exnihilosequentia:fired_crucible
 #2DC94B minecraft:furnace
 #D60460 create:gearbox
@@ -123,6 +129,8 @@
 #D665ED occultism:spirit_attuned_crystal
 #7C5BEF occultism:spirit_fire
 #4AFD83 industrialforegoing:spores_recreator
+#29EA02 additional_lights:standing_torch_l_cobblestone
+#BF1789 additional_lights:standing_torch_s_cobblestone
 #C283C5 exnihilosequentia:stone_barrel
 #2E9337 minecraft:stonecutter
 #A061A1 botania:stripped_dreamwood_log

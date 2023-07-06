@@ -32,6 +32,15 @@ var stone_plate_machine =
     <item:ad_astra:engine_fan>
 ] as IItemStack[];
 
+var cobblestone_light_source =
+[
+    <item:additional_lights:standing_torch_l_cobblestone>,
+    <item:additional_lights:fire_pit_l_cobblestone>,
+    <item:additional_lights:fire_pit_s_cobblestone>,
+    <item:additional_lights:standing_torch_s_cobblestone>,
+    <item:additional_lights:al_lamp_cobblestone>
+] as IItemStack[];
+
 for item in polished_andesite_machine
 {
     <tag:items:forge:polished_andesite_machine>.add(item);
@@ -52,6 +61,11 @@ for item in stone_plate_machine
     <tag:items:forge:stone_plate_machine>.add(item);
 }
 
+for item in cobblestone_light_source
+{
+    <tag:items:forge:cobblestone_light_source>.add(item);
+}
+
 <recipetype:chipped:mason_table>.removeAll();
 
 <recipetype:chipped:mason_table>.addJsonRecipe("mason_table",
@@ -62,7 +76,8 @@ for item in stone_plate_machine
             "forge:polished_andesite_machine",
             "forge:polished_deepslate_machine",
             "forge:cobblestone_machine",
-            "forge:stone_plate_machine"
+            "forge:stone_plate_machine",
+            "forge:cobblestone_light_source"
         ]
     }
 );

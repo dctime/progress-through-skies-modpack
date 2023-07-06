@@ -336,6 +336,18 @@
 			x: 9.75d
 			y: 0.0d
 		}
+		{
+			dependencies: ["3C17E472CB27FD04"]
+			id: "76B0B0748B910965"
+			shape: "circle"
+			tasks: [{
+				id: "256FAE996ABA6EB8"
+				item: "additional_lights:standing_torch_l_cobblestone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
 	]
 	title: "Welcome!"
 }
