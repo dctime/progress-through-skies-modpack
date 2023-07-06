@@ -1,0 +1,30 @@
+{
+    "id": "raw_copper",
+    "source": "modded",
+    "localizedName": "Raw Copper",
+    "processedTypes": [
+        "gear",
+        "rod",
+        "plate",
+        "fluid"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "-6380e1",
+      "particlesColor": "9c7f1f",
+      "materialColor": "9c7f1f"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 1.3
+    }
+  }

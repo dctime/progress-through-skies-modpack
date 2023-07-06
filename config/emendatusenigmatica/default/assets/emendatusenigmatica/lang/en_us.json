@@ -24,6 +24,7 @@
   "block.emendatusenigmatica.weathered_copper": "Weathered Copper",
   "fluid.emendatusenigmatica.copper": "Copper",
   "fluid.emendatusenigmatica.gold": "Gold",
+  "fluid.emendatusenigmatica.raw_copper": "Raw Copper",
   "item.emendatusenigmatica.copper_bucket": "Copper Bucket",
   "item.emendatusenigmatica.copper_cluster_shard": "Copper Cluster Shard",
   "item.emendatusenigmatica.copper_dust": "Copper Dust",
@@ -41,5 +42,9 @@
   "item.emendatusenigmatica.gold_plate": "Gold Plate",
   "item.emendatusenigmatica.gold_rod": "Gold Rod",
   "item.emendatusenigmatica.raw_copper": "Raw Copper",
+  "item.emendatusenigmatica.raw_copper_bucket": "Raw Copper Bucket",
+  "item.emendatusenigmatica.raw_copper_gear": "Raw Copper Gear",
+  "item.emendatusenigmatica.raw_copper_plate": "Raw Copper Plate",
+  "item.emendatusenigmatica.raw_copper_rod": "Raw Copper Rod",
   "item.emendatusenigmatica.raw_gold": "Raw Gold"
 }

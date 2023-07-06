@@ -39,7 +39,7 @@
 			icon: "minecraft:cobblestone"
 			id: "21306D08E892BE86"
 			rewards: [{
-				count: 64
+				count: 128
 				id: "5B7ABF47F25020C5"
 				item: "minecraft:cobblestone"
 				type: "item"
@@ -79,16 +79,25 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4F552F492BE6F86F"]
+			dependencies: [
+				"4F552F492BE6F86F"
+				"21E4924279D06C04"
+			]
+			icon: "emendatusenigmatica:raw_copper"
 			id: "5822EA6CAC2D0A05"
-			size: 1.5d
-			tasks: [{
-				id: "5B606F0BDD22A987"
-				item: "minecraft:copper_ingot"
+			rewards: [{
+				count: 128
+				id: "43C39277E1397853"
+				item: "emendatusenigmatica:raw_copper"
 				type: "item"
 			}]
-			title: "WIP"
-			x: 6.75d
+			size: 1.5d
+			tasks: [{
+				id: "5AF4C4C41CD5E57D"
+				type: "checkmark"
+			}]
+			title: "Go to \"The First Metal\" Chapter"
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -291,6 +300,41 @@
 			}]
 			x: -2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C17E472CB27FD04"
+				"5822EA6CAC2D0A05"
+			]
+			id: "446606DBCF33D9D3"
+			shape: "gear"
+			tasks: [{
+				id: "0D346AB597042D7F"
+				item: "alchemistry:atomizer"
+				type: "item"
+			}]
+			title: "Reduction[WIP]"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5822EA6CAC2D0A05"]
+			id: "6B228CE1B64C412E"
+			size: 1.5d
+			tasks: [{
+				id: "7AC8B50EDE038372"
+				item: {
+					Count: 1b
+					id: "cgm:pistol"
+					tag: {
+						AmmoCount: 16
+					}
+				}
+				type: "item"
+			}]
+			title: "Blood Diamond[WIP]"
+			x: 9.75d
+			y: 0.0d
 		}
 	]
 	title: "Welcome!"

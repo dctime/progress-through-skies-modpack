@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-05T20:33:15.2560107	Emendatus Enigmatica Blockstates
+// 1.19.2	2023-07-06T16:22:40.5463106	Emendatus Enigmatica Blockstates
 22072947bb8a75bbd43c44524028367fff951f93 assets/emendatusenigmatica/blockstates/budding_copper.json
 2c88bf3e773b3ddb5522ba1117ec333dce6c4673 assets/emendatusenigmatica/blockstates/budding_gold.json
 9bce5824bdea5b67d95f23eaa5309a955aa74f1f assets/emendatusenigmatica/blockstates/copper.json
@@ -15,6 +15,7 @@ e6361e93039e9f969eae6f080f12d77b9bc7107b assets/emendatusenigmatica/blockstates/
 835d97931fb7c35fda07ee463938b3902b4aef44 assets/emendatusenigmatica/blockstates/medium_copper_bud.json
 2be4a3d2952571ad31b820ae4943df9e59a1bee7 assets/emendatusenigmatica/blockstates/medium_gold_bud.json
 4484846545f449f45e8ba8ac7a37190f8b806369 assets/emendatusenigmatica/blockstates/oxidized_copper.json
+07c5d4e9d04f74bf2c1bc891de6c6aef1817c0fb assets/emendatusenigmatica/blockstates/raw_copper.json
 31b11eb6a4e049dfc7bacca7f79f6ff65bec8bf1 assets/emendatusenigmatica/blockstates/raw_copper_block.json
 bab2d76d27ca839285b559e431f15cc94d27c08f assets/emendatusenigmatica/blockstates/raw_gold_block.json
 2c3be39c26261df77533b5c7cb9633796afa9146 assets/emendatusenigmatica/blockstates/small_copper_bud.json

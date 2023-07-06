@@ -32,6 +32,19 @@ var cog_wheels =
     <item:create:large_cogwheel>
 ] as IItemStack[];
 
+var andesite_casing_machine =
+[
+    <item:create:andesite_casing>,
+    <item:create:encased_chain_drive>,
+    <item:create:gearshift>,
+    <item:create:clutch>,
+    <item:create:vertical_gearbox>,
+    <item:create:gearbox>,
+    <item:create:adjustable_chain_gearshift>,
+    <item:create:large_water_wheel>,
+    <item:create:analog_lever>
+] as IItemStack[];
+
 for item in wooden_storage_block
 {
     <tag:items:forge:wooden_storage_block>.add(item);
@@ -53,6 +66,11 @@ for item in cog_wheels
     <tag:items:forge:cog_wheels>.add(item);
 }
 
+for item in andesite_casing_machine
+{
+    <tag:items:forge:andesite_casing_machine>.add(item);
+}
+
 <recipetype:chipped:carpenters_table>.removeAll();
 
 <recipetype:chipped:carpenters_table>.addJsonRecipe("carpenter_table",
@@ -63,7 +81,8 @@ for item in cog_wheels
             "forge:wooden_storage_block",
             "forge:storage_upgrade",
             "forge:log_machine",
-            "forge:cog_wheels"
+            "forge:cog_wheels",
+            "forge:andesite_casing_machine"
         ]
     }
 );

@@ -149,3 +149,16 @@ for damage in 0 .. 24
     "item": "occultism:spirit_attuned_crystal"
   }
 });
+
+<recipetype:occultism:spirit_fire>.addJsonRecipe("component_blueprint",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "minecraft:paper"
+  },
+  "result": {
+            "type": "forge:nbt",
+            "item": "immersiveengineering:blueprint",
+            "nbt": {blueprint: "components"}
+        }
+});

@@ -1,6 +1,7 @@
 {
   "values": [
     "#forge:buckets/gold",
-    "#forge:buckets/copper"
+    "#forge:buckets/copper",
+    "#forge:buckets/raw_copper"
   ]
 }

@@ -43,7 +43,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["22202E279655A5E6"]
+			dependencies: [
+				"22202E279655A5E6"
+				"20B0E40151AE6716"
+			]
 			id: "2F964135D9F27DA8"
 			tasks: [{
 				id: "424B005947A2ECE2"
@@ -72,7 +75,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -179,16 +182,6 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
-		}
-		{
-			id: "0FB5E3CFDC40C7C1"
-			tasks: [{
-				id: "4509C3DC83B36659"
-				item: "emendatusenigmatica:copper_ingot"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 4.0d
 		}
 		{
@@ -345,6 +338,79 @@
 			x: 5.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["0DA16EDC533118B6"]
+			id: "0108471A8D44A5E4"
+			tasks: [{
+				id: "018FC0D49CFEA4DB"
+				item: "exnihilosequentia:fired_crucible"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2F7D92B07C1CC11E"
+				"0108471A8D44A5E4"
+			]
+			id: "73F0129A71329F12"
+			tasks: [{
+				id: "4288095E624ADAB6"
+				item: "emendatusenigmatica:raw_copper_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "45D4373C4CCD7358"
+			tasks: [{
+				id: "00C1647895E2D6AB"
+				item: "mekanism:ultimate_crushing_factory"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"73F0129A71329F12"
+				"45D4373C4CCD7358"
+			]
+			id: "710FFC69FB0702B8"
+			tasks: [{
+				id: "487859F3A5E12C15"
+				item: "emendatusenigmatica:raw_copper"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5BDADFBA9E1160BB"]
+			id: "39A313AB29BB138A"
+			shape: "circle"
+			tasks: [{
+				id: "5865F5EBAB4479E0"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BDADFBA9E1160BB"]
+			id: "72A5291C0EECE9E5"
+			shape: "circle"
+			tasks: [{
+				id: "5636274EB2EC794D"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
 	]
-	title: "The First Metal[WIP]"
+	title: "The First Metal"
 }

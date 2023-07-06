@@ -13,7 +13,8 @@ var polished_deepslate_machine =
 [
     <item:minecraft:polished_deepslate>,
     <item:mekanism:logistical_sorter>,
-    <item:mekanismgenerators:bio_generator>
+    <item:mekanismgenerators:bio_generator>,
+    <item:mekanism:ultimate_crushing_factory>
 ] as IItemStack[];
 
 var cobblestone_machine =

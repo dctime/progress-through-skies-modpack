@@ -100,3 +100,8 @@ craftingTable.addShaped("craft_carpenters_table", <item:chipped:carpenters_table
 
 craftingTable.addShapeless("impure_white_chalk_to_impure_golden_chalk", <item:occultism:chalk_gold_impure>, [<item:occultism:chalk_white_impure>, <item:emendatusenigmatica:gold_dirty_dust>]);
 
+craftingTable.addShaped("clay_block", <item:minecraft:clay>,
+[
+    [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
+    [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>]
+]);

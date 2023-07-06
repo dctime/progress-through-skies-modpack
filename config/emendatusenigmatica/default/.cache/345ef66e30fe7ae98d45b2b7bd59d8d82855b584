@@ -1,28 +1,32 @@
-// 1.19.2	2023-07-05T20:33:15.2419466	Emendatus Enigmatica Item Tags
-8f878c94a07720d60640fd3e9accd19245f2ed5f data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-06T16:22:40.5373333	Emendatus Enigmatica Item Tags
+6f5b312c7856bdc0ad015ddcd2ca57d538186944 data/forge/tags/items/buckets.json
 811adfa940d2cbe98914896bd10b40434cfa0449 data/forge/tags/items/buckets/copper.json
 5fc321f17cf22ace1a7608dd45c485ce4d610b9f data/forge/tags/items/buckets/gold.json
+31274c7fd4562ddefa6877a71aa0dc4669ee2e13 data/forge/tags/items/buckets/raw_copper.json
 efa09cceebd22c8317b92e6c8de7176fa32a7540 data/forge/tags/items/dusts.json
 903f15c0ffa668cdd8b3031c90ef3a75fee2c62b data/forge/tags/items/dusts/copper.json
 3a7d13ce08f245fd5d2db57879e333bd8bf65494 data/forge/tags/items/dusts/gold.json
-745405f555006e7511217b5c18c088b76b53472a data/forge/tags/items/gears.json
+14679480cfdd5abd64abbde0eb549c862003b57b data/forge/tags/items/gears.json
 f865b7e8f844a6621f93c638a5d5c160c9516325 data/forge/tags/items/gears/copper.json
 f24ddf3769eb0f2912ba3b81681c8c5e61f6b988 data/forge/tags/items/gears/gold.json
+49a1a4e47ade0af64cdb0e36a7b8ccbdb7c8d92f data/forge/tags/items/gears/raw_copper.json
 be9eff224c5abf0ddd77975b7bef4c2dbbf93c04 data/forge/tags/items/ingots.json
 c740ec84f1548b06dddc8d39560af37903e8a402 data/forge/tags/items/ingots/copper.json
 911c3571e470a85be96d7c72a5b34b9ef9048df1 data/forge/tags/items/ingots/gold.json
 d46a1d4a37a508786852de40b58fda8d8c981b0a data/forge/tags/items/nuggets.json
 dd4a223d5fbbbb8385ac174c5f3d9c33c67e125e data/forge/tags/items/nuggets/copper.json
 50f60cbf00a68c83127b8bb072548f77f91dbbf0 data/forge/tags/items/nuggets/gold.json
-845c471bbd90a47bc09f4fd2cb9cea7d89c0fe99 data/forge/tags/items/plates.json
+c70a11ad288e364b1ee87f9f06b0b898855c6add data/forge/tags/items/plates.json
 a54ab17a1a8080a2ebce756339874b2ddd23fd52 data/forge/tags/items/plates/copper.json
 2e6d994e7bae2dab3a1b486c6fd4d0f7ed303cdc data/forge/tags/items/plates/gold.json
+3eb05663ae1684c9b1e2256bf0fd0dfff6bebe16 data/forge/tags/items/plates/raw_copper.json
 de9a1b80c450a907872b428f31310b4d22993ac7 data/forge/tags/items/raw_materials.json
 ce101e77278bf5dab25eacc607ee9a72c865a5ff data/forge/tags/items/raw_materials/copper.json
 2de6f75919e76a5ffcacaba8c1ba267fc03346c9 data/forge/tags/items/raw_materials/gold.json
-9bb033c0ae07d04c71e34793798848e60dcdb0df data/forge/tags/items/rods.json
+435ecb285dbbd84d59a8d830308b8d0ef51936c3 data/forge/tags/items/rods.json
 9581a4bf4a533b035059804917ad9245ed8a035d data/forge/tags/items/rods/copper.json
 78bf4663bde4cc1544e95abb95cf89a44fd6836d data/forge/tags/items/rods/gold.json
+29b72f2560f5cfade21a2a1f12a4948005dd0f76 data/forge/tags/items/rods/raw_copper.json
 8bcf88893440dc2f49129c95ec5ba1fd95cded98 data/forge/tags/items/storage_blocks.json
 fc8b41a128ab114cd3bdda499d9692343f4f11ea data/forge/tags/items/storage_blocks/copper.json
 267621f2b5dc0152044a41603185f05decb41392 data/forge/tags/items/storage_blocks/gold.json

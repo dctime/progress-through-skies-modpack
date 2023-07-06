@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-05T20:33:15.2145309	Emendatus Enigmatica Item Models
+// 1.19.2	2023-07-06T16:22:40.5413226	Emendatus Enigmatica Item Models
 9df37f227f183f86ffc62af082a73bed30550818 assets/emendatusenigmatica/models/item/budding_copper.json
 1b28adb03563887d58f170d7e1d32516d66ffd31 assets/emendatusenigmatica/models/item/budding_gold.json
 614a51cb08c5874815130727331b68f23ccf2dd4 assets/emendatusenigmatica/models/item/copper_block.json
@@ -31,6 +31,10 @@
 f2b2facfb7791a454e4c3c3bacfaa7cc6b735d48 assets/emendatusenigmatica/models/item/oxidized_copper.json
 5be5bb98c21cbfa05c7bcfb619949c2a6b1d3da6 assets/emendatusenigmatica/models/item/raw_copper.json
 7acadbca2cb7dc1d36a0f75c2a1b4ee3c9aceae6 assets/emendatusenigmatica/models/item/raw_copper_block.json
+377f25d1280410083abcad096e2e0c742bc8c101 assets/emendatusenigmatica/models/item/raw_copper_bucket.json
+80e2037f007ab517339c3d52793bed0cf1c28e31 assets/emendatusenigmatica/models/item/raw_copper_gear.json
+57851f40a9ad9c10ed7005f6ca42b1bff8dc59a3 assets/emendatusenigmatica/models/item/raw_copper_plate.json
+46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/raw_copper_rod.json
 5be5bb98c21cbfa05c7bcfb619949c2a6b1d3da6 assets/emendatusenigmatica/models/item/raw_gold.json
 e851ad1cae14824ec53593d7933fa5187de4dd0f assets/emendatusenigmatica/models/item/raw_gold_block.json
 b1eb94ea5838427563fe9db9b0fda9f83f46ed7d assets/emendatusenigmatica/models/item/small_copper_bud.json

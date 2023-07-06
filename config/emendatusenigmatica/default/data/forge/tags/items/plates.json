@@ -1,6 +1,7 @@
 {
   "values": [
     "#forge:plates/gold",
-    "#forge:plates/copper"
+    "#forge:plates/copper",
+    "#forge:plates/raw_copper"
   ]
 }

@@ -1,3 +1,5 @@
+blastFurnace.removeAll();
+
 blastFurnace.addJsonRecipe("blast_sand_for_glass", 
     {
         ingredient: <item:minecraft:sand>,

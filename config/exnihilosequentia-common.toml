@@ -176,7 +176,7 @@
 [crucible]
 	#Ticks between melting operations (Default: 20)
 	#Range: > 1
-	ticksBetweenMelts = 20
+	ticksBetweenMelts = 1
 	#Number of buckets the crucible will hold (Default: 4)
 	#Range: > 1
 	crucibleNumberOfBuckets = 4
