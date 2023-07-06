@@ -207,16 +207,6 @@
 			y: 4.0d
 		}
 		{
-			id: "52176C61FD20AFC1"
-			tasks: [{
-				id: "3A655C6AEBBFC84C"
-				item: "create:large_water_wheel"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.0d
-		}
-		{
 			dependencies: [
 				"2F964135D9F27DA8"
 				"283B3564A5B6E01E"
