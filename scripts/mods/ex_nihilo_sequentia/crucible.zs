@@ -2,7 +2,7 @@
 
 <recipetype:exnihilosequentia:crucible>
     .create("example")
-    .setInput(<item:minecraft:cobblestone>)
+    .setInput(<item:emendatusenigmatica:copper_shard>)
     .setAmount(100)
     .setCrucibleType("fired")
-    .setResutFluid(<fluid:minecraft:lava>);
+    .setResultFluid(<fluid:emendatusenigmatica:copper>);

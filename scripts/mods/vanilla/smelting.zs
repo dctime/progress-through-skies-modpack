@@ -17,3 +17,12 @@ furnace.addJsonRecipe("cobblestone_to_cobbled_deepslate",
         cookingtime:10
     }
  );
+
+  furnace.addJsonRecipe("fire_crucible", 
+    {
+        ingredient: <item:exnihilosequentia:unfired_crucible>,
+        result: <item:exnihilosequentia:fired_crucible>.registryName,
+        experience: 0.35 as float,
+        cookingtime:10
+    }
+ );
