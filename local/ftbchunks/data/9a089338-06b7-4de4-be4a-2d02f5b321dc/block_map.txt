@@ -12,6 +12,7 @@
 #4E5B9C tetra:basic_workbench
 #E152BD create:basin
 #D02259 progressthroughskies:bedrock_gravel
+#870939 mekanismgenerators:bio_generator
 #DBAA89 chiselsandbits:bit_storage
 #7F8A04 minecraft:blast_furnace
 #FFC34F mekanism:bounding_block
@@ -48,9 +49,11 @@
 #FDB3B3 kubejs:dusted_water
 #225317 ic2:electric_blast_furnace
 #8ECC79 assemblylinemachines:electric_grinder
+#494383 electrodynamics:electricarcfurnace
 #24A97B electrodynamics:electricfurnace
 #688996 pneumaticcraft:electrostatic_compressor
 #548B83 create:encased_fan
+#507780 extractinator:extractinator
 #009B14 minecraft:farmland
 #8F3A54 industrialforegoing:fermentation_station
 #2DC94B minecraft:furnace
@@ -74,6 +77,7 @@
 #839E5A integrateddynamics:mechanical_drying_basin
 #E638FD create:mechanical_mixer
 #EB6C34 cyclic:melter
+#2E41AC dynamicelectricity:motordclv
 #52E3AF minecraft:mud
 #7530C9 electrodynamics:multisubnode
 #F24163 storagedrawers:oak_full_drawers_1
@@ -92,8 +96,11 @@
 #DF2185 tinyredstone:redstone_panel
 #721B63 minecraft:redstone_wire
 #560E1C ic2:refinery
+#541803 industrialforegoing:resourceful_furnace
 #879B54 mekanism:rotary_condensentrator
 #2248CC occultism:sacrificial_bowl
+#35F72A mob_grinding_utils:saw
+#3A9287 minecraft:smooth_stone
 #815EB2 mekanismgenerators:solar_generator
 #7D61FE powah:solar_panel_nitro
 #6A06B7 powah:solar_panel_starter
@@ -125,5 +132,6 @@
 #DA7940 ic2:wind_turbine
 #B4C4CC ic2:windmill
 #BA0DAC immersiveengineering:windmill
+#A8C245 electrodynamics:wiregold
 #53959F electrodynamics:wiremilltriple
 #5A0B47 immersiveengineering:workbench

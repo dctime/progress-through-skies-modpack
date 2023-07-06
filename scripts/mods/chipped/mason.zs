@@ -5,7 +5,8 @@ var polished_andesite_machine =
     <item:minecraft:polished_andesite>,
     <item:cyclic:collector>,
     <item:cyclic:breaker>,
-    <item:cyclic:placer>
+    <item:cyclic:placer>,
+    <item:extractinator:extractinator>
 ] as IItemStack[];
 
 var polished_deepslate_machine =
