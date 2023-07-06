@@ -160,6 +160,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7F09A1A4646E402A"]
 			id: "0DA16EDC533118B6"
 			tasks: [{
 				id: "7B7220D375048BA0"
@@ -170,10 +171,11 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7F09A1A4646E402A"]
 			id: "2F7D92B07C1CC11E"
 			tasks: [{
-				id: "0CA54DC44D548A7E"
-				item: "emendatusenigmatica:copper_nugget"
+				id: "6972007C20257CB9"
+				item: "emendatusenigmatica:copper_shard"
 				type: "item"
 			}]
 			x: 4.0d
@@ -190,6 +192,10 @@
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"38FEF69B33132F3C"
+				"39371F05FD56B3CE"
+			]
 			id: "7F09A1A4646E402A"
 			tasks: [{
 				id: "6B7FDDB0DF6F8B63"
@@ -276,6 +282,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"66A9F73776C28463"
+				"00896B755B1B663F"
+			]
 			id: "38FEF69B33132F3C"
 			tasks: [{
 				id: "52A66D766801B661"
@@ -283,7 +293,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			id: "00896B755B1B663F"
@@ -294,6 +304,33 @@
 			}]
 			x: 4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["64927F0566CCD040"]
+			id: "66A9F73776C28463"
+			tasks: [{
+				id: "341E42888449FE32"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "64927F0566CCD040"
+			tasks: [{
+				id: "1FB74102710B1D8F"
+				item: "emendatusenigmatica:gold_dirty_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
 		}
 	]
 	title: "The First Metal[WIP]"

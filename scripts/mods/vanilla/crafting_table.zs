@@ -1,4 +1,5 @@
 craftingTable.removeByModid("minecraft");
+craftingTable.removeByModid("hostilenetwork");
 
 
 craftingTable.addShaped("gravel_dust_to_gravel", <item:minecraft:gravel>,
@@ -96,4 +97,6 @@ craftingTable.addShaped("craft_carpenters_table", <item:chipped:carpenters_table
     [<item:minecraft:oak_slab>, <item:minecraft:oak_slab>],
     [<item:minecraft:stick>, <item:minecraft:stick>]
 ]);
+
+craftingTable.addShapeless("impure_white_chalk_to_impure_golden_chalk", <item:occultism:chalk_gold_impure>, [<item:occultism:chalk_white_impure>, <item:emendatusenigmatica:gold_dirty_dust>]);
 

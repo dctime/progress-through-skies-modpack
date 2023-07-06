@@ -127,3 +127,25 @@ for damage in 0 .. 24
     "item": "minecraft:andesite"
   }
 });
+
+<recipetype:occultism:spirit_fire>.addJsonRecipe("impure_gold_chalk_to_gold_chalk",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "occultism:chalk_gold_impure"
+  },
+  "result": {
+    "item": "occultism:chalk_gold"
+  }
+});
+
+<recipetype:occultism:spirit_fire>.addJsonRecipe("amethyst_to_crystal",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "item": "occultism:spirit_attuned_crystal"
+  }
+});
