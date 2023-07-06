@@ -56,6 +56,7 @@
 #507780 extractinator:extractinator
 #009B14 minecraft:farmland
 #8F3A54 industrialforegoing:fermentation_station
+#740445 exnihilosequentia:fired_crucible
 #2DC94B minecraft:furnace
 #0A9178 chipped:glassblower
 #C34942 occultism:golden_sacrificial_bowl
