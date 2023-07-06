@@ -241,16 +241,6 @@
 			y: 3.0d
 		}
 		{
-			id: "37A27C547ECBCBA8"
-			tasks: [{
-				id: "46F8C3C696E47326"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
 			id: "24DABD96D407FD57"
 			tasks: [{
 				id: "27D5B448C29FBD5C"
@@ -331,6 +321,37 @@
 			}]
 			x: 3.0d
 			y: 8.0d
+		}
+		{
+			id: "4DFB7C2C0D1AFC9A"
+			tasks: [{
+				id: "5CD7CE30AC06D848"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A9182B447702C87"]
+			id: "03E1D9F25E7C1BB5"
+			tasks: [{
+				id: "25511512E9A48A6D"
+				item: "extractinator:extractinator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "6A9182B447702C87"
+			tasks: [{
+				id: "79012796B4ABF40B"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 	title: "The First Metal[WIP]"
