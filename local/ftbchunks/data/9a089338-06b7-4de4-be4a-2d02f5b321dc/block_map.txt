@@ -46,6 +46,7 @@
 #73CA69 create:creative_motor
 #7655EB ic2:crop_analyzer_block
 #FB5BA9 ic2:cropmatron
+#3259C5 mekanism:crusher
 #59CD2D thermal:device_collector
 #80497A minecraft:dirt
 #15EACA integrateddynamics:drying_basin
