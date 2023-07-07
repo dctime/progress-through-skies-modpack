@@ -100,6 +100,7 @@
 #F24163 storagedrawers:oak_full_drawers_1
 #AD9EB5 minecraft:oak_leaves
 #BBA6D1 minecraft:oak_log
+#79D566 ilikewood:oak_log_pile
 #891992 ilikewood:oak_sawmill
 #E187DD exnihilosequentia:oak_sieve
 #374FD3 minecraft:oak_slab
@@ -116,6 +117,7 @@
 #541803 industrialforegoing:resourceful_furnace
 #879B54 mekanism:rotary_condensentrator
 #2248CC occultism:sacrificial_bowl
+#86FC77 minecraft:sand
 #35F72A mob_grinding_utils:saw
 #D3CCFE create:shaft
 #C9A627 industrialforegoing:sludge_refiner

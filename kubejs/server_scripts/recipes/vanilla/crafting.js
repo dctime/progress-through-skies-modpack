@@ -247,6 +247,17 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of("exnihilosequentia:stone_crook"),
+        [
+            'AA',
+            ' A'
+        ],
+        {
+            'A': "minecraft:cobblestone"
+        }
+    )
+
 
 
 

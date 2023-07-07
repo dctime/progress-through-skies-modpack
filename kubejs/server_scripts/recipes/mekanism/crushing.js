@@ -1,13 +1,16 @@
 ServerEvents.recipes(event => {
     event.custom({
         "type": "mekanism:crushing",
-        "input": {
-          "ingredient": {
-            "tag": "forge:gravel"
-          }
+        "input": 
+        {
+            "ingredient": 
+            {
+                "item": "emendatusenigmatica:raw_copper_block"
+            }
         },
         "output": {
-          "item": "minecraft:sand"
+                "count": 8,
+                "item": "emendatusenigmatica:raw_copper"
         }
-      });
+    });
 })

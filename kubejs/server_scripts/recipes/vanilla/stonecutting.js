@@ -6,4 +6,7 @@ ServerEvents.recipes(event => {
     event.stonecutting('create:basin', 'minecraft:polished_blackstone');
 
     event.stonecutting('exnihilosequentia:unfired_crucible', 'minecraft:clay');
+    event.stonecutting('9x create:shaft', 'minecraft:polished_andesite');
+    event.stonecutting('2x create:andesite_scaffolding', 'minecraft:polished_andesite');
+    event.stonecutting('create:whisk', 'minecraft:polished_andesite');
 })
