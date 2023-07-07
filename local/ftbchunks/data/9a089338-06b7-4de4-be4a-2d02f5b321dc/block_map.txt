@@ -51,6 +51,7 @@
 #15EACA integrateddynamics:drying_basin
 #517451 progressthroughskies:dusted_bedrock
 #FDB3B3 kubejs:dusted_water
+#4A8750 progressthroughskies:dusted_water_block
 #225317 ic2:electric_blast_furnace
 #8ECC79 assemblylinemachines:electric_grinder
 #494383 electrodynamics:electricarcfurnace
@@ -116,6 +117,7 @@
 #2248CC occultism:sacrificial_bowl
 #35F72A mob_grinding_utils:saw
 #D3CCFE create:shaft
+#C9A627 industrialforegoing:sludge_refiner
 #3A9287 minecraft:smooth_stone
 #815EB2 mekanismgenerators:solar_generator
 #7D61FE powah:solar_panel_nitro
@@ -132,6 +134,7 @@
 #29EA02 additional_lights:standing_torch_l_cobblestone
 #BF1789 additional_lights:standing_torch_s_cobblestone
 #C283C5 exnihilosequentia:stone_barrel
+#7D07A9 minecraft:stone_pressure_plate
 #2E9337 minecraft:stonecutter
 #A061A1 botania:stripped_dreamwood_log
 #3CE0C1 pneumaticcraft:thermopneumatic_processing_plant
@@ -155,4 +158,5 @@
 #A8C245 electrodynamics:wiregold
 #53959F electrodynamics:wiremilltriple
 #1D76A9 chipped:wooden_cage_lantern
+#521E56 cgm:workbench
 #5A0B47 immersiveengineering:workbench

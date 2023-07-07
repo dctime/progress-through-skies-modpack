@@ -12,7 +12,8 @@ var items =
     <item:thermal:device_tree_extractor>,
     <item:minecraft:crafting_table>,
     <item:minecraft:chest>,
-    <item:minecraft:oak_slab>
+    <item:minecraft:oak_slab>,
+    <item:create:piston_extension_pole>
 ] as IItemStack[];
 
 for item in items

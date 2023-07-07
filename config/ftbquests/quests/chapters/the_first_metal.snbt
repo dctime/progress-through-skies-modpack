@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "10819B167A2936B5"
 			tasks: [{
 				id: "4C42BA05ECBA0263"
@@ -25,6 +26,7 @@
 		}
 		{
 			dependencies: ["10819B167A2936B5"]
+			description: ["{image:modpackdctime:textures/misc/chisel_the_stone.png width:160 height:90 align:1 fit:true}"]
 			id: "283B3564A5B6E01E"
 			tasks: [{
 				id: "00DBD9DF4F2F386A"
@@ -68,6 +70,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "56D604C340CEA267"
 			tasks: [{
 				id: "2C5F752B9CC14E7A"
@@ -107,8 +110,8 @@
 				item: "immersiveengineering:workbench"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["737910FDFA7B03B6"]
@@ -122,6 +125,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "737910FDFA7B03B6"
 			tasks: [{
 				id: "5161992B24AB4C3C"
@@ -132,6 +136,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "41D877A038584E06"
 			tasks: [{
 				id: "741A01C564E7A9D9"
@@ -142,6 +147,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "393F064655A983FE"
 			tasks: [{
 				id: "291847AC95F0F29D"
@@ -170,8 +176,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7F09A1A4646E402A"]
@@ -181,8 +187,8 @@
 				item: "emendatusenigmatica:copper_shard"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -206,6 +212,7 @@
 				"76E5D840FD584D35"
 			]
 			id: "39371F05FD56B3CE"
+			subtitle: "Use new bucket if cannot accept"
 			tasks: [{
 				id: "451154B95E82DCC2"
 				item: {
@@ -219,20 +226,22 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 2.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "24DABD96D407FD57"
 			tasks: [{
 				id: "27D5B448C29FBD5C"
 				item: "minecraft:dark_oak_log"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["073810A89168CAB2"]
@@ -242,23 +251,28 @@
 				item: "chipped:cobbled_blackstone"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
+			dependencies: [
+				"051133FFE0746AF3"
+				"20B0E40151AE6716"
+			]
 			id: "073810A89168CAB2"
 			tasks: [{
 				id: "5058FEBAC9EB7E3C"
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: [
 				"66A9F73776C28463"
 				"00896B755B1B663F"
+				"6A9182B447702C87"
 			]
 			id: "38FEF69B33132F3C"
 			tasks: [{
@@ -266,18 +280,19 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "00896B755B1B663F"
 			tasks: [{
 				id: "24D12693AB8E1D91"
 				item: "occultism:spirit_attuned_crystal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64927F0566CCD040"]
@@ -293,18 +308,19 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "64927F0566CCD040"
 			tasks: [{
 				id: "1FB74102710B1D8F"
 				item: "emendatusenigmatica:gold_dirty_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["03E1D9F25E7C1BB5"]
@@ -329,10 +345,17 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "6A9182B447702C87"
 			tasks: [{
 				id: "79012796B4ABF40B"
-				item: "minecraft:oak_sapling"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:zombie_gate_small"
+					}
+				}
 				type: "item"
 			}]
 			x: 5.0d
@@ -346,8 +369,8 @@
 				item: "exnihilosequentia:fired_crucible"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -361,9 +384,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
+			dependencies: ["051133FFE0746AF3"]
 			id: "45D4373C4CCD7358"
 			tasks: [{
 				id: "00C1647895E2D6AB"
@@ -371,7 +395,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -385,7 +409,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5BDADFBA9E1160BB"]

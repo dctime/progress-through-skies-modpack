@@ -1,6 +1,6 @@
 for mod in loadedMods.getMods()
 {
-    if (mod.id() != "morphtool")
+    if (mod.id() != "morphtool" && mod.id() != "progressthroughskies")
     {
         craftingTable.removeByModid(mod.id());
     }

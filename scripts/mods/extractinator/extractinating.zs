@@ -4,7 +4,7 @@
 {
   "type": "extractinator:extractinating",
   "input": {
-    "item": "minecraft:oak_sapling"
+    "item": "minecraft:rotten_flesh"
   },
   "drops": [
     {

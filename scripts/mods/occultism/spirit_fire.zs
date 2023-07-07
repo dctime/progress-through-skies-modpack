@@ -162,3 +162,16 @@ for damage in 0 .. 24
             "nbt": {blueprint: "components"}
         }
 });
+
+<recipetype:occultism:spirit_fire>.addJsonRecipe("small_zombie_gateway",
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "exnihilosequentia:cooked_silkworm"
+  },
+  "result": {
+            "type": "forge:nbt",
+            "item": "gateways:gate_pearl",
+            "nbt": {gateway: "gateways:zombie_gate_small"}
+        }
+});
