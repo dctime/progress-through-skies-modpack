@@ -247,6 +247,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2023-07-08 12:12:39 +0800"
+    },
+    "done": true
+  },
   "exmachinis:flux_compactor": {
     "criteria": {
       "has_flux_compactor": "2023-07-05 21:19:09 +0800"
@@ -372,6 +378,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2023-07-08 12:13:47 +0800",
       "apple": "2023-06-30 16:17:21 +0800"
     },
     "done": false

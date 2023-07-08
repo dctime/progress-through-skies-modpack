@@ -275,6 +275,7 @@
 				"6A9182B447702C87"
 			]
 			id: "38FEF69B33132F3C"
+			subtitle: "kill zombies to get grave dusts"
 			tasks: [{
 				id: "52A66D766801B661"
 				item: "minecraft:soul_sand"

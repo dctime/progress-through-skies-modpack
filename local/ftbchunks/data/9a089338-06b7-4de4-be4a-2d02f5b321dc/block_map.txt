@@ -75,6 +75,7 @@
 #0A9178 chipped:glassblower
 #C34942 occultism:golden_sacrificial_bowl
 #3F84B7 minecraft:grass_block
+#F94EB7 tombstone:grave_simple
 #88BAFA minecraft:gravel
 #87B5C3 create:hand_crank
 #04EF85 create:haunted_bell
