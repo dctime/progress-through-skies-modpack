@@ -206,3 +206,35 @@ quark.keybind.patreon_emote.zombie
 Reload Menu | CTRL + ALT + 
 Toggle Customization Overlay | CTRL + ALT + 
 key.presencefootsteps.settings
+key.entityculling.toggle
+key.observable.profile
+pneumaticcraft.armor.upgrade.fall_protection
+pneumaticcraft.armor.upgrade.jet_boots.module.hover
+pneumaticcraft.armor.upgrade.air_conditioning
+pneumaticcraft.armor.upgrade.stomp
+pneumaticcraft.armor.upgrade.jet_boots.module.flight_stabilizers
+pneumaticcraft.armor.upgrade.block_tracker
+pneumaticcraft.armor.upgrade.jump_boost
+pneumaticcraft.armor.upgrade.charging
+pneumaticcraft.armor.upgrade.step_assist
+pneumaticcraft.armor.upgrade.coordinate_tracker
+pneumaticcraft.armor.upgrade.entity_tracker
+pneumaticcraft.armor.upgrade.run_speed
+pneumaticcraft.armor.upgrade.block_tracker.module.spawner
+pneumaticcraft.armor.upgrade.ender_visor
+pneumaticcraft.armor.upgrade.night_vision
+pneumaticcraft.armor.upgrade.reach_distance
+pneumaticcraft.armor.upgrade.magnet
+pneumaticcraft.armor.upgrade.jet_boots
+pneumaticcraft.armor.upgrade.block_tracker.module.energy
+pneumaticcraft.armor.upgrade.block_tracker.module.fluids
+pneumaticcraft.armor.upgrade.block_tracker.module.inventories
+pneumaticcraft.armor.upgrade.core_components
+pneumaticcraft.armor.upgrade.elytra
+pneumaticcraft.armor.upgrade.search
+pneumaticcraft.armor.upgrade.block_tracker.module.misc
+pneumaticcraft.armor.upgrade.jet_boots.module.smart_hover
+pneumaticcraft.armor.upgrade.block_tracker.module.hackables
+pneumaticcraft.armor.upgrade.scuba
+pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode
+pneumaticcraft.armor.upgrade.block_tracker.module.end_portal
