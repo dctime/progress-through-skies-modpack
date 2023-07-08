@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "553fb82d2e40495a862effddc73623ce"
+	name: "DCtime"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
