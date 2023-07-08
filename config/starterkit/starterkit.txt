@@ -5,7 +5,7 @@
 'feet' : '',
 0 : '{Count:1b,id:"ftbquests:book"}',
 1 : '{Count:1b,id:"create:builders_tea"}',
-2 : '{Count:1b,id:"theoneprobe:probenote"}',
+2 : '',
 3 : '',
 4 : '',
 5 : '',
