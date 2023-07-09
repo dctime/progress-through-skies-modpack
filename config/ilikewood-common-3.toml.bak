@@ -1,0 +1,39 @@
+
+[ilikewood]
+
+	[ilikewood.enable]
+		panels = true
+		panels_stairs = true
+		panels_slabs = true
+		barrels = true
+		beds = true
+		bookshelves = true
+		composters = true
+		crafting_tables = true
+		chests = true
+		sawmills = true
+		lecterns = true
+		ladders = true
+		scaffoldings = true
+		torches = true
+		log_piles = true
+		posts = true
+		walls = true
+		chairs = true
+		tables = true
+		stools = true
+		single_dressers = true
+		sticks = true
+		bows = true
+		crossbows = true
+		fishing_rods = true
+		item_frames = true
+		axes = true
+		hoes = true
+		pickaxes = true
+		shovels = true
+		swords = true
+		campfires = true
+		paintings = true
+		crates = true
+
