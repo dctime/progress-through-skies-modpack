@@ -14,6 +14,11 @@ ServerEvents.entityLootTables((event) => {
                     count: { type: 'minecraft:uniform', max: 1.0, min: 0.0 }
                 });
         });
+
+        table.addPool((pool) => {
+            pool.rolls = 1;
+            pool.addItem('tombstone:grave_dust', 1).randomChance(0.1);
+        });
     })
 
     event.addEntity('minecraft:zombie', (table) => {
@@ -29,6 +34,11 @@ ServerEvents.entityLootTables((event) => {
                     function: 'minecraft:looting_enchant',
                     count: { type: 'minecraft:uniform', max: 1.0, min: 0.0 }
                 });
+        });
+
+        table.addPool((pool) => {
+            pool.rolls = 1;
+            pool.addItem('tombstone:grave_dust', 1).randomChance(0.1);
         });
     })
 })

@@ -49,26 +49,6 @@ ServerEvents.recipes(event => {
         }
       });
     
-    for (let wood_bucket_damage = 0; wood_bucket_damage < 25; wood_bucket_damage++)
-    {
-        event.custom({
-            "type": "occultism:spirit_fire",
-            "ingredient": 
-            [
-                {
-                    "type": "forge:nbt",
-                    "item": "woodenbucket:wooden_bucket",
-                    "nbt": {"Damage":wood_bucket_damage, "Fluid":{"FluidName": "thermal:resin","Amount": 1000}}
-                }
-            ],
-            "result":
-            {
-                "type": "forge:nbt",
-                "item": "woodenbucket:wooden_bucket",
-                "nbt": {"Damage":wood_bucket_damage, "Fluid":{"Damage":0, "FluidName": "cyclic:wax","Amount": 1000}}
-            }
-        });
-    }
 
     event.custom({
         "type": "occultism:spirit_fire",
@@ -85,9 +65,8 @@ ServerEvents.recipes(event => {
         "ingredient": {
           "item": "minecraft:stick"
         },
-        "result": {
-          "item": "morphtool:tool"
-        }
+        "result": Item.of('morphtool:tool', '{"morphtool:data":{chiselsandbits:{Count:1b,id:"chiselsandbits:wrench"},create:{Count:1b,id:"create:wrench",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.create.wrench"}]}\'},"morphtool:displayName":{text:\'{"translate":"item.create.wrench"}\'},"morphtool:is_morphing":1b}},mekanism:{Count:1b,id:"mekanism:configurator",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.mekanism.configurator"}]}\'},"morphtool:displayName":{text:\'{"color":"#30FFF9","translate":"item.mekanism.configurator"}\'},"morphtool:is_morphing":1b}},pneumaticcraft:{Count:1b,id:"pneumaticcraft:pneumatic_wrench"},tinyredstone:{Count:1b,id:"tinyredstone:redstone_wrench"}},"morphtool:is_morphing":1b}')
+        // TODO: ALWAYS CHECK THIS WHEN EXPORT
     });
     event.custom({
         "type": "occultism:spirit_fire",

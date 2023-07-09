@@ -107,11 +107,12 @@ ServerEvents.recipes(event => {
 
     compact_2(PTS('gravel_dust'), MC('gravel'));
     compact_2(PTS('sand_dust'), MC("sand"));
-    checker(COMP('gravel_1'), COMP('gravel_2'), MC('cobblestone'));
+    checker(COMP('gravel_1'), COMP('sand_1'), MC('cobblestone'));
     plate(MC('cobblestone'), MC('stone_pressure_plate'));
     compact_2(MC('stone_pressure_plate'), ES('stone_barrel'));
     plate(MC('string'), ES('string_mesh'));
-    all(MC('string'), MC('stick'), ILW('oak_log_pile'), MC('flint'), ILW('oak_sawmill'));
+    all(MC('string'), MC('stick'), ILW('oak_log_pile'), MC('flint'), MC('campfire'));
+    all(MC('stick'), MC('stone_pressure_plate'), MC('oak_log'), MC('oak_log'), ILW('oak_sawmill'));
     
 
     event.shaped(
@@ -132,7 +133,7 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of(MC('stonecutter'), 1),
         [
-            'A',
+            'A ',
             'BC'
         ],
         {

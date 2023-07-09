@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
         },
         "duration": 20,
         "result": {
-            "item": "minecraft:mud"
+            "item": "minecraft:mud",
+            "count": 5
         }
     })
 })

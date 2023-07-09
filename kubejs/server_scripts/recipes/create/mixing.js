@@ -3,21 +3,33 @@ ServerEvents.recipes(event => {
         "type": "create:mixing",
         "ingredients": 
         [
-            {
-                "type": "forge:nbt",
-                "item": "chiselsandbits:block_bit",
-                "nbt": {block_information: {state:'{"Name":"minecraft:cobblestone"}'}}
-            },
+            // TrASH CODE
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
+            Item.of('chiselsandbits:block_bit', 64, "{block_information:{state:'{\"Name\":\"minecraft:cobblestone\"}'}}"),
             {
                 "fluid": "minecraft:water",
-                "amount": 1
+                "amount": 100
             }
         ],
         "results": 
         [
             {
                 "fluid": "progressthroughskies:dusted_water_fluid",
-                "amount": 1
+                "amount": 100
             }
         ]
     })

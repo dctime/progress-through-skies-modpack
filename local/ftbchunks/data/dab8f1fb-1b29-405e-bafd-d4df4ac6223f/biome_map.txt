@@ -1,0 +1,2 @@
+#2DC minecraft:deep_dark
+#4CA minecraft:dripstone_caves

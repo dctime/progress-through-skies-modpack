@@ -28,6 +28,7 @@
 			dependencies: ["10819B167A2936B5"]
 			description: ["{image:modpackdctime:textures/misc/chisel_the_stone.png width:160 height:90 align:1 fit:true}"]
 			id: "283B3564A5B6E01E"
+			subtitle: "Press X to change the chisel's mod to get a lot of bits in one click."
 			tasks: [{
 				id: "00DBD9DF4F2F386A"
 				item: {
@@ -211,6 +212,7 @@
 				"283B3564A5B6E01E"
 				"76E5D840FD584D35"
 			]
+			description: ["Check Dusted Water's recipe in JEI (Search it) for more information"]
 			id: "39371F05FD56B3CE"
 			subtitle: "Use new bucket if cannot accept"
 			tasks: [{
@@ -324,7 +326,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["03E1D9F25E7C1BB5"]
+			dependencies: ["7EA4A2A1E6BC795B"]
 			id: "4DFB7C2C0D1AFC9A"
 			tasks: [{
 				id: "5CD7CE30AC06D848"
@@ -332,17 +334,6 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6A9182B447702C87"]
-			id: "03E1D9F25E7C1BB5"
-			tasks: [{
-				id: "25511512E9A48A6D"
-				item: "extractinator:extractinator"
-				type: "item"
-			}]
-			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -435,6 +426,17 @@
 			}]
 			x: -1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["6A9182B447702C87"]
+			id: "7EA4A2A1E6BC795B"
+			tasks: [{
+				id: "639B3CABA42AD964"
+				item: "cyclic:crusher"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "The First Metal"

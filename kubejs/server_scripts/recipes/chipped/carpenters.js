@@ -54,12 +54,12 @@ ServerEvents.tags('item', event => {
 
     for (let item of cog_wheels)
     {
-        event.add('forge:log_machine', item)
+        event.add('forge:cog_wheels', item)
     }
 
     for (let item of andesite_casing_machine)
     {
-        event.add('forge:log_machine', item)
+        event.add('forge:andesite_casing_machine', item)
     }
 })
 

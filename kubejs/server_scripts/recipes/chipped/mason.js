@@ -5,7 +5,8 @@ ServerEvents.tags('item', event => {
         'cyclic:collector',
         'cyclic:breaker',
         'cyclic:placer',
-        'extractinator:extractinator'
+        'cyclic:crusher'
+
     ]
 
     let polished_deepslate_machine =
@@ -40,7 +41,7 @@ ServerEvents.tags('item', event => {
         'additional_lights:al_lamp_cobblestone'
     ]
 
-    for (let item of polished_deepslate_machine)
+    for (let item of polished_andesite_machine)
     {
         event.add('forge:polished_andesite_machine', item)
     }
@@ -57,7 +58,7 @@ ServerEvents.tags('item', event => {
 
     for (let item of stone_plate_machine)
     {
-        event.add('forge:cobblestone_machine', item)
+        event.add('forge:stone_plate_machine', item)
     }
 
     for (let item of cobblestone_light_source)

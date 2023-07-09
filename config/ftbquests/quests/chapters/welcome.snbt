@@ -102,7 +102,7 @@
 		}
 		{
 			dependencies: ["314FCD5C93EFA7F9"]
-			description: ["Well, you will going to make several wooden hammers. You can't make tools in crafting tables."]
+			description: ["Modify hammer with hammer"]
 			id: "7AAA6F85BDE0E95D"
 			shape: "circle"
 			subtitle: "Crafting Tables are just crafting ingredients"
@@ -342,11 +342,35 @@
 			shape: "circle"
 			tasks: [{
 				id: "256FAE996ABA6EB8"
-				item: "additional_lights:standing_torch_l_cobblestone"
+				item: "additional_lights:fire_pit_l_cobblestone"
 				type: "item"
 			}]
 			x: 4.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["76B0B0748B910965"]
+			id: "53BE8931EA39EC59"
+			shape: "circle"
+			tasks: [{
+				id: "4D940506D6FDE81D"
+				item: "additional_lights:standing_torch_l_cobblestone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "71CB29D5DC0DB984"
+			shape: "circle"
+			subtitle: "Mob won't spawn in the world"
+			tasks: [{
+				id: "01FD77401E8C30DC"
+				title: "Spawn Disabled"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
 		}
 	]
 	title: "Welcome!"

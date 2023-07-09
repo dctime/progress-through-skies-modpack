@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "item": "occultism:candle_white",
-            "count": 2
+            "count": 4
         }
     })
 })

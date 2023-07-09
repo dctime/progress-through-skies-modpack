@@ -46,6 +46,7 @@
 #73CA69 create:creative_motor
 #7655EB ic2:crop_analyzer_block
 #FB5BA9 ic2:cropmatron
+#610B0F cyclic:crusher
 #3259C5 mekanism:crusher
 #59CD2D thermal:device_collector
 #80497A minecraft:dirt
@@ -54,6 +55,7 @@
 #FDB3B3 kubejs:dusted_water
 #4A8750 progressthroughskies:dusted_water_block
 #225317 ic2:electric_blast_furnace
+#F4E00C assemblylinemachines:electric_fluid_mixer
 #8ECC79 assemblylinemachines:electric_grinder
 #494383 electrodynamics:electricarcfurnace
 #24A97B electrodynamics:electricfurnace
@@ -69,6 +71,7 @@
 #BDA880 additional_lights:fire_for_standing_torch_l
 #BDA887 additional_lights:fire_for_standing_torch_s
 #740445 exnihilosequentia:fired_crucible
+#D51A16 mekanism:fuelwood_heater
 #2DC94B minecraft:furnace
 #D60460 create:gearbox
 #F832D7 create:gearshift
@@ -94,6 +97,7 @@
 #839E5A integrateddynamics:mechanical_drying_basin
 #E638FD create:mechanical_mixer
 #4F44DD create:mechanical_saw
+#E71E05 nuclearscience:meltedreactor
 #EB6C34 cyclic:melter
 #2E41AC dynamicelectricity:motordclv
 #52E3AF minecraft:mud

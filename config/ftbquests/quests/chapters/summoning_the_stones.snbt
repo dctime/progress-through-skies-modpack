@@ -27,30 +27,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24B2C4D614406D59"]
-			description: ["You can make vanilla cobble gen right now!"]
-			id: "2E423599175E4878"
-			subtitle: "Quickly give the lava into the bucket and throw it away. It's very hot."
-			tasks: [{
-				id: "1293D1BB653E0CBF"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 1
-						Fluid: {
-							Amount: 1000
-							FluidName: "minecraft:lava"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"01B771971FCC1685"
 				"2BEB3A43CCED0AF3"
@@ -113,14 +89,14 @@
 				item: "cyclic:melter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
-				"6BBCE46BD88F42D3"
+				"24B2C4D614406D59"
 				"4AE526069B1DB386"
-				"2E423599175E4878"
+				"6BBCE46BD88F42D3"
 			]
 			id: "26965F1781593A04"
 			subtitle: "A powerful cobblegen"
@@ -374,7 +350,7 @@
 			dependencies: ["50583D2AB3A56F72"]
 			id: "570C1835E379EE19"
 			shape: "circle"
-			subtitle: "Check the usage(JEI) of the wooden resin bucket, and use new bucket if it doesn't submit."
+			subtitle: "Check the usage(JEI) of resin, and use new bucket if it doesn't submit."
 			tasks: [{
 				id: "4DF99AB1DFC599D7"
 				item: {
@@ -481,7 +457,7 @@
 		}
 		{
 			dependencies: ["01D01071F06E7049"]
-			description: ["It can be combine with wrenches in your crafting grid. When pointing at a modded block, it simply turns into the wrench which matches the mod which adds the block."]
+			description: ["It is combined with every wrench in the game. If there is something that I missed. Report in the issue page :)"]
 			id: "0B83BE41B58F9B28"
 			shape: "circle"
 			subtitle: "Super wrench."
@@ -513,21 +489,6 @@
 			]
 			x: -3.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["0B83BE41B58F9B28"]
-			description: [""]
-			id: "328FE6CE34AAF517"
-			shape: "circle"
-			subtitle: "Mekanism's wrench."
-			tasks: [{
-				id: "37089A6D38E1BA4E"
-				item: "mekanism:configurator"
-				match_nbt: false
-				type: "item"
-			}]
-			x: -9.0d
-			y: -5.5d
 		}
 		{
 			dependencies: ["0B83BE41B58F9B28"]

@@ -14,17 +14,6 @@ customization {
 }
 
 customization {
-  path = fancymenu_data/bedrock.png
-  orientation = top-left
-  x = 462
-  width = 81
-  action = addtexture
-  actionid = ce15d5a5-1e66-4cb0-99d4-c0305960859d1688311048806
-  y = 176
-  height = 85
-}
-
-customization {
   orientation = top-left
   hidden = false
   original_pos_size_calculation = true
@@ -37,7 +26,7 @@ customization {
 }
 
 customization {
-  custom_color_hex = #101010
+  custom_color_hex = #B87333
   orientation = top-left
   hidden = false
   x = -1000000
@@ -61,39 +50,49 @@ customization {
 }
 
 customization {
-  orientation = bottom-centered
-  background_color = #ABC8F7
-  x = -207
-  width = 418
-  bar_color = #990000
+  orientation = mid-right
+  background_color = #FFFFFF
+  x = -66
+  width = 30
+  bar_color = #f58c02
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = 902698d7-00c1-476a-8be6-1f65ba313ef01688309966198
-  y = -60
+  y = -125
   progress_for_element_orientation = true
-  direction = right
-  height = 9
+  direction = up
+  height = 245
 }
 
 customization {
-  path = fancymenu_data/thinking.gif
-  orientation = element
-  orientation_element = 902698d7-00c1-476a-8be6-1f65ba313ef01688309966198
-  x = -9
-  width = 18
+  path = fancymenu_data/mixer.png
+  orientation = bottom-left
+  x = 74
+  width = 100
   action = addtexture
-  actionid = 50b82833-1a57-4a3b-94a8-c6ca1f28af151688311003744
-  y = -16
-  height = 29
+  actionid = b3a3df2e-a2e5-4056-a26e-fce7147adcdd1688804252734
+  y = -181
+  height = 100
 }
 
 customization {
-  path = fancymenu_data/logistic_sorter.png
-  orientation = top-left
-  x = 446
-  width = 55
+  path = fancymenu_data/cat.gif
+  orientation = mid-right
+  x = -80
+  width = 100
   action = addtexture
-  actionid = f50aaaf6-9d7b-420d-b89e-7b4fe8dc504b1688311073518
-  y = 216
-  height = 55
+  actionid = 54e3a12d-c74d-4873-bc42-e20453c0f4471688804204346
+  y = 44
+  height = 100
+}
+
+customization {
+  path = fancymenu_data/bio_generaorr.png
+  orientation = top-right
+  x = -154
+  width = 66
+  action = addtexture
+  actionid = 9ddbd80d-ac62-493f-b7c2-b25909bf854f1688804993572
+  y = 76
+  height = 68
 }
 

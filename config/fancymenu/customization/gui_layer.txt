@@ -10,7 +10,7 @@ customization-meta {
 
 customization {
   restart_on_load = false
-  name = pts_menu_animation
+  name = progress_through_skies_the_first_metal
   action = animatebackground
 }
 
@@ -270,52 +270,43 @@ customization {
 }
 
 customization {
-  path = fancymenu_data/logistic_sorter.png
-  orientation = top-right
-  x = -284
-  width = 38
-  action = addtexture
-  actionid = 80fa3f1b-eba8-4ff5-a268-6d670ea8a7471688306971533
-  y = 68
-  height = 38
-}
-
-customization {
-  path = fancymenu_data/bedrock.png
-  orientation = top-right
-  x = -69
-  width = 42
-  action = addtexture
-  actionid = 676b2b4e-54e2-40be-af7a-b807390ade9a1688306855375
-  y = 57
-  height = 42
-}
-
-customization {
-  path = fancymenu_data/subbar.png
-  orientation = top-right
-  x = -263
-  width = 208
-  action = addtexture
-  actionid = 1953ebda-f3d7-4f73-ba1e-cc369205b66d1688306786157
-  y = 68
-  height = 17
-}
-
-customization {
-  audio_source:279c89ab-7691-42a0-8e7c-36ca97afc6831688312419856 = fancymenu_data/sounds/menu1.ogg;EXTERNAL_LOCAL;100;0
   orientation = top-left
-  audio_source:e3047b07-b01c-4fe1-a923-d42f1de0c59f1688312440767 = fancymenu_data/sounds/menu4.ogg;EXTERNAL_LOCAL;100;0
-  channel = music
-  audio_source:00293f7c-0fea-4d2b-8ab4-babc9e778d1c1688312433903 = fancymenu_data/sounds/menu3.ogg;EXTERNAL_LOCAL;100;0
   loop = true
+  channel = music
   x = 62
   width = 50
   action = custom_layout_element:fancymenu_extension:audio_item
   actionid = e8d9c694-7a30-4219-bebb-20edd910e5ba1688312415797
   y = 70
+  audio_source:92153f16-d91f-4c1f-9e58-1c5704b031191688808674558 = fancymenu_data/sounds/pigstep_curly_remix.ogg;EXTERNAL_LOCAL;100;0
   once_per_session = false
-  audio_source:16a3fa93-4e27-4308-8d25-358ca9b098e21688312427086 = fancymenu_data/sounds/menu2.ogg;EXTERNAL_LOCAL;100;0
   height = 50
+}
+
+customization {
+  path = fancymenu_data/the_first_metal.png
+  orientation = top-left
+  x = 407
+  width = 201
+  action = addtexture
+  actionid = ad60fbf6-d276-4456-97f8-848dca2b85651688805406327
+  y = 70
+  height = 16
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = fancymenu_data/text/credits.txt
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 167
+  actionid = 8413ad6c-a7b0-4959-b793-ee5e82df530e1688808824733
+  action = addsplash
+  y = 58
 }
 
