@@ -1,0 +1,26 @@
+{
+    "id": "example",
+    "source": "vanilla",
+    "localizedName": "Example",
+    "processedTypes": [
+        "dust",
+        "fluid",
+        "gas",
+        "slurry",
+        "crystal",
+        "dirty_dust"
+    ],
+    "colors": {
+      "fluidColor": "-000000",
+      "particlesColor": "ffffff",
+      "materialColor": "ffffff",
+      "gasColor":"ffffff"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 3
+    }
+  }

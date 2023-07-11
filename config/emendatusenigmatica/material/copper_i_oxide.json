@@ -1,0 +1,1 @@
+{"id": "copper_i_oxide", "source": "modded", "localizedName": "Copper I Oxide", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-8f4a6a", "materialColor": "70b596", "gasColor": "70b596"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

@@ -1,0 +1,1 @@
+{"id": "dense_sulfuric_acid", "source": "modded", "localizedName": "Dense Sulfuric Acid", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-db9efa", "materialColor": "246106", "gasColor": "246106"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

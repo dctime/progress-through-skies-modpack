@@ -1,0 +1,1 @@
+{"id": "sulfurous_acid", "source": "modded", "localizedName": "Sulfurous Acid", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-443ca3", "materialColor": "bbc35d", "gasColor": "bbc35d"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

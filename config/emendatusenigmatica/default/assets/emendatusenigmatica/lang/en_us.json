@@ -25,6 +25,7 @@
   "fluid.emendatusenigmatica.copper": "Copper",
   "fluid.emendatusenigmatica.gold": "Gold",
   "fluid.emendatusenigmatica.raw_copper": "Raw Copper",
+  "fluid.emendatusenigmatica.sulfur": "Sulfur",
   "item.emendatusenigmatica.copper_bucket": "Copper Bucket",
   "item.emendatusenigmatica.copper_cluster_shard": "Copper Cluster Shard",
   "item.emendatusenigmatica.copper_dust": "Copper Dust",
@@ -46,5 +47,7 @@
   "item.emendatusenigmatica.raw_copper_gear": "Raw Copper Gear",
   "item.emendatusenigmatica.raw_copper_plate": "Raw Copper Plate",
   "item.emendatusenigmatica.raw_copper_rod": "Raw Copper Rod",
-  "item.emendatusenigmatica.raw_gold": "Raw Gold"
+  "item.emendatusenigmatica.raw_gold": "Raw Gold",
+  "item.emendatusenigmatica.sulfur_bucket": "Sulfur Bucket",
+  "item.emendatusenigmatica.sulfur_dust": "Sulfur Dust"
 }

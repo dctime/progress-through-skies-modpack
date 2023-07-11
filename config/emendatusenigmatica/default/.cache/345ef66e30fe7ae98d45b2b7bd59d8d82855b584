@@ -1,11 +1,13 @@
-// 1.19.2	2023-07-06T16:22:40.5373333	Emendatus Enigmatica Item Tags
-6f5b312c7856bdc0ad015ddcd2ca57d538186944 data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-11T16:49:22.4329485	Emendatus Enigmatica Item Tags
+dd80dcd1b83fd347f319b34afd2bc1f71699c009 data/forge/tags/items/buckets.json
 811adfa940d2cbe98914896bd10b40434cfa0449 data/forge/tags/items/buckets/copper.json
 5fc321f17cf22ace1a7608dd45c485ce4d610b9f data/forge/tags/items/buckets/gold.json
 31274c7fd4562ddefa6877a71aa0dc4669ee2e13 data/forge/tags/items/buckets/raw_copper.json
-efa09cceebd22c8317b92e6c8de7176fa32a7540 data/forge/tags/items/dusts.json
+720c77aebc3692f0c9aa50092bb0c9d025acbc1c data/forge/tags/items/buckets/sulfur.json
+2ee7c32fb81be09181128facae85f633e1fbe3b8 data/forge/tags/items/dusts.json
 903f15c0ffa668cdd8b3031c90ef3a75fee2c62b data/forge/tags/items/dusts/copper.json
 3a7d13ce08f245fd5d2db57879e333bd8bf65494 data/forge/tags/items/dusts/gold.json
+c27ffdbf7cfb6df2211ea774fcbd9ef1bbe1c595 data/forge/tags/items/dusts/sulfur.json
 14679480cfdd5abd64abbde0eb549c862003b57b data/forge/tags/items/gears.json
 f865b7e8f844a6621f93c638a5d5c160c9516325 data/forge/tags/items/gears/copper.json
 f24ddf3769eb0f2912ba3b81681c8c5e61f6b988 data/forge/tags/items/gears/gold.json

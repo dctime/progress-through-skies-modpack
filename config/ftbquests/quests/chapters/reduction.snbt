@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reduction"
+	group: "54F41CD78FED2FED"
+	id: "365B27F9068E3978"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BC075BD664F0A7F"
+			tasks: [{
+				id: "425B54D279646360"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "173468ABB6798F07"
+			tasks: [{
+				id: "69586FFD0E46C33C"
+				item: "chemlib:copper_i_oxide"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "0B1ED8FD6236750C"
+			tasks: [{
+				id: "0406FDE75C9B9075"
+				item: "chemlib:copper_i_sulfide"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "4C51374AFCB080A9"
+			tasks: [{
+				id: "0F5F888863787B05"
+				item: "chemlib:sulfuric_acid"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "40387355618EE70F"
+			tasks: [{
+				id: "6E69D4ED6D2B9623"
+				item: "chemlib:copper_ii_sulfate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "07AD747BD7D5E016"
+			tasks: [{
+				id: "2BCC36562F3A6171"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "2EF91F590EA5634E"
+			tasks: [{
+				id: "3F2C25CEAF921A89"
+				item: "emendatusenigmatica:copper_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "75E8C18681B69D8F"
+			tasks: [{
+				id: "742E83ED2184011A"
+				item: "chemlib:oxygen_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "0296D48174004806"
+			tasks: [{
+				id: "3634C37C47A2EC72"
+				item: "chemlib:sulfur_dioxide"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "79C32201001C18F3"
+			tasks: [{
+				id: "4538192DD7CFEEAB"
+				item: "chemlib:hydrogen_sulfide"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "36A052155D6E8CD7"
+			tasks: [{
+				id: "16F16D147E513D90"
+				item: "emendatusenigmatica:sulfur_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "4F98BCA5C21E1EE0"
+			tasks: [{
+				id: "37AEBF0CC7C2F923"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "woodenbucket:wooden_bucket"
+				tag: {
+					Damage: 0
+					Fluid: {
+						Amount: 1000
+						FluidName: "kubejs:sulfurous_acid"
+					}
+				}
+			}
+			id: "1B1DCE6512584202"
+			tasks: [{
+				id: "6E44153494A72BAF"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:sulfurous_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "5ADBC8615FF61B70"
+			tasks: [{
+				id: "6846D79A6BDD13A6"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:liquid_oxygen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "60CF02EEF8FE1A7B"
+			tasks: [{
+				id: "41BEB2071EE2C6D3"
+				item: "thermal:sulfur_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "53523816C258EE7E"
+			tasks: [{
+				id: "712372BDF248FD1B"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "235B1847E3914086"
+			tasks: [{
+				id: "53EA7E6076D3BEFA"
+				item: "dynamicelectricity:motordchv"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "00E837CAAEEC810B"
+			tasks: [{
+				id: "1977D1720EF1201C"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "2D42B4353D0C3F3F"
+			tasks: [{
+				id: "1A0D9F07D2BABAE4"
+				item: "electrodynamics:wirehighlyinsulatedcopper"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "6B12E79C1C0DDFEB"
+			tasks: [{
+				id: "2B4BE0918A838CBB"
+				item: "electrodynamics:upgradetransformer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "50CEB6D50BBE0ACD"
+			tasks: [{
+				id: "4A4C39C25E288234"
+				item: "electrodynamics:mineralcrushertriple"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "2E159AAE538A0270"
+			tasks: [{
+				id: "0BDD76D868F0B8C2"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "progressthroughskies:dusted_water_fluid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "4009563ECDF918A3"
+			tasks: [{
+				id: "29EA41A18A379F94"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:liquid_hydrogen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			id: "077037E130EC4343"
+			tasks: [{
+				id: "75DABDC0544CB34E"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:liquid_oxygen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+	]
+	title: "Reduction"
+}

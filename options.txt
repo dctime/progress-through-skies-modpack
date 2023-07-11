@@ -32,7 +32,7 @@ entityDistanceScaling:1.0
 guiScale:3
 particles:0
 maxFps:260
-graphicsMode:1
+graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
@@ -129,38 +129,38 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_tombstone.message.config:key.keyboard.unknown
 key_tombstone.message.compendium:key.keyboard.unknown
-key_key.cgm.reload:key.keyboard.unknown
-key_key.cgm.unload:key.keyboard.u
+key_key.cgm.reload:key.keyboard.f
+key_key.cgm.unload:key.keyboard.unknown
 key_key.cgm.attachments:key.keyboard.z
-key_key.jei.copy.recipe.id:key.keyboard.unknown
-key_key.jei.previousSearch:key.keyboard.up
-key_key.jei.showRecipe:key.keyboard.r
-key_key.jei.nextPage:key.keyboard.unknown
-key_key.jei.bookmark:key.keyboard.a
-key_key.jei.toggleEditMode:key.keyboard.unknown
-key_key.jei.previousPage:key.keyboard.unknown
-key_key.jei.showUses:key.keyboard.u
-key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
-key_key.jei.showUses2:key.mouse.right
-key_key.jei.cheatItemStack:key.mouse.left:SHIFT
-key_key.jei.toggleCheatMode:key.keyboard.c:ALT
-key_key.jei.clearSearchBar:key.mouse.right
-key_key.jei.nextSearch:key.keyboard.down
-key_key.jei.cheatItemStack2:key.mouse.middle
-key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
-key_key.jei.focusSearch:key.keyboard.f:CONTROL
-key_key.jei.recipeBack:key.keyboard.backspace
-key_key.jei.cheatOneItem:key.mouse.left
-key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
-key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
-key_key.jei.nextRecipePage:key.keyboard.page.down
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.previousPage:key.keyboard.unknown
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
 key_key.jei.closeRecipeGui:key.keyboard.escape
-key_key.jei.cheatOneItem2:key.mouse.right
-key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.showUses:key.keyboard.u
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.toggleCheatMode:key.keyboard.c:ALT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.recipeBack:key.keyboard.backspace
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.showUses2:key.mouse.right
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_pneumaticcraft.armor.options:key.keyboard.u
 key_pneumaticcraft.helmet.hack:key.keyboard.h
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
@@ -191,6 +191,17 @@ key_key.toggleLiquids:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+key_keybinds.combatroll.roll:key.keyboard.f
+key_Camera left:key.keyboard.left
+key_Camera right:key.keyboard.right
+key_Camera closer:key.keyboard.up
+key_Camera farther:key.keyboard.down
+key_Camera up:key.keyboard.page.up
+key_Camera down:key.keyboard.page.down
+key_Swap shoulder:key.keyboard.o
+key_Toggle perspective:key.keyboard.unknown
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.occultism.backpack:key.keyboard.b
@@ -219,6 +230,9 @@ key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
 key_tetra.toolbelt.binding.secondary_use:key.keyboard.v
 key_key.tinyredstone.rotation_lock:key.keyboard.left.alt
 key_auditory.sound_reload_key:key.keyboard.unknown
+key_key.cgm.reload:key.keyboard.f
+key_key.cgm.unload:key.keyboard.unknown
+key_key.cgm.attachments:key.keyboard.z
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.buildinggadgets.settings_menu:key.keyboard.g
@@ -243,6 +257,9 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.cyclic.cake:key.keyboard.unknown
+key_key.trashslot.toggle:key.keyboard.t
+key_key.trashslot.delete:key.keyboard.delete
+key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.configured.open_mod_list:key.keyboard.unknown
@@ -257,7 +274,7 @@ key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.back:key.mouse.4
 key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
@@ -318,9 +335,9 @@ key_pneumaticcraft.armor.upgrade.scuba:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker.module.end_portal:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.12441315
+soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.45539907
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
