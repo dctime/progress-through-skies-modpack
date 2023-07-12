@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/copper_i_oxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:copper_i_oxide_dust"
+  }
+}

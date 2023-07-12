@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_example"
+  },
+  "output": {
+    "item": "emendatusenigmatica:example_crystal"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_dense_sulfuric_acid"
+  },
+  "output": {
+    "item": "emendatusenigmatica:dense_sulfuric_acid_crystal"
+  }
+}

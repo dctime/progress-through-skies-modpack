@@ -1,4 +1,5 @@
 #1A1803 create:adjustable_chain_gearshift
+#4E57CD pneumaticcraft:advanced_pressure_tube
 #52B53D minecraft:air
 #E76FC6 pneumaticcraft:air_compressor
 #C2E278 additional_lights:al_lamp_cobblestone
@@ -71,6 +72,7 @@
 #3259C5 mekanism:crusher
 #E48FCC ad_astra:cryo_freezer
 #59CD2D thermal:device_collector
+#5720C8 thermal:device_water_gen
 #911C0E mekanism:dimensional_stabilizer
 #80497A minecraft:dirt
 #B10D64 electrodynamics:downgradetransformer
@@ -117,6 +119,7 @@
 #1440B1 packagedauto:fluid_package_filler
 #CA0A38 assemblylinemachines:fluid_router
 #A69C28 mekanism:fluidic_plenisher
+#299DC7 pneumaticcraft:flux_compressor
 #EFF841 mekanism:formulaic_assemblicator
 #453DA7 nuclearscience:freezeplug
 #D51A16 mekanism:fuelwood_heater
@@ -175,6 +178,7 @@
 #E5A47D electrodynamics:multimeterblock
 #7530C9 electrodynamics:multisubnode
 #D59B0C assemblylinemachines:naphtha_turbine
+#347C45 nuclearscience:nuclearboiler
 #954279 mekanism:nutritional_liquifier
 #F24163 storagedrawers:oak_full_drawers_1
 #AD9EB5 minecraft:oak_leaves
@@ -207,6 +211,7 @@
 #509660 pneumaticcraft:refinery
 #1A2F18 pneumaticcraft:refinery_output
 #DFF887 electrodynamics:reinforcedalloyer
+#74006B mekanism:resistive_heater
 #541803 industrialforegoing:resourceful_furnace
 #879B54 mekanism:rotary_condensentrator
 #2248CC occultism:sacrificial_bowl
@@ -233,6 +238,7 @@
 #7D07A9 minecraft:stone_pressure_plate
 #2E9337 minecraft:stonecutter
 #A061A1 botania:stripped_dreamwood_log
+#A466F1 pneumaticcraft:thermal_lagging
 #F7F113 electrodynamics:thermoelectricgenerator
 #3CE0C1 pneumaticcraft:thermopneumatic_processing_plant
 #28EC0F chipped:tinkering_table
@@ -248,6 +254,7 @@
 #84462D mekanism:ultimate_purifying_factory
 #BE84EF mekanism:ultimate_sawing_factory
 #E00B05 mekanism:ultimate_smelting_factory
+#57A433 mekanism:ultimate_thermodynamic_conductor
 #BC4D60 trashcans:ultimate_trash_can
 #BB3278 mekanism:ultimate_universal_cable
 #C8E55D electrodynamics:upgradetransformer

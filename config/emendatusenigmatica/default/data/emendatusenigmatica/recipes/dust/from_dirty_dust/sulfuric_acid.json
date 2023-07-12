@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/sulfuric_acid"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:sulfuric_acid_dust"
+  }
+}

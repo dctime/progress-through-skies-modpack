@@ -16,7 +16,9 @@ chemical_dict = {
     'copper_i_oxide': '70b596',
     'liquid_oxygen': '77c0d8',
     'sulfurous_acid': 'bbc35d',
-    'liquid_hydrogen': 'cedfe0'
+    'liquid_hydrogen': 'cedfe0',
+    'sulfur_dioxide': 'f2ec44',
+    'hydrogen_sulfide': 'b4c708'
 }
 for key, value in chemical_dict.items():
   id = key

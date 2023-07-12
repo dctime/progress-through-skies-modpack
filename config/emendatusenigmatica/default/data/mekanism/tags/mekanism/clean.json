@@ -1,6 +1,16 @@
 {
   "values": [
+    "emendatusenigmatica:clean_copper_ii_sulfate",
+    "emendatusenigmatica:clean_sulfur_dioxide",
+    "emendatusenigmatica:clean_hydrogen_sulfide",
+    "emendatusenigmatica:clean_example",
     "emendatusenigmatica:clean_gold",
-    "emendatusenigmatica:clean_copper"
+    "emendatusenigmatica:clean_dense_sulfuric_acid",
+    "emendatusenigmatica:clean_sulfurous_acid",
+    "emendatusenigmatica:clean_sulfuric_acid",
+    "emendatusenigmatica:clean_liquid_oxygen",
+    "emendatusenigmatica:clean_copper_i_oxide",
+    "emendatusenigmatica:clean_copper",
+    "emendatusenigmatica:clean_liquid_hydrogen"
   ]
 }

@@ -1,7 +1,17 @@
 {
   "values": [
+    "#forge:dusts/copper_ii_sulfate",
+    "#forge:dusts/sulfur_dioxide",
+    "#forge:dusts/hydrogen_sulfide",
+    "#forge:dusts/example",
     "#forge:dusts/gold",
+    "#forge:dusts/dense_sulfuric_acid",
+    "#forge:dusts/sulfurous_acid",
+    "#forge:dusts/sulfuric_acid",
+    "#forge:dusts/liquid_oxygen",
+    "#forge:dusts/copper_i_oxide",
     "#forge:dusts/sulfur",
-    "#forge:dusts/copper"
+    "#forge:dusts/copper",
+    "#forge:dusts/liquid_hydrogen"
   ]
 }

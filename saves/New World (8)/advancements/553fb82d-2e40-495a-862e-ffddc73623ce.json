@@ -35,6 +35,18 @@
     },
     "done": true
   },
+  "create:wrench_goggles": {
+    "criteria": {
+      "1": "2023-07-12 15:50:55 +0800"
+    },
+    "done": false
+  },
+  "simplyswords:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2023-07-12 15:49:27 +0800"
+    },
+    "done": true
+  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2023-07-08 17:46:08 +0800"
@@ -52,6 +64,12 @@
       "minecraft:dripstone_caves": "2023-07-08 17:46:08 +0800"
     },
     "done": false
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2023-07-12 15:49:41 +0800"
+    },
+    "done": true
   },
   "DataVersion": 3120
 }

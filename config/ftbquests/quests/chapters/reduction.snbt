@@ -18,193 +18,70 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["3B40A9787BC63421"]
 			id: "173468ABB6798F07"
 			tasks: [{
 				id: "69586FFD0E46C33C"
-				item: "chemlib:copper_i_oxide"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			id: "0B1ED8FD6236750C"
-			tasks: [{
-				id: "0406FDE75C9B9075"
-				item: "chemlib:copper_i_sulfide"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			id: "4C51374AFCB080A9"
-			tasks: [{
-				id: "0F5F888863787B05"
-				item: "chemlib:sulfuric_acid"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			id: "40387355618EE70F"
-			tasks: [{
-				id: "6E69D4ED6D2B9623"
-				item: "chemlib:copper_ii_sulfate"
+				item: "emendatusenigmatica:copper_i_oxide_dust"
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.5d
-		}
-		{
-			id: "07AD747BD7D5E016"
-			tasks: [{
-				id: "2BCC36562F3A6171"
-				item: "chemlib:water"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			id: "2EF91F590EA5634E"
-			tasks: [{
-				id: "3F2C25CEAF921A89"
-				item: "emendatusenigmatica:copper_plate"
-				type: "item"
-			}]
-			x: 1.0d
 			y: 0.0d
 		}
 		{
-			id: "75E8C18681B69D8F"
-			tasks: [{
-				id: "742E83ED2184011A"
-				item: "chemlib:oxygen_bucket"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
+			dependencies: ["3B40A9787BC63421"]
+			icon: "chemlib:sulfur_dioxide"
 			id: "0296D48174004806"
 			tasks: [{
-				id: "3634C37C47A2EC72"
-				item: "chemlib:sulfur_dioxide"
-				type: "item"
+				id: "467E6991790B37CA"
+				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 2.5d
+			title: "Sulfur Dioxide"
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["05B3ECF741A6C486"]
+			icon: "chemlib:hydrogen_sulfide"
 			id: "79C32201001C18F3"
 			tasks: [{
-				id: "4538192DD7CFEEAB"
-				item: "chemlib:hydrogen_sulfide"
-				type: "item"
+				id: "66E2FC33B47B2810"
+				type: "checkmark"
 			}]
+			title: "Hydrogen Sulfide"
 			x: -0.5d
 			y: 4.0d
-		}
-		{
-			id: "36A052155D6E8CD7"
-			tasks: [{
-				id: "16F16D147E513D90"
-				item: "emendatusenigmatica:sulfur_dust"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.0d
 		}
 		{
 			id: "4F98BCA5C21E1EE0"
 			tasks: [{
 				id: "37AEBF0CC7C2F923"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 0
-						Fluid: {
-							Amount: 1000
-							FluidName: "minecraft:water"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.5d
-		}
-		{
-			icon: {
-				Count: 1b
-				id: "woodenbucket:wooden_bucket"
-				tag: {
-					Damage: 0
-					Fluid: {
-						Amount: 1000
-						FluidName: "kubejs:sulfurous_acid"
-					}
-				}
-			}
-			id: "1B1DCE6512584202"
-			tasks: [{
-				id: "6E44153494A72BAF"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 0
-						Fluid: {
-							Amount: 1000
-							FluidName: "kubejs:sulfurous_acid"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.0d
-		}
-		{
-			id: "5ADBC8615FF61B70"
-			tasks: [{
-				id: "6846D79A6BDD13A6"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 0
-						Fluid: {
-							Amount: 1000
-							FluidName: "kubejs:liquid_oxygen"
-						}
-					}
-				}
+				item: "thermal:device_water_gen"
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["697533907532919D"]
 			id: "60CF02EEF8FE1A7B"
 			tasks: [{
 				id: "41BEB2071EE2C6D3"
-				item: "thermal:sulfur_dust"
+				item: "emendatusenigmatica:sulfur_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
+			dependencies: ["697533907532919D"]
+			icon: "chemlib:water"
 			id: "53523816C258EE7E"
 			tasks: [{
-				id: "712372BDF248FD1B"
-				item: "chemlib:water"
-				type: "item"
+				id: "1BA454AA2FE16FE3"
+				type: "checkmark"
 			}]
+			title: "Water"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -259,7 +136,9 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["4BC075BD664F0A7F"]
 			id: "2E159AAE538A0270"
+			subtitle: "Cu2O + Cu2S"
 			tasks: [{
 				id: "0BDD76D868F0B8C2"
 				item: {
@@ -279,29 +158,200 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["4F98BCA5C21E1EE0"]
+			icon: "chemlib:hydrogen"
 			id: "4009563ECDF918A3"
 			tasks: [{
-				id: "29EA41A18A379F94"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 0
-						Fluid: {
-							Amount: 1000
-							FluidName: "kubejs:liquid_hydrogen"
-						}
-					}
-				}
-				type: "item"
+				id: "7EF7479E366CA0B6"
+				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -6.5d
+			title: "Gaseous Liquid Hydrogen"
+			x: -4.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["4F98BCA5C21E1EE0"]
+			icon: "chemlib:oxygen"
 			id: "077037E130EC4343"
 			tasks: [{
-				id: "75DABDC0544CB34E"
+				id: "1E1049D5B55CB467"
+				type: "checkmark"
+			}]
+			title: "Gaseous Liquid Oxygen"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "3F94F00C268E93B6"
+			tasks: [{
+				id: "62CA07790FA20F52"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "54743E35E4898BB9"
+			tasks: [{
+				id: "3906708F14CC1120"
+				item: "pneumaticcraft:flux_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "1CE0139538F80CB6"
+			tasks: [{
+				id: "56D4577F2B38AD6E"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "07A0BF4587612F1E"
+			tasks: [{
+				id: "269E6CAE666EDB8C"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["077037E130EC4343"]
+			id: "5242CAF60C893AA4"
+			tasks: [{
+				id: "07E62C4CF873D047"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4687AD5C0E2F2ABF"
+			tasks: [{
+				id: "5A5FA4F19A4BF5C8"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			id: "55CFAA3E60A6A1E7"
+			tasks: [{
+				id: "7E457B209EECEDC7"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "3B2E4F8F4702F964"
+			tasks: [{
+				id: "0892D2D3017AB4D4"
+				item: "pneumaticcraft:pneumatic_wrench"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "19553A46B3C7EC1C"
+			tasks: [{
+				id: "7C24C3577B857AAD"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2E159AAE538A0270"
+				"620DE93E927F67F7"
+			]
+			id: "3B40A9787BC63421"
+			tasks: [{
+				id: "0B2DF3FD2A8A4326"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5242CAF60C893AA4"]
+			icon: "chemlib:oxygen"
+			id: "620DE93E927F67F7"
+			tasks: [{
+				id: "5F35786A692E6C42"
+				type: "checkmark"
+			}]
+			title: "Liquid Oxygen"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"310B7248B11F72E1"
+				"1D482A6A3CF6C97C"
+			]
+			id: "05B3ECF741A6C486"
+			tasks: [{
+				id: "009044D2E354C2A1"
+				item: "electrodynamics:fermentationplant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "652DC92AE2057CA4"
+			tasks: [{
+				id: "1A7F701384FAD286"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "6733CB6322E6AD5D"
+			tasks: [{
+				id: "76664016585831C4"
+				item: {
+					Count: 1b
+					id: "dynamicelectricity:conductorbrush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "2F265C23B20BD9BC"
+			tasks: [{
+				id: "77F0D988B68E92F8"
+				item: "electrodynamics:downgradetransformer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "1D482A6A3CF6C97C"
+			tasks: [{
+				id: "77D197DF74102DA6"
 				item: {
 					Count: 1b
 					id: "woodenbucket:wooden_bucket"
@@ -309,14 +359,130 @@
 						Damage: 0
 						Fluid: {
 							Amount: 1000
-							FluidName: "kubejs:liquid_oxygen"
+							FluidName: "minecraft:water"
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "310B7248B11F72E1"
+			tasks: [{
+				id: "2D09627C36D06067"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0296D48174004806"
+				"79C32201001C18F3"
+			]
+			id: "697533907532919D"
+			tasks: [{
+				id: "25683BBEBCF2978C"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon: "chemlib:water"
+			id: "7EE345ED8F700B3B"
+			tasks: [{
+				id: "42ACCA2A597AC06D"
+				type: "checkmark"
+			}]
+			title: "Water"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["443CC5D3B039750F"]
+			icon: {
+				Count: 1b
+				id: "woodenbucket:wooden_bucket"
+				tag: {
+					Damage: 0
+					Fluid: {
+						Amount: 1000
+						FluidName: "emendatusenigmatica:sulfurous_acid"
+					}
+				}
+			}
+			id: "158BFAA1CD853794"
+			tasks: [{
+				id: "663C617693C1C7AB"
+				type: "checkmark"
+			}]
+			title: "Sulfurous Acid"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EE345ED8F700B3B"
+				"0A76406520A46651"
+			]
+			id: "443CC5D3B039750F"
+			tasks: [{
+				id: "335D4DE451331F8D"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0296D48174004806"]
+			id: "3BE0ABF3F386C956"
+			tasks: [{
+				id: "0D2DE107A7CAE9D9"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BE0ABF3F386C956"]
+			icon: "chemlib:sulfur_dioxide"
+			id: "0A76406520A46651"
+			tasks: [{
+				id: "649798CCC0239E2D"
+				type: "checkmark"
+			}]
+			title: "Gaseous Sulfur Dioxide"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["158BFAA1CD853794"]
+			icon: "chemlib:sulfuric_acid"
+			id: "024836F39F2B9B7C"
+			tasks: [{
+				id: "07FE56FF8898F6B4"
+				type: "checkmark"
+			}]
+			title: "Surfuric Acid"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "7DF9344889F79B0D"
+			tasks: [{
+				id: "17CF5C35C16858A4"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "Reduction"

@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
           "amount": 1000,
           "fluid": "progressthroughskies:dusted_water_fluid"
         },
-        "ticks": 30,
+        "ticks": 100,
         "usagepertick": 400.0
       })
 })

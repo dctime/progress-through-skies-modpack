@@ -1,17 +1,19 @@
+let EME = (id) => 'emendatusenigmatica:' + id;
+
 ServerEvents.recipes(event => {
     event.custom({
         "type": "mekanism:separating",
         "leftGasOutput": {
-          "gas": 'kubejs:gaseous_liquid_hydrogen',
+          "gas": EME('gaseous_liquid_hydrogen'),
           "amount": 2
         },
         "rightGasOutput": {
-          "gas": 'kubejs:gaseous_liquid_oxygen',
+          "gas": EME('gaseous_liquid_oxygen'),
           "amount": 1
         },
         "energyUsage": 400,
         "input": {
-          "tag": "minecraft:water",
+          "fluid": "minecraft:water",
           "amount": 2
         }
       })

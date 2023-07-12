@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_liquid_hydrogen"
+  },
+  "output": {
+    "item": "emendatusenigmatica:liquid_hydrogen_crystal"
+  }
+}

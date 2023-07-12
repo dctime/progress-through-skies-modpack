@@ -1,13 +1,33 @@
-// 1.19.2	2023-07-05T21:06:31.769428	EE Mekanism Addon Item Tags
+// 1.19.2	2023-07-12T20:11:58.3581111	EE Mekanism Addon Item Tags
 7aba5d8f9da9fbff73f81aeb2ca1c0fe00df86a8 data/mekanism/tags/items/clumps.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
-56649a25724c4682eedec16d584a668ad650291e data/mekanism/tags/items/crystals.json
+157019f0a75e52d15b07f88617a75b35c8c3e914 data/mekanism/tags/items/crystals.json
 30e2c5d27da5190385a0f06e583c5e256a06107e data/mekanism/tags/items/crystals/copper.json
+6cc078a68c4734b892cb5a2a415c87f9fe250779 data/mekanism/tags/items/crystals/copper_ii_sulfate.json
+dbf075f86050d82ab7152c3c1f163a41eb61b55b data/mekanism/tags/items/crystals/copper_i_oxide.json
+90bce00b5c0b2bfd18d55392f127434b6725afea data/mekanism/tags/items/crystals/dense_sulfuric_acid.json
+9df94bf74f218c0e9e06d446c803646ed2726e98 data/mekanism/tags/items/crystals/example.json
 27e632415302ad81fabe8e014c2ef7645b235fe1 data/mekanism/tags/items/crystals/gold.json
-8ea10c633757101ad2bf3914b2c94b2e9bb8454c data/mekanism/tags/items/dirty_dusts.json
+fbe8ae46ac71191e834bd3e44ead323d0510ef66 data/mekanism/tags/items/crystals/hydrogen_sulfide.json
+5748a28eae756d3684957540fc103e0291908cf5 data/mekanism/tags/items/crystals/liquid_hydrogen.json
+9cb5d38cc69dca0534717080e044e70e7410f4c1 data/mekanism/tags/items/crystals/liquid_oxygen.json
+0c35af6bb7e4e13487b757aec463a59c074591a0 data/mekanism/tags/items/crystals/sulfuric_acid.json
+1f5ffec846e44d761461b3a85149e60bf3bccac1 data/mekanism/tags/items/crystals/sulfurous_acid.json
+38861677cf0c4e7e65249a63ae2e2542953cb578 data/mekanism/tags/items/crystals/sulfur_dioxide.json
+b52e905b830eceb86fcd5f6b115e28ddcad24cfe data/mekanism/tags/items/dirty_dusts.json
 6fc092563c8ceb9a3be7c7e4c4e20722022d35db data/mekanism/tags/items/dirty_dusts/copper.json
+885eb075a39c864fd042d9a4096a6ea1b4144040 data/mekanism/tags/items/dirty_dusts/copper_ii_sulfate.json
+e3b01a34dc455844774169a63f7942d8c5e0c065 data/mekanism/tags/items/dirty_dusts/copper_i_oxide.json
+d57d979ad05e39646c13943ecee8acedab436209 data/mekanism/tags/items/dirty_dusts/dense_sulfuric_acid.json
+4c29cd6eaa894dedf68668b3b03029cbbed43f42 data/mekanism/tags/items/dirty_dusts/example.json
 638de7c65cadcd847907b4001e65a7a3da3b6dac data/mekanism/tags/items/dirty_dusts/gold.json
+0b0dbe85e4f5616a1cb9fd1fddbc6ab791b500d8 data/mekanism/tags/items/dirty_dusts/hydrogen_sulfide.json
+fa7e655250d7576f905205fd7de14cd924f16c0a data/mekanism/tags/items/dirty_dusts/liquid_hydrogen.json
+07c5ff34dd1d19eae0c72830daecb41672092f02 data/mekanism/tags/items/dirty_dusts/liquid_oxygen.json
+0a67fcda9e435584d76fa2b60b3d931e7adbb967 data/mekanism/tags/items/dirty_dusts/sulfuric_acid.json
+b140ca6ce26c710d4e2ae02dbc48175e3287c009 data/mekanism/tags/items/dirty_dusts/sulfurous_acid.json
+099c5051020ea8d532e4fec8661ff2223f6b39e0 data/mekanism/tags/items/dirty_dusts/sulfur_dioxide.json
 197a5e2a3de9272a8698510ce73fec7cf31a56a7 data/mekanism/tags/items/enriched.json
 98615124d672b0c3e9ea13337cd65458b75f3b0f data/mekanism/tags/items/enriched/copper.json
 f2dabd43335e9a5b65d99ad9813f341c9a279b42 data/mekanism/tags/items/enriched/gold.json
