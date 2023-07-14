@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_heavy_unprocessed_oil"
+  },
+  "output": {
+    "item": "emendatusenigmatica:heavy_unprocessed_oil_crystal"
+  }
+}

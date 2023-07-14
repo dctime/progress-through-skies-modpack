@@ -1,5 +1,5 @@
-// 1.19.2	2023-07-14T15:54:28.2832972	Emendatus Enigmatica Item Tags
-a5c5768c72ff7b773268dc53a9d870109826e5e4 data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-14T17:55:47.3173123	Emendatus Enigmatica Item Tags
+1b94b020ee01bdf494510810a2fffb74da463f05 data/forge/tags/items/buckets.json
 9a97c630f76cb6f01bba73befd7a0c65e9d991c5 data/forge/tags/items/buckets/carbon_dioxide.json
 811adfa940d2cbe98914896bd10b40434cfa0449 data/forge/tags/items/buckets/copper.json
 52263828e438507b59b3873b27288127210627e5 data/forge/tags/items/buckets/copper_ii_sulfate.json
@@ -8,7 +8,9 @@ bc3b36743502149cc4796292f3a15a742f599086 data/forge/tags/items/buckets/crude_oil
 bdcd978321a5bbede140866756fcf756c9214f25 data/forge/tags/items/buckets/dense_sulfuric_acid.json
 8bc5faa10fe2c2c7f8925ed98848621050dbb0bb data/forge/tags/items/buckets/example.json
 5fc321f17cf22ace1a7608dd45c485ce4d610b9f data/forge/tags/items/buckets/gold.json
+45fbb13adba76e6afd6b83b576dc6c47eb3d62c4 data/forge/tags/items/buckets/heavy_unprocessed_oil.json
 90104ecffdf31b7c30f275722293b119117f6808 data/forge/tags/items/buckets/hydrogen_sulfide.json
+dbf43a3b64a612f6489da7f5dd85df2d5b2de255 data/forge/tags/items/buckets/light_unprocessed_oil.json
 0a84316109c45f466c1aeb1d9e393e603d208cd1 data/forge/tags/items/buckets/liquid_hydrogen.json
 4f0f158430b535e349dcadb569eaccdd0c572f78 data/forge/tags/items/buckets/liquid_oxygen.json
 f6bb1cb7d177fe6bccc51c32a1f62a79b0405230 data/forge/tags/items/buckets/lubricant.json
@@ -17,8 +19,8 @@ f6bb1cb7d177fe6bccc51c32a1f62a79b0405230 data/forge/tags/items/buckets/lubricant
 773aad67aba3bc41b92068d7f675e002484d7ef8 data/forge/tags/items/buckets/sulfuric_acid.json
 0de7e3295b9ffad051c1a82d453153c7499a823f data/forge/tags/items/buckets/sulfurous_acid.json
 a822b74ef960a002713695220c4d4ff8f0e923a1 data/forge/tags/items/buckets/sulfur_dioxide.json
-cb05a8073c3b9499b6f7d40017959a204a3ee471 data/forge/tags/items/buckets/wet_slurries_of_algea.json
-e4054b1f9177c709c66c544e2b303fdd7d17dbf8 data/forge/tags/items/dusts.json
+74adef5b9a0309bf3807cd61ad84cc3c3c795fe1 data/forge/tags/items/buckets/wet_slurries_of_algae.json
+a14fe8ec4d70af60ce08abef03003b519204f083 data/forge/tags/items/dusts.json
 4f98e43acb29e04df08fcbd990314eab01f9d78b data/forge/tags/items/dusts/carbon_dioxide.json
 903f15c0ffa668cdd8b3031c90ef3a75fee2c62b data/forge/tags/items/dusts/copper.json
 4050c6cea718e613c6d7ab023c63baf4eda84576 data/forge/tags/items/dusts/copper_ii_sulfate.json
@@ -27,7 +29,9 @@ e4054b1f9177c709c66c544e2b303fdd7d17dbf8 data/forge/tags/items/dusts.json
 1715e75e4c7f49375e99595e21f316a28b6313b3 data/forge/tags/items/dusts/dense_sulfuric_acid.json
 dd9ca3282753734c908c0e0a95e8111cadf155d3 data/forge/tags/items/dusts/example.json
 3a7d13ce08f245fd5d2db57879e333bd8bf65494 data/forge/tags/items/dusts/gold.json
+7c47632ee2eef708ea057ac894e89ebb488c5cc0 data/forge/tags/items/dusts/heavy_unprocessed_oil.json
 7139a4e2c9cf0c0d245929c5aadeacf309670e2f data/forge/tags/items/dusts/hydrogen_sulfide.json
+7dec47e4ba76df95c273505f49e011c9b52e5e38 data/forge/tags/items/dusts/light_unprocessed_oil.json
 d319290ed3dc96c52247361bd68e93093725736d data/forge/tags/items/dusts/liquid_hydrogen.json
 588a03c141026c3e754e96c9ef52860c02ef8ffc data/forge/tags/items/dusts/liquid_oxygen.json
 49a65bfa950ffa78a4505fac4221e922e2ece8c5 data/forge/tags/items/dusts/lubricant.json
@@ -35,7 +39,7 @@ c27ffdbf7cfb6df2211ea774fcbd9ef1bbe1c595 data/forge/tags/items/dusts/sulfur.json
 c0e3fbdcb1d9b08a3c54b98946ad3eebe59a4a84 data/forge/tags/items/dusts/sulfuric_acid.json
 0250f894f8dfda8bd91648233350b962a5d362f4 data/forge/tags/items/dusts/sulfurous_acid.json
 f3357e84d7edb1647f0e78ef36aebb087f2ee18c data/forge/tags/items/dusts/sulfur_dioxide.json
-40d38fa170578d9daecf5a73f8982355b454f4cf data/forge/tags/items/dusts/wet_slurries_of_algea.json
+42e0c9e8909f2f37bbeba25134a052fb25ab5196 data/forge/tags/items/dusts/wet_slurries_of_algae.json
 bab460dfab01aa8d87784c36b533acd16978c0b0 data/forge/tags/items/gears.json
 f865b7e8f844a6621f93c638a5d5c160c9516325 data/forge/tags/items/gears/copper.json
 f24ddf3769eb0f2912ba3b81681c8c5e61f6b988 data/forge/tags/items/gears/gold.json

@@ -1,11 +1,13 @@
 {
   "values": [
     "#forge:dusts/copper_ii_sulfate",
+    "#forge:dusts/wet_slurries_of_algae",
     "#forge:dusts/sulfur_dioxide",
     "#forge:dusts/hydrogen_sulfide",
     "#forge:dusts/crude_oil",
     "#forge:dusts/example",
     "#forge:dusts/gold",
+    "#forge:dusts/heavy_unprocessed_oil",
     "#forge:dusts/dense_sulfuric_acid",
     "#forge:dusts/sulfurous_acid",
     "#forge:dusts/sulfuric_acid",
@@ -15,7 +17,7 @@
     "#forge:dusts/sulfur",
     "#forge:dusts/copper",
     "#forge:dusts/lubricant",
-    "#forge:dusts/wet_slurries_of_algea",
-    "#forge:dusts/liquid_hydrogen"
+    "#forge:dusts/liquid_hydrogen",
+    "#forge:dusts/light_unprocessed_oil"
   ]
 }

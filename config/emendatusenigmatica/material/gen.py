@@ -22,6 +22,9 @@ chemical_dict = {
     'wet_slurries_of_algae': '5d7a0b',
     'carbon_dioxide': 'deebff',
     'lubricant': 'fab219',
+    'heavy_unprocessed_oil': '1f1400',
+    'light_unprocessed_oil': 'f7b743'
+
 }
 for key, value in chemical_dict.items():
   id = key

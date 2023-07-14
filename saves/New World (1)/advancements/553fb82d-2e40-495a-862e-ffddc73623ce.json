@@ -126,6 +126,12 @@
     },
     "done": true
   },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2023-07-14 19:27:18 +0800"
+    },
+    "done": true
+  },
   "mekanism:energy_cube": {
     "criteria": {
       "basic_energy_cube": "2023-07-03 23:20:40 +0800"
@@ -479,6 +485,12 @@
     },
     "done": true
   },
+  "create:spout": {
+    "criteria": {
+      "0": "2023-07-14 19:39:20 +0800"
+    },
+    "done": true
+  },
   "immersiveengineering:main/craft_treatedwood": {
     "criteria": {
       "has_item": "2023-07-03 21:52:12 +0800"
@@ -817,6 +829,12 @@
   "immersiveengineering:tools/craft_railgun": {
     "criteria": {
       "has_item": "2023-07-05 21:46:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "flint_knife": "2023-07-14 19:17:36 +0800"
     },
     "done": true
   },

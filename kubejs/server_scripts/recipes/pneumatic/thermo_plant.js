@@ -57,5 +57,24 @@ ServerEvents.recipes(event => {
           "min_temp": 1358
         }
       })
+
+      event.custom({
+        "type": "pneumaticcraft:thermo_plant",
+        "exothermic": false,
+        "fluid_input": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 1000,
+          "fluid": 'emendatusenigmatica:wet_slurries_of_algae'
+        },
+        "fluid_output": {
+          "amount": 1000,
+          "fluid": 'emendatusenigmatica:crude_oil'
+        },
+        "speed": 1,
+        "pressure": 2.0,
+        "temperature": {
+          "min_temp": 622
+        }
+      })
 })
 

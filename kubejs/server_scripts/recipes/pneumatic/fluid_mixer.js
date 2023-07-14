@@ -76,8 +76,8 @@ ServerEvents.recipes(event => {
       "amount": 10
     },
     "input2": {
-      "type": 'emendatusenigmatica:carbon_dioxide',
-      "fluid": 'minecraft:water',
+      "type": 'pneumaticcraft:fluid',
+      "fluid": 'emendatusenigmatica:carbon_dioxide',
       "amount": 10
     },
     "fluid_output": {

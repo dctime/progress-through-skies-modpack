@@ -9,4 +9,7 @@ ServerEvents.recipes(event => {
     event.stonecutting('9x create:shaft', 'minecraft:polished_andesite');
     event.stonecutting('2x create:andesite_scaffolding', 'minecraft:polished_andesite');
     event.stonecutting('create:whisk', 'minecraft:polished_andesite');
+    event.stonecutting('4x immersiveengineering:wire_copper', 'emendatusenigmatica:raw_copper_plate');
+    event.stonecutting('16x createaddition:spool', 'minecraft:stone');
+    event.stonecutting('4x ceramicbucket:unfired_clay_bucket', 'minecraft:clay');
 })

@@ -1,11 +1,13 @@
 {
   "values": [
     "emendatusenigmatica:clean_copper_ii_sulfate",
+    "emendatusenigmatica:clean_wet_slurries_of_algae",
     "emendatusenigmatica:clean_sulfur_dioxide",
     "emendatusenigmatica:clean_hydrogen_sulfide",
     "emendatusenigmatica:clean_crude_oil",
     "emendatusenigmatica:clean_example",
     "emendatusenigmatica:clean_gold",
+    "emendatusenigmatica:clean_heavy_unprocessed_oil",
     "emendatusenigmatica:clean_dense_sulfuric_acid",
     "emendatusenigmatica:clean_sulfurous_acid",
     "emendatusenigmatica:clean_sulfuric_acid",
@@ -14,7 +16,7 @@
     "emendatusenigmatica:clean_carbon_dioxide",
     "emendatusenigmatica:clean_copper",
     "emendatusenigmatica:clean_lubricant",
-    "emendatusenigmatica:clean_wet_slurries_of_algea",
-    "emendatusenigmatica:clean_liquid_hydrogen"
+    "emendatusenigmatica:clean_liquid_hydrogen",
+    "emendatusenigmatica:clean_light_unprocessed_oil"
   ]
 }

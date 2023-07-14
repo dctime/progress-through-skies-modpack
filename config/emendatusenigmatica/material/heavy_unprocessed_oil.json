@@ -1,0 +1,1 @@
+{"id": "heavy_unprocessed_oil", "source": "modded", "localizedName": "Heavy Unprocessed Oil", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-e0ec00", "materialColor": "1f1400", "gasColor": "1f1400"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

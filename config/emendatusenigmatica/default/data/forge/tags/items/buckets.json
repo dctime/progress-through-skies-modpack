@@ -1,12 +1,14 @@
 {
   "values": [
     "#forge:buckets/copper_ii_sulfate",
+    "#forge:buckets/wet_slurries_of_algae",
     "#forge:buckets/sulfur_dioxide",
     "#forge:buckets/hydrogen_sulfide",
     "#forge:buckets/crude_oil",
     "#forge:buckets/raw_copper",
     "#forge:buckets/example",
     "#forge:buckets/gold",
+    "#forge:buckets/heavy_unprocessed_oil",
     "#forge:buckets/dense_sulfuric_acid",
     "#forge:buckets/sulfurous_acid",
     "#forge:buckets/sulfuric_acid",
@@ -16,7 +18,7 @@
     "#forge:buckets/sulfur",
     "#forge:buckets/copper",
     "#forge:buckets/lubricant",
-    "#forge:buckets/wet_slurries_of_algea",
-    "#forge:buckets/liquid_hydrogen"
+    "#forge:buckets/liquid_hydrogen",
+    "#forge:buckets/light_unprocessed_oil"
   ]
 }

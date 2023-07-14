@@ -18,6 +18,7 @@
 #745C0D mekanism:basic_fluid_tank
 #32C230 mekanism:basic_logistical_transporter
 #23344A mekanism:basic_mechanical_pipe
+#6066C1 mekanism:basic_pressurized_tube
 #4E5B9C tetra:basic_workbench
 #E152BD create:basin
 #85547E electrodynamics:batterybox
@@ -72,6 +73,7 @@
 #610B0F cyclic:crusher
 #3259C5 mekanism:crusher
 #E48FCC ad_astra:cryo_freezer
+#FF48B8 create:depot
 #59CD2D thermal:device_collector
 #5720C8 thermal:device_water_gen
 #911C0E mekanism:dimensional_stabilizer
@@ -158,6 +160,7 @@
 #5BD5E4 industrialforegoing:material_stonework_factory
 #839E5A integrateddynamics:mechanical_drying_basin
 #E638FD create:mechanical_mixer
+#145137 create:mechanical_press
 #4F44DD create:mechanical_saw
 #E71E05 nuclearscience:meltedreactor
 #EB6C34 cyclic:melter
@@ -236,6 +239,7 @@
 #D665ED occultism:spirit_attuned_crystal
 #7C5BEF occultism:spirit_fire
 #4AFD83 industrialforegoing:spores_recreator
+#D7A655 create:spout
 #29EA02 additional_lights:standing_torch_l_cobblestone
 #BF1789 additional_lights:standing_torch_s_cobblestone
 #C283C5 exnihilosequentia:stone_barrel

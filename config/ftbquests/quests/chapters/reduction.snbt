@@ -87,6 +87,11 @@
 			y: 4.5d
 		}
 		{
+			dependencies: [
+				"32349EBA341D5942"
+				"00E837CAAEEC810B"
+				"6733CB6322E6AD5D"
+			]
 			id: "235B1847E3914086"
 			tasks: [{
 				id: "53EA7E6076D3BEFA"
@@ -97,47 +102,43 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["564F1D8091DD0B98"]
 			id: "00E837CAAEEC810B"
 			tasks: [{
 				id: "1977D1720EF1201C"
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -0.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
+			dependencies: [
+				"0A37D03A02C02F23"
+				"34DF5B7052B969F0"
+			]
 			id: "2D42B4353D0C3F3F"
 			tasks: [{
 				id: "1A0D9F07D2BABAE4"
 				item: "electrodynamics:wirehighlyinsulatedcopper"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.5d
 			y: -0.5d
 		}
 		{
+			dependencies: ["2F265C23B20BD9BC"]
 			id: "6B12E79C1C0DDFEB"
 			tasks: [{
 				id: "2B4BE0918A838CBB"
 				item: "electrodynamics:upgradetransformer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
-			id: "50CEB6D50BBE0ACD"
-			tasks: [{
-				id: "4A4C39C25E288234"
-				item: "electrodynamics:mineralcrushertriple"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4BC075BD664F0A7F"]
+			dependencies: ["38919B46C275D72E"]
 			id: "2E159AAE538A0270"
 			subtitle: "Cu2O + Cu2S"
 			tasks: [{
@@ -189,8 +190,8 @@
 				item: "pneumaticcraft:flux_compressor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2A1EF23ABBE7B497"]
@@ -226,44 +227,37 @@
 			y: 3.0d
 		}
 		{
-			id: "4687AD5C0E2F2ABF"
-			tasks: [{
-				id: "5A5FA4F19A4BF5C8"
-				item: "mekanism:ultimate_chemical_tank"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -0.5d
-		}
-		{
+			dependencies: ["54743E35E4898BB9"]
 			id: "55CFAA3E60A6A1E7"
 			tasks: [{
 				id: "7E457B209EECEDC7"
 				item: "pneumaticcraft:advanced_pressure_tube"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: -7.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["19553A46B3C7EC1C"]
 			id: "3B2E4F8F4702F964"
 			tasks: [{
 				id: "0892D2D3017AB4D4"
 				item: "pneumaticcraft:pneumatic_wrench"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["55CFAA3E60A6A1E7"]
 			id: "19553A46B3C7EC1C"
 			tasks: [{
 				id: "7C24C3577B857AAD"
 				item: "pneumaticcraft:charging_station"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -306,6 +300,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["5958D43B137F1E21"]
 			id: "6733CB6322E6AD5D"
 			tasks: [{
 				id: "76664016585831C4"
@@ -318,18 +313,19 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["564F1D8091DD0B98"]
 			id: "2F265C23B20BD9BC"
 			tasks: [{
 				id: "77F0D988B68E92F8"
 				item: "electrodynamics:downgradetransformer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			id: "1D482A6A3CF6C97C"
@@ -621,7 +617,7 @@
 				item: "emendatusenigmatica:copper_ingot"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -641,40 +637,49 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -4.0d
+			x: -9.5d
+			y: -5.5d
 		}
 		{
+			dependencies: ["6145124C5F631028"]
+			icon: "emendatusenigmatica:lubricant_bucket"
 			id: "32349EBA341D5942"
 			tasks: [{
-				id: "7A74B21E304677B5"
-				item: "emendatusenigmatica:lubricant_bucket"
-				type: "item"
+				id: "2F025FD6CA534AAA"
+				type: "checkmark"
 			}]
+			title: "Lubricant"
 			x: -7.0d
 			y: -1.5d
 		}
 		{
+			dependencies: [
+				"7639AA071DF7E6C6"
+				"55CFAA3E60A6A1E7"
+			]
+			icon: "emendatusenigmatica:crude_oil_bucket"
 			id: "34BBD2169423C5A1"
 			tasks: [{
-				id: "748C8A525241B69C"
-				item: "emendatusenigmatica:crude_oil_bucket"
-				type: "item"
+				id: "516E34F28A5A250D"
+				type: "checkmark"
 			}]
-			x: -7.0d
-			y: -2.5d
+			title: "Crude Oil"
+			x: -8.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["34BBD2169423C5A1"]
 			id: "62CA85A537D3930C"
 			tasks: [{
 				id: "686C0E85FA8B37E1"
 				item: "pneumaticcraft:refinery"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -7.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["62CA85A537D3930C"]
 			id: "6145124C5F631028"
 			tasks: [{
 				id: "3B34C76023EFA340"
@@ -682,7 +687,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			id: "7CB34AA065216B28"
@@ -691,48 +696,244 @@
 				item: "emendatusenigmatica:raw_copper"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -14.0d
+			y: 1.0d
 		}
 		{
-			id: "509822BE6FEAF9F9"
-			tasks: [{
-				id: "6B421386554B5C6E"
-				item: "electrodynamics:motor"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 0.5d
-		}
-		{
+			dependencies: ["70716ED085E47C75"]
 			id: "34DF5B7052B969F0"
 			tasks: [{
 				id: "1121C1497848CCE6"
 				item: "immersiveengineering:wire_copper"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: -10.5d
+			y: 1.0d
 		}
 		{
+			dependencies: [
+				"34DF5B7052B969F0"
+				"0C98AFB51874F5E9"
+			]
 			id: "564F1D8091DD0B98"
 			tasks: [{
 				id: "64EAE25A452BFED1"
 				item: "electrodynamics:coil"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71908D57DDE33F8D"]
+			icon: "chemlib:carbon_dioxide"
+			id: "6FB9E7D640AE0BF1"
+			tasks: [{
+				id: "168AAB09483A1FAF"
+				type: "checkmark"
+			}]
+			title: "Carbon dioxide"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6145124C5F631028"]
+			icon: "emendatusenigmatica:heavy_unprocessed_oil_bucket"
+			id: "3DCD5CA60289F4A8"
+			tasks: [{
+				id: "52B5AD44D3BBCEA7"
+				type: "checkmark"
+			}]
+			title: "Heavy Unprocessed Oil"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6145124C5F631028"]
+			icon: "emendatusenigmatica:light_unprocessed_oil_bucket"
+			id: "3F6DD4A190F72441"
+			tasks: [{
+				id: "4CD3B7C56443A0E7"
+				type: "checkmark"
+			}]
+			title: "Light Unprocessed Oil"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6FB9E7D640AE0BF1"
+				"73A3AD66019061C9"
+			]
+			icon: "emendatusenigmatica:wet_slurries_of_algae_bucket"
+			id: "7639AA071DF7E6C6"
+			tasks: [{
+				id: "33EA8E3CBDBA3EC9"
+				type: "checkmark"
+			}]
+			title: "Wet Slurries of Algae"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["481098D3BD58F8EA"]
+			id: "71908D57DDE33F8D"
+			tasks: [{
+				id: "057F409A1E8E3684"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C55997CCFE19EDA"]
+			id: "481098D3BD58F8EA"
+			tasks: [{
+				id: "7E72119CF16505C6"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "4C55997CCFE19EDA"
+			tasks: [{
+				id: "5D7BBA4F046B8711"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["34DF5B7052B969F0"]
+			id: "5958D43B137F1E21"
+			tasks: [{
+				id: "497FEC089AB175FD"
+				item: "mekanism:ultimate_combining_factory"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B427C3D3B4472DE"]
+			id: "70716ED085E47C75"
+			tasks: [{
+				id: "0A1F89815D2A1356"
+				item: "emendatusenigmatica:raw_copper_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			id: "60B384C63E161AC4"
+			tasks: [{
+				id: "6BAE911813763724"
+				item: "emendatusenigmatica:copper_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC075BD664F0A7F"]
+			id: "38919B46C275D72E"
+			tasks: [{
+				id: "67863718F59CDBC5"
+				item: "electrodynamics:mineralwasher"
+				type: "item"
+			}]
+			x: -4.0d
 			y: 1.5d
 		}
 		{
-			id: "6FB9E7D640AE0BF1"
+			dependencies: ["00E837CAAEEC810B"]
+			id: "24127A02B1E4AD9C"
 			tasks: [{
-				id: "133A6951D4916E4B"
-				item: "emendatusenigmatica:carbon_dioxide_bucket"
+				id: "2AE373AB77DFBC2F"
+				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CB34AA065216B28"]
+			id: "3B427C3D3B4472DE"
+			tasks: [{
+				id: "79F48E44B8E4BAB5"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			id: "676BE5E1DE4EFE0F"
+			tasks: [{
+				id: "49FCEC2AAC2FB757"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			id: "0A37D03A02C02F23"
+			tasks: [{
+				id: "785342C0923FC5E2"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			id: "0C98AFB51874F5E9"
+			tasks: [{
+				id: "21F90B19D6D47B03"
+				item: "createaddition:spool"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00E837CAAEEC810B"]
+			id: "36E389184613119F"
+			tasks: [{
+				id: "4D6FC34BA568A9BC"
+				item: "dynamicelectricity:motorachv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E159AAE538A0270"]
+			id: "12CC61E33447F665"
+			tasks: [{
+				id: "26F52653CD4D6916"
+				item: "ceramicbucket:unfired_clay_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12CC61E33447F665"]
+			id: "3BE63EA879FF80D9"
+			tasks: [{
+				id: "51B03763FD507D34"
+				item: "ceramicbucket:ceramic_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
 		}
 	]
 	title: "Reduction"

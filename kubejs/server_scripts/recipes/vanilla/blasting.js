@@ -27,6 +27,16 @@ ServerEvents.recipes(event => {
         "cookingtime": 10
     });
 
+    event.custom({
+      "type": "minecraft:blasting",
+      "ingredient": {
+        "item": 'ceramicbucket:unfired_clay_bucket' 
+      },
+      "result": 'ceramicbucket:ceramic_bucket',
+      "experience": 0.35,
+      "cookingtime": 10
+  });
+
 })
 
 

@@ -1,11 +1,13 @@
 {
   "values": [
     "#mekanism:dirty_dusts/copper_ii_sulfate",
+    "#mekanism:dirty_dusts/wet_slurries_of_algae",
     "#mekanism:dirty_dusts/sulfur_dioxide",
     "#mekanism:dirty_dusts/hydrogen_sulfide",
     "#mekanism:dirty_dusts/crude_oil",
     "#mekanism:dirty_dusts/example",
     "#mekanism:dirty_dusts/gold",
+    "#mekanism:dirty_dusts/heavy_unprocessed_oil",
     "#mekanism:dirty_dusts/dense_sulfuric_acid",
     "#mekanism:dirty_dusts/sulfurous_acid",
     "#mekanism:dirty_dusts/sulfuric_acid",
@@ -14,7 +16,7 @@
     "#mekanism:dirty_dusts/carbon_dioxide",
     "#mekanism:dirty_dusts/copper",
     "#mekanism:dirty_dusts/lubricant",
-    "#mekanism:dirty_dusts/wet_slurries_of_algea",
-    "#mekanism:dirty_dusts/liquid_hydrogen"
+    "#mekanism:dirty_dusts/liquid_hydrogen",
+    "#mekanism:dirty_dusts/light_unprocessed_oil"
   ]
 }

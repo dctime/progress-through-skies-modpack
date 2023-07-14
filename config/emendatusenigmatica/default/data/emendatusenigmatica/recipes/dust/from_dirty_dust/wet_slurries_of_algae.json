@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/wet_slurries_of_algae"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:wet_slurries_of_algae_dust"
+  }
+}

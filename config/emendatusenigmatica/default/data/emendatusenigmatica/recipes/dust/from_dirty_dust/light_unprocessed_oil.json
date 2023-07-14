@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/light_unprocessed_oil"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:light_unprocessed_oil_dust"
+  }
+}

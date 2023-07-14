@@ -1,11 +1,13 @@
 {
   "values": [
     "#mekanism:crystals/copper_ii_sulfate",
+    "#mekanism:crystals/wet_slurries_of_algae",
     "#mekanism:crystals/sulfur_dioxide",
     "#mekanism:crystals/hydrogen_sulfide",
     "#mekanism:crystals/crude_oil",
     "#mekanism:crystals/example",
     "#mekanism:crystals/gold",
+    "#mekanism:crystals/heavy_unprocessed_oil",
     "#mekanism:crystals/dense_sulfuric_acid",
     "#mekanism:crystals/sulfurous_acid",
     "#mekanism:crystals/sulfuric_acid",
@@ -14,7 +16,7 @@
     "#mekanism:crystals/carbon_dioxide",
     "#mekanism:crystals/copper",
     "#mekanism:crystals/lubricant",
-    "#mekanism:crystals/wet_slurries_of_algea",
-    "#mekanism:crystals/liquid_hydrogen"
+    "#mekanism:crystals/liquid_hydrogen",
+    "#mekanism:crystals/light_unprocessed_oil"
   ]
 }
