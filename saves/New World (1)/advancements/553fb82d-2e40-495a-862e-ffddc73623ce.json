@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "electrodynamics:triplegrinding": {
+    "criteria": {
+      "HasGrinder": "2023-07-13 14:00:29 +0800"
+    },
+    "done": true
+  },
   "tetra:upgrades/root": {
     "criteria": {
       "hammer": "2023-06-30 16:18:52 +0800"
@@ -261,6 +267,12 @@
   "simplyswords:longsword_plague": {
     "criteria": {
       "requirement": "2023-07-10 15:45:49 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:triplearcfurnace": {
+    "criteria": {
+      "HasFurnace": "2023-07-13 14:23:08 +0800"
     },
     "done": true
   },
@@ -586,6 +598,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2023-06-30 16:16:47 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:amadron_tablet": {
+    "criteria": {
+      "0": "2023-07-14 15:28:01 +0800"
     },
     "done": true
   },

@@ -57,6 +57,7 @@
 #790C30 mekanism:combiner
 #5D3561 assemblylinemachines:combustion_generator
 #71C32B electrodynamics:combustionchamber
+#59C28D alchemistry:compactor
 #12D127 emendatusenigmatica:copper
 #F5DD09 assemblylinemachines:corrupting_basin
 #468304 minecraft:crafting_table
@@ -150,6 +151,7 @@
 #72D77D minecraft:lever
 #04388B trashcans:liquid_trash_can
 #9DA81C mekanism:logistical_sorter
+#165822 thermal:machine_chiller
 #B3761E thermal:machine_crafter
 #F80505 thermal:machine_pyrolyzer
 #565EEA chipped:mason_table
@@ -163,6 +165,7 @@
 #DBCA5E electrodynamics:mineralcrusher
 #4C803C electrodynamics:mineralcrushertriple
 #C94877 electrodynamics:mineralgrinder
+#1F4795 electrodynamics:mineralgrindertriple
 #B546D6 electrodynamics:mineralwasher
 #E2A6A5 assemblylinemachines:mkii_alloy_smelter
 #102CAD assemblylinemachines:mkii_fluid_mixer
@@ -211,6 +214,7 @@
 #509660 pneumaticcraft:refinery
 #1A2F18 pneumaticcraft:refinery_output
 #DFF887 electrodynamics:reinforcedalloyer
+#DF7840 mininggadgets:renderblock
 #74006B mekanism:resistive_heater
 #541803 industrialforegoing:resourceful_furnace
 #879B54 mekanism:rotary_condensentrator
@@ -259,6 +263,7 @@
 #BB3278 mekanism:ultimate_universal_cable
 #C8E55D electrodynamics:upgradetransformer
 #B982D8 assemblylinemachines:vacuum_hopper
+#CAC3C8 compactvoidminers:void_pump
 #AAF4B7 create:water_wheel
 #7D38EB create:water_wheel_structure
 #B7775E minecraft:white_bed

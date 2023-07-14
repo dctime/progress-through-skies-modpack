@@ -1,0 +1,1 @@
+{"id": "crude_oil", "source": "modded", "localizedName": "Crude Oil", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-c8c5ca", "materialColor": "373a36", "gasColor": "373a36"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

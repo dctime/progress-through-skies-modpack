@@ -3,6 +3,7 @@
     "#forge:buckets/copper_ii_sulfate",
     "#forge:buckets/sulfur_dioxide",
     "#forge:buckets/hydrogen_sulfide",
+    "#forge:buckets/crude_oil",
     "#forge:buckets/raw_copper",
     "#forge:buckets/example",
     "#forge:buckets/gold",
@@ -11,8 +12,11 @@
     "#forge:buckets/sulfuric_acid",
     "#forge:buckets/liquid_oxygen",
     "#forge:buckets/copper_i_oxide",
+    "#forge:buckets/carbon_dioxide",
     "#forge:buckets/sulfur",
     "#forge:buckets/copper",
+    "#forge:buckets/lubricant",
+    "#forge:buckets/wet_slurries_of_algea",
     "#forge:buckets/liquid_hydrogen"
   ]
 }

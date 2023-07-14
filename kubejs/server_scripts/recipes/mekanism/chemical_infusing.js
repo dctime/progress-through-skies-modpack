@@ -32,5 +32,6 @@ ServerEvents.recipes(event => {
           "amount": 1
         }
       })
+
 })
 

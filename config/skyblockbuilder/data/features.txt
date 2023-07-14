@@ -178,6 +178,7 @@ minecraft:oak_bees_005
 productivebees:oak_solitary_nest
 productivebees:oak_wood_nest_feature
 productivebees:obsidian_pillar_nest_feature
+createindustry:oil
 pneumaticcraft:oil_lake
 botania:orange_mystical_flower_patch
 minecraft:ore_ancient_debris_large
@@ -307,6 +308,7 @@ extractinator:silt_ore
 immersiveengineering:silver
 occultism:silver_ore
 occultism:silver_ore_deepslate
+createindustry:simulated_oil
 minecraft:single_piece_of_grass
 productivebees:slimy_nest_feature
 extractinator:slush_ore

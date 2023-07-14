@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/carbon_dioxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:carbon_dioxide_dust"
+  }
+}

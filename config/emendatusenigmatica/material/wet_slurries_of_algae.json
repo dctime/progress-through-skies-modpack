@@ -1,0 +1,1 @@
+{"id": "wet_slurries_of_algae", "source": "modded", "localizedName": "Wet Slurries Of Algae", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-a285f5", "materialColor": "5d7a0b", "gasColor": "5d7a0b"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

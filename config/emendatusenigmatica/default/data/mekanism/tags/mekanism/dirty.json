@@ -3,6 +3,7 @@
     "emendatusenigmatica:dirty_copper_ii_sulfate",
     "emendatusenigmatica:dirty_sulfur_dioxide",
     "emendatusenigmatica:dirty_hydrogen_sulfide",
+    "emendatusenigmatica:dirty_crude_oil",
     "emendatusenigmatica:dirty_example",
     "emendatusenigmatica:dirty_gold",
     "emendatusenigmatica:dirty_dense_sulfuric_acid",
@@ -10,7 +11,10 @@
     "emendatusenigmatica:dirty_sulfuric_acid",
     "emendatusenigmatica:dirty_liquid_oxygen",
     "emendatusenigmatica:dirty_copper_i_oxide",
+    "emendatusenigmatica:dirty_carbon_dioxide",
     "emendatusenigmatica:dirty_copper",
+    "emendatusenigmatica:dirty_lubricant",
+    "emendatusenigmatica:dirty_wet_slurries_of_algea",
     "emendatusenigmatica:dirty_liquid_hydrogen"
   ]
 }

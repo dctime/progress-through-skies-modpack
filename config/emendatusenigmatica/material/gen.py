@@ -18,7 +18,10 @@ chemical_dict = {
     'sulfurous_acid': 'bbc35d',
     'liquid_hydrogen': 'cedfe0',
     'sulfur_dioxide': 'f2ec44',
-    'hydrogen_sulfide': 'b4c708'
+    'hydrogen_sulfide': 'b4c708',
+    'wet_slurries_of_algae': '5d7a0b',
+    'carbon_dioxide': 'deebff',
+    'lubricant': 'fab219',
 }
 for key, value in chemical_dict.items():
   id = key

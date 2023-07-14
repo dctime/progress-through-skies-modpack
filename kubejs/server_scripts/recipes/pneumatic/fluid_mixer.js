@@ -48,6 +48,46 @@ ServerEvents.recipes(event => {
         "time": 10
     })
 
+    event.custom({ // SO2 + H2S => 3S + H2O
+      "type": "pneumaticcraft:fluid_mixer",
+      "input1": {
+        "type": "pneumaticcraft:fluid",
+        "fluid": 'emendatusenigmatica:dense_sulfuric_acid',
+        "amount": 10
+      },
+      "input2": {
+        "type": "pneumaticcraft:fluid",
+        "fluid": 'minecraft:water',
+        "amount": 10
+      },
+      "fluid_output": {
+        "fluid": 'emendatusenigmatica:sulfuric_acid',
+        "amount": 10
+      },
+      "pressure": 0.0,
+      "time": 10
+  })
+
+  event.custom({
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+      "type": "pneumaticcraft:fluid",
+      "fluid": 'exnihilosequentia:sea_water',
+      "amount": 10
+    },
+    "input2": {
+      "type": 'emendatusenigmatica:carbon_dioxide',
+      "fluid": 'minecraft:water',
+      "amount": 10
+    },
+    "fluid_output": {
+      "fluid": 'emendatusenigmatica:wet_slurries_of_algae',
+      "amount": 10
+    },
+    "pressure": 0.0,
+    "time": 10
+})
+
     
 })
 

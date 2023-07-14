@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
         "experience": 0.35,
         "cookingtime": 10
     });
+
 })
 
 

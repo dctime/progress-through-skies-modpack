@@ -3,6 +3,7 @@
     "#mekanism:crystals/copper_ii_sulfate",
     "#mekanism:crystals/sulfur_dioxide",
     "#mekanism:crystals/hydrogen_sulfide",
+    "#mekanism:crystals/crude_oil",
     "#mekanism:crystals/example",
     "#mekanism:crystals/gold",
     "#mekanism:crystals/dense_sulfuric_acid",
@@ -10,7 +11,10 @@
     "#mekanism:crystals/sulfuric_acid",
     "#mekanism:crystals/liquid_oxygen",
     "#mekanism:crystals/copper_i_oxide",
+    "#mekanism:crystals/carbon_dioxide",
     "#mekanism:crystals/copper",
+    "#mekanism:crystals/lubricant",
+    "#mekanism:crystals/wet_slurries_of_algea",
     "#mekanism:crystals/liquid_hydrogen"
   ]
 }

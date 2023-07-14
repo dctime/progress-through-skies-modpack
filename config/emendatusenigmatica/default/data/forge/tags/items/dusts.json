@@ -3,6 +3,7 @@
     "#forge:dusts/copper_ii_sulfate",
     "#forge:dusts/sulfur_dioxide",
     "#forge:dusts/hydrogen_sulfide",
+    "#forge:dusts/crude_oil",
     "#forge:dusts/example",
     "#forge:dusts/gold",
     "#forge:dusts/dense_sulfuric_acid",
@@ -10,8 +11,11 @@
     "#forge:dusts/sulfuric_acid",
     "#forge:dusts/liquid_oxygen",
     "#forge:dusts/copper_i_oxide",
+    "#forge:dusts/carbon_dioxide",
     "#forge:dusts/sulfur",
     "#forge:dusts/copper",
+    "#forge:dusts/lubricant",
+    "#forge:dusts/wet_slurries_of_algea",
     "#forge:dusts/liquid_hydrogen"
   ]
 }
