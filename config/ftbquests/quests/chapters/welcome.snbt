@@ -305,15 +305,16 @@
 			dependencies: [
 				"3C17E472CB27FD04"
 				"5822EA6CAC2D0A05"
+				"365B27F9068E3978"
 			]
+			icon: "chemlib:sulfuric_acid"
 			id: "446606DBCF33D9D3"
 			shape: "gear"
 			tasks: [{
-				id: "0D346AB597042D7F"
-				item: "alchemistry:atomizer"
-				type: "item"
+				id: "11254C2CD465A1C5"
+				type: "checkmark"
 			}]
-			title: "Reduction[WIP]"
+			title: "Reduction"
 			x: 7.5d
 			y: 2.0d
 		}

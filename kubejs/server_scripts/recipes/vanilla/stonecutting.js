@@ -12,4 +12,8 @@ ServerEvents.recipes(event => {
     event.stonecutting('4x immersiveengineering:wire_copper', 'emendatusenigmatica:raw_copper_plate');
     event.stonecutting('16x createaddition:spool', 'minecraft:stone');
     event.stonecutting('4x ceramicbucket:unfired_clay_bucket', 'minecraft:clay');
+    event.stonecutting('2x minecraft:stone_slab', 'minecraft:stone');
+    event.stonecutting('16x immersiveengineering:wire_copper', 'emendatusenigmatica:copper_plate');
+    event.stonecutting('pneumaticcraft:heat_sink', 'minecraft:stone_slab');
+    event.stonecutting('16x minecraft:glass_pane', 'minecraft:glass');
 })

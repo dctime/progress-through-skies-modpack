@@ -211,6 +211,8 @@
 #28C7EC assemblylinemachines:pumpshaft
 #F7846D mekanism:purification_chamber
 #DF2185 tinyredstone:redstone_panel
+#24BE64 minecraft:redstone_torch
+#5D17E5 minecraft:redstone_wall_torch
 #721B63 minecraft:redstone_wire
 #C8404E assemblylinemachines:refinery
 #560E1C ic2:refinery
@@ -226,6 +228,7 @@
 #35F72A mob_grinding_utils:saw
 #D3CCFE create:shaft
 #C9A627 industrialforegoing:sludge_refiner
+#039798 chipped:small_diamond_leaded_glass
 #3A9287 minecraft:smooth_stone
 #815EB2 mekanismgenerators:solar_generator
 #7D61FE powah:solar_panel_nitro
@@ -250,6 +253,7 @@
 #F7F113 electrodynamics:thermoelectricgenerator
 #3CE0C1 pneumaticcraft:thermopneumatic_processing_plant
 #28EC0F chipped:tinkering_table
+#05FFF5 create:turntable
 #062EB6 mekanism:ultimate_combining_factory
 #29475D mekanism:ultimate_crushing_factory
 #89C1BB mekanism:ultimate_energy_cube
@@ -273,6 +277,7 @@
 #B7775E minecraft:white_bed
 #B04FD6 minecraft:white_candle
 #C6D1CE minecraft:white_concrete
+#BC20FE minecraft:white_wool
 #DA7940 ic2:wind_turbine
 #B4C4CC ic2:windmill
 #BA0DAC immersiveengineering:windmill

@@ -14,7 +14,12 @@ ServerEvents.tags('item', event => {
         'minecraft:polished_deepslate',
         'mekanism:logistical_sorter',
         'mekanismgenerators:bio_generator',
-        'mekanism:ultimate_crushing_factory'
+        'mekanism:ultimate_crushing_factory',
+        'mekanism:ultimate_combining_factory',
+        'mekanism:rotary_condensentrator',
+        'mekanism:chemical_infuser',
+        'mekanism:chemical_oxidizer',
+        'thermal:device_water_gen'
     ]
 
     let cobblestone_machine =
@@ -29,7 +34,8 @@ ServerEvents.tags('item', event => {
     let stone_plate_machine =
     [
         'minecraft:stone_pressure_plate',
-        'ad_astra:engine_fan'
+        'ad_astra:engine_fan',
+        'pneumaticcraft:charging_station'
     ]
 
     let cobblestone_light_source =
@@ -39,6 +45,14 @@ ServerEvents.tags('item', event => {
         'additional_lights:fire_pit_s_cobblestone',
         'additional_lights:standing_torch_s_cobblestone',
         'additional_lights:al_lamp_cobblestone'
+    ]
+
+    let deepslate_glass_machine =
+    [
+        'pneumaticcraft:fluid_mixer',
+        'pneumaticcraft:thermopneumatic_processing_plant',
+        'pneumaticcraft:refinery',
+        'pneumaticcraft:refinery_output'
     ]
 
     for (let item of polished_andesite_machine)
@@ -65,6 +79,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:cobblestone_light_source', item)
     }
+
+    for (let item of deepslate_glass_machine)
+    {
+        event.add('forge:deepslate_glass_machine', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -76,7 +95,8 @@ ServerEvents.recipes(event => {
             "forge:polished_deepslate_machine",
             "forge:cobblestone_machine",
             "forge:stone_plate_machine",
-            "forge:cobblestone_light_source"
+            "forge:cobblestone_light_source",
+            "forge:deepslate_glass_machine"
         ]
     })
 })

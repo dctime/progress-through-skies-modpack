@@ -21,7 +21,8 @@ ServerEvents.tags('item', event => {
     let wool_function_block_list =
     [
         'cyclic:soundproofing',
-        'minecraft:white_wool'
+        'minecraft:white_wool',
+        'pneumaticcraft:thermal_lagging'
     ]
 
     let motor_list =
@@ -36,6 +37,16 @@ ServerEvents.tags('item', event => {
     [
         'electrodynamics:downgradetransformer',
         'electrodynamics:upgradetransformer'
+    ]
+
+    let motor_complex_list =
+    [
+        'pneumaticcraft:flux_compressor',
+        'electrodynamics:electrolyticseparator',
+        'electrodynamics:fermentationplant',
+        'electrodynamics:mineralwasher',
+        'electrodynamics:mineralgrindertriple',
+        'electrodynamics:chemicalcrystallizer'
     ]
     
     for (let item of wrench_list)
@@ -63,6 +74,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:transformer_list', item)
     }
+
+    for (let item of motor_complex_list)
+    {
+        event.add('forge:motor_complex_list', item)
+    }
     
 })
 
@@ -75,7 +91,8 @@ ServerEvents.recipes(event => {
             "forge:tiny_redstone_list",
             "forge:wool_function_block_list",
             "forge:motor_list",
-            "forge:transformer_list"
+            "forge:transformer_list",
+            "forge:motor_complex_list"
         ]    
     })
 })

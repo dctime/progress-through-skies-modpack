@@ -373,7 +373,7 @@
 		[cyclic.blocks.soundproofing]
 			#Radius to find and muffle sounds. 
 			#Range: 1 ~ 128
-			radius = 6
+			radius = 3
 
 		[cyclic.blocks.cables]
 

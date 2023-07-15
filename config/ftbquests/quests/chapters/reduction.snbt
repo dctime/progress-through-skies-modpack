@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "gear"
 	filename: "reduction"
 	group: "54F41CD78FED2FED"
 	id: "365B27F9068E3978"
@@ -104,6 +104,7 @@
 		{
 			dependencies: ["564F1D8091DD0B98"]
 			id: "00E837CAAEEC810B"
+			shape: "circle"
 			tasks: [{
 				id: "1977D1720EF1201C"
 				item: "createaddition:electric_motor"
@@ -118,6 +119,7 @@
 				"34DF5B7052B969F0"
 			]
 			id: "2D42B4353D0C3F3F"
+			shape: "circle"
 			tasks: [{
 				id: "1A0D9F07D2BABAE4"
 				item: "electrodynamics:wirehighlyinsulatedcopper"
@@ -129,6 +131,7 @@
 		{
 			dependencies: ["2F265C23B20BD9BC"]
 			id: "6B12E79C1C0DDFEB"
+			shape: "circle"
 			tasks: [{
 				id: "2B4BE0918A838CBB"
 				item: "electrodynamics:upgradetransformer"
@@ -319,6 +322,7 @@
 		{
 			dependencies: ["564F1D8091DD0B98"]
 			id: "2F265C23B20BD9BC"
+			shape: "circle"
 			tasks: [{
 				id: "77F0D988B68E92F8"
 				item: "electrodynamics:downgradetransformer"
@@ -691,6 +695,7 @@
 		}
 		{
 			id: "7CB34AA065216B28"
+			shape: "circle"
 			tasks: [{
 				id: "508CA55132D2DC0E"
 				item: "emendatusenigmatica:raw_copper"
@@ -716,6 +721,7 @@
 				"0C98AFB51874F5E9"
 			]
 			id: "564F1D8091DD0B98"
+			shape: "circle"
 			tasks: [{
 				id: "64EAE25A452BFED1"
 				item: "electrodynamics:coil"
@@ -821,6 +827,7 @@
 		{
 			dependencies: ["3B427C3D3B4472DE"]
 			id: "70716ED085E47C75"
+			shape: "circle"
 			tasks: [{
 				id: "0A1F89815D2A1356"
 				item: "emendatusenigmatica:raw_copper_plate"
@@ -830,14 +837,15 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["7DD713C63352C6B8"]
 			id: "60B384C63E161AC4"
 			tasks: [{
 				id: "6BAE911813763724"
 				item: "emendatusenigmatica:copper_plate"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4BC075BD664F0A7F"]
@@ -853,6 +861,7 @@
 		{
 			dependencies: ["00E837CAAEEC810B"]
 			id: "24127A02B1E4AD9C"
+			shape: "circle"
 			tasks: [{
 				id: "2AE373AB77DFBC2F"
 				item: "createaddition:alternator"
@@ -864,6 +873,7 @@
 		{
 			dependencies: ["7CB34AA065216B28"]
 			id: "3B427C3D3B4472DE"
+			shape: "circle"
 			tasks: [{
 				id: "79F48E44B8E4BAB5"
 				item: "create:mechanical_press"
@@ -873,7 +883,9 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["3B427C3D3B4472DE"]
 			id: "676BE5E1DE4EFE0F"
+			shape: "circle"
 			tasks: [{
 				id: "49FCEC2AAC2FB757"
 				item: "create:depot"
@@ -884,6 +896,7 @@
 		}
 		{
 			id: "0A37D03A02C02F23"
+			shape: "circle"
 			tasks: [{
 				id: "785342C0923FC5E2"
 				item: "create:spout"
@@ -894,6 +907,7 @@
 		}
 		{
 			id: "0C98AFB51874F5E9"
+			shape: "circle"
 			tasks: [{
 				id: "21F90B19D6D47B03"
 				item: "createaddition:spool"
@@ -905,6 +919,7 @@
 		{
 			dependencies: ["00E837CAAEEC810B"]
 			id: "36E389184613119F"
+			shape: "circle"
 			tasks: [{
 				id: "4D6FC34BA568A9BC"
 				item: "dynamicelectricity:motorachv"
@@ -934,6 +949,17 @@
 			}]
 			x: -4.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["60B384C63E161AC4"]
+			id: "26448F85F56AB209"
+			tasks: [{
+				id: "51F718E48C47FF9B"
+				item: "immersiveengineering:wire_copper"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
 		}
 	]
 	title: "Reduction"
