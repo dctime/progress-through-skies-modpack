@@ -284,17 +284,6 @@ customization {
 }
 
 customization {
-  path = fancymenu_data/the_first_metal.png
-  orientation = top-left
-  x = 407
-  width = 201
-  action = addtexture
-  actionid = ad60fbf6-d276-4456-97f8-848dca2b85651688805406327
-  y = 70
-  height = 16
-}
-
-customization {
   orientation = top-left
   basecolor = #ffff00
   shadow = true
@@ -308,5 +297,16 @@ customization {
   actionid = 8413ad6c-a7b0-4959-b793-ee5e82df530e1688808824733
   action = addsplash
   y = 58
+}
+
+customization {
+  path = fancymenu_data/reduction.gif
+  orientation = top-left
+  x = 441
+  width = 185
+  action = addtexture
+  actionid = 15bfdc67-009b-4126-b694-574682e32f6b1689412452710
+  y = 48
+  height = 47
 }
 

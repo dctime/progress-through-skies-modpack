@@ -39,7 +39,10 @@ ServerEvents.tags('item', event => {
         'create:gearbox',
         'create:adjustable_chain_gearshift',
         'create:large_water_wheel',
-        'create:analog_lever'
+        'create:analog_lever',
+        'create:linear_chassis',
+        'create:radial_chassis'
+
     ]
     
     for (let item of storage_upgrade)

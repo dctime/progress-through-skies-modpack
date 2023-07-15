@@ -210,6 +210,12 @@
     },
     "done": true
   },
+  "create:windmill_maxed": {
+    "criteria": {
+      "0": "2023-07-15 15:47:19 +0800"
+    },
+    "done": true
+  },
   "exmachinis:flux_compactor": {
     "criteria": {
       "has_flux_compactor": "2023-07-05 21:19:09 +0800"
@@ -446,6 +452,12 @@
   "tetra:recipes/string": {
     "criteria": {
       "got_string": "2023-06-30 16:15:52 +0800"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2023-07-15 15:41:02 +0800"
     },
     "done": true
   },

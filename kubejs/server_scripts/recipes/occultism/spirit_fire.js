@@ -126,5 +126,23 @@ ServerEvents.recipes(event => {
                   "nbt": {gateway: "gateways:zombie_gate_small"}
               }
       });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'minecraft:polished_deepslate'
+        },
+        "result": {
+          "item": 'energymeter:meter'
+        }
+      });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'minecraft:glass_pane'
+        },
+        "result": {
+          "item": 'create:goggles'
+        }
+      });
     
 })

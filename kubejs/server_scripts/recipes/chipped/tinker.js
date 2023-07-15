@@ -22,7 +22,8 @@ ServerEvents.tags('item', event => {
     [
         'cyclic:soundproofing',
         'minecraft:white_wool',
-        'pneumaticcraft:thermal_lagging'
+        'pneumaticcraft:thermal_lagging',
+        'create:white_sail'
     ]
 
     let motor_list =
@@ -30,7 +31,11 @@ ServerEvents.tags('item', event => {
         'createaddition:electric_motor',
         'createaddition:alternator',
         'dynamicelectricity:motorachv',
-        'dynamicelectricity:motordchv'
+        'dynamicelectricity:motordchv',
+        'dynamicelectricity:motordclv',
+        'dynamicelectricity:motoraclv',
+        'dynamicelectricity:motoracmv',
+        'dynamicelectricity:motordcmv'
     ]
 
     let transformer_list =

@@ -259,6 +259,18 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('create:turntable', 1),
+        [
+            'A',
+            'B'
+        ],
+        {
+            'A': 'minecraft:oak_slab',
+            'B': 'create:shaft'
+        }
+    );
+
 
 
 

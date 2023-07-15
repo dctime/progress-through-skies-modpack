@@ -244,4 +244,22 @@ ServerEvents.recipes(event => {
             "item": 'create:spout'
         }
     })
+
+    event.custom({
+        "type": "immersiveengineering:blueprint",
+        "category": "components",
+        "inputs": 
+        [
+            {
+                'item': 'create:turntable'
+            },
+            {
+                'item': 'create:encased_chain_drive'
+            }
+        ],
+        "result": 
+        {
+            "item": 'create:windmill_bearing'
+        }
+    })
 })
