@@ -14,6 +14,21 @@ customization {
 }
 
 customization {
+  orientation = bottom-right
+  background_color = #3d3d3d
+  x = -181
+  width = 66
+  bar_color = #f2e824
+  action = custom_layout_element:drippy_generic_progress_bar
+  actionid = 45bab0f6-a9e9-4108-8594-0c29669494381689417907005
+  y = -129
+  progress_for_element_orientation = false
+  direction = up
+  progress_source = {"placeholder":"drippy_gl_percent"}*1
+  height = 82
+}
+
+customization {
   orientation = top-left
   hidden = false
   original_pos_size_calculation = true
@@ -26,7 +41,7 @@ customization {
 }
 
 customization {
-  custom_color_hex = #B87333
+  custom_color_hex = #3d3d3d
   orientation = top-left
   hidden = false
   x = -1000000
@@ -50,49 +65,49 @@ customization {
 }
 
 customization {
-  orientation = mid-right
-  background_color = #FFFFFF
-  x = -66
-  width = 30
-  bar_color = #f58c02
+  path = fancymenu_data/beaker.png
+  orientation = bottom-right
+  x = -206
+  width = 100
+  action = addtexture
+  actionid = 68d5f1e4-1d59-4b3e-a746-fbb55ada3b121689418546409
+  y = -144
+  height = 100
+}
+
+customization {
+  orientation = mid-left
+  background_color = #3d3d3d
+  x = 71
+  width = 10
+  bar_color = #006316
   action = custom_layout_element:drippy_custom_loading_bar
-  actionid = 902698d7-00c1-476a-8be6-1f65ba313ef01688309966198
-  y = -125
-  progress_for_element_orientation = true
+  actionid = d294f087-04b1-4378-8b9b-56a7d99e20091689417583672
+  y = -94
+  progress_for_element_orientation = false
   direction = up
-  height = 245
+  height = 192
 }
 
 customization {
-  path = fancymenu_data/mixer.png
-  orientation = bottom-left
-  x = 74
-  width = 100
+  path = fancymenu_data/graduated_glass_cylinders.png
+  orientation = mid-left
+  x = 35
+  width = 84
   action = addtexture
-  actionid = b3a3df2e-a2e5-4056-a26e-fce7147adcdd1688804252734
-  y = -181
-  height = 100
+  actionid = 3fdae25a-bc74-437f-9f99-2b359896bdec1689417314702
+  y = -135
+  height = 282
 }
 
 customization {
-  path = fancymenu_data/cat.gif
-  orientation = mid-right
-  x = -80
-  width = 100
-  action = addtexture
-  actionid = 54e3a12d-c74d-4873-bc42-e20453c0f4471688804204346
-  y = 44
-  height = 100
-}
-
-customization {
-  path = fancymenu_data/bio_generaorr.png
+  path = fancymenu_data/breaking_bad.gif
   orientation = top-right
-  x = -154
-  width = 66
+  x = -112
+  width = 78
   action = addtexture
-  actionid = 9ddbd80d-ac62-493f-b7c2-b25909bf854f1688804993572
-  y = 76
-  height = 68
+  actionid = cd0a3625-c44e-49fc-bf09-7741c74880921689418666401
+  y = 36
+  height = 71
 }
 

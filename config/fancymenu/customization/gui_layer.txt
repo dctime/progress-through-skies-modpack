@@ -10,7 +10,7 @@ customization-meta {
 
 customization {
   restart_on_load = false
-  name = progress_through_skies_the_first_metal
+  name = pts_reduction
   action = animatebackground
 }
 
@@ -261,11 +261,11 @@ customization {
 customization {
   path = fancymenu_data/upper-bar.png
   orientation = top-right
-  x = -464
+  x = -461
   width = 454
   action = addtexture
   actionid = cc3016fd-6371-4d93-bc9f-cbbf658e0ea81688305289001
-  y = 16
+  y = 15
   height = 48
 }
 
@@ -275,16 +275,27 @@ customization {
   channel = music
   x = 62
   width = 50
+  audio_source:ad0fd81d-37f2-454b-8956-0e7fa9dd789b1689415008984 = fancymenu_data/sounds/baldis_basics-schoolhouse_trouble_noteblock_remix.ogg;EXTERNAL_LOCAL;500;0
   action = custom_layout_element:fancymenu_extension:audio_item
   actionid = e8d9c694-7a30-4219-bebb-20edd910e5ba1688312415797
   y = 70
-  audio_source:92153f16-d91f-4c1f-9e58-1c5704b031191688808674558 = fancymenu_data/sounds/pigstep_curly_remix.ogg;EXTERNAL_LOCAL;100;0
   once_per_session = false
   height = 50
 }
 
 customization {
-  orientation = top-left
+  path = fancymenu_data/reduction.gif
+  orientation = top-right
+  x = -202
+  width = 185
+  action = addtexture
+  actionid = 15bfdc67-009b-4126-b694-574682e32f6b1689412452710
+  y = 50
+  height = 47
+}
+
+customization {
+  orientation = top-right
   basecolor = #ffff00
   shadow = true
   splashfilepath = fancymenu_data/text/credits.txt
@@ -293,20 +304,9 @@ customization {
   refresh = false
   bouncing = true
   vanilla-like = false
-  x = 167
-  actionid = 8413ad6c-a7b0-4959-b793-ee5e82df530e1688808824733
+  x = -209
+  actionid = bf1d1ede-2964-4497-8b97-71f316c174d91689415305958
   action = addsplash
-  y = 58
-}
-
-customization {
-  path = fancymenu_data/reduction.gif
-  orientation = top-left
-  x = 441
-  width = 185
-  action = addtexture
-  actionid = 15bfdc67-009b-4126-b694-574682e32f6b1689412452710
-  y = 48
-  height = 47
+  y = 96
 }
 

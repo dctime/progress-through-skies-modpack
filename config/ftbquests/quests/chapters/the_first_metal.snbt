@@ -276,6 +276,11 @@
 				"00896B755B1B663F"
 				"6A9182B447702C87"
 			]
+			description: [
+				"This time the ritual is different."
+				""
+				"{image:modpackdctime:textures/misc/soul_sand_craft_ritual.png width:100 height:100 align:1}"
+			]
 			id: "38FEF69B33132F3C"
 			subtitle: "kill zombies to get grave dusts"
 			tasks: [{

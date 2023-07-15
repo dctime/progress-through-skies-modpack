@@ -144,6 +144,7 @@
 			dependencies: ["314FCD5C93EFA7F9"]
 			description: [
 				"Ha you cant craft torches in this modpack. Torches are too OP."
+				"Can't find flint? Break Gravel as if you are in vanilla Minecraft."
 				""
 				"{image:modpackdctime:textures/misc/campfire_cooking.png width:160 height:100 align:1 fit:true}"
 			]
