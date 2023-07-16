@@ -50,48 +50,38 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o:NONE
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown:NONE
 key_tombstone.message.config:key.keyboard.unknown:NONE
 key_tombstone.message.compendium:key.keyboard.unknown:NONE
-key_key.cgm.reload:key.keyboard.unknown:NONE
-key_key.cgm.unload:key.keyboard.u:NONE
+key_key.cgm.reload:key.keyboard.f:NONE
+key_key.cgm.unload:key.keyboard.unknown:NONE
 key_key.cgm.attachments:key.keyboard.z:NONE
-key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
-key_key.jei.nextRecipePage:key.keyboard.page.down:NONE
+key_key.jei.showUses2:key.mouse.right:NONE
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
-key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown:NONE
-key_key.jei.recipeBack:key.keyboard.backspace:NONE
-key_key.jei.previousSearch:key.keyboard.up:NONE
-key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
-key_key.jei.toggleEditMode:key.keyboard.unknown:NONE
-key_key.jei.toggleCheatMode:key.keyboard.c:ALT
-key_key.jei.cheatOneItem:key.mouse.left:NONE
-key_key.jei.clearSearchBar:key.mouse.right:NONE
-key_key.jei.showUses:key.keyboard.u:NONE
-key_key.jei.nextSearch:key.keyboard.down:NONE
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
+key_key.jei.toggleCheatMode:key.keyboard.c:ALT
+key_key.jei.clearSearchBar:key.mouse.right:NONE
 key_key.jei.showRecipe:key.keyboard.r:NONE
-key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.nextSearch:key.keyboard.down:NONE
 key_key.jei.previousPage:key.keyboard.unknown:NONE
-key_key.jei.bookmark:key.keyboard.a:NONE
-key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
-key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.cheatItemStack2:key.mouse.middle:NONE
+key_key.jei.nextRecipePage:key.keyboard.page.down:NONE
+key_key.jei.cheatOneItem2:key.mouse.right:NONE
+key_key.jei.showUses:key.keyboard.u:NONE
+key_key.jei.toggleEditMode:key.keyboard.unknown:NONE
 key_key.jei.showRecipe2:key.mouse.left:NONE
+key_key.jei.previousSearch:key.keyboard.up:NONE
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.copy.recipe.id:key.keyboard.unknown:NONE
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown:NONE
 key_key.jei.previousRecipePage:key.keyboard.page.up:NONE
 key_key.jei.closeRecipeGui:key.keyboard.escape:NONE
-key_key.jei.showUses2:key.mouse.right:NONE
-key_key.jei.copy.recipe.id:key.keyboard.unknown:NONE
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
 key_key.jei.nextPage:key.keyboard.unknown:NONE
-key_key.jei.cheatItemStack:key.mouse.left:SHIFT
-key_key.jei.cheatOneItem2:key.mouse.right:NONE
-key_key.jei.cheatItemStack2:key.mouse.middle:NONE
-key_key.mekanism.mode:key.keyboard.n:NONE
-key_key.mekanism.head_mode:key.keyboard.v:NONE
-key_key.mekanism.chest_mode:key.keyboard.g:NONE
-key_key.mekanism.legs_mode:key.keyboard.j:NONE
-key_key.mekanism.feet_mode:key.keyboard.b:NONE
-key_key.mekanism.details:key.keyboard.left.shift:NONE
-key_key.mekanism.description:key.keyboard.n:SHIFT
-key_key.mekanism.module_tweaker:key.keyboard.backslash:NONE
-key_key.mekanism.key_boost:key.keyboard.left.control:NONE
-key_key.mekanism.key_hud:key.keyboard.h:NONE
+key_key.jei.bookmark:key.keyboard.a:NONE
+key_key.jei.cheatOneItem:key.mouse.left:NONE
+key_key.jei.recipeBack:key.keyboard.backspace:NONE
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
 key_pneumaticcraft.armor.options:key.keyboard.u:NONE
 key_pneumaticcraft.helmet.hack:key.keyboard.h:NONE
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y:NONE
@@ -104,6 +94,16 @@ key_key.electrodynamics.togglenvgs:key.keyboard.n:NONE
 key_key.electrodynamics.servoleggingsmode:key.keyboard.l:NONE
 key_key.electrodynamics.toggleservoleggings:key.keyboard.k:NONE
 key_key.electrodynamics.swapbatter:key.mouse.left:NONE
+key_key.mekanism.mode:key.keyboard.n:NONE
+key_key.mekanism.head_mode:key.keyboard.v:NONE
+key_key.mekanism.chest_mode:key.keyboard.g:NONE
+key_key.mekanism.legs_mode:key.keyboard.j:NONE
+key_key.mekanism.feet_mode:key.keyboard.b:NONE
+key_key.mekanism.details:key.keyboard.left.shift:NONE
+key_key.mekanism.description:key.keyboard.n:SHIFT
+key_key.mekanism.module_tweaker:key.keyboard.backslash:NONE
+key_key.mekanism.key_boost:key.keyboard.left.control:NONE
+key_key.mekanism.key_hud:key.keyboard.h:NONE
 key_key.zoom:key.keyboard.c:NONE
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
@@ -112,6 +112,17 @@ key_key.toggleLiquids:key.keyboard.unknown:NONE
 key_key.ae2.portable_item_cell:key.keyboard.unknown:NONE
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown:NONE
 key_key.ae2.wireless_terminal:key.keyboard.unknown:NONE
+key_keybinds.bettercombat.feint:key.keyboard.unknown:NONE
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown:NONE
+key_keybinds.combatroll.roll:key.keyboard.f:NONE
+key_Camera left:key.keyboard.left:NONE
+key_Camera right:key.keyboard.right:NONE
+key_Camera closer:key.keyboard.up:NONE
+key_Camera farther:key.keyboard.down:NONE
+key_Camera up:key.keyboard.page.up:NONE
+key_Camera down:key.keyboard.page.down:NONE
+key_Swap shoulder:key.keyboard.o:NONE
+key_Toggle perspective:key.keyboard.unknown:NONE
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
 key_key.occultism.backpack:key.keyboard.b:NONE
@@ -140,6 +151,9 @@ key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
 key_tetra.toolbelt.binding.secondary_use:key.keyboard.v:NONE
 key_key.tinyredstone.rotation_lock:key.keyboard.left.alt:NONE
 key_auditory.sound_reload_key:key.keyboard.unknown:NONE
+key_key.cgm.reload:key.keyboard.f:NONE
+key_key.cgm.unload:key.keyboard.unknown:NONE
+key_key.cgm.attachments:key.keyboard.z:NONE
 key_placebo.toggleTrails:key.keyboard.keypad.9:NONE
 key_placebo.toggleWings:key.keyboard.keypad.8:NONE
 key_key.buildinggadgets.settings_menu:key.keyboard.g:NONE
@@ -164,6 +178,9 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus:NONE
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown:NONE
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown:NONE
 key_key.cyclic.cake:key.keyboard.unknown:NONE
+key_key.trashslot.toggle:key.keyboard.t:NONE
+key_key.trashslot.delete:key.keyboard.delete:NONE
+key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
 key_create.keyinfo.toolbelt:key.keyboard.left.alt:NONE
 key_key.configured.open_mod_list:key.keyboard.unknown:NONE
@@ -178,7 +195,7 @@ key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown:NONE
 key_quark.keybind.camera_mode:key.keyboard.f12:NONE
 key_quark.keybind.back:key.mouse.4:NONE
 key_quark.keybind.autorun:key.keyboard.unknown:NONE
-key_quark.keybind.change_hotbar:key.keyboard.z:NONE
+key_quark.keybind.change_hotbar:key.keyboard.unknown:NONE
 key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
 key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
 key_quark.keybind.shift_lock:key.keyboard.unknown:NONE

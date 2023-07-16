@@ -612,6 +612,24 @@
 			x: -0.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["07516D56DCACC1E7"]
+			id: "7605F78DDEBE48DB"
+			shape: "circle"
+			tasks: [{
+				id: "1FC625E2E8332E8E"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
 	]
 	title: "Summoning the Stones"
 }

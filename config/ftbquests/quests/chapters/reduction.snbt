@@ -140,6 +140,7 @@
 			dependencies: ["2F265C23B20BD9BC"]
 			id: "6B12E79C1C0DDFEB"
 			shape: "circle"
+			subtitle: "Sometimes it will work. Sometimes it won't. Change how you arrange your wire. Good Luck."
 			tasks: [{
 				id: "2B4BE0918A838CBB"
 				item: "electrodynamics:upgradetransformer"
@@ -209,15 +210,18 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["2A1EF23ABBE7B497"]
+			dependencies: [
+				"3C17E472CB27FD04"
+				"5822EA6CAC2D0A05"
+			]
 			id: "1CE0139538F80CB6"
 			tasks: [{
 				id: "56D4577F2B38AD6E"
 				item: "mekanism:resistive_heater"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2A1EF23ABBE7B497"]
@@ -255,6 +259,7 @@
 		{
 			dependencies: ["19553A46B3C7EC1C"]
 			id: "3B2E4F8F4702F964"
+			subtitle: "Your super wrench should have it."
 			tasks: [{
 				id: "0892D2D3017AB4D4"
 				item: "pneumaticcraft:pneumatic_wrench"
@@ -335,6 +340,7 @@
 			dependencies: ["564F1D8091DD0B98"]
 			id: "2F265C23B20BD9BC"
 			shape: "circle"
+			subtitle: "Sometimes it will work. Sometimes it won't. Good Luck."
 			tasks: [{
 				id: "77F0D988B68E92F8"
 				item: "electrodynamics:downgradetransformer"
@@ -524,6 +530,7 @@
 		{
 			dependencies: ["45937908A73D8348"]
 			id: "4FB9AC7AF09AA91E"
+			subtitle: "Wire must connect to the front of this machine"
 			tasks: [{
 				id: "257AC9715A956458"
 				item: "electrodynamics:electrolyticseparator"
@@ -610,6 +617,7 @@
 				"5C6FCAE66174034A"
 			]
 			id: "7F18C5B5353E50ED"
+			subtitle: "You can remake H2SO4 here"
 			tasks: [{
 				id: "51C0D5490811BD37"
 				item: "pneumaticcraft:fluid_mixer"
@@ -637,8 +645,8 @@
 				item: "mekanism:ultimate_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2A1EF23ABBE7B497"]
@@ -692,6 +700,7 @@
 			dependencies: [
 				"7639AA071DF7E6C6"
 				"55CFAA3E60A6A1E7"
+				"1CE0139538F80CB6"
 			]
 			icon: "emendatusenigmatica:crude_oil_bucket"
 			id: "34BBD2169423C5A1"
@@ -990,6 +999,7 @@
 		{
 			dependencies: ["12CC61E33447F665"]
 			id: "3BE63EA879FF80D9"
+			subtitle: "Won't hurt your hands again."
 			tasks: [{
 				id: "51B03763FD507D34"
 				item: "ceramicbucket:ceramic_bucket"
@@ -1080,6 +1090,38 @@
 			}]
 			x: -10.0d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3C17E472CB27FD04"
+				"5822EA6CAC2D0A05"
+			]
+			description: [
+				"When you want to search for a fluid/gas, always search for the fluid/gas which is added by the"
+				"&lEmendatus Enigmatica&r. "
+			]
+			id: "28C2ACDE2A3CFCC7"
+			size: 3.0d
+			tasks: [{
+				id: "336FB7D3B7E6D5EE"
+				title: "INFO"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2F265C23B20BD9BC"]
+			id: "2834920357454D47"
+			shape: "circle"
+			subtitle: "Can I trust it?"
+			tasks: [{
+				id: "70B1A399BF5512BD"
+				item: "electrodynamics:multimeter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
 		}
 	]
 	title: "Reduction"

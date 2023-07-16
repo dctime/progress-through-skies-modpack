@@ -157,6 +157,8 @@
 #9DA81C mekanism:logistical_sorter
 #165822 thermal:machine_chiller
 #B3761E thermal:machine_crafter
+#48B87E compactmachines:machine_giant
+#D862D9 compactmachines:machine_maximum
 #F80505 thermal:machine_pyrolyzer
 #565EEA chipped:mason_table
 #5BD5E4 industrialforegoing:material_stonework_factory
@@ -239,6 +241,7 @@
 #7D61FE powah:solar_panel_nitro
 #6A06B7 powah:solar_panel_starter
 #DAA5F9 ic2:solar_turbine
+#750F8F compactmachines:solid_wall
 #DC7735 cyclic:solidifier
 #A0B4F5 minecraft:soul_fire
 #A67F43 minecraft:soul_sand

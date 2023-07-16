@@ -271,6 +271,22 @@ ServerEvents.recipes(event => {
         }
     );
 
+    event.shapeless(
+        Item.of('electrodynamics:multimeter', 1),
+        [
+            'minecraft:stone_pressure_plate',
+            'immersiveengineering:wire_copper'
+        ]
+    );
+
+    event.shapeless(
+        Item.of('constructionwand:infinity_wand', '{wand_options:{}}'),
+        [
+            'minecraft:amethyst_shard',
+            'minecraft:stick'
+        ]
+    );
+
 
 
 

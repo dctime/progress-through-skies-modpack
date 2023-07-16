@@ -276,6 +276,12 @@
     },
     "done": true
   },
+  "compactmachines:claimed_machine_max": {
+    "criteria": {
+      "claimed_machine": "2023-07-16 19:24:35 +0800"
+    },
+    "done": true
+  },
   "simplyswords:longsword_plague": {
     "criteria": {
       "requirement": "2023-07-10 15:45:49 +0800"
@@ -303,6 +309,12 @@
   "electrodynamics:multimeter": {
     "criteria": {
       "HasMultimeter": "2023-07-11 18:07:37 +0800"
+    },
+    "done": true
+  },
+  "mutantmonsters:root": {
+    "criteria": {
+      "killed_something": "2023-07-16 19:23:25 +0800"
     },
     "done": true
   },
@@ -337,6 +349,12 @@
   "mekanism:digital_miner": {
     "criteria": {
       "digital_miner": "2023-07-10 18:20:58 +0800"
+    },
+    "done": true
+  },
+  "compactmachines:got_shrinking_device": {
+    "criteria": {
+      "obtained_psd": "2023-07-16 19:23:46 +0800"
     },
     "done": true
   },
@@ -913,6 +931,12 @@
   "electrodynamics:thermoelectricgenerator": {
     "criteria": {
       "HasGen": "2023-07-10 18:56:50 +0800"
+    },
+    "done": true
+  },
+  "compactmachines:claimed_machine_giant": {
+    "criteria": {
+      "claimed_machine": "2023-07-16 19:24:10 +0800"
     },
     "done": true
   },

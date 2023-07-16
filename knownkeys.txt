@@ -238,3 +238,17 @@ pneumaticcraft.armor.upgrade.block_tracker.module.hackables
 pneumaticcraft.armor.upgrade.scuba
 pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode
 pneumaticcraft.armor.upgrade.block_tracker.module.end_portal
+keybinds.bettercombat.feint
+keybinds.bettercombat.toggle_mine_with_weapons
+keybinds.combatroll.roll
+Camera left
+Camera right
+Camera closer
+Camera farther
+Camera up
+Camera down
+Swap shoulder
+Toggle perspective
+key.trashslot.toggle
+key.trashslot.delete
+key.trashslot.deleteAll

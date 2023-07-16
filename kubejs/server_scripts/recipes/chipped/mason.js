@@ -19,7 +19,8 @@ ServerEvents.tags('item', event => {
         'mekanism:rotary_condensentrator',
         'mekanism:chemical_infuser',
         'mekanism:chemical_oxidizer',
-        'thermal:device_water_gen'
+        'thermal:device_water_gen',
+        'mekanism:electrolytic_separator'
     ]
 
     let cobblestone_machine =
@@ -35,7 +36,8 @@ ServerEvents.tags('item', event => {
     [
         'minecraft:stone_pressure_plate',
         'ad_astra:engine_fan',
-        'pneumaticcraft:charging_station'
+        'pneumaticcraft:charging_station',
+        'pneumaticcraft:advanced_pressure_tube'
     ]
 
     let cobblestone_light_source =
