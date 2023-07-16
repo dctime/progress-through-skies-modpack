@@ -126,6 +126,12 @@
     },
     "done": true
   },
+  "botania:main/brew_pickup": {
+    "criteria": {
+      "pickup": "2023-07-16 19:37:34 +0800"
+    },
+    "done": true
+  },
   "create:mechanical_press": {
     "criteria": {
       "0": "2023-07-14 19:27:18 +0800"
