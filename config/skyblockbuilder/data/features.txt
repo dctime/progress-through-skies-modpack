@@ -2,10 +2,6 @@ minecraft:acacia
 productivebees:acacia_solitary_nest
 productivebees:acacia_wood_nest_feature
 minecraft:amethyst_geode
-naturesaura:ancient_tree
-naturesaura:aura_bloom
-naturesaura:aura_cactus
-naturesaura:aura_mushroom
 minecraft:azalea_tree
 minecraft:bamboo_no_podzol
 minecraft:bamboo_some_podzol
@@ -29,7 +25,6 @@ minecraft:chorus_plant
 minecraft:clay_pool_with_dripleaves
 minecraft:clay_with_dripleaves
 productivebees:coarse_dirt_nest_feature
-naturesaura:crimson_aura_mushroom
 minecraft:crimson_forest_vegetation
 minecraft:crimson_forest_vegetation_bonemeal
 minecraft:crimson_fungus
@@ -120,7 +115,6 @@ productivebees:nether_quartz_nest_feature
 productivebees:nether_quartz_nest_high_feature
 minecraft:nether_sprouts
 minecraft:nether_sprouts_bonemeal
-naturesaura:nether_wart_mushroom
 minecraft:oak
 minecraft:oak_bees_0002
 minecraft:oak_bees_002
@@ -282,7 +276,6 @@ powah:uraninite_ore_poor
 minecraft:vines
 minecraft:void_start_platform
 minecraft:warm_ocean_vegetation
-naturesaura:warped_aura_mushroom
 minecraft:warped_forest_vegetation
 minecraft:warped_forest_vegetation_bonemeal
 minecraft:warped_fungus
