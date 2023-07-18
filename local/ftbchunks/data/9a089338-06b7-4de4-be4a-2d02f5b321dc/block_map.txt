@@ -5,6 +5,7 @@
 #C2E278 additional_lights:al_lamp_cobblestone
 #2E8295 additional_lights:al_lamp_oak_planks
 #A52DE6 assemblylinemachines:alloy_smelter
+#AC584B summoningrituals:altar
 #222F76 createaddition:alternator
 #17F1FF create:analog_lever
 #A4683B create:andesite_casing
@@ -155,6 +156,7 @@
 #72D77D minecraft:lever
 #04388B trashcans:liquid_trash_can
 #9DA81C mekanism:logistical_sorter
+#4BFE53 hostilenetworks:loot_fabricator
 #165822 thermal:machine_chiller
 #B3761E thermal:machine_crafter
 #48B87E compactmachines:machine_giant
@@ -189,6 +191,7 @@
 #E5A47D electrodynamics:multimeterblock
 #7530C9 electrodynamics:multisubnode
 #D59B0C assemblylinemachines:naphtha_turbine
+#304FCC ad_astra:nasa_workbench
 #347C45 nuclearscience:nuclearboiler
 #954279 mekanism:nutritional_liquifier
 #73753E minecraft:oak_fence
@@ -234,6 +237,7 @@
 #86FC77 minecraft:sand
 #35F72A mob_grinding_utils:saw
 #D3CCFE create:shaft
+#44A517 hostilenetworks:sim_chamber
 #C9A627 industrialforegoing:sludge_refiner
 #039798 chipped:small_diamond_leaded_glass
 #3A9287 minecraft:smooth_stone

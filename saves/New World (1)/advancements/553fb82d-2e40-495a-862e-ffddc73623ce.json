@@ -739,6 +739,13 @@
     },
     "done": true
   },
+  "mutantmonsters:hulk_smash": {
+    "criteria": {
+      "hammer_in_offhand": "2023-07-18 19:29:53 +0800",
+      "hammer_in_mainhand": "2023-07-18 19:29:53 +0800"
+    },
+    "done": true
+  },
   "electrodynamics:triplemilling": {
     "criteria": {
       "HasMill": "2023-07-05 11:43:59 +0800"
@@ -987,6 +994,12 @@
       "chemical_dissolution_chamber": "2023-07-10 18:21:52 +0800",
       "chemical_crystallizer": "2023-07-10 18:21:57 +0800",
       "chemical_washer": "2023-07-10 18:21:54 +0800"
+    },
+    "done": true
+  },
+  "ad_astra:ad_astra": {
+    "criteria": {
+      "ad_astra": "2023-07-18 20:02:19 +0800"
     },
     "done": true
   },
