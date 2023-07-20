@@ -295,6 +295,7 @@
 			icon: "occultism:spirit_fire"
 			id: "01D01071F06E7049"
 			shape: "circle"
+			subtitle: "Pro tip: Modify HAMMER using hammer"
 			tasks: [
 				{
 					id: "0E9881DC2E112B8F"

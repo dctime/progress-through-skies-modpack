@@ -287,7 +287,6 @@ ServerEvents.recipes(event => {
         ]
     );
 
-
-
-
+    compact_2(MC('snowball'), MC('snow_block'));
+    compact_2(MC('snow_block'), MC('ice'));
 })

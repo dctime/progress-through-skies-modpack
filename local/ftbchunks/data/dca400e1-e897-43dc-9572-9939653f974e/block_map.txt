@@ -1,4 +1,9 @@
 #52B53D minecraft:air
 #80497A minecraft:dirt
 #517451 progressthroughskies:dusted_bedrock
+#3F84B7 minecraft:grass_block
+#52D27E minecraft:ice
+#4A5E4E minecraft:obsidian
 #872D76 minecraft:snow
+#28D257 snowrealmagic:snow
+#C283C5 exnihilosequentia:stone_barrel

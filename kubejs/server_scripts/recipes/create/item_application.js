@@ -17,4 +17,42 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        "type": "create:item_application",
+        "ingredients": 
+        [
+            {
+                "item": "progressthroughskies:bedrock_gravel"
+            },
+            {
+                "item": "minecraft:snowball"
+            }
+        ],
+        "results": 
+        [
+            {
+                'item':'minecraft:dirt'
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "create:item_application",
+        "ingredients": 
+        [
+            {
+                "item": 'minecraft:dirt'
+            },
+            {
+                "item": "minecraft:snowball"
+            }
+        ],
+        "results": 
+        [
+            {
+                'item':'minecraft:grass_block'
+            }
+        ]
+    })
 })

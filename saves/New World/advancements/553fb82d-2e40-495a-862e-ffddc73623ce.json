@@ -41,9 +41,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-07-20 22:44:05 +0800"
+    },
+    "done": true
+  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2023-07-20 20:51:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-07-20 22:09:01 +0800"
     },
     "done": true
   },

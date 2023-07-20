@@ -25,12 +25,20 @@
 			dependencies: ["0DB8DB559670837F"]
 			description: ["A barrel should have 5 sides..."]
 			id: "0D955AF98A83DE0A"
-			subtitle: "Well I tried my best to make the stone barrel recipe xd"
-			tasks: [{
-				id: "2C46B09F8B2B6AC6"
-				item: "exnihilosequentia:stone_barrel"
-				type: "item"
-			}]
+			min_required_tasks: 1
+			subtitle: "For biomes that rains, use barrel. For biomes that snows, sneak and right click snow to get snowball."
+			tasks: [
+				{
+					id: "2C46B09F8B2B6AC6"
+					item: "exnihilosequentia:stone_barrel"
+					type: "item"
+				}
+				{
+					id: "6F7FE09209CC8631"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}

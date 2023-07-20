@@ -50,7 +50,7 @@
 				id: "3E7839C599C129B0"
 				type: "checkmark"
 			}]
-			title: "Go the \"Bedrock Punching\" Chapter"
+			title: "Go to \"Bedrock Punching\" Chapter"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -315,7 +315,7 @@
 				id: "11254C2CD465A1C5"
 				type: "checkmark"
 			}]
-			title: "Reduction"
+			title: "Go to \"Reduction\" Chapter"
 			x: 7.5d
 			y: 2.0d
 		}
@@ -373,6 +373,29 @@
 			}]
 			x: -2.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["7AAA6F85BDE0E95D"]
+			id: "7951F738ECC4EC1D"
+			shape: "circle"
+			subtitle: "For biomes that snows, get water from barrels. For places that snows, get water by making ice."
+			tasks: [{
+				id: "407E0DA194B61728"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
 		}
 	]
 	title: "Welcome!"
