@@ -1,2 +1,4 @@
 #52B53D minecraft:air
+#80497A minecraft:dirt
 #517451 progressthroughskies:dusted_bedrock
+#872D76 minecraft:snow
