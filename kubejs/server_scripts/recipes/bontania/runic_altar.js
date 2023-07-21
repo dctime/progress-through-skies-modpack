@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
             
             "type": "forge:nbt",
             "item": 'minecraft:bundle',
-            "nbt": {Items:[{Count:1,id:"ferdinandsflowers:hawthorne"},{Count:1,id:"ferdinandsflowers:iris"},{Count:1,id:"ferdinandsflowers:larkspur"},{Count:1,id:"ferdinandsflowers:dried_sunflower"},{Count:1,id:"ferdinandsflowers:parrot_flower"},{Count:1,id:"ferdinandsflowers:pitcher_plant"},{Count:1,id:"ferdinandsflowers:lewisia"},{Count:1,id:"ferdinandsflowers:purple_calla_lily"},{Count:1,id:"ferdinandsflowers:lantana"}]}
+            "nbt": {Items:[{Count:1,id:"ferdinandsflowers:hawthorne"},{Count:1,id:"ferdinandsflowers:iris"},{Count:1,id:"ferdinandsflowers:larkspur"},{Count:1,id:"ferdinandsflowers:parrot_flower"},{Count:1,id:"ferdinandsflowers:pitcher_plant"},{Count:1,id:"ferdinandsflowers:lewisia"},{Count:1,id:"ferdinandsflowers:purple_calla_lily"},{Count:1,id:"ferdinandsflowers:lantana"}]}
             
         },
         "mana": 10000,

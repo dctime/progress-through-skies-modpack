@@ -13,7 +13,8 @@ ServerEvents.tags('item', event => {
         'mekanism:basic_universal_cable',
         'mekanism:basic_mechanical_pipe',
         'mekanism:basic_pressurized_tube',
-        'mekanism:basic_logistical_transporter'
+        'mekanism:basic_logistical_transporter',
+        'chipped:square_oak_glass'
     ]
     for (let item of glass_machine_list)
     {

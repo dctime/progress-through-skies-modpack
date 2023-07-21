@@ -26,4 +26,18 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        "type": "create:haunting",
+        "ingredients": [
+            {
+                "item": 'minecraft:oak_log'
+            }
+        ],
+        "results": [
+            {
+                "item": 'botania:livingwood_log'
+            }
+        ]
+    })
 })

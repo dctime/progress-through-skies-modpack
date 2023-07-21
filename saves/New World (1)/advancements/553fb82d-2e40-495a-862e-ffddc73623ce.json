@@ -222,6 +222,12 @@
     },
     "done": true
   },
+  "create:compacting": {
+    "criteria": {
+      "0": "2023-07-21 21:48:43 +0800"
+    },
+    "done": true
+  },
   "electrodynamics:coalgenerator": {
     "criteria": {
       "HasCoalGenerator": "2023-07-10 18:55:57 +0800"
@@ -321,6 +327,12 @@
   "botania:main/dandelifeon_pickup": {
     "criteria": {
       "dandelifeon": "2023-07-21 15:56:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_planks_from_oak_log_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 22:09:40 +0800"
     },
     "done": true
   },
@@ -1181,6 +1193,12 @@
   "electrodynamics:electricarcfurnace": {
     "criteria": {
       "HasFurnace": "2023-07-06 12:55:38 +0800"
+    },
+    "done": true
+  },
+  "evilcraft:root": {
+    "criteria": {
+      "criteria_0": "2023-07-21 22:53:51 +0800"
     },
     "done": true
   },

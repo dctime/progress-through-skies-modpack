@@ -16,4 +16,5 @@ ServerEvents.recipes(event => {
     event.stonecutting('16x immersiveengineering:wire_copper', 'emendatusenigmatica:copper_plate');
     event.stonecutting('pneumaticcraft:heat_sink', 'minecraft:stone_slab');
     event.stonecutting('16x minecraft:glass_pane', 'minecraft:glass');
+    event.stonecutting(Item.of('cyclic:shears_flint', '{Damage:0}'), 'minecraft:flint');
 })

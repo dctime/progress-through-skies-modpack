@@ -1,5 +1,5 @@
-// 1.19.2	2023-07-14T17:55:47.3173123	Emendatus Enigmatica Item Tags
-1b94b020ee01bdf494510810a2fffb74da463f05 data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-21T21:37:13.8984734	Emendatus Enigmatica Item Tags
+263d1f6d35a6801a1e10fc9b94fd4d07b4525aa9 data/forge/tags/items/buckets.json
 9a97c630f76cb6f01bba73befd7a0c65e9d991c5 data/forge/tags/items/buckets/carbon_dioxide.json
 811adfa940d2cbe98914896bd10b40434cfa0449 data/forge/tags/items/buckets/copper.json
 52263828e438507b59b3873b27288127210627e5 data/forge/tags/items/buckets/copper_ii_sulfate.json
@@ -14,13 +14,14 @@ dbf43a3b64a612f6489da7f5dd85df2d5b2de255 data/forge/tags/items/buckets/light_unp
 0a84316109c45f466c1aeb1d9e393e603d208cd1 data/forge/tags/items/buckets/liquid_hydrogen.json
 4f0f158430b535e349dcadb569eaccdd0c572f78 data/forge/tags/items/buckets/liquid_oxygen.json
 f6bb1cb7d177fe6bccc51c32a1f62a79b0405230 data/forge/tags/items/buckets/lubricant.json
+4d49a0381076e4cbceb75462fef35f7e948f8147 data/forge/tags/items/buckets/natural_acid.json
 31274c7fd4562ddefa6877a71aa0dc4669ee2e13 data/forge/tags/items/buckets/raw_copper.json
 720c77aebc3692f0c9aa50092bb0c9d025acbc1c data/forge/tags/items/buckets/sulfur.json
 773aad67aba3bc41b92068d7f675e002484d7ef8 data/forge/tags/items/buckets/sulfuric_acid.json
 0de7e3295b9ffad051c1a82d453153c7499a823f data/forge/tags/items/buckets/sulfurous_acid.json
 a822b74ef960a002713695220c4d4ff8f0e923a1 data/forge/tags/items/buckets/sulfur_dioxide.json
 74adef5b9a0309bf3807cd61ad84cc3c3c795fe1 data/forge/tags/items/buckets/wet_slurries_of_algae.json
-a14fe8ec4d70af60ce08abef03003b519204f083 data/forge/tags/items/dusts.json
+cc4e1a471075841f1cad01827e5ab18bf2a32572 data/forge/tags/items/dusts.json
 4f98e43acb29e04df08fcbd990314eab01f9d78b data/forge/tags/items/dusts/carbon_dioxide.json
 903f15c0ffa668cdd8b3031c90ef3a75fee2c62b data/forge/tags/items/dusts/copper.json
 4050c6cea718e613c6d7ab023c63baf4eda84576 data/forge/tags/items/dusts/copper_ii_sulfate.json
@@ -35,6 +36,7 @@ dd9ca3282753734c908c0e0a95e8111cadf155d3 data/forge/tags/items/dusts/example.jso
 d319290ed3dc96c52247361bd68e93093725736d data/forge/tags/items/dusts/liquid_hydrogen.json
 588a03c141026c3e754e96c9ef52860c02ef8ffc data/forge/tags/items/dusts/liquid_oxygen.json
 49a65bfa950ffa78a4505fac4221e922e2ece8c5 data/forge/tags/items/dusts/lubricant.json
+7dbad2a958fd2447dc967cb2dfb2b435cd33999c data/forge/tags/items/dusts/natural_acid.json
 c27ffdbf7cfb6df2211ea774fcbd9ef1bbe1c595 data/forge/tags/items/dusts/sulfur.json
 c0e3fbdcb1d9b08a3c54b98946ad3eebe59a4a84 data/forge/tags/items/dusts/sulfuric_acid.json
 0250f894f8dfda8bd91648233350b962a5d362f4 data/forge/tags/items/dusts/sulfurous_acid.json

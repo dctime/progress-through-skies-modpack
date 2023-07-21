@@ -1,0 +1,47 @@
+{
+    "id": "iron",
+    "source": "modded",
+    "localizedName": "Iron",
+    "processedTypes": [
+      "storage_block",
+      "ingot",
+      "ore",
+      "raw",
+      "nugget",
+      "dust",
+      "plate",
+      "gear",
+      "rod",
+      "fluid",
+      "cluster",
+      "infuse_type",
+      "gas",
+      "slurry",
+      "crystal",
+      "shard",
+      "clump",
+      "dirty_dust",
+      "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": false,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "-a20000",
+      "particlesColor": "a19d94",
+      "materialColor": "a19d94",
+      "gasColor":"a19d94",
+      "oxidizationColor": "a19d94"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 1.0
+    }
+  }

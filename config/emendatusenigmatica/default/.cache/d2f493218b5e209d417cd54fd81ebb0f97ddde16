@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-14T17:55:47.3113282	Emendatus Enigmatica Fluid Tags
+// 1.19.2	2023-07-21T21:37:13.9084488	Emendatus Enigmatica Fluid Tags
 efed9167d480ae99c324480833364a421696eae7 data/forge/tags/fluids/carbon_dioxide.json
 dbd76016bc6e88b057a322a945b1de19dacb869d data/forge/tags/fluids/copper.json
 dcb8843f6be4d1915198be97110693d0c01dfefc data/forge/tags/fluids/copper_ii_sulfate.json
@@ -13,6 +13,7 @@ caefc9abfd8fd826cee86c26b6028d0b1241a276 data/forge/tags/fluids/light_unprocesse
 8bb4e40fe6aedac79e11c9fc0d1ca07ab1182094 data/forge/tags/fluids/liquid_hydrogen.json
 e0493410c0ed82123618da96aa5ddf192044404f data/forge/tags/fluids/liquid_oxygen.json
 87ca8009a84d8ac6b2e6de464227e78a13673c2b data/forge/tags/fluids/lubricant.json
+84f6e8e29a98401e8fbf20d560e7c021584c4e33 data/forge/tags/fluids/natural_acid.json
 c96ade08d48b1ce902296100b5caf58edcde8533 data/forge/tags/fluids/raw_copper.json
 f7c0f8f7cf2645b2ede3101076a06cd3a8645b27 data/forge/tags/fluids/sulfur.json
 38a5f6cb8dc06cf337966b7dacf02bcff5678571 data/forge/tags/fluids/sulfuric_acid.json

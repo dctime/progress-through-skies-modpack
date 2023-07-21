@@ -122,4 +122,21 @@ ServerEvents.recipes(event => {
         ],
         "waterlogged": false
       })
+
+      event.custom({
+        "type": "exnihilosequentia:sieve",
+        "input": {
+          "item": 'evilcraft:hardened_blood'
+        },
+        "result": {
+          "item": "minecraft:amethyst_shard"
+        },
+        "rolls": [
+          {
+            "chance": 0.2,
+            "mesh": "string"
+          }
+        ],
+        "waterlogged": false
+      })
 })

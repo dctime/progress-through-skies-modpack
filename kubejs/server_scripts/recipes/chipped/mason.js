@@ -9,6 +9,14 @@ ServerEvents.tags('item', event => {
 
     ]
 
+    let livingrock_machine =
+    [
+        'botania:livingrock',
+        'botania:diluted_pool',
+        'botania:mana_pool',
+        'botania:apothecary_livingrock'
+    ]
+
     let polished_deepslate_machine =
     [
         'minecraft:polished_deepslate',
@@ -87,6 +95,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:deepslate_glass_machine', item)
     }
+
+    for (let item of livingrock_machine)
+    {
+        event.add('forge:livingrock_machine', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -99,7 +112,8 @@ ServerEvents.recipes(event => {
             "forge:cobblestone_machine",
             "forge:stone_plate_machine",
             "forge:cobblestone_light_source",
-            "forge:deepslate_glass_machine"
+            "forge:deepslate_glass_machine",
+            'forge:livingrock_machine'
         ]
     })
 })

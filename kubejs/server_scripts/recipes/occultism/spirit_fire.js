@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         "ingredient": {
           "item": "minecraft:stick"
         },
-        "result": Item.of('morphtool:tool', '{"morphtool:data":{ad_astra:{Count:1b,id:"ad_astra:wrench"},assemblylinemachines:{Count:1b,id:"assemblylinemachines:wrench_o_matic",tag:{}},biggerreactors:{Count:1b,id:"biggerreactors:wrench"},chiselsandbits:{Count:1b,id:"chiselsandbits:wrench"},create:{Count:1b,id:"create:wrench",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.create.wrench"}]}\'},"morphtool:displayName":{text:\'{"translate":"item.create.wrench"}\'},"morphtool:is_morphing":1b}},cyclic:{Count:1b,id:"cyclic:cable_wrench"},electrodynamics:{Count:1b,id:"electrodynamics:wrench"},integratedtunnels:{Count:1b,id:"integrateddynamics:wrench"},mekanism:{Count:1b,id:"mekanism:configurator",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.mekanism.configurator"}]}\'},"morphtool:displayName":{text:\'{"color":"#30FFF9","translate":"item.mekanism.configurator"}\'},"morphtool:is_morphing":1b}},pneumaticcraft:{Count:1b,id:"pneumaticcraft:pneumatic_wrench"},powah:{Count:1b,id:"powah:wrench",tag:{PowahWrenchNBT:{}}},thermal:{Count:1b,id:"thermal:wrench"},tinyredstone:{Count:1b,id:"tinyredstone:redstone_wrench"}},"morphtool:is_morphing":1b}')
+        "result": Item.of('morphtool:tool', '{"morphtool:data":{ad_astra:{Count:1b,id:"ad_astra:wrench"},assemblylinemachines:{Count:1b,id:"assemblylinemachines:wrench_o_matic",tag:{}},biggerreactors:{Count:1b,id:"biggerreactors:wrench"},botania:{Count:1b,id:"botania:twig_wand",tag:{color1:0,color2:0}},chiselsandbits:{Count:1b,id:"chiselsandbits:wrench"},create:{Count:1b,id:"create:wrench",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.create.wrench"}]}\'},"morphtool:displayName":{text:\'{"translate":"item.create.wrench"}\'},"morphtool:is_morphing":1b}},cyclic:{Count:1b,id:"cyclic:cable_wrench"},electrodynamics:{Count:1b,id:"electrodynamics:wrench"},integratedtunnels:{Count:1b,id:"integrateddynamics:wrench",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.integrateddynamics.wrench"}]}\'},"morphtool:displayName":{text:\'{"translate":"item.integrateddynamics.wrench"}\'},"morphtool:is_morphing":1b}},mekanism:{Count:1b,id:"mekanism:configurator",tag:{display:{Name:\'{"translate":"morphtool.sudo_name","with":[{"color":"green","translate":"item.mekanism.configurator"}]}\'},"morphtool:displayName":{text:\'{"color":"#30FFF9","translate":"item.mekanism.configurator"}\'},"morphtool:is_morphing":1b}},pneumaticcraft:{Count:1b,id:"pneumaticcraft:pneumatic_wrench"},powah:{Count:1b,id:"powah:wrench",tag:{PowahWrenchNBT:{}}},thermal:{Count:1b,id:"thermal:wrench"},tinyredstone:{Count:1b,id:"tinyredstone:redstone_wrench"}},"morphtool:is_morphing":1b}')
         // TODO: ALWAYS CHECK THIS WHEN EXPORT
     });
     event.custom({
@@ -152,6 +152,15 @@ ServerEvents.recipes(event => {
         "result": {
           "item": 'naturesaura:gold_powder',
           "count": 16
+        }
+      });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'botania:livingwood_log'
+        },
+        "result": {
+          "item": 'botania:gaia_spreader'
         }
       });
 })

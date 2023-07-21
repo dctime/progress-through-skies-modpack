@@ -59,5 +59,18 @@ ServerEvents.recipes(event => {
       "item": "quark:paper_wall_big"
     }
   })
+
+  event.custom({
+    "type": "exnihilosequentia:fluid_item",
+    "fluid": {
+      "fluid": "hexerei:blood_fluid"
+    },
+    "input": {
+      "item": 'emendatusenigmatica:natural_acid_crystal'
+    },
+    "result": {
+      "item": 'evilcraft:hardened_blood'
+    }
+  })
 })
 

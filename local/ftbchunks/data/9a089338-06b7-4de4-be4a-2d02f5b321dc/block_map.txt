@@ -12,6 +12,7 @@
 #89AB26 create:andesite_scaffolding
 #A292CE mekanism:antiprotonic_nucleosynthesizer
 #9D292C botania:apothecary_default
+#BE0DAB botania:apothecary_livingrock
 #798346 alexs_armoury:armourers_table
 #05F7C6 clickmachine:auto_clicker
 #BD6D5A assemblylinemachines:autocrafting_table
@@ -162,6 +163,7 @@
 #83CED3 minecraft:lava
 #72D77D minecraft:lever
 #04388B trashcans:liquid_trash_can
+#5FCAC2 botania:livingrock
 #9DA81C mekanism:logistical_sorter
 #4BFE53 hostilenetworks:loot_fabricator
 #165822 thermal:machine_chiller
@@ -268,6 +270,7 @@
 #7C5BEF occultism:spirit_fire
 #4AFD83 industrialforegoing:spores_recreator
 #D7A655 create:spout
+#55A311 chipped:square_oak_glass
 #29EA02 additional_lights:standing_torch_l_cobblestone
 #BF1789 additional_lights:standing_torch_s_cobblestone
 #DC3458 minecraft:stone

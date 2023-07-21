@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-14T17:55:47.322473	EE Mekanism Addon Recipes
+// 1.19.2	2023-07-21T21:37:13.9024645	EE Mekanism Addon Recipes
 f834f54470b50f616206fe6336270a0a55abef77 data/emendatusenigmatica/recipes/clump/from_ore/copper.json
 b5a2e569f9239352a70151f4960740858ed17e65 data/emendatusenigmatica/recipes/clump/from_ore/gold.json
 5fff955bab79fc05f9cdaab8cfea7910a24b33b7 data/emendatusenigmatica/recipes/clump/from_raw/copper.json
@@ -21,6 +21,7 @@ ee001691e3c6ec36a24811e4f1d03cb1762eb5ed data/emendatusenigmatica/recipes/crysta
 5d7dec2c02a9c8ce51b318dc04113f246502c1a6 data/emendatusenigmatica/recipes/crystal/from_slurry/liquid_hydrogen.json
 d017f2934374f23b2ad48f036f5e8c0b2c3df00e data/emendatusenigmatica/recipes/crystal/from_slurry/liquid_oxygen.json
 8daa71cbc044ac48ac99b1fae26b047464c37283 data/emendatusenigmatica/recipes/crystal/from_slurry/lubricant.json
+73f79201d36b18a6a9ec94d75fcc2ddb86de3b85 data/emendatusenigmatica/recipes/crystal/from_slurry/natural_acid.json
 cdcc14562e4d427330cab856f9f341c2bfe2bc80 data/emendatusenigmatica/recipes/crystal/from_slurry/sulfuric_acid.json
 a2efe05b638aba2eb36a73860d25bc9d907a09d8 data/emendatusenigmatica/recipes/crystal/from_slurry/sulfurous_acid.json
 f24d8d4037cd23c80e969d1cae23c6ec7f24cf2d data/emendatusenigmatica/recipes/crystal/from_slurry/sulfur_dioxide.json
@@ -41,6 +42,7 @@ a182dff87fddee2a4d8398d2a71b06fb6207dc6d data/emendatusenigmatica/recipes/dust/f
 f3fd9dc7ff62784066b2ff2df86bcf98fdaa77e2 data/emendatusenigmatica/recipes/dust/from_dirty_dust/liquid_hydrogen.json
 18a990003ae464477370ebe8f52c006da6a5c2d2 data/emendatusenigmatica/recipes/dust/from_dirty_dust/liquid_oxygen.json
 60f0333cf453a06ea44e34a0d9b377dff1d241fb data/emendatusenigmatica/recipes/dust/from_dirty_dust/lubricant.json
+b6bf35f6673e1b817bfa30dd981688f9b97480fe data/emendatusenigmatica/recipes/dust/from_dirty_dust/natural_acid.json
 42e07ee33190e51fa49d1f781b66cdc57a3967a1 data/emendatusenigmatica/recipes/dust/from_dirty_dust/sulfuric_acid.json
 59d6f09b9f0013a8c3e736315def4a282a0185bf data/emendatusenigmatica/recipes/dust/from_dirty_dust/sulfurous_acid.json
 b1560302091d685ed76b31add7013ea65911237d data/emendatusenigmatica/recipes/dust/from_dirty_dust/sulfur_dioxide.json
@@ -72,6 +74,7 @@ b200bce8f452efeed76846f2b67abd778839f53e data/emendatusenigmatica/recipes/slurry
 4b69861e476a23cd19219d41d5f19a6564535e6b data/emendatusenigmatica/recipes/slurry/clean/liquid_hydrogen.json
 276107c3a7ac859925115f3a4eacaaea921fdc97 data/emendatusenigmatica/recipes/slurry/clean/liquid_oxygen.json
 391dfe4159264af2ddcb6c7491753ac0304fb596 data/emendatusenigmatica/recipes/slurry/clean/lubricant.json
+8b7cda7e8cd0563c85ed5ef46561ac147dde5af1 data/emendatusenigmatica/recipes/slurry/clean/natural_acid.json
 1d4d0c46805097904c36487b6c3129427623f77f data/emendatusenigmatica/recipes/slurry/clean/sulfuric_acid.json
 65b8139fd2d227e789cd1f9ec05993c37b8b53e3 data/emendatusenigmatica/recipes/slurry/clean/sulfurous_acid.json
 3f4da840fb7bdabe6c28bceb76096e1885c1bb50 data/emendatusenigmatica/recipes/slurry/clean/sulfur_dioxide.json
