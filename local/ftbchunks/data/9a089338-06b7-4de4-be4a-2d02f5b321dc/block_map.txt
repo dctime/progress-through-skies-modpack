@@ -31,6 +31,7 @@
 #913453 cyclic:breaker
 #FC842A minecraft:campfire
 #CF0EA2 occultism:candle_white
+#AA8FDD twilightforest:canopy_chest
 #CC0363 chipped:carpenters_table
 #ED2D62 occultism:chalk_glyph_gold
 #114E5D occultism:chalk_glyph_white
@@ -233,6 +234,7 @@
 #74006B mekanism:resistive_heater
 #541803 industrialforegoing:resourceful_furnace
 #879B54 mekanism:rotary_condensentrator
+#5DF8F4 botania:runic_altar
 #2248CC occultism:sacrificial_bowl
 #86FC77 minecraft:sand
 #35F72A mob_grinding_utils:saw
@@ -241,6 +243,7 @@
 #C9A627 industrialforegoing:sludge_refiner
 #039798 chipped:small_diamond_leaded_glass
 #3A9287 minecraft:smooth_stone
+#872D76 minecraft:snow
 #815EB2 mekanismgenerators:solar_generator
 #7D61FE powah:solar_panel_nitro
 #6A06B7 powah:solar_panel_starter
