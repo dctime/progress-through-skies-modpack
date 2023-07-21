@@ -17,6 +17,7 @@ minecraft:deep_dark
 minecraft:deep_frozen_ocean
 minecraft:deep_lukewarm_ocean
 minecraft:deep_ocean
+evilcraft:degraded
 twilightforest:dense_forest
 twilightforest:dense_mushroom_forest
 minecraft:desert
@@ -94,6 +95,7 @@ twilightforest:underground
 ad_astra:venus_wastelands
 minecraft:warm_ocean
 minecraft:warped_forest
+hexerei:willow_swamp
 minecraft:windswept_forest
 minecraft:windswept_gravelly_hills
 minecraft:windswept_hills

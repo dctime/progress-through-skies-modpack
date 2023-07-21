@@ -144,5 +144,14 @@ ServerEvents.recipes(event => {
           "item": 'create:goggles'
         }
       });
-    
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'emendatusenigmatica:gold_dirty_dust'
+        },
+        "result": {
+          "item": 'naturesaura:gold_powder',
+          "count": 16
+        }
+      });
 })

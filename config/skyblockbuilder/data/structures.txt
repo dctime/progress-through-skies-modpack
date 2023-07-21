@@ -2,6 +2,8 @@ minecraft:ancient_city
 twilightforest:aurora_palace
 minecraft:bastion_remnant
 minecraft:buried_treasure
+hexerei:dark_coven
+evilcraft:dark_temple
 twilightforest:dark_tower
 minecraft:desert_pyramid
 minecraft:end_city
@@ -29,6 +31,7 @@ minecraft:monument
 ad_astra:moon_dungeon
 twilightforest:mushroom_tower
 twilightforest:naga_courtyard
+hexerei:nature_coven
 minecraft:nether_fossil
 minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
@@ -57,4 +60,5 @@ minecraft:village_plains
 minecraft:village_savanna
 minecraft:village_snowy
 minecraft:village_taiga
+hexerei:witch_hut
 twilightforest:yeti_cave

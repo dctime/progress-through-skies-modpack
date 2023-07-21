@@ -2,6 +2,14 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "simplyswords:runic_grimoire": {
+      "viewedEntries": [
+        "simplyswords:weapon_variants/entry_claymore",
+        "simplyswords:rune_etching/entry_rp_active_defence"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "rftoolsbase:manual": {
       "viewedEntries": [
         "xnet:simple/controller",
@@ -9,6 +17,26 @@
         "xnet:simple/cables",
         "xnet:simple/connector",
         "xnet:wireless/wireless_router"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:generating_flowers/intro",
+        "botania:generating_flowers/thermalily",
+        "botania:generating_flowers/spectrolus",
+        "botania:generating_flowers/dandelifeon",
+        "botania:basics/welcome",
+        "botania:basics/flowers",
+        "botania:basics/pure_daisy",
+        "botania:basics/terrasteel",
+        "botania:basics/wand",
+        "botania:mana/redstone_spreader",
+        "botania:mana/rf_generator",
+        "botania:mana/mana_mirror",
+        "botania:mana/distributor",
+        "botania:mana/mana_void"
       ],
       "bookmarks": [],
       "completedManualQuests": []

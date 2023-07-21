@@ -289,4 +289,16 @@ ServerEvents.recipes(event => {
 
     compact_2(MC('snowball'), MC('snow_block'));
     compact_2(MC('snow_block'), MC('ice'));
+
+    event.shaped(
+        Item.of('summoningrituals:altar', 1),
+        [
+            'A',
+            'B'
+        ],
+        {
+            'B': 'minecraft:crafting_table',
+            'A': 'occultism:candle_white'
+        }
+    );
 })

@@ -6,6 +6,360 @@
 	id: "54A52B3D21FE19AB"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "788CFA3AAA114C5F"
+			tasks: [{
+				id: "5A2389B7E1BE4638"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B8097A5AD81107B"]
+			id: "1EF37E82CABB9A4A"
+			tasks: [{
+				id: "7B0D0CD50EB47098"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20884F84C458E0E0"]
+			id: "702C41AD6B9640D3"
+			tasks: [{
+				id: "2B67A0445E7CCD49"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["662DC8DB77A10827"]
+			id: "4BBB8DB7BAC5CE3A"
+			tasks: [{
+				id: "28795660399B407D"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1EF37E82CABB9A4A"
+				"702C41AD6B9640D3"
+				"788CFA3AAA114C5F"
+				"4BBB8DB7BAC5CE3A"
+			]
+			id: "00227427641B889D"
+			tasks: [{
+				id: "6F5A7FA5A6356F92"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00227427641B889D"]
+			id: "7D7549E7A35F910A"
+			tasks: [{
+				id: "73E4F6DD0AC3EBAE"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			title: "Acid Flowers"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28607A6ECA4A249D"]
+			id: "0F74A0ECFA18AFCB"
+			tasks: [{
+				id: "51B9699A5E693FB9"
+				type: "checkmark"
+			}]
+			title: "Spawn Yeti"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AB50245BA00CD6A"]
+			id: "2B8097A5AD81107B"
+			tasks: [{
+				id: "27C494279E287918"
+				type: "checkmark"
+			}]
+			title: "Spawn Carminite Golem"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "193A692F96AD188E"
+			tasks: [{
+				id: "49AFE8CA5FA8EFA8"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "361CDA1326DE0312"
+			tasks: [{
+				id: "258AE3C95F2F238F"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "49E3E24D8192D3EA"
+			tasks: [{
+				id: "707F32C9A409E381"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "12D0209BB026EB4A"
+			tasks: [{
+				id: "7399ADA21F94A8F5"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "48FDFDCE3C5E43BF"
+			tasks: [{
+				id: "4E5CEA2BE1E3F3FB"
+				item: "botania:cell_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "3507396ACA9F4DCB"
+			tasks: [{
+				id: "616E23E351474755"
+				item: {
+					Count: 1b
+					id: "cyclic:shears_flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			id: "778E4B08D9916C29"
+			tasks: [{
+				id: "6F54CF216BF1BB8F"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			id: "66292F77926C2968"
+			tasks: [{
+				id: "056B0B1E4FAA400C"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"12CF383FB797B758"
+				"7C5B8236D45A7D3C"
+			]
+			id: "4A254ACA92A3A66F"
+			tasks: [{
+				id: "4DE0AEE15A31D35D"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			id: "12CF383FB797B758"
+			tasks: [{
+				id: "62684BBFA5E4C060"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			id: "7C5B8236D45A7D3C"
+			tasks: [{
+				id: "5BBF8F27C48CC2BF"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21603327E6B840D5"]
+			id: "28607A6ECA4A249D"
+			tasks: [{
+				id: "753F5391A4EF4A65"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			id: "4DDADC9EC89D3987"
+			tasks: [{
+				id: "60BAECBD32A68C03"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03684D88E7956224"]
+			id: "662DC8DB77A10827"
+			tasks: [{
+				id: "4ACA81338278B4C2"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "hexerei:blood_fluid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DDADC9EC89D3987"
+				"6146F923E53BBF00"
+			]
+			id: "03684D88E7956224"
+			tasks: [{
+				id: "654BED019B7687B0"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "6146F923E53BBF00"
+			tasks: [{
+				id: "56FFEAB7331D08CC"
+				item: "minecraft:stone_pressure_plate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E1F6634F03EC6AE"]
+			id: "2B157AE5A44C96F2"
+			tasks: [{
+				id: "77CAFD7FB029BF1B"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "5E1F6634F03EC6AE"
+			tasks: [{
+				id: "38A5AC048B5FA1CB"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "20884F84C458E0E0"
+			tasks: [{
+				id: "15A7D64C6D4B8137"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "21603327E6B840D5"
+			tasks: [{
+				id: "7A17A822D2F3CE90"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A254ACA92A3A66F"]
+			id: "5DB7C283B4A28CF9"
+			tasks: [{
+				id: "115B9C478F956FDD"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DB7C283B4A28CF9"]
+			id: "72E6C6EA46F5FE74"
+			tasks: [{
+				id: "60152F49C14176AD"
+				item: "immersiveengineering:wire_copper"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72E6C6EA46F5FE74"]
+			id: "5AB50245BA00CD6A"
+			tasks: [{
+				id: "1987BEF805C70171"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+	]
 	title: "Blood Diamond"
 }

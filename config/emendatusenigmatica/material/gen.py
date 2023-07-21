@@ -23,7 +23,8 @@ chemical_dict = {
     'carbon_dioxide': 'deebff',
     'lubricant': 'fab219',
     'heavy_unprocessed_oil': '1f1400',
-    'light_unprocessed_oil': 'f7b743'
+    'light_unprocessed_oil': 'f7b743',
+    'natural_acid': '004d03'
 
 }
 for key, value in chemical_dict.items():

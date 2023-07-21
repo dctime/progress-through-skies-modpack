@@ -37,7 +37,8 @@ ServerEvents.tags('item', event => {
         'minecraft:stone_pressure_plate',
         'ad_astra:engine_fan',
         'pneumaticcraft:charging_station',
-        'pneumaticcraft:advanced_pressure_tube'
+        'pneumaticcraft:advanced_pressure_tube',
+        'hexerei:blood_sigil'
     ]
 
     let cobblestone_light_source =

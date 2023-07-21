@@ -41,4 +41,11 @@ ServerEvents.entityLootTables((event) => {
             pool.addItem('tombstone:grave_dust', 1).randomChance(0.1);
         });
     })
+
+    event.addEntity('twilightforest:carminite_golem', (table) => {
+        table.addPool((pool) => {
+            pool.rolls = 1.0;
+            pool.addItem('botania:rune_earth', 1)
+        });
+    })
 })

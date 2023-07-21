@@ -72,6 +72,8 @@ twilightforest:dark_mushrooms
 minecraft:dark_oak
 productivebees:dark_oak_solitary_nest
 productivebees:dark_oak_wood_nest_feature
+evilcraft:dark_ore_deepslate_lower
+evilcraft:dark_ore_upper
 twilightforest:dark_pumpkins
 immersiveengineering:deep_nickel
 twilightforest:default_fallen_logs
@@ -110,6 +112,7 @@ minecraft:end_gateway_return
 minecraft:end_island
 productivebees:end_nest_feature
 minecraft:end_spike
+evilcraft:evil_dungeon_default
 twilightforest:fallen_leaves
 minecraft:fancy_oak
 minecraft:fancy_oak_bees
@@ -128,6 +131,7 @@ twilightforest:flower_placer
 twilightforest:flower_placer_alt
 minecraft:flower_plain
 minecraft:flower_swamp
+hexerei:flowering_lilypad
 integrateddynamics:flowers_meneglin
 minecraft:forest_flowers
 minecraft:forest_rock
@@ -220,6 +224,8 @@ ferdinandsflowers:lush_lavender
 ferdinandsflowers:lush_orange
 ferdinandsflowers:magenta
 botania:magenta_mystical_flower_patch
+hexerei:mahogany_spawn
+hexerei:mahogany_tree
 minecraft:mangrove
 twilightforest:mangrove_fallen_log
 minecraft:mangrove_vegetation
@@ -247,6 +253,7 @@ minecraft:moss_patch
 minecraft:moss_patch_bonemeal
 minecraft:moss_patch_ceiling
 minecraft:moss_vegetation
+hexerei:mud_patch
 twilightforest:mushgloom_cluster
 twilightforest:mushroom/big_mushgloom
 twilightforest:mushroom/brown_canopy_mushroom
@@ -263,6 +270,9 @@ productivebees:nether_quartz_nest_high_feature
 minecraft:nether_sprouts
 minecraft:nether_sprouts_bonemeal
 naturesaura:nether_wart_mushroom
+evilcraft:netherfish_nether_bricks
+evilcraft:netherfish_netherrack
+evilcraft:netherfish_soul_sand
 immersiveengineering:nickel
 minecraft:oak
 minecraft:oak_bees_0002
@@ -407,6 +417,7 @@ minecraft:seagrass_short
 minecraft:seagrass_simple
 minecraft:seagrass_slightly_less_short
 minecraft:seagrass_tall
+hexerei:selenite_geode
 extractinator:silt_ore
 immersiveengineering:silver
 occultism:silver_ore
@@ -440,6 +451,7 @@ productivebees:spruce_solitary_nest
 productivebees:spruce_wood_nest_feature
 twilightforest:stone_circle
 productivebees:stone_nest_feature
+evilcraft:stone_nether_silverfish_extra
 create:striated_ores_nether
 create:striated_ores_overworld
 productivebees:sugar_cane_nest_feature
@@ -450,6 +462,7 @@ ferdinandsflowers:sunflower_orange
 ferdinandsflowers:sunflower_red
 minecraft:super_birch_bees
 minecraft:super_birch_bees_0002
+hexerei:swamp_flowers
 ferdinandsflowers:swamp_light_blue
 minecraft:swamp_oak
 minecraft:tall_mangrove
@@ -494,6 +507,7 @@ twilightforest:tree/twilight_oak_tree
 twilightforest:tree/vanilla_birch_tree
 twilightforest:tree/vanilla_oak_tree
 integrateddynamics:tree_menril
+evilcraft:tree_undead
 minecraft:trees_birch_and_oak
 minecraft:trees_flower_forest
 minecraft:trees_grove
@@ -547,8 +561,12 @@ minecraft:weeping_vines
 twilightforest:well_placer
 ferdinandsflowers:white
 botania:white_mystical_flower_patch
+hexerei:willow_spawn
+hexerei:willow_tree
 ferdinandsflowers:wisteria
 ferdinandsflowers:wisteria_cave
+hexerei:witch_hazel_spawn
+hexerei:witch_hazel_tree
 ferdinandsflowers:yellow
 botania:yellow_mystical_flower_patch
 create:zinc_ore

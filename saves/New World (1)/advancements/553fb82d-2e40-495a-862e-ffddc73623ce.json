@@ -1,43 +1,13 @@
 {
-  "tombstone:adventure/neighborhood_brawl": {
-    "criteria": {
-      "coded_trigger": "2023-07-05 21:40:45 +0800"
-    },
-    "done": true
-  },
-  "mekanism:fluid_transport": {
-    "criteria": {
-      "basic_mechanical_pipe": "2023-07-01 11:36:33 +0800"
-    },
-    "done": true
-  },
   "simplyswords:sunfire": {
     "criteria": {
       "requirement": "2023-07-10 15:37:02 +0800"
     },
     "done": true
   },
-  "compactvoidminers:void_pump": {
+  "botania:main/terrasteel_pickup_lexicon": {
     "criteria": {
-      "void_pump": "2023-07-05 10:48:10 +0800"
-    },
-    "done": true
-  },
-  "electrodynamics:triplegrinding": {
-    "criteria": {
-      "HasGrinder": "2023-07-13 14:00:29 +0800"
-    },
-    "done": true
-  },
-  "tetra:upgrades/root": {
-    "criteria": {
-      "hammer": "2023-06-30 16:18:52 +0800"
-    },
-    "done": true
-  },
-  "modonomicon:modonomicon/root": {
-    "criteria": {
-      "modonomicon_present": "2023-06-30 16:05:29 +0800"
+      "elven_lexicon": "2023-07-21 15:48:31 +0800"
     },
     "done": true
   },
@@ -48,15 +18,21 @@
     },
     "done": true
   },
-  "mekanism:sawmill": {
+  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_slab_woodcutting": {
     "criteria": {
-      "precision_sawmill": "2023-07-10 18:21:44 +0800"
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
-  "tombstone:adventure/ashes_and_bones": {
+  "minecraft:recipes/woodcutting/oak/oak_sign_from_oak_slab_woodcutting": {
     "criteria": {
-      "coded_trigger": "2023-07-05 21:45:17 +0800"
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "mekanism:sawmill": {
+    "criteria": {
+      "precision_sawmill": "2023-07-10 18:21:44 +0800"
     },
     "done": true
   },
@@ -66,21 +42,27 @@
     },
     "done": true
   },
-  "immersiveengineering:tools/tools_root": {
-    "criteria": {
-      "has_item": "2023-07-03 21:20:31 +0800"
-    },
-    "done": true
-  },
-  "create:andesite_alloy": {
-    "criteria": {
-      "0": "2023-07-05 18:32:11 +0800"
-    },
-    "done": true
-  },
   "electrodynamics:advancedsolarpanel": {
     "criteria": {
       "HasPanel": "2023-07-11 18:26:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_trapdoor_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_fence_gate_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "naturesaura:root": {
+    "criteria": {
+      "book": "2023-07-21 20:22:11 +0800"
     },
     "done": true
   },
@@ -108,12 +90,6 @@
     },
     "done": true
   },
-  "create:water_wheel": {
-    "criteria": {
-      "0": "2023-07-06 17:16:32 +0800"
-    },
-    "done": true
-  },
   "electrodynamics:highlyinsulatedwiring": {
     "criteria": {
       "HasWire": "2023-07-11 18:37:42 +0800"
@@ -138,15 +114,27 @@
     },
     "done": true
   },
-  "mekanism:energy_cube": {
+  "minecraft:recipes/woodcutting/jungle/jungle_chest_boat_from_jungle_planks_woodcutting": {
     "criteria": {
-      "basic_energy_cube": "2023-07-03 23:20:40 +0800"
+      "give_recipe": "2023-07-21 15:30:33 +0800"
     },
     "done": true
   },
-  "simplyswords:grant_book_on_first_join": {
+  "minecraft:recipes/woodcutting/jungle/jungle_fence_gate_from_jungle_planks_woodcutting": {
     "criteria": {
-      "tick": "2023-07-10 15:26:22 +0800"
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "flower": "2023-07-21 15:56:23 +0800"
+    },
+    "done": true
+  },
+  "mekanism:energy_cube": {
+    "criteria": {
+      "basic_energy_cube": "2023-07-03 23:20:40 +0800"
     },
     "done": true
   },
@@ -162,27 +150,9 @@
     },
     "done": true
   },
-  "simplyswords:emberblade": {
-    "criteria": {
-      "requirement": "2023-07-10 15:42:03 +0800"
-    },
-    "done": true
-  },
-  "botania:main/rune_pickup": {
-    "criteria": {
-      "rune": "2023-07-21 13:41:59 +0800"
-    },
-    "done": true
-  },
   "tetra:spelunking/root": {
     "criteria": {
       "spelunking": "2023-07-01 14:15:10 +0800"
-    },
-    "done": true
-  },
-  "mekanism:cleaning_gauges": {
-    "criteria": {
-      "use_dropper": "2023-07-12 10:39:16 +0800"
     },
     "done": true
   },
@@ -198,12 +168,6 @@
     },
     "done": true
   },
-  "mekanismgenerators:solar_generator": {
-    "criteria": {
-      "solar_generator": "2023-07-04 13:43:19 +0800"
-    },
-    "done": true
-  },
   "simplyswords:runic_weapon": {
     "criteria": {
       "requirement": "2023-07-10 15:33:02 +0800"
@@ -216,27 +180,15 @@
     },
     "done": true
   },
+  "naturesaura:get_book": {
+    "criteria": {
+      "book": "2023-07-21 20:22:11 +0800"
+    },
+    "done": true
+  },
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2023-07-08 12:12:39 +0800"
-    },
-    "done": true
-  },
-  "create:windmill_maxed": {
-    "criteria": {
-      "0": "2023-07-15 15:47:19 +0800"
-    },
-    "done": true
-  },
-  "exmachinis:flux_compactor": {
-    "criteria": {
-      "has_flux_compactor": "2023-07-05 21:19:09 +0800"
-    },
-    "done": true
-  },
-  "exmachinis:flux_sieve": {
-    "criteria": {
-      "has_flux_sieve": "2023-07-05 21:17:44 +0800"
     },
     "done": true
   },
@@ -246,27 +198,15 @@
     },
     "done": true
   },
-  "tetra:upgrades/double_headed": {
+  "minecraft:recipes/woodcutting/oak/oak_trapdoor_from_oak_slab_woodcutting": {
     "criteria": {
-      "hammer": "2023-06-30 16:18:52 +0800"
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
   "immersiveengineering:main/creosote": {
     "criteria": {
       "has_item": "2023-07-03 21:53:33 +0800"
-    },
-    "done": true
-  },
-  "simplyswords:stormbringer": {
-    "criteria": {
-      "requirement": "2023-07-10 15:37:12 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/root": {
-    "criteria": {
-      "auto": "2023-06-30 16:05:30 +0800"
     },
     "done": true
   },
@@ -300,12 +240,6 @@
     },
     "done": true
   },
-  "simplyswords:longsword_plague": {
-    "criteria": {
-      "requirement": "2023-07-10 15:45:49 +0800"
-    },
-    "done": true
-  },
   "electrodynamics:triplearcfurnace": {
     "criteria": {
       "HasFurnace": "2023-07-13 14:23:08 +0800"
@@ -318,15 +252,15 @@
     },
     "done": true
   },
-  "simplyswords:mjolnir": {
+  "minecraft:recipes/woodcutting/jungle/jungle_door_from_jungle_planks_woodcutting": {
     "criteria": {
-      "requirement": "2023-07-10 15:37:29 +0800"
+      "give_recipe": "2023-07-21 15:30:33 +0800"
     },
     "done": true
   },
-  "electrodynamics:multimeter": {
+  "botania:main/mana_pool_pickup_lexicon": {
     "criteria": {
-      "HasMultimeter": "2023-07-11 18:07:37 +0800"
+      "elven_lexicon": "2023-07-21 15:48:31 +0800"
     },
     "done": true
   },
@@ -347,12 +281,6 @@
     },
     "done": false
   },
-  "simplyswords:twisted_blade": {
-    "criteria": {
-      "requirement": "2023-07-10 15:41:38 +0800"
-    },
-    "done": true
-  },
   "mekanism:modification_station": {
     "criteria": {
       "modification_station": "2023-07-10 18:22:37 +0800"
@@ -365,27 +293,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/teleport_to_grave": {
-    "criteria": {
-      "coded_trigger": "2023-07-21 14:19:01 +0800"
-    },
-    "done": true
-  },
   "mekanism:digital_miner": {
     "criteria": {
       "digital_miner": "2023-07-10 18:20:58 +0800"
-    },
-    "done": true
-  },
-  "compactmachines:got_shrinking_device": {
-    "criteria": {
-      "obtained_psd": "2023-07-16 19:23:46 +0800"
-    },
-    "done": true
-  },
-  "chiselsandbits:chiselsandbits/make_tank": {
-    "criteria": {
-      "bit_tank": "2023-07-05 19:14:01 +0800"
     },
     "done": true
   },
@@ -396,29 +306,11 @@
     },
     "done": false
   },
-  "mekanism:nucleosynthesizer": {
-    "criteria": {
-      "antiprotonic_nucleosynthesizer": "2023-07-10 18:22:40 +0800"
-    },
-    "done": true
-  },
-  "simplyswords:brimstone": {
-    "criteria": {
-      "requirement": "2023-07-10 15:35:04 +0800"
-    },
-    "done": true
-  },
   "mekanism:stabilizing_chunks": {
     "criteria": {
       "dimensional_stabilizer": "2023-07-10 18:22:56 +0800"
     },
     "done": false
-  },
-  "electrodynamics:electricfurnace": {
-    "criteria": {
-      "HasElectricFurnace": "2023-07-06 10:13:20 +0800"
-    },
-    "done": true
   },
   "electrodynamics:evenbetterwiring": {
     "criteria": {
@@ -426,9 +318,9 @@
     },
     "done": true
   },
-  "electrodynamics:electrodynamics/guidebook": {
+  "botania:main/dandelifeon_pickup": {
     "criteria": {
-      "spawn": "2023-07-05 11:23:35 +0800"
+      "dandelifeon": "2023-07-21 15:56:23 +0800"
     },
     "done": true
   },
@@ -438,29 +330,11 @@
     },
     "done": true
   },
-  "immersiveengineering:main/place_windmill": {
-    "criteria": {
-      "place_block": "2023-07-04 13:42:19 +0800"
-    },
-    "done": true
-  },
-  "simplyswords:the_watcher": {
-    "criteria": {
-      "requirement": "2023-07-10 17:33:39 +0800"
-    },
-    "done": true
-  },
   "twilightforest:arborist": {
     "criteria": {
       "towerwood": "2023-07-21 14:09:50 +0800"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2023-06-30 16:19:00 +0800"
-    },
-    "done": true
   },
   "integrateddynamics:root": {
     "criteria": {
@@ -486,27 +360,9 @@
     },
     "done": true
   },
-  "botania:main/runic_altar_pickup": {
-    "criteria": {
-      "rune": "2023-07-21 13:41:59 +0800"
-    },
-    "done": true
-  },
   "simplyswords:simplyswords": {
     "criteria": {
       "requirement": "2023-07-10 15:28:01 +0800"
-    },
-    "done": true
-  },
-  "mekanism:automated_crafting": {
-    "criteria": {
-      "formulaic_assemblicator": "2023-07-10 18:22:30 +0800"
-    },
-    "done": true
-  },
-  "tetra:recipes/string": {
-    "criteria": {
-      "got_string": "2023-06-30 16:15:52 +0800"
     },
     "done": true
   },
@@ -528,12 +384,6 @@
     },
     "done": true
   },
-  "mekanism:metallurgic_infuser": {
-    "criteria": {
-      "metallurgic_infuser": "2023-07-10 18:21:02 +0800"
-    },
-    "done": true
-  },
   "mekanism:sna": {
     "criteria": {
       "solar_neutron_activator": "2023-07-10 18:22:24 +0800"
@@ -546,27 +396,9 @@
     },
     "done": true
   },
-  "create:haunted_bell": {
-    "criteria": {
-      "0": "2023-07-05 18:13:21 +0800"
-    },
-    "done": true
-  },
-  "create:spout": {
-    "criteria": {
-      "0": "2023-07-14 19:39:20 +0800"
-    },
-    "done": true
-  },
   "immersiveengineering:main/craft_treatedwood": {
     "criteria": {
       "has_item": "2023-07-03 21:52:12 +0800"
-    },
-    "done": true
-  },
-  "pneumaticcraft:advanced_pressure_tube": {
-    "criteria": {
-      "0": "2023-07-12 18:59:02 +0800"
     },
     "done": true
   },
@@ -582,27 +414,15 @@
     },
     "done": true
   },
-  "mekanism:liquifier": {
+  "minecraft:recipes/woodcutting/jungle/jungle_pressure_plate_from_jungle_planks_woodcutting": {
     "criteria": {
-      "nutritional_liquifier": "2023-07-10 18:22:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:spider": "2023-07-05 21:43:25 +0800"
+      "give_recipe": "2023-07-21 15:30:33 +0800"
     },
     "done": true
   },
   "mekanism:chemical_transport": {
     "criteria": {
       "basic_pressurized_tube": "2023-07-01 11:36:35 +0800"
-    },
-    "done": true
-  },
-  "simplyswords:soulpyre": {
-    "criteria": {
-      "requirement": "2023-07-10 15:43:40 +0800"
     },
     "done": true
   },
@@ -618,18 +438,6 @@
     },
     "done": true
   },
-  "tombstone:recipes/from_grave_dust": {
-    "criteria": {
-      "has_ingredient": "2023-07-05 19:25:30 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2023-07-07 12:56:09 +0800"
-    },
-    "done": true
-  },
   "electrodynamics:upgradetransformer": {
     "criteria": {
       "HasTransf": "2023-07-10 18:56:31 +0800"
@@ -642,23 +450,15 @@
     },
     "done": true
   },
-  "mekanism:purification_chamber": {
+  "botania:main/flower_pickup_lexicon": {
     "criteria": {
-      "purification_chamber": "2023-07-10 18:21:04 +0800"
+      "elven_lexicon": "2023-07-21 15:48:31 +0800"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "mekanism:purification_chamber": {
     "criteria": {
-      "minecraft:dripstone_caves": "2023-07-04 13:26:26 +0800",
-      "minecraft:forest": "2023-06-30 16:05:30 +0800",
-      "minecraft:deep_dark": "2023-07-05 21:37:00 +0800"
-    },
-    "done": false
-  },
-  "tombstone:adventure/almost_unkillable": {
-    "criteria": {
-      "coded_trigger": "2023-07-05 21:37:13 +0800"
+      "purification_chamber": "2023-07-10 18:21:04 +0800"
     },
     "done": true
   },
@@ -680,27 +480,15 @@
     },
     "done": true
   },
-  "pneumaticcraft:amadron_tablet": {
+  "minecraft:recipes/woodcutting/oak/oak_boat_from_oak_slab_woodcutting": {
     "criteria": {
-      "0": "2023-07-14 15:28:01 +0800"
-    },
-    "done": true
-  },
-  "mekanism:personal_storage": {
-    "criteria": {
-      "storage": "2023-07-10 18:21:18 +0800"
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-06-30 16:17:21 +0800"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/craft_hammer": {
-    "criteria": {
-      "has_item": "2023-07-04 10:31:53 +0800"
     },
     "done": true
   },
@@ -716,21 +504,15 @@
     },
     "done": true
   },
-  "simplyswords:soulkeeper": {
-    "criteria": {
-      "requirement": "2023-07-10 17:35:36 +0800"
-    },
-    "done": true
-  },
   "mekanism:pump": {
     "criteria": {
       "electric_pump": "2023-07-10 18:21:13 +0800"
     },
     "done": true
   },
-  "electrodynamics:wiremill": {
+  "minecraft:recipes/woodcutting/oak/barrel_from_oak_slab_woodcutting": {
     "criteria": {
-      "HasMill": "2023-07-10 18:56:00 +0800"
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
@@ -758,28 +540,10 @@
     },
     "done": true
   },
-  "mekanism:enricher": {
-    "criteria": {
-      "enrichment_chamber": "2023-07-10 18:20:52 +0800"
-    },
-    "done": true
-  },
-  "pneumaticcraft:tp_plant": {
-    "criteria": {
-      "0": "2023-07-04 12:31:46 +0800"
-    },
-    "done": true
-  },
   "mutantmonsters:hulk_smash": {
     "criteria": {
       "hammer_in_offhand": "2023-07-18 19:29:53 +0800",
       "hammer_in_mainhand": "2023-07-18 19:29:53 +0800"
-    },
-    "done": true
-  },
-  "electrodynamics:triplemilling": {
-    "criteria": {
-      "HasMill": "2023-07-05 11:43:59 +0800"
     },
     "done": true
   },
@@ -789,15 +553,15 @@
     },
     "done": true
   },
-  "electrodynamics:root": {
-    "criteria": {
-      "HasCraftingTable": "2023-07-05 16:15:40 +0800"
-    },
-    "done": true
-  },
   "electrodynamics:ceramicallyinsulatedwiring": {
     "criteria": {
       "HasWire": "2023-07-11 17:47:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_button_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
@@ -807,21 +571,9 @@
     },
     "done": true
   },
-  "electrodynamics:mineralgrinder": {
-    "criteria": {
-      "HasGrinder": "2023-07-10 18:56:11 +0800"
-    },
-    "done": true
-  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2023-06-30 16:05:52 +0800"
-    },
-    "done": true
-  },
-  "mekanism:factory": {
-    "criteria": {
-      "factory": "2023-07-03 23:24:31 +0800"
     },
     "done": true
   },
@@ -834,18 +586,6 @@
   "simplyswords:dormant_relic": {
     "criteria": {
       "requirement": "2023-07-10 15:42:45 +0800"
-    },
-    "done": true
-  },
-  "exmachinis:root": {
-    "criteria": {
-      "item": "2023-07-07 12:46:20 +0800"
-    },
-    "done": true
-  },
-  "electrodynamics:electricarcfurnace": {
-    "criteria": {
-      "HasFurnace": "2023-07-06 12:55:38 +0800"
     },
     "done": true
   },
@@ -870,6 +610,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/woodcutting/jungle/barrel_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
   "simplyswords:watching_warglaive": {
     "criteria": {
       "requirement": "2023-07-10 17:34:41 +0800"
@@ -882,39 +628,15 @@
     },
     "done": true
   },
-  "tetra:recipes/planks": {
-    "criteria": {
-      "got_wood": "2023-07-03 21:48:55 +0800"
-    },
-    "done": true
-  },
   "mekanism:item_transport": {
     "criteria": {
       "basic_logistical_transporter": "2023-07-01 11:36:36 +0800"
     },
     "done": true
   },
-  "tetra:story/more_upgrades": {
-    "criteria": {
-      "hammer": "2023-06-30 16:18:52 +0800"
-    },
-    "done": true
-  },
   "mekanism:injection_chamber": {
     "criteria": {
       "chemical_injection_chamber": "2023-07-03 21:57:45 +0800"
-    },
-    "done": true
-  },
-  "immersiveengineering:tools/craft_railgun": {
-    "criteria": {
-      "has_item": "2023-07-05 21:46:46 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:main/craft_knife": {
-    "criteria": {
-      "flint_knife": "2023-07-14 19:17:36 +0800"
     },
     "done": true
   },
@@ -936,6 +658,562 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/jungle/jungle_sign_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "trashcans:ultimate_trash_can": {
+    "criteria": {
+      "has_ultimate_trash_can": "2023-07-01 11:02:36 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:thermoelectricgenerator": {
+    "criteria": {
+      "HasGen": "2023-07-10 18:56:50 +0800"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-06-30 16:05:52 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:minigun": {
+    "criteria": {
+      "0": "2023-07-05 21:46:56 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2023-07-05 21:37:13 +0800"
+    },
+    "done": true
+  },
+  "naturesaura:wood_stand": {
+    "criteria": {
+      "stand": "2023-07-21 20:29:02 +0800"
+    },
+    "done": true
+  },
+  "mekanism:chemical_crystallizer": {
+    "criteria": {
+      "chemical_dissolution_chamber": "2023-07-10 18:21:52 +0800",
+      "chemical_crystallizer": "2023-07-10 18:21:57 +0800",
+      "chemical_washer": "2023-07-10 18:21:54 +0800"
+    },
+    "done": true
+  },
+  "tetra:upgrades/workbench": {
+    "criteria": {
+      "hammer": "2023-06-30 16:30:53 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:triplecrusher": {
+    "criteria": {
+      "HasCrusher": "2023-07-11 18:36:28 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:lubricant_bucket": {
+    "criteria": {
+      "0": "2023-07-11 18:33:18 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:batterybox": {
+    "criteria": {
+      "HasBox": "2023-07-06 10:19:16 +0800"
+    },
+    "done": true
+  },
+  "tetra:recipes/workbench": {
+    "criteria": {
+      "hammer": "2023-06-30 16:30:53 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:slumbering_lichblade": {
+    "criteria": {
+      "requirement": "2023-07-10 17:54:39 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2023-07-05 21:40:45 +0800"
+    },
+    "done": true
+  },
+  "mekanism:fluid_transport": {
+    "criteria": {
+      "basic_mechanical_pipe": "2023-07-01 11:36:33 +0800"
+    },
+    "done": true
+  },
+  "compactvoidminers:void_pump": {
+    "criteria": {
+      "void_pump": "2023-07-05 10:48:10 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:triplegrinding": {
+    "criteria": {
+      "HasGrinder": "2023-07-13 14:00:29 +0800"
+    },
+    "done": true
+  },
+  "tetra:upgrades/root": {
+    "criteria": {
+      "hammer": "2023-06-30 16:18:52 +0800"
+    },
+    "done": true
+  },
+  "modonomicon:modonomicon/root": {
+    "criteria": {
+      "modonomicon_present": "2023-06-30 16:05:29 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2023-07-05 21:45:17 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:tools/tools_root": {
+    "criteria": {
+      "has_item": "2023-07-03 21:20:31 +0800"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2023-07-05 18:32:11 +0800"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2023-07-06 17:16:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_boat_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_slab_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "botania:main/elf_lexicon_pickup": {
+    "criteria": {
+      "lexicon": "2023-07-21 15:48:31 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2023-07-10 15:26:22 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:emberblade": {
+    "criteria": {
+      "requirement": "2023-07-10 15:42:03 +0800"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2023-07-21 13:41:59 +0800"
+    },
+    "done": true
+  },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2023-07-12 10:39:16 +0800"
+    },
+    "done": true
+  },
+  "mekanismgenerators:solar_generator": {
+    "criteria": {
+      "solar_generator": "2023-07-04 13:43:19 +0800"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pickup": "2023-07-21 16:27:33 +0800"
+    },
+    "done": true
+  },
+  "create:windmill_maxed": {
+    "criteria": {
+      "0": "2023-07-15 15:47:19 +0800"
+    },
+    "done": true
+  },
+  "exmachinis:flux_compactor": {
+    "criteria": {
+      "has_flux_compactor": "2023-07-05 21:19:09 +0800"
+    },
+    "done": true
+  },
+  "exmachinis:flux_sieve": {
+    "criteria": {
+      "has_flux_sieve": "2023-07-05 21:17:44 +0800"
+    },
+    "done": true
+  },
+  "tetra:upgrades/double_headed": {
+    "criteria": {
+      "hammer": "2023-06-30 16:18:52 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:stormbringer": {
+    "criteria": {
+      "requirement": "2023-07-10 15:37:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/chest_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2023-06-30 16:05:30 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:longsword_plague": {
+    "criteria": {
+      "requirement": "2023-07-10 15:45:49 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:mjolnir": {
+    "criteria": {
+      "requirement": "2023-07-10 15:37:29 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:multimeter": {
+    "criteria": {
+      "HasMultimeter": "2023-07-11 18:07:37 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:twisted_blade": {
+    "criteria": {
+      "requirement": "2023-07-10 15:41:38 +0800"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2023-07-21 14:19:01 +0800"
+    },
+    "done": true
+  },
+  "compactmachines:got_shrinking_device": {
+    "criteria": {
+      "obtained_psd": "2023-07-16 19:23:46 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:chiselsandbits/make_tank": {
+    "criteria": {
+      "bit_tank": "2023-07-05 19:14:01 +0800"
+    },
+    "done": true
+  },
+  "mekanism:nucleosynthesizer": {
+    "criteria": {
+      "antiprotonic_nucleosynthesizer": "2023-07-10 18:22:40 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:brimstone": {
+    "criteria": {
+      "requirement": "2023-07-10 15:35:04 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:electricfurnace": {
+    "criteria": {
+      "HasElectricFurnace": "2023-07-06 10:13:20 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:electrodynamics/guidebook": {
+    "criteria": {
+      "spawn": "2023-07-05 11:23:35 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/place_windmill": {
+    "criteria": {
+      "place_block": "2023-07-04 13:42:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_fence_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:the_watcher": {
+    "criteria": {
+      "requirement": "2023-07-10 17:33:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-06-30 16:19:00 +0800"
+    },
+    "done": true
+  },
+  "botania:main/runic_altar_pickup": {
+    "criteria": {
+      "rune": "2023-07-21 13:41:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_fence_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "mekanism:automated_crafting": {
+    "criteria": {
+      "formulaic_assemblicator": "2023-07-10 18:22:30 +0800"
+    },
+    "done": true
+  },
+  "tetra:recipes/string": {
+    "criteria": {
+      "got_string": "2023-06-30 16:15:52 +0800"
+    },
+    "done": true
+  },
+  "mekanism:metallurgic_infuser": {
+    "criteria": {
+      "metallurgic_infuser": "2023-07-10 18:21:02 +0800"
+    },
+    "done": true
+  },
+  "create:haunted_bell": {
+    "criteria": {
+      "0": "2023-07-05 18:13:21 +0800"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2023-07-14 19:39:20 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:advanced_pressure_tube": {
+    "criteria": {
+      "0": "2023-07-12 18:59:02 +0800"
+    },
+    "done": true
+  },
+  "mekanism:liquifier": {
+    "criteria": {
+      "nutritional_liquifier": "2023-07-10 18:22:06 +0800"
+    },
+    "done": true
+  },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2023-07-21 15:48:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2023-07-05 21:43:25 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:soulpyre": {
+    "criteria": {
+      "requirement": "2023-07-10 15:43:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2023-07-05 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-07-07 12:56:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dripstone_caves": "2023-07-04 13:26:26 +0800",
+      "minecraft:forest": "2023-06-30 16:05:30 +0800",
+      "minecraft:deep_dark": "2023-07-05 21:37:00 +0800"
+    },
+    "done": false
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2023-07-05 21:37:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/crafting_table_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:amadron_tablet": {
+    "criteria": {
+      "0": "2023-07-14 15:28:01 +0800"
+    },
+    "done": true
+  },
+  "mekanism:personal_storage": {
+    "criteria": {
+      "storage": "2023-07-10 18:21:18 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2023-07-04 10:31:53 +0800"
+    },
+    "done": true
+  },
+  "simplyswords:soulkeeper": {
+    "criteria": {
+      "requirement": "2023-07-10 17:35:36 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:wiremill": {
+    "criteria": {
+      "HasMill": "2023-07-10 18:56:00 +0800"
+    },
+    "done": true
+  },
+  "mekanism:enricher": {
+    "criteria": {
+      "enrichment_chamber": "2023-07-10 18:20:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_planks_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:tp_plant": {
+    "criteria": {
+      "0": "2023-07-04 12:31:46 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:triplemilling": {
+    "criteria": {
+      "HasMill": "2023-07-05 11:43:59 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:root": {
+    "criteria": {
+      "HasCraftingTable": "2023-07-05 16:15:40 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:mineralgrinder": {
+    "criteria": {
+      "HasGrinder": "2023-07-10 18:56:11 +0800"
+    },
+    "done": true
+  },
+  "mekanism:factory": {
+    "criteria": {
+      "factory": "2023-07-03 23:24:31 +0800"
+    },
+    "done": true
+  },
+  "exmachinis:root": {
+    "criteria": {
+      "item": "2023-07-07 12:46:20 +0800"
+    },
+    "done": true
+  },
+  "electrodynamics:electricarcfurnace": {
+    "criteria": {
+      "HasFurnace": "2023-07-06 12:55:38 +0800"
+    },
+    "done": true
+  },
+  "tetra:recipes/planks": {
+    "criteria": {
+      "got_wood": "2023-07-03 21:48:55 +0800"
+    },
+    "done": true
+  },
+  "tetra:story/more_upgrades": {
+    "criteria": {
+      "hammer": "2023-06-30 16:18:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/chest_from_jungle_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "immersiveengineering:tools/craft_railgun": {
+    "criteria": {
+      "has_item": "2023-07-05 21:46:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "flint_knife": "2023-07-14 19:17:36 +0800"
+    },
+    "done": true
+  },
   "twilightforest:progress_yeti": {
     "criteria": {
       "fur": "2023-07-21 14:10:30 +0800",
@@ -951,6 +1229,12 @@
     },
     "done": true
   },
+  "botania:main/pure_daisy_pickup": {
+    "criteria": {
+      "elven_lexicon": "2023-07-21 15:48:31 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:main/place_campfire": {
     "criteria": {
       "campfire": "2023-06-30 16:22:49 +0800"
@@ -960,12 +1244,6 @@
   "simplyswords:harbinger": {
     "criteria": {
       "requirement": "2023-07-10 15:37:07 +0800"
-    },
-    "done": true
-  },
-  "trashcans:ultimate_trash_can": {
-    "criteria": {
-      "has_ultimate_trash_can": "2023-07-01 11:02:36 +0800"
     },
     "done": true
   },
@@ -987,21 +1265,27 @@
     },
     "done": true
   },
-  "electrodynamics:thermoelectricgenerator": {
-    "criteria": {
-      "HasGen": "2023-07-10 18:56:50 +0800"
-    },
-    "done": true
-  },
   "compactmachines:claimed_machine_giant": {
     "criteria": {
       "claimed_machine": "2023-07-16 19:24:10 +0800"
     },
     "done": true
   },
-  "create:root": {
+  "minecraft:recipes/woodcutting/jungle/jungle_stairs_from_jungle_planks_woodcutting": {
     "criteria": {
-      "0": "2023-06-30 16:05:52 +0800"
+      "give_recipe": "2023-07-21 15:30:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_stairs_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_door_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
@@ -1011,15 +1295,9 @@
     },
     "done": true
   },
-  "pneumaticcraft:minigun": {
+  "minecraft:recipes/woodcutting/jungle/jungle_button_from_jungle_planks_woodcutting": {
     "criteria": {
-      "0": "2023-07-05 21:46:56 +0800"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2023-07-05 21:37:13 +0800"
+      "give_recipe": "2023-07-21 15:30:33 +0800"
     },
     "done": true
   },
@@ -1035,23 +1313,9 @@
     },
     "done": true
   },
-  "mekanism:chemical_crystallizer": {
-    "criteria": {
-      "chemical_dissolution_chamber": "2023-07-10 18:21:52 +0800",
-      "chemical_crystallizer": "2023-07-10 18:21:57 +0800",
-      "chemical_washer": "2023-07-10 18:21:54 +0800"
-    },
-    "done": true
-  },
   "ad_astra:ad_astra": {
     "criteria": {
       "ad_astra": "2023-07-18 20:02:19 +0800"
-    },
-    "done": true
-  },
-  "tetra:upgrades/workbench": {
-    "criteria": {
-      "hammer": "2023-06-30 16:30:53 +0800"
     },
     "done": true
   },
@@ -1061,33 +1325,15 @@
     },
     "done": true
   },
-  "electrodynamics:triplecrusher": {
+  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_slab_woodcutting": {
     "criteria": {
-      "HasCrusher": "2023-07-11 18:36:28 +0800"
-    },
-    "done": true
-  },
-  "pneumaticcraft:lubricant_bucket": {
-    "criteria": {
-      "0": "2023-07-11 18:33:18 +0800"
+      "give_recipe": "2023-07-21 16:07:28 +0800"
     },
     "done": true
   },
   "electrodynamics:insulatedwiring": {
     "criteria": {
       "HasCopperInsulatedWire": "2023-07-11 18:15:00 +0800"
-    },
-    "done": true
-  },
-  "electrodynamics:batterybox": {
-    "criteria": {
-      "HasBox": "2023-07-06 10:19:16 +0800"
-    },
-    "done": true
-  },
-  "tetra:recipes/workbench": {
-    "criteria": {
-      "hammer": "2023-06-30 16:30:53 +0800"
     },
     "done": true
   },
@@ -1106,12 +1352,6 @@
   "tombstone:adventure/ambush": {
     "criteria": {
       "coded_trigger": "2023-07-05 21:43:49 +0800"
-    },
-    "done": true
-  },
-  "simplyswords:slumbering_lichblade": {
-    "criteria": {
-      "requirement": "2023-07-10 17:54:39 +0800"
     },
     "done": true
   },
