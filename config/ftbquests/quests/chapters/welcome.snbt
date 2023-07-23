@@ -440,6 +440,7 @@
 		{
 			dependencies: ["6B228CE1B64C412E"]
 			id: "6304AD3FBB58CB67"
+			shape: "gear"
 			tasks: [{
 				id: "1A13E8FB346912F5"
 				item: {

@@ -468,6 +468,12 @@
     },
     "done": true
   },
+  "compactvoidminers:void_miner": {
+    "criteria": {
+      "void_miner": "2023-07-23 18:15:02 +0800"
+    },
+    "done": true
+  },
   "electrodynamics:upgradetransformer": {
     "criteria": {
       "HasTransf": "2023-07-10 18:56:31 +0800"
@@ -519,6 +525,12 @@
   "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
     "criteria": {
       "requirement": "2023-07-22 11:38:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-07-23 15:30:53 +0800"
     },
     "done": true
   },
@@ -576,6 +588,12 @@
     },
     "done": true
   },
+  "pneumaticcraft:unassembled_pcb": {
+    "criteria": {
+      "0": "2023-07-23 17:34:32 +0800"
+    },
+    "done": true
+  },
   "mutantmonsters:hulk_smash": {
     "criteria": {
       "hammer_in_offhand": "2023-07-18 19:29:53 +0800",
@@ -598,6 +616,12 @@
   "electrodynamics:ceramicallyinsulatedwiring": {
     "criteria": {
       "HasWire": "2023-07-11 17:47:18 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:printed_circuit_board": {
+    "criteria": {
+      "0": "2023-07-23 17:34:15 +0800"
     },
     "done": true
   },
@@ -751,6 +775,12 @@
   "naturesaura:wood_stand": {
     "criteria": {
       "stand": "2023-07-21 20:29:02 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/facade": {
+    "criteria": {
+      "facade": "2023-07-23 19:10:25 +0800"
     },
     "done": true
   },
@@ -957,6 +987,12 @@
   "tetra:upgrades/double_headed": {
     "criteria": {
       "hammer": "2023-06-30 16:18:52 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:empty_pcb": {
+    "criteria": {
+      "0": "2023-07-23 17:34:26 +0800"
     },
     "done": true
   },

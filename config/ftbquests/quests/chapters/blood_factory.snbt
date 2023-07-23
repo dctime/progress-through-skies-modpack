@@ -1,0 +1,925 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_factory"
+	group: "54F41CD78FED2FED"
+	id: "7E59C973FB15DEC0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "504DB1C92D22055B"
+			tasks: [{
+				id: "0815BBD6C6EBC900"
+				item: "advgenerators:syngas_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "53E2E687BB174100"
+			tasks: [{
+				id: "1246323AAEAD2E8C"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "hexerei:blood_fluid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "63E7721AC4FBA713"
+			tasks: [{
+				id: "49968EC398F18566"
+				item: "emendatusenigmatica:natural_acid_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "6C079AAD412390BF"
+			tasks: [{
+				id: "6A107F2DB0A0E0DE"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "79410628A4584F14"
+			tasks: [{
+				id: "49DE63627B000EA4"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "emendatusenigmatica:sulfuric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "44EF434C5BDF3A2B"
+			tasks: [{
+				id: "5DF1AAA43855D993"
+				item: "evilcraft:blood_orb_filled"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "53F35C8BC17C1432"
+			tasks: [{
+				id: "04A4A7091E58866E"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "59F8EB2AA1F41C76"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "023A6D16A07F5629"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "47BE04D9B5593CED"
+			tasks: [{
+				id: "6B55C3FA7E59C35A"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "5167E4790B37D44D"
+			tasks: [{
+				id: "2C905493F9CE0E8F"
+				item: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "46E656D055354846"
+			tasks: [{
+				id: "37735A77EA5A091D"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "evilcraft:blood"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "34D3EF4D8B26D642"
+			tasks: [{
+				id: "56CC7910AA9D976D"
+				title: "bio-waste"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "4A734051B049EE53"
+			tasks: [{
+				id: "381C898CA2C1D0FE"
+				item: "assemblylinemachines:refinery"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "76D24FED86464FBE"
+			tasks: [{
+				id: "01BE4FF924DD34ED"
+				item: "emendatusenigmatica:iron_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "103037BDC116A5E8"
+			tasks: [{
+				id: "5D26362F10E5509F"
+				item: "advgenerators:exchanger_controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "1D0D8F1B8DC0B145"
+			tasks: [{
+				id: "016ECF221DAA5A28"
+				item: "emendatusenigmatica:iron_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "00A96AEB6632AF55"
+			tasks: [{
+				id: "24687D4D7B6E5BC4"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "1E28AC373F0B9DD2"
+			tasks: [{
+				id: "1099FECEEA2174C5"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "0E22A27F479D4199"
+			tasks: [{
+				id: "688887FC6A25EB05"
+				item: "emendatusenigmatica:copper_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			id: "16CEEB27F0684DB2"
+			tasks: [{
+				id: "2D169BD670F62594"
+				item: "minecraft:light_gray_stained_glass_pane"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			id: "2E35C33AD7176C7E"
+			tasks: [{
+				id: "7E4FB22ECA8360D8"
+				item: "chemlib:hydrochloric_acid"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "51069DB253DE9A92"
+			tasks: [{
+				id: "32E7B384F6AA6D0D"
+				title: "H2O2"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "6D7703D62B5DCF88"
+			tasks: [{
+				id: "64D345E1519C9B81"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			id: "004135EA831A7D22"
+			tasks: [{
+				id: "0DF8F4C079828425"
+				title: "solder mask"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "47261B424C2FE3A4"
+			tasks: [{
+				id: "7D7EE6EAFA9A7E24"
+				item: "thermal:resin_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "2AA67C940DF3C69F"
+			tasks: [{
+				id: "231433DB0654BEEE"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			id: "5C70853DFE1996DF"
+			tasks: [{
+				id: "7664DE5B3306347D"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "pneumaticcraft:etching_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "608540C1220EFFB6"
+			tasks: [{
+				id: "106FB0234E09D2A9"
+				title: "Na2O2"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "79F09E369CE10C62"
+			tasks: [{
+				id: "053E28B2FC5FCD7E"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			id: "50F8177ABA1DA2EF"
+			tasks: [{
+				id: "1B1053C913E0D8FB"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			id: "5C67648D56C5BC59"
+			tasks: [{
+				id: "00380B471C53C8B9"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			id: "2154FF60062E00BB"
+			tasks: [{
+				id: "124EFC42CD62DAC3"
+				item: "mekanism:salt"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			id: "51D9951A465CCCF4"
+			tasks: [
+				{
+					id: "03AAA2CE0DCADE7B"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "7B8A4D4F4E011D02"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "222AE65759FE7307"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "7FCB58D3A85678EA"
+			tasks: [{
+				id: "70F81E60DD096B9D"
+				item: "emendatusenigmatica:liquid_hydrogen_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "1987C2FC48EFF4D0"
+			tasks: [{
+				id: "3B45E9D491C48AB7"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "4028B26F2604B71B"
+			tasks: [{
+				id: "65C36614577049DC"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			id: "39929F476A03B132"
+			tasks: [{
+				id: "487052FF74B3A8AA"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			id: "150079224F11986E"
+			tasks: [{
+				id: "61643174AE4E1925"
+				item: {
+					Count: 1b
+					id: "scorchedguns:scrap_cannon"
+					tag: {
+						AmmoCount: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			id: "2028FA4204692697"
+			tasks: [{
+				id: "7B0146390846E0FF"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			id: "5768C0FFEB7704BC"
+			tasks: [{
+				id: "5DA8EA1C9A335872"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			id: "3B368964E19D015A"
+			tasks: [{
+				id: "0BB9AAD6A6424480"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			id: "0B530923010FC25D"
+			tasks: [{
+				id: "1A08E4F7C40AC4FD"
+				item: "scorchedguns:volatile_scrap"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			id: "4163E03D8F4F141C"
+			tasks: [{
+				id: "00E8F58F4769D411"
+				item: "emendatusenigmatica:copper_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "04B27D7A014C5A9C"
+			tasks: [{
+				id: "2DE1148C553FC003"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			id: "1F0F22FE6BD8A0B1"
+			tasks: [{
+				id: "25DE3A2A61772159"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			id: "031E965DA4E624F3"
+			tasks: [{
+				id: "7CB5CD697E730CDF"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			id: "2649EE77715EB5FD"
+			tasks: [{
+				id: "15EDCF0E4EC1336D"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			id: "5812CD396E4E9F64"
+			tasks: [{
+				id: "1C97571A6980BDB3"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			id: "2B1676323B364998"
+			tasks: [{
+				id: "2EC31FE5187A5FA8"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			id: "393A7938EC9A2CFD"
+			tasks: [{
+				id: "286DCFCBBF0CBA6B"
+				item: "emendatusenigmatica:carbon_dioxide_bucket"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			id: "10FDF79CF023ADDC"
+			tasks: [{
+				id: "5B479B60B3791A97"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			id: "6FB9172BDBEE5597"
+			tasks: [{
+				id: "0F348D5564774B92"
+				item: "emendatusenigmatica:liquid_hydrogen_bucket"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -4.0d
+		}
+		{
+			id: "6192C534ECF0FEDF"
+			tasks: [{
+				id: "20E36C98CC6D75C9"
+				item: "evilcraft:environmental_accumulator"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			id: "40EB258D2150D98D"
+			tasks: [{
+				id: "07A0B0D2902E7186"
+				title: "liquid air"
+				type: "checkmark"
+			}]
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			id: "6E2476EC05E24393"
+			tasks: [{
+				id: "137F915D35C78BC2"
+				item: "assemblylinemachines:refinery"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			id: "368CEE3AC81FA1AC"
+			tasks: [{
+				id: "06E10ABC3A11795E"
+				item: "emendatusenigmatica:liquid_oxygen_bucket"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			id: "51CCF91F7AE343FE"
+			tasks: [{
+				id: "1DE2B8E303631740"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -3.0d
+		}
+		{
+			id: "36F11E2243D95DC4"
+			tasks: [{
+				id: "16254E622DF6D5E0"
+				item: "electrodynamics:lathe"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			id: "4D48D9D45C3CD0A6"
+			tasks: [{
+				id: "63C4627F5D277D66"
+				item: "emendatusenigmatica:iron_block"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -3.0d
+		}
+		{
+			id: "3CD61D81980BBAFE"
+			tasks: [{
+				id: "43B376706A26D1F4"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			id: "0830F978C54C7D66"
+			tasks: [{
+				id: "7FC438C87D65A74F"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "4175E572FD891742"
+			tasks: [{
+				id: "62568FB94610AD2A"
+				title: "coke"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			id: "08084ACFED151F15"
+			tasks: [{
+				id: "1022B61925410C86"
+				title: "coke dust"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			id: "75087B109D2B3018"
+			tasks: [{
+				id: "3B7CD1C805E0F2F0"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			id: "7979C8269E781580"
+			tasks: [{
+				id: "286FC52F07F92349"
+				title: "nitrogen"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -3.0d
+		}
+		{
+			id: "28EF5357B9C605B0"
+			tasks: [{
+				id: "49A7E913270A1E55"
+				title: "carbon"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			id: "228DF4E2B78FA8E5"
+			tasks: [{
+				id: "0AE68F9C797B472D"
+				title: "sodium carbonate"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			id: "6928E786F869B29C"
+			tasks: [{
+				id: "2FA1B5395757BF35"
+				title: "sodium"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			id: "6702E262425F0C9B"
+			tasks: [{
+				id: "0D8AF89FBF6BD89E"
+				title: "carbon monoxide"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			id: "588FAF7B537594A7"
+			tasks: [{
+				id: "19066496E0C04F4A"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "78BDCF24C7F76767"
+			tasks: [{
+				id: "2BF267E261F8B185"
+				title: "chloride"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "2FC62E62AAB2205F"
+			tasks: [{
+				id: "1B6E9332A8A69722"
+				title: "sodium hydroxide"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "3FB01FE5D4FC230B"
+			tasks: [{
+				id: "58F5C721FA63BBDA"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "69D6FAA8ED52C285"
+			tasks: [{
+				id: "1EF12E0DA0454319"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "4B6B48379B6ECB9F"
+			tasks: [{
+				id: "4FB5641085BF4214"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			id: "43C7E1C3FE68BFB5"
+			tasks: [{
+				id: "68F86421DCD8EA1A"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "0C6DF22E58A1A64E"
+			tasks: [{
+				id: "466CA27025CCB9AB"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "58DE08EF688C613C"
+			tasks: [{
+				id: "627B771EFD2EF4B7"
+				item: "tinyredstone:redstone_panel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			id: "441D4986DAD470A8"
+			tasks: [{
+				id: "39907F0FD9639C6C"
+				item: "hostilenetworks:empty_prediction"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "123FBC8988730253"
+			tasks: [{
+				id: "3CE7C29139C641AC"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "5D54E5E7AAD1B04D"
+			tasks: [{
+				id: "23B463FDC2C92046"
+				item: {
+					Count: 1b
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "1EFC82CE27EB48DF"
+			tasks: [{
+				id: "4983D249C873F9A7"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "5C2AE357E6702173"
+			tasks: [{
+				id: "657A84F9EEB65A7F"
+				item: "emendatusenigmatica:iron_nugget"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -4.0d
+		}
+		{
+			id: "0CEFFB5175434EEF"
+			tasks: [{
+				id: "2DCB96AB5E3111B8"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -3.0d
+		}
+	]
+	title: "Blood Factory"
+}
