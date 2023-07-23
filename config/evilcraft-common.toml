@@ -45,7 +45,7 @@
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
-		bloodMBPerHP = 20
+		bloodMBPerHP = 0
 		#Blocks onto which no blood stains can be spawned. Regular expressions are allowed.
 		spawnBlacklist = ["tconstruct:.*"]
 		#If blood stains should be spawned on block entities.

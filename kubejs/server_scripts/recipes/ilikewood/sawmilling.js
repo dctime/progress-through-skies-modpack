@@ -182,4 +182,24 @@ ServerEvents.recipes(event => {
         }
       }
     ]})
+
+    event.custom({"type": "forge:conditional",
+    "recipes": [
+      {
+        "conditions": [
+          {
+              "type": "forge:mod_loaded",
+              "modid": "ilikewood"
+          }
+        ],
+        "recipe": {
+          "type": "ilikewood:sawmilling",
+          "ingredient": {
+            "item": "minecraft:oak_log"
+          },
+          "result": 'naturesaura:wood_stand',
+          "count":1
+        }
+      }
+    ]})
 })

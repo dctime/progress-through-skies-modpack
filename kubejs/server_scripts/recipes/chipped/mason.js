@@ -28,7 +28,8 @@ ServerEvents.tags('item', event => {
         'mekanism:chemical_infuser',
         'mekanism:chemical_oxidizer',
         'thermal:device_water_gen',
-        'mekanism:electrolytic_separator'
+        'mekanism:electrolytic_separator',
+        'irons_spellbooks:scroll_forge'
     ]
 
     let cobblestone_machine =

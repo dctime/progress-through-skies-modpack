@@ -1,6 +1,7 @@
 {
   "values": [
     "#create:crushed_ores/gold",
+    "#create:crushed_ores/iron",
     "#create:crushed_ores/copper"
   ]
 }

@@ -19,7 +19,8 @@ JEIEvents.information(event => {
     'minecraft:crafting_table',
     'minecraft:chest',
     'minecraft:oak_slab',
-    'create:piston_extension_pole'
+    'create:piston_extension_pole',
+    'naturesaura:wood_stand'
   ];
 
   for (let item of sawmill_item)

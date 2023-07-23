@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
           "item": 'emendatusenigmatica:natural_acid_crystal'
         },
         "liquidOutput": {
-          "fluid": "hexerei:blood_fluid"
+          "fluid": 'emendatusenigmatica:sulfuric_acid'
         },
         "fluidLevelsConsumed": 1000
       })

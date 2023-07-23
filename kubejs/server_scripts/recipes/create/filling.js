@@ -3,16 +3,16 @@ ServerEvents.recipes(event => {
         "type": "create:filling",
         "ingredients": [
           {
-            "item": 'immersiveengineering:wire_copper'
+            "item": 'minecraft:glass_bottle'
           },
           {
-            "fluid": "thermal:resin",
+            "fluid": 'hexerei:blood_fluid',
             "amount": 100
           }
         ],
         "results": [
           {
-            "item": 'electrodynamics:wirehighlyinsulatedcopper'
+            "item": 'irons_spellbooks:blood_vial'
           }
         ]
       })

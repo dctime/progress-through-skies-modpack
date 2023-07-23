@@ -1,8 +1,9 @@
-// 1.19.2	2023-07-21T21:37:13.909448	EE Mekanism Addon Item Tags
-7aba5d8f9da9fbff73f81aeb2ca1c0fe00df86a8 data/mekanism/tags/items/clumps.json
+// 1.19.2	2023-07-22T10:21:05.2891124	EE Mekanism Addon Item Tags
+c8499989ac8bcc5a2688850bfb912a30c710867f data/mekanism/tags/items/clumps.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
-56c3c16236ccb53db2838d83e525ae8cec600a0a data/mekanism/tags/items/crystals.json
+fa70ad15829a668b584bdb48b41f02459a9cf681 data/mekanism/tags/items/clumps/iron.json
+621f374047054b86d85c7863ca9e8f534a0923d9 data/mekanism/tags/items/crystals.json
 ae52abab7fee87a3dab3e892b3f6aaa60ea6fcff data/mekanism/tags/items/crystals/carbon_dioxide.json
 30e2c5d27da5190385a0f06e583c5e256a06107e data/mekanism/tags/items/crystals/copper.json
 6cc078a68c4734b892cb5a2a415c87f9fe250779 data/mekanism/tags/items/crystals/copper_ii_sulfate.json
@@ -13,6 +14,7 @@ dbf075f86050d82ab7152c3c1f163a41eb61b55b data/mekanism/tags/items/crystals/coppe
 27e632415302ad81fabe8e014c2ef7645b235fe1 data/mekanism/tags/items/crystals/gold.json
 5d8398e96e5ac551045a2e44be8aa175d3cbbb56 data/mekanism/tags/items/crystals/heavy_unprocessed_oil.json
 fbe8ae46ac71191e834bd3e44ead323d0510ef66 data/mekanism/tags/items/crystals/hydrogen_sulfide.json
+ea5d82a5cf4c8e824fdb954a51540e100160e9a1 data/mekanism/tags/items/crystals/iron.json
 00f72a367c5d7a82150188bd4a1e61148e1c355e data/mekanism/tags/items/crystals/light_unprocessed_oil.json
 5748a28eae756d3684957540fc103e0291908cf5 data/mekanism/tags/items/crystals/liquid_hydrogen.json
 9cb5d38cc69dca0534717080e044e70e7410f4c1 data/mekanism/tags/items/crystals/liquid_oxygen.json
@@ -22,7 +24,7 @@ e688c402ff6464e74c3bea6fc9e53f6015408e58 data/mekanism/tags/items/crystals/lubri
 1f5ffec846e44d761461b3a85149e60bf3bccac1 data/mekanism/tags/items/crystals/sulfurous_acid.json
 38861677cf0c4e7e65249a63ae2e2542953cb578 data/mekanism/tags/items/crystals/sulfur_dioxide.json
 d9ffc19e5fd3958dc9d3ee1d8c6ed3da50f19bf9 data/mekanism/tags/items/crystals/wet_slurries_of_algae.json
-54844e1dca80a88654bedd9e4c68bdcef9988c94 data/mekanism/tags/items/dirty_dusts.json
+b422b5ec0ad991409fcfe6d0e84c842623a6ffe7 data/mekanism/tags/items/dirty_dusts.json
 fc1f020d708a53d0a70324efc9987f993d4e45e1 data/mekanism/tags/items/dirty_dusts/carbon_dioxide.json
 6fc092563c8ceb9a3be7c7e4c4e20722022d35db data/mekanism/tags/items/dirty_dusts/copper.json
 885eb075a39c864fd042d9a4096a6ea1b4144040 data/mekanism/tags/items/dirty_dusts/copper_ii_sulfate.json
@@ -33,6 +35,7 @@ d57d979ad05e39646c13943ecee8acedab436209 data/mekanism/tags/items/dirty_dusts/de
 638de7c65cadcd847907b4001e65a7a3da3b6dac data/mekanism/tags/items/dirty_dusts/gold.json
 197a18c3fc6b95af38643893b8dd1cecc0fd4e9b data/mekanism/tags/items/dirty_dusts/heavy_unprocessed_oil.json
 0b0dbe85e4f5616a1cb9fd1fddbc6ab791b500d8 data/mekanism/tags/items/dirty_dusts/hydrogen_sulfide.json
+40a9e4ec373bcddafa8e00ac33990682ea5800aa data/mekanism/tags/items/dirty_dusts/iron.json
 e5318e7289c46621efafc884bbf3f33e0b055385 data/mekanism/tags/items/dirty_dusts/light_unprocessed_oil.json
 fa7e655250d7576f905205fd7de14cd924f16c0a data/mekanism/tags/items/dirty_dusts/liquid_hydrogen.json
 07c5ff34dd1d19eae0c72830daecb41672092f02 data/mekanism/tags/items/dirty_dusts/liquid_oxygen.json
@@ -42,9 +45,11 @@ fa7e655250d7576f905205fd7de14cd924f16c0a data/mekanism/tags/items/dirty_dusts/li
 b140ca6ce26c710d4e2ae02dbc48175e3287c009 data/mekanism/tags/items/dirty_dusts/sulfurous_acid.json
 099c5051020ea8d532e4fec8661ff2223f6b39e0 data/mekanism/tags/items/dirty_dusts/sulfur_dioxide.json
 b8f24a7c04b0995153a2776bdf2571a37be82526 data/mekanism/tags/items/dirty_dusts/wet_slurries_of_algae.json
-197a5e2a3de9272a8698510ce73fec7cf31a56a7 data/mekanism/tags/items/enriched.json
+2341cf0d4bc197826ef71eeceb5a51307d1b657d data/mekanism/tags/items/enriched.json
 98615124d672b0c3e9ea13337cd65458b75f3b0f data/mekanism/tags/items/enriched/copper.json
 f2dabd43335e9a5b65d99ad9813f341c9a279b42 data/mekanism/tags/items/enriched/gold.json
-2db21502aabd81708226d12900b50695f3481387 data/mekanism/tags/items/shards.json
+2d633ff62b521cdb48536d3551334723e7b053fe data/mekanism/tags/items/enriched/iron.json
+6ecb793c12be3f44a267d965ea17388842efb162 data/mekanism/tags/items/shards.json
 9a9ca4ee6be77dcbb089ce1bc6155f6cd02e220f data/mekanism/tags/items/shards/copper.json
 f593ece874b87777b2557b375afe2d43a77a6897 data/mekanism/tags/items/shards/gold.json
+db7677d149aa199bea0e59f15ad35c27110bf087 data/mekanism/tags/items/shards/iron.json

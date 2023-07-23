@@ -48,4 +48,11 @@ ServerEvents.entityLootTables((event) => {
             pool.addItem('botania:rune_earth', 1)
         });
     })
+
+    event.addEntity('twilightforest:yeti', (table) => {
+        table.addPool((pool) => {
+            pool.rolls = 1.0;
+            pool.addItem('botania:rune_water', 1)
+        });
+    })
 })

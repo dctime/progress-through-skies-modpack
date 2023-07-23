@@ -129,11 +129,23 @@ ServerEvents.recipes(event => {
           "item": 'evilcraft:hardened_blood'
         },
         "result": {
-          "item": "minecraft:amethyst_shard"
+          "item": 'emendatusenigmatica:iron_nugget'
         },
         "rolls": [
           {
-            "chance": 0.2,
+            "chance": 1,
+            "mesh": "string"
+          },
+          {
+            "chance": 1,
+            "mesh": "string"
+          },
+          {
+            "chance": 1,
+            "mesh": "string"
+          },
+          {
+            "chance": 0.3,
             "mesh": "string"
           }
         ],

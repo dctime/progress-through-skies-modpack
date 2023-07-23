@@ -150,8 +150,7 @@ ServerEvents.recipes(event => {
           "item": 'emendatusenigmatica:gold_dirty_dust'
         },
         "result": {
-          "item": 'naturesaura:gold_powder',
-          "count": 16
+          "item": 'naturesaura:gold_powder'
         }
       });
       event.custom({

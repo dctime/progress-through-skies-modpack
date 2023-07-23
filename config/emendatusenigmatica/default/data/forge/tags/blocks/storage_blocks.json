@@ -2,6 +2,8 @@
   "values": [
     "#forge:storage_blocks/gold",
     "#forge:storage_blocks/raw_gold",
+    "#forge:storage_blocks/iron",
+    "#forge:storage_blocks/raw_iron",
     "#forge:storage_blocks/copper",
     "#forge:storage_blocks/raw_copper"
   ]

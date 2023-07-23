@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/spell_book_evoker": {
+    "criteria": {
+      "requirement": "2023-07-22 11:37:15 +0800"
+    },
+    "done": true
+  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2023-07-09 11:46:45 +0800",
@@ -99,6 +105,12 @@
   "pneumaticcraft:air_compressor": {
     "criteria": {
       "0": "2023-07-05 14:52:54 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_villager": {
+    "criteria": {
+      "requirement": "2023-07-22 11:41:26 +0800"
     },
     "done": true
   },
@@ -372,6 +384,12 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2023-07-22 11:16:06 +0800"
+    },
+    "done": true
+  },
   "simplyswords:simplyswords": {
     "criteria": {
       "requirement": "2023-07-10 15:28:01 +0800"
@@ -498,6 +516,12 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2023-07-22 11:38:03 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-06-30 16:17:21 +0800"
@@ -556,6 +580,12 @@
     "criteria": {
       "hammer_in_offhand": "2023-07-18 19:29:53 +0800",
       "hammer_in_mainhand": "2023-07-18 19:29:53 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_dragon": {
+    "criteria": {
+      "requirement": "2023-07-22 11:38:15 +0800"
     },
     "done": true
   },
@@ -634,6 +664,12 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/spell_book_blaze": {
+    "criteria": {
+      "requirement": "2023-07-22 11:38:08 +0800"
+    },
+    "done": true
+  },
   "mekanism:root": {
     "criteria": {
       "automatic": "2023-06-30 16:05:29 +0800"
@@ -679,6 +715,12 @@
   "trashcans:ultimate_trash_can": {
     "criteria": {
       "has_ultimate_trash_can": "2023-07-01 11:02:36 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_root": {
+    "criteria": {
+      "requirement": "2023-07-22 11:15:09 +0800"
     },
     "done": true
   },
@@ -786,9 +828,21 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+    "criteria": {
+      "arcane_anvil": "2023-07-22 11:27:43 +0800"
+    },
+    "done": true
+  },
   "modonomicon:modonomicon/root": {
     "criteria": {
       "modonomicon_present": "2023-06-30 16:05:29 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2023-07-22 11:16:06 +0800"
     },
     "done": true
   },
@@ -858,9 +912,21 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/spell_book_netherite": {
+    "criteria": {
+      "requirement": "2023-07-22 11:15:09 +0800"
+    },
+    "done": true
+  },
   "mekanismgenerators:solar_generator": {
     "criteria": {
       "solar_generator": "2023-07-04 13:43:19 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_scroll_forge": {
+    "criteria": {
+      "scroll_forge": "2023-07-22 11:17:59 +0800"
     },
     "done": true
   },
@@ -918,6 +984,12 @@
     },
     "done": true
   },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2023-07-22 11:13:33 +0800"
+    },
+    "done": true
+  },
   "simplyswords:mjolnir": {
     "criteria": {
       "requirement": "2023-07-10 15:37:29 +0800"
@@ -933,6 +1005,12 @@
   "simplyswords:twisted_blade": {
     "criteria": {
       "requirement": "2023-07-10 15:41:38 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2023-07-22 11:47:06 +0800"
     },
     "done": true
   },
@@ -993,6 +1071,12 @@
   "simplyswords:the_watcher": {
     "criteria": {
       "requirement": "2023-07-10 17:33:39 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+    "criteria": {
+      "requirement": "2023-07-22 11:47:06 +0800"
     },
     "done": true
   },
@@ -1172,9 +1256,21 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2023-07-22 11:16:06 +0800"
+    },
+    "done": true
+  },
   "electrodynamics:mineralgrinder": {
     "criteria": {
       "HasGrinder": "2023-07-10 18:56:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-07-22 10:47:39 +0800"
     },
     "done": true
   },
@@ -1268,6 +1364,12 @@
   "simplyswords:shadowsting": {
     "criteria": {
       "requirement": "2023-07-10 15:36:56 +0800"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_dead_king": {
+    "criteria": {
+      "requirement": "2023-07-22 11:38:22 +0800"
     },
     "done": true
   },

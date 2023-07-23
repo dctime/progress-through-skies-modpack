@@ -1,6 +1,8 @@
-// 1.19.2	2023-07-10T14:54:43.3419699	Emendatus Enigmatica Block Tags
-8bcf88893440dc2f49129c95ec5ba1fd95cded98 data/forge/tags/blocks/storage_blocks.json
+// 1.19.2	2023-07-22T10:21:05.2741534	Emendatus Enigmatica Block Tags
+a18172a4c6a7a47b4cddd1ede2a489931d311b0c data/forge/tags/blocks/storage_blocks.json
 fc8b41a128ab114cd3bdda499d9692343f4f11ea data/forge/tags/blocks/storage_blocks/copper.json
 267621f2b5dc0152044a41603185f05decb41392 data/forge/tags/blocks/storage_blocks/gold.json
+424cdb30e36f7c60c76d3f2e83ea90dbdcb57be1 data/forge/tags/blocks/storage_blocks/iron.json
 c807fb03cf5cd015c541fbd590093619e6ff41b9 data/forge/tags/blocks/storage_blocks/raw_copper.json
 91ca67c76754964e9388f91e06f613fa253a1159 data/forge/tags/blocks/storage_blocks/raw_gold.json
+7e7a5c7c5ededbe8ddb6f6ea95659016742520e2 data/forge/tags/blocks/storage_blocks/raw_iron.json

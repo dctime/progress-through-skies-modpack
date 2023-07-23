@@ -47,6 +47,17 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [
+        "irons_spellbooks:progression/early_game",
+        "irons_spellbooks:progression/mid_game",
+        "irons_spellbooks:progression/late_game",
+        "irons_spellbooks:spell_books/uncraftable_spell_books",
+        "irons_spellbooks:spell_books/scrolls"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

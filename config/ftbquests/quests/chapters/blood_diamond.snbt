@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0F74A0ECFA18AFCB"]
 			id: "788CFA3AAA114C5F"
 			tasks: [{
 				id: "5A2389B7E1BE4638"
@@ -30,7 +31,9 @@
 		}
 		{
 			dependencies: ["20884F84C458E0E0"]
+			description: ["{image:modpackdctime:textures/misc/tree_ritural_shape.png width:100 height:100 align:1}"]
 			id: "702C41AD6B9640D3"
+			subtitle: "put the items on the stand and make the tree grow"
 			tasks: [{
 				id: "2B67A0445E7CCD49"
 				item: "botania:rune_spring"
@@ -82,6 +85,7 @@
 		{
 			dependencies: ["28607A6ECA4A249D"]
 			id: "0F74A0ECFA18AFCB"
+			subtitle: "Use summoning altar"
 			tasks: [{
 				id: "51B9699A5E693FB9"
 				type: "checkmark"
@@ -93,6 +97,7 @@
 		{
 			dependencies: ["5AB50245BA00CD6A"]
 			id: "2B8097A5AD81107B"
+			subtitle: "Use summoning altar"
 			tasks: [{
 				id: "27C494279E287918"
 				type: "checkmark"
@@ -103,6 +108,12 @@
 		}
 		{
 			dependencies: ["0470B93F762DDDAA"]
+			description: [
+				"Conway Game of Life:"
+				"https://www.youtube.com/watch?v=xP5-iIeKXE8"
+				""
+				"You are going to have a lot of mana. You are allowed to use google :)"
+			]
 			id: "193A692F96AD188E"
 			tasks: [{
 				id: "49AFE8CA5FA8EFA8"
@@ -192,6 +203,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "66292F77926C2968"
 			tasks: [{
 				id: "056B0B1E4FAA400C"
@@ -216,6 +228,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "12CF383FB797B758"
 			tasks: [{
 				id: "62684BBFA5E4C060"
@@ -226,6 +239,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "7C5B8236D45A7D3C"
 			tasks: [{
 				id: "5BBF8F27C48CC2BF"
@@ -233,7 +247,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["21603327E6B840D5"]
@@ -247,6 +261,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5EA11507EC4A39B2"]
+			description: ["{image:modpackdctime:textures/misc/craft_mixing_calduron.png width:100 height:100 align:1}"]
 			id: "4DDADC9EC89D3987"
 			tasks: [{
 				id: "60BAECBD32A68C03"
@@ -258,22 +274,14 @@
 		}
 		{
 			dependencies: ["03684D88E7956224"]
+			icon: "evilcraft:blood_stain"
 			id: "662DC8DB77A10827"
+			subtitle: "put segi into the mixing pot, and jump into the pot"
 			tasks: [{
-				id: "4ACA81338278B4C2"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 0
-						Fluid: {
-							Amount: 1000
-							FluidName: "hexerei:blood_fluid"
-						}
-					}
-				}
-				type: "item"
+				id: "5D9B4DC258B3A1F5"
+				type: "checkmark"
 			}]
+			title: "Blood (Hexerei)"
 			x: -7.5d
 			y: 1.0d
 		}
@@ -292,6 +300,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "6146F923E53BBF00"
 			tasks: [{
 				id: "56FFEAB7331D08CC"
@@ -313,6 +322,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "5E1F6634F03EC6AE"
 			tasks: [{
 				id: "38A5AC048B5FA1CB"
@@ -323,6 +333,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "20884F84C458E0E0"
 			tasks: [{
 				id: "15A7D64C6D4B8137"
@@ -333,6 +344,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"5822EA6CAC2D0A05"
+				"4A254ACA92A3A66F"
+			]
 			id: "21603327E6B840D5"
 			tasks: [{
 				id: "7A17A822D2F3CE90"
@@ -402,6 +417,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "3895E7C4642B4F5E"
 			tasks: [{
 				id: "1860C12511D99F6A"
@@ -412,6 +428,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "3ECF204C678C66DD"
 			tasks: [{
 				id: "4E7BEE0F95016D3A"
@@ -422,6 +439,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "5AA3098FD00ACF6B"
 			tasks: [{
 				id: "5B88CA647E2518F0"
@@ -443,6 +461,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["5822EA6CAC2D0A05"]
 			id: "7DC7F58282FFD29D"
 			tasks: [{
 				id: "52BB2C9AFDE7A02B"
@@ -473,6 +492,164 @@
 			}]
 			x: 0.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3CC8A1CFDBCD90F1"]
+			id: "67498707E5A5FF5E"
+			tasks: [{
+				id: "29B24EB4D83B8F46"
+				item: "emendatusenigmatica:iron_nugget"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D6D82E6CBE1F4B0"]
+			id: "6BE2D19DB72A0FF7"
+			tasks: [{
+				id: "5FA0589D7969F4F5"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"114BDB349924E52A"
+				"3FD78BAF077154AE"
+			]
+			id: "0F5D5DA6768DD186"
+			tasks: [{
+				id: "16F86830EE82A640"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4DA0297CC0B9AA72"]
+			id: "6F41150F2011A035"
+			subtitle: "Remember to put water"
+			tasks: [{
+				id: "4C3BAA0D16116131"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"46A5065490F37688"
+				"3FD78BAF077154AE"
+				"6BE2D19DB72A0FF7"
+			]
+			id: "4DA0297CC0B9AA72"
+			tasks: [{
+				id: "367BB5190514C8BD"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["544035217CC26160"]
+			id: "3FD78BAF077154AE"
+			tasks: [{
+				id: "2A123EBA9302A0D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ink"
+					}
+				}
+				title: "Any #forge:ink"
+				type: "item"
+			}]
+			title: "Special Ink"
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5822EA6CAC2D0A05"]
+			id: "6D6D82E6CBE1F4B0"
+			tasks: [{
+				id: "2F878F07E61DD77F"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5822EA6CAC2D0A05"]
+			id: "46A5065490F37688"
+			tasks: [{
+				id: "49C7A73D01F7E70F"
+				item: "minecraft:polished_deepslate"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5822EA6CAC2D0A05"]
+			id: "114BDB349924E52A"
+			tasks: [{
+				id: "46F4DB0787FADE52"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D59302DCF9C04DA"]
+			id: "544035217CC26160"
+			tasks: [{
+				id: "57517B670187814D"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5822EA6CAC2D0A05"]
+			id: "5EA11507EC4A39B2"
+			tasks: [{
+				id: "6DAD190BAA644E33"
+				item: "exnihilosequentia:stone_barrel"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5822EA6CAC2D0A05"]
+			id: "3D59302DCF9C04DA"
+			tasks: [{
+				id: "5527E915E5FEF632"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
 		}
 	]
 	title: "Blood Diamond"

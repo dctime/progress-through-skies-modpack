@@ -320,21 +320,24 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5822EA6CAC2D0A05"]
+			dependencies: [
+				"5822EA6CAC2D0A05"
+				"54A52B3D21FE19AB"
+			]
+			icon: "irons_spellbooks:blood_vial"
 			id: "6B228CE1B64C412E"
-			size: 1.5d
-			tasks: [{
-				id: "7AC8B50EDE038372"
-				item: {
-					Count: 1b
-					id: "cgm:pistol"
-					tag: {
-						AmmoCount: 16
-					}
-				}
+			rewards: [{
+				count: 128
+				id: "6FA108CFD7AE81F1"
+				item: "emendatusenigmatica:iron_nugget"
 				type: "item"
 			}]
-			title: "Blood Diamond[WIP]"
+			size: 1.5d
+			tasks: [{
+				id: "7C07E92F1F13AC6B"
+				type: "checkmark"
+			}]
+			title: "Go to \"Blood Diamond\" Chapter"
 			x: 9.75d
 			y: 0.0d
 		}
@@ -396,6 +399,66 @@
 			}]
 			x: 2.0d
 			y: -4.5d
+		}
+		{
+			id: "64CDAFCE39D6184E"
+			shape: "circle"
+			tasks: [{
+				id: "61123B4750DD8D99"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			title: "SoL Apple Pie Edition"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:rotten_flesh"
+			id: "7A9AF8BCABF8D6AD"
+			shape: "circle"
+			tasks: [{
+				id: "2E9FAF06CCAABEAE"
+				title: "Food will rotten"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B228CE1B64C412E"]
+			id: "29E57CFBFC3D6D78"
+			size: 1.5d
+			tasks: [{
+				id: "141FADC9C6D7490D"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			title: "Carbon Magic[WIP]"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B228CE1B64C412E"]
+			id: "6304AD3FBB58CB67"
+			tasks: [{
+				id: "1A13E8FB346912F5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 500
+							FluidName: "evilcraft:blood"
+							capacity: 1000
+						}
+					}
+					id: "evilcraft:creative_blood_drop"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Blood Factory[WIP]"
+			x: 10.0d
+			y: 2.0d
 		}
 	]
 	title: "Welcome!"

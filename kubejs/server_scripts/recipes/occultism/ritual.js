@@ -67,4 +67,37 @@ ServerEvents.recipes(event => {
         }
     });
 
+    event.custom({
+        "type": "occultism:ritual",
+        "ritual_type": "occultism:craft",
+        "activation_item": 
+        {
+            "item": 'exnihilosequentia:stone_barrel'
+        },
+        "pentacle_id": "occultism:possess_foliot",
+        "duration": 60,
+        "ritual_dummy": 
+        {
+            "item": "occultism:ritual_dummy/custom_ritual"
+        },
+        "ingredients": 
+        [
+            {
+                "item": 'emendatusenigmatica:gold_dirty_dust'
+            },
+            {
+                "item": 'emendatusenigmatica:gold_dirty_dust'
+            },
+            {
+                "item": 'emendatusenigmatica:gold_dirty_dust'
+            },
+            {
+                "item": 'emendatusenigmatica:gold_dirty_dust'
+            }
+        ],
+        "result": 
+        {
+            "item": 'hexerei:mixing_cauldron'
+        }
+    });
 })

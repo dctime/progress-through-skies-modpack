@@ -10,7 +10,7 @@ customization-meta {
 
 customization {
   restart_on_load = false
-  name = pts_reduction
+  name = blood_diamond_pts
   action = animatebackground
 }
 
@@ -275,38 +275,38 @@ customization {
   channel = music
   x = 62
   width = 50
-  audio_source:ad0fd81d-37f2-454b-8956-0e7fa9dd789b1689415008984 = fancymenu_data/sounds/baldis_basics-schoolhouse_trouble_noteblock_remix.ogg;EXTERNAL_LOCAL;500;0
   action = custom_layout_element:fancymenu_extension:audio_item
   actionid = e8d9c694-7a30-4219-bebb-20edd910e5ba1688312415797
   y = 70
+  audio_source:ca74e90d-f5bd-421e-9153-0a9a909647751690015577347 = fancymenu_data/sounds/pigstep_minecraft_remix.ogg;EXTERNAL_LOCAL;400;0
   once_per_session = false
   height = 50
 }
 
 customization {
-  path = fancymenu_data/reduction.gif
+  path = fancymenu_data/blood_diamond.png
   orientation = top-right
-  x = -202
-  width = 185
+  x = -227
+  width = 210
   action = addtexture
-  actionid = 15bfdc67-009b-4126-b694-574682e32f6b1689412452710
-  y = 50
-  height = 47
+  actionid = 966bac7a-35b1-4391-af68-c310384798d61690015683490
+  y = 63
+  height = 29
 }
 
 customization {
   orientation = top-right
   basecolor = #ffff00
   shadow = true
-  splashfilepath = fancymenu_data/text/credits.txt
   rotation = 20.0
   scale = 1.0
   refresh = false
   bouncing = true
   vanilla-like = false
-  x = -209
-  actionid = bf1d1ede-2964-4497-8b97-71f316c174d91689415305958
+  x = -252
+  actionid = 74a699bb-5a2a-4369-bce8-9733bb4005851690015831917
   action = addsplash
-  y = 96
+  y = 99
+  text = Pigstep ▸ Minecraft Remix By GameChops
 }
 

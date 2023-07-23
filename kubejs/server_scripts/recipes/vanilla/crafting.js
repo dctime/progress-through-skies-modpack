@@ -301,4 +301,16 @@ ServerEvents.recipes(event => {
             'A': 'occultism:candle_white'
         }
     );
+
+    event.shaped(
+        Item.of('irons_spellbooks:inscription_table', 1),
+        [
+            'A',
+            'B'
+        ],
+        {
+            'A': 'irons_spellbooks:common_ink',
+            'B': 'chipped:carpenters_table'
+        }
+    );
 })

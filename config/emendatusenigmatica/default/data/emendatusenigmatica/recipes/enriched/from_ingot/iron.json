@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_iron"
+  }
+}

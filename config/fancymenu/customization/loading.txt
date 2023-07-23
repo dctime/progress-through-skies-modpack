@@ -14,21 +14,6 @@ customization {
 }
 
 customization {
-  orientation = bottom-right
-  background_color = #3d3d3d
-  x = -181
-  width = 66
-  bar_color = #f2e824
-  action = custom_layout_element:drippy_generic_progress_bar
-  actionid = 45bab0f6-a9e9-4108-8594-0c29669494381689417907005
-  y = -129
-  progress_for_element_orientation = false
-  direction = up
-  progress_source = {"placeholder":"drippy_gl_percent"}*1
-  height = 82
-}
-
-customization {
   orientation = top-left
   hidden = false
   original_pos_size_calculation = true
@@ -41,7 +26,7 @@ customization {
 }
 
 customization {
-  custom_color_hex = #3d3d3d
+  custom_color_hex = #420000
   orientation = top-left
   hidden = false
   x = -1000000
@@ -65,49 +50,82 @@ customization {
 }
 
 customization {
-  path = fancymenu_data/beaker.png
+  path = fancymenu_data/surprised-pikachu-removebg-preview.png
   orientation = bottom-right
-  x = -206
-  width = 100
+  x = -167
+  width = 154
   action = addtexture
-  actionid = 68d5f1e4-1d59-4b3e-a746-fbb55ada3b121689418546409
-  y = -144
+  actionid = 7c2a39b4-d4ad-4973-9ecf-6e0e01e305611690017267616
+  y = -138
   height = 100
 }
 
 customization {
-  orientation = mid-left
-  background_color = #3d3d3d
-  x = 71
-  width = 10
-  bar_color = #006316
+  orientation = mid-right
+  background_color = #555555
+  x = -96
+  width = 5
+  bar_color = #c40000
   action = custom_layout_element:drippy_custom_loading_bar
-  actionid = d294f087-04b1-4378-8b9b-56a7d99e20091689417583672
-  y = -94
+  actionid = f62116c4-07d0-479a-a415-cd8757e1218f1690016672615
+  y = -91
   progress_for_element_orientation = false
-  direction = up
-  height = 192
+  direction = down
+  height = 206
 }
 
 customization {
-  path = fancymenu_data/graduated_glass_cylinders.png
-  orientation = mid-left
-  x = 35
-  width = 84
-  action = addtexture
-  actionid = 3fdae25a-bc74-437f-9f99-2b359896bdec1689417314702
-  y = -135
-  height = 282
-}
-
-customization {
-  path = fancymenu_data/breaking_bad.gif
+  path = fancymenu_data/ketchup_bottle-removebg.png
   orientation = top-right
-  x = -112
-  width = 78
+  x = -128
+  width = 70
   action = addtexture
-  actionid = cd0a3625-c44e-49fc-bf09-7741c74880921689418666401
-  y = 36
-  height = 71
+  actionid = bdd84ec3-495d-4751-815f-d5fedc3ed8fd1690017108876
+  y = 0
+  height = 100
+}
+
+customization {
+  path = fancymenu_data/pikachu_uh.gif
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 5bdc7c6b-e8e0-424d-a2a8-863dd8af202f1690017147782
+  y = 6
+  height = 100
+}
+
+customization {
+  path = fancymenu_data/pikachu_uh.gif
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = c2e037a1-2b5b-4506-ab30-650a26b455a31690017165750
+  y = 6
+  height = 100
+}
+
+customization {
+  path = fancymenu_data/cute-pikachu-eating-and-licking-bottle.gif
+  orientation = bottom-left
+  x = 144
+  width = 75
+  action = addtexture
+  actionid = ebf61b21-6a6d-47d0-8871-6203f63b05651690017310321
+  y = -141
+  height = 59
+}
+
+customization {
+  path = fancymenu_data/hexeri_pot.png
+  orientation = bottom-left
+  x = 70
+  width = 100
+  action = addtexture
+  actionid = ad8c8c53-2ede-4059-9f44-106ca3bd0c291690017419286
+  y = -152
+  height = 100
 }
 

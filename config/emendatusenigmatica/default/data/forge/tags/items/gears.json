@@ -2,6 +2,7 @@
   "values": [
     "#forge:gears/raw_copper",
     "#forge:gears/gold",
+    "#forge:gears/iron",
     "#forge:gears/copper"
   ]
 }
