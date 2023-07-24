@@ -42,6 +42,12 @@
     },
     "done": true
   },
+  "evilcraft:evil_source": {
+    "criteria": {
+      "criteria_0": "2023-07-24 23:23:52 +0800"
+    },
+    "done": true
+  },
   "simplyswords:arcanethyst": {
     "criteria": {
       "requirement": "2023-07-10 17:37:09 +0800"
@@ -1197,6 +1203,13 @@
   "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2023-07-21 16:07:28 +0800"
+    },
+    "done": true
+  },
+  "mekanism:moving_blocks": {
+    "criteria": {
+      "unbox": "2023-07-24 23:11:42 +0800",
+      "cardboard_box": "2023-07-24 23:11:30 +0800"
     },
     "done": true
   },

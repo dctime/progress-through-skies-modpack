@@ -593,26 +593,6 @@
 			y: -4.0d
 		}
 		{
-			id: "6192C534ECF0FEDF"
-			tasks: [{
-				id: "20E36C98CC6D75C9"
-				item: "evilcraft:environmental_accumulator"
-				type: "item"
-			}]
-			x: -21.5d
-			y: -3.0d
-		}
-		{
-			id: "40EB258D2150D98D"
-			tasks: [{
-				id: "07A0B0D2902E7186"
-				title: "liquid air"
-				type: "checkmark"
-			}]
-			x: -20.5d
-			y: -3.0d
-		}
-		{
 			id: "6E2476EC05E24393"
 			tasks: [{
 				id: "137F915D35C78BC2"
@@ -633,6 +613,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["36F11E2243D95DC4"]
 			id: "51CCF91F7AE343FE"
 			tasks: [{
 				id: "1DE2B8E303631740"
@@ -643,6 +624,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4D48D9D45C3CD0A6"]
 			id: "36F11E2243D95DC4"
 			tasks: [{
 				id: "16254E622DF6D5E0"
@@ -978,6 +960,72 @@
 			}]
 			x: -29.5d
 			y: -3.0d
+		}
+		{
+			icon: "emendatusenigmatica:liquid_air_bucket"
+			id: "142F79AC6089B3C4"
+			tasks: [{
+				id: "17EF9411BA44A578"
+				type: "checkmark"
+			}]
+			title: "Liquid Air"
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			id: "6D862A142D1E2824"
+			tasks: [{
+				id: "12B7918C23D91566"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			id: "79B652E7D2AF1B76"
+			tasks: [{
+				id: "121A0262FF461ABE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -4.0d
+		}
+		{
+			id: "527372DB0F42625E"
+			tasks: [{
+				id: "07AA4A4D2B9C065D"
+				type: "checkmark"
+			}]
+			x: -23.5d
+			y: -4.0d
+		}
+		{
+			id: "528603537F70BE31"
+			tasks: [{
+				id: "42E99998ECED62CF"
+				type: "checkmark"
+			}]
+			x: -21.5d
+			y: -5.0d
 		}
 	]
 	title: "Blood Factory"

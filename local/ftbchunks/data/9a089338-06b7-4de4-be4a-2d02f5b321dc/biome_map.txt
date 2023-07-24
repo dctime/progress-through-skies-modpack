@@ -1,4 +1,5 @@
 #2DC minecraft:deep_dark
+#7A2 evilcraft:degraded
 #4CA minecraft:dripstone_caves
 #010 minecraft:forest
 #4F8 compactmachines:machine
