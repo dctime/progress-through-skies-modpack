@@ -653,13 +653,14 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["0CEFFB5175434EEF"]
 			id: "4D48D9D45C3CD0A6"
 			tasks: [{
 				id: "63C4627F5D277D66"
 				item: "emendatusenigmatica:iron_block"
 				type: "item"
 			}]
-			x: -24.5d
+			x: -25.0d
 			y: -3.0d
 		}
 		{
@@ -685,9 +686,9 @@
 		{
 			id: "4175E572FD891742"
 			tasks: [{
-				id: "62568FB94610AD2A"
-				title: "coke"
-				type: "checkmark"
+				id: "101818E1B39E48F0"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
 			}]
 			x: -17.0d
 			y: 0.0d
@@ -695,9 +696,9 @@
 		{
 			id: "08084ACFED151F15"
 			tasks: [{
-				id: "1022B61925410C86"
-				title: "coke dust"
-				type: "checkmark"
+				id: "7D56BB4FE2345B99"
+				item: "immersiveengineering:dust_coke"
+				type: "item"
 			}]
 			x: -16.0d
 			y: 0.0d
@@ -907,17 +908,75 @@
 				item: "emendatusenigmatica:iron_nugget"
 				type: "item"
 			}]
-			x: -25.5d
+			x: -27.5d
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"698083E2504D0A39"
+				"475EDFABBD86CC44"
+				"5C2AE357E6702173"
+			]
 			id: "0CEFFB5175434EEF"
 			tasks: [{
 				id: "2DCB96AB5E3111B8"
 				item: "storagedrawers:compacting_drawers_3"
 				type: "item"
 			}]
-			x: -25.5d
+			x: -26.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1208CEE7620577B7"]
+			id: "698083E2504D0A39"
+			tasks: [{
+				id: "25E2227A10A2A0F3"
+				item: "minecraft:smooth_stone"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -3.0d
+		}
+		{
+			id: "475EDFABBD86CC44"
+			tasks: [{
+				id: "0668F993C50A57E6"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CEFFB5175434EEF"]
+			id: "358C03817F773EE0"
+			tasks: [{
+				id: "725EEF9D6D9D8665"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CEFFB5175434EEF"]
+			id: "4E5DCC9EFEF0C62A"
+			tasks: [{
+				id: "61149E4BFE7316FA"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -1.0d
+		}
+		{
+			id: "1208CEE7620577B7"
+			tasks: [{
+				id: "413593012627F106"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -29.5d
 			y: -3.0d
 		}
 	]

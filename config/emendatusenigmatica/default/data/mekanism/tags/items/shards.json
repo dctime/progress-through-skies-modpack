@@ -1,7 +1,7 @@
 {
   "values": [
     "#mekanism:shards/gold",
-    "#mekanism:shards/iron",
-    "#mekanism:shards/copper"
+    "#mekanism:shards/copper",
+    "#mekanism:shards/iron"
   ]
 }

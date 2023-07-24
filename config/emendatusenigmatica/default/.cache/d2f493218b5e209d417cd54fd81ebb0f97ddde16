@@ -1,5 +1,10 @@
-// 1.19.2	2023-07-22T10:21:05.3010873	Emendatus Enigmatica Fluid Tags
+// 1.19.2	2023-07-24T13:00:52.5093093	Emendatus Enigmatica Fluid Tags
+04a3ff8658ef8362af31d5c5e037165cf3bd5fb9 data/forge/tags/fluids/ammonia.json
+ab0a7a37902cb67f68435b2d8e0765de41ad2fab data/forge/tags/fluids/bio_waste.json
+a9e0aa57a5313d11446a0b4689425f22492d159c data/forge/tags/fluids/carbon.json
 efed9167d480ae99c324480833364a421696eae7 data/forge/tags/fluids/carbon_dioxide.json
+d22849214d2087b821f01ca87619909bb3edef6a data/forge/tags/fluids/carbon_monoxide.json
+a96d8ec852d22f55f191be0711e4d8c444a4e071 data/forge/tags/fluids/chlorine.json
 dbd76016bc6e88b057a322a945b1de19dacb869d data/forge/tags/fluids/copper.json
 dcb8843f6be4d1915198be97110693d0c01dfefc data/forge/tags/fluids/copper_ii_sulfate.json
 8fad6553a92c626d2ac8f6eb6180e94bfe9f7ea0 data/forge/tags/fluids/copper_i_oxide.json
@@ -8,14 +13,22 @@ f8b25bd7015d3de4c06d5e96b26df508eaf38510 data/forge/tags/fluids/crude_oil.json
 1db74f8d908920d83b8e993e0bbba22b7a166bb4 data/forge/tags/fluids/example.json
 77198c56bb7f3066a11257c5d013874bac39328b data/forge/tags/fluids/gold.json
 f7cc4a24211e27d800dcab315a14d12069d26161 data/forge/tags/fluids/heavy_unprocessed_oil.json
+1444b90edca102dd34155f886867bbeb452ee6d6 data/forge/tags/fluids/hydrogen_peroxide.json
 13b8a5057e600d3726907d583b1362f163f43128 data/forge/tags/fluids/hydrogen_sulfide.json
 d6bfbb122d094ec4d457627063e7832018811571 data/forge/tags/fluids/iron.json
 caefc9abfd8fd826cee86c26b6028d0b1241a276 data/forge/tags/fluids/light_unprocessed_oil.json
+3348de4ff2795db4bfe39a3fef880cd955a34e48 data/forge/tags/fluids/liquid_air.json
 8bb4e40fe6aedac79e11c9fc0d1ca07ab1182094 data/forge/tags/fluids/liquid_hydrogen.json
 e0493410c0ed82123618da96aa5ddf192044404f data/forge/tags/fluids/liquid_oxygen.json
 87ca8009a84d8ac6b2e6de464227e78a13673c2b data/forge/tags/fluids/lubricant.json
 84f6e8e29a98401e8fbf20d560e7c021584c4e33 data/forge/tags/fluids/natural_acid.json
+705961c1f2aaa95de5ecc17e609fcb8f42cb5948 data/forge/tags/fluids/nitrogen.json
 c96ade08d48b1ce902296100b5caf58edcde8533 data/forge/tags/fluids/raw_copper.json
+1fd795a8d506aaac40fda3e7757d6b22b4d6e507 data/forge/tags/fluids/sodium.json
+706a23c91fac514e67ff00bae1df8758507c8625 data/forge/tags/fluids/sodium_carbonate.json
+7b44f8c8e2dd5af89e13872769bf5234875015f6 data/forge/tags/fluids/sodium_hydroxide.json
+f2db18c66b39bff9941b97f2d287d4842c5478d0 data/forge/tags/fluids/sodium_peroxide.json
+fea547446508508c6000f738619d7d9343e63ac3 data/forge/tags/fluids/solder_mask.json
 f7c0f8f7cf2645b2ede3101076a06cd3a8645b27 data/forge/tags/fluids/sulfur.json
 38a5f6cb8dc06cf337966b7dacf02bcff5678571 data/forge/tags/fluids/sulfuric_acid.json
 f96bc256bb44e696ff04214d85cbabcc32e862d2 data/forge/tags/fluids/sulfurous_acid.json

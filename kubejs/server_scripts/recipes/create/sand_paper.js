@@ -44,4 +44,19 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.custom({
+        "type": "create:sandpaper_polishing",
+        "ingredients": 
+        [
+            {
+                "item": 'minecraft:stone'
+            }
+        ],
+        "results": 
+        [
+            {
+                "item": 'minecraft:smooth_stone'
+            }
+        ]
+    })
 })

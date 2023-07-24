@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_liquid_air"
+  },
+  "output": {
+    "item": "emendatusenigmatica:liquid_air_crystal"
+  }
+}

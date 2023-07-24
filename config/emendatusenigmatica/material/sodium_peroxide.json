@@ -1,0 +1,1 @@
+{"id": "sodium_peroxide", "source": "modded", "localizedName": "Sodium Peroxide", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-3638e0", "materialColor": "c9c720", "gasColor": "c9c720"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

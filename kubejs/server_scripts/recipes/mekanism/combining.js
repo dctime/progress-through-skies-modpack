@@ -17,5 +17,22 @@ ServerEvents.recipes(event => {
             "nbt": {Damage:0}
         }
       })
+
+      event.custom({
+        "type": "mekanism:combining",
+        "mainInput": {
+            "ingredient": {
+                "item": 'minecraft:smooth_stone'
+            }
+        },
+        "extraInput": {
+            "ingredient": {
+                "item": 'minecraft:redstone'
+            }
+        },
+        "output": {
+            "item": 'storagedrawers:compacting_drawers_3'
+        }
+      })
 })
 

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/sodium_hydroxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:sodium_hydroxide_dust"
+  }
+}

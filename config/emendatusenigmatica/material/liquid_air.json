@@ -1,0 +1,1 @@
+{"id": "liquid_air", "source": "modded", "localizedName": "Liquid Air", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-591801", "materialColor": "a6e7ff", "gasColor": "a6e7ff"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

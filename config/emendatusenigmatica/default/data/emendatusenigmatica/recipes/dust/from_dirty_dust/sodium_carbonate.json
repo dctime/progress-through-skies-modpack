@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/sodium_carbonate"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:sodium_carbonate_dust"
+  }
+}

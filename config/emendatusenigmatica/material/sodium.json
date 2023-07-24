@@ -1,0 +1,1 @@
+{"id": "sodium", "source": "modded", "localizedName": "Sodium", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-ffff01", "materialColor": "0000ff", "gasColor": "0000ff"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

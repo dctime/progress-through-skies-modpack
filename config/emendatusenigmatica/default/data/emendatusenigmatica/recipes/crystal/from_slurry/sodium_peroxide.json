@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_sodium_peroxide"
+  },
+  "output": {
+    "item": "emendatusenigmatica:sodium_peroxide_crystal"
+  }
+}

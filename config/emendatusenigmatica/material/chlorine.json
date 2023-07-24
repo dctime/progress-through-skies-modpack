@@ -1,0 +1,1 @@
+{"id": "chlorine", "source": "modded", "localizedName": "Chlorine", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-ff0100", "materialColor": "00ff00", "gasColor": "00ff00"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

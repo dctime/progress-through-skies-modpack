@@ -73,6 +73,7 @@
 #790C30 mekanism:combiner
 #5D3561 assemblylinemachines:combustion_generator
 #71C32B electrodynamics:combustionchamber
+#DC4C8F storagedrawers:compacting_drawers_3
 #59C28D alchemistry:compactor
 #E2D601 minecraft:composter
 #5F5250 ad_astra:compressor

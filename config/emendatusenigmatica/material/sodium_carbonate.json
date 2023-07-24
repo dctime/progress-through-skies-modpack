@@ -1,0 +1,1 @@
+{"id": "sodium_carbonate", "source": "modded", "localizedName": "Sodium Carbonate", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-363637", "materialColor": "c9c9c9", "gasColor": "c9c9c9"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

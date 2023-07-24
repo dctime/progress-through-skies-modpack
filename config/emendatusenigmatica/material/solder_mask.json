@@ -1,0 +1,1 @@
+{"id": "solder_mask", "source": "modded", "localizedName": "Solder Mask", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-e15a00", "materialColor": "1ea600", "gasColor": "1ea600"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

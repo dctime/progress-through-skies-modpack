@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/sodium_peroxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:sodium_peroxide_dust"
+  }
+}

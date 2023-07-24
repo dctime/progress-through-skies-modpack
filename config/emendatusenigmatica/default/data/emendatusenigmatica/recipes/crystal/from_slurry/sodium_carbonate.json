@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_sodium_carbonate"
+  },
+  "output": {
+    "item": "emendatusenigmatica:sodium_carbonate_crystal"
+  }
+}

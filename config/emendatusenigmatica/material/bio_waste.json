@@ -1,0 +1,1 @@
+{"id": "bio_waste", "source": "modded", "localizedName": "Bio Waste", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-e91ce6", "materialColor": "16e31a", "gasColor": "16e31a"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_bio_waste"
+  },
+  "output": {
+    "item": "emendatusenigmatica:bio_waste_crystal"
+  }
+}

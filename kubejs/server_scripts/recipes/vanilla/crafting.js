@@ -313,4 +313,32 @@ ServerEvents.recipes(event => {
             'B': 'chipped:carpenters_table'
         }
     );
+
+    event.shapeless(
+        'emendatusenigmatica:iron_ingot',
+        [
+            '9x emendatusenigmatica:iron_nugget'
+        ]
+    );
+
+    event.shapeless(
+        '9x emendatusenigmatica:iron_nugget',
+        [
+            'emendatusenigmatica:iron_ingot'
+        ]
+    );
+
+    event.shapeless(
+        'emendatusenigmatica:iron_block',
+        [
+            '9x emendatusenigmatica:iron_ingot'
+        ]
+    );
+
+    event.shapeless(
+        '9x emendatusenigmatica:iron_ingot',
+        [
+            'emendatusenigmatica:iron_block'
+        ]
+    );
 })

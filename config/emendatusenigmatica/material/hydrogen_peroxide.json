@@ -1,0 +1,1 @@
+{"id": "hydrogen_peroxide", "source": "modded", "localizedName": "Hydrogen Peroxide", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-17171f", "materialColor": "e8e8e1", "gasColor": "e8e8e1"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

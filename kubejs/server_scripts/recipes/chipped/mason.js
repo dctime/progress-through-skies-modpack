@@ -67,6 +67,13 @@ ServerEvents.tags('item', event => {
         'pneumaticcraft:refinery_output'
     ]
 
+    let storage_drawer =
+    [
+        'storagedrawers:controller',
+        'storagedrawers:compacting_drawers_3',
+        'storagedrawers:controller_slave'
+    ]
+
     for (let item of polished_andesite_machine)
     {
         event.add('forge:polished_andesite_machine', item)
@@ -101,6 +108,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:livingrock_machine', item)
     }
+
+    for (let item of storage_drawer)
+    {
+        event.add('forge:storage_drawer', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -114,7 +126,8 @@ ServerEvents.recipes(event => {
             "forge:stone_plate_machine",
             "forge:cobblestone_light_source",
             "forge:deepslate_glass_machine",
-            'forge:livingrock_machine'
+            'forge:livingrock_machine',
+            'forge:storage_drawer'
         ]
     })
 })

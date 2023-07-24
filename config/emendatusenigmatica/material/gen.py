@@ -24,7 +24,20 @@ chemical_dict = {
     'lubricant': 'fab219',
     'heavy_unprocessed_oil': '1f1400',
     'light_unprocessed_oil': 'f7b743',
-    'natural_acid': '004d03'
+    'natural_acid': '004d03',
+    'liquid_air': 'a6e7ff',
+    'nitrogen': '8f8fff',
+    'ammonia': 'ffe2c2',
+    'carbon': '232323',
+    'sodium_carbonate': 'c9c9c9',
+    'carbon_monoxide': 'd9d9d9',
+    'sodium': '0000ff',
+    'sodium_peroxide': 'c9c720',
+    'hydrogen_peroxide': 'e8e8e1',
+    'solder_mask': '1ea600',
+    'chlorine': '00ff00',
+    'sodium_hydroxide': 'dbdbdb',
+    'bio_waste': '16e31a'
 
 }
 for key, value in chemical_dict.items():
