@@ -5,6 +5,8 @@
 #C2E278 additional_lights:al_lamp_cobblestone
 #2E8295 additional_lights:al_lamp_oak_planks
 #A52DE6 assemblylinemachines:alloy_smelter
+#384494 immersiveengineering:alloy_smelter
+#D0995E immersiveengineering:alloybrick
 #AC584B summoningrituals:altar
 #222F76 createaddition:alternator
 #17F1FF create:analog_lever
@@ -20,9 +22,12 @@
 #BD6D5A assemblylinemachines:autocrafting_table
 #FB5E18 mekanism:basic_energy_cube
 #745C0D mekanism:basic_fluid_tank
+#B2BF1C mekanism:basic_infusing_factory
 #32C230 mekanism:basic_logistical_transporter
 #23344A mekanism:basic_mechanical_pipe
 #6066C1 mekanism:basic_pressurized_tube
+#F468CA mekanism:basic_purifying_factory
+#1D5855 mekanism:basic_universal_cable
 #4E5B9C tetra:basic_workbench
 #E152BD create:basin
 #85547E electrodynamics:batterybox
@@ -176,6 +181,7 @@
 #38EE63 exnihilosequentia:infesting_leaves
 #E9E8D1 irons_spellbooks:inscription_table
 #165573 assemblylinemachines:interactor
+#20FC50 create:item_drain
 #6EF91A advgenerators:item_output
 #4E69A2 trashcans:item_trash_can
 #2FD1C8 assemblylinemachines:kinetic_fluid_mixer
@@ -259,6 +265,9 @@
 #EA3611 minecraft:polished_deepslate
 #AFAC0D minecraft:poppy
 #70A1E1 mekanism:precision_sawmill
+#E16B4A pneumaticcraft:pressure_chamber_interface
+#48EA21 pneumaticcraft:pressure_chamber_valve
+#4E2A71 pneumaticcraft:pressure_chamber_wall
 #5F0D54 mekanism:pressurized_reaction_chamber
 #D81542 assemblylinemachines:pump
 #28C7EC assemblylinemachines:pumpshaft
@@ -272,6 +281,7 @@
 #C8404E assemblylinemachines:refinery
 #560E1C ic2:refinery
 #509660 pneumaticcraft:refinery
+#EB8E31 assemblylinemachines:refinery_attachment_separation
 #1A2F18 pneumaticcraft:refinery_output
 #DFF887 electrodynamics:reinforcedalloyer
 #DF7840 mininggadgets:renderblock

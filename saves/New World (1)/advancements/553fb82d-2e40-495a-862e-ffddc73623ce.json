@@ -924,6 +924,12 @@
     },
     "done": true
   },
+  "pneumaticcraft:pressure_chamber": {
+    "criteria": {
+      "0": "2023-07-27 15:03:41 +0800"
+    },
+    "done": true
+  },
   "simplyswords:grant_book_on_first_join": {
     "criteria": {
       "tick": "2023-07-10 15:26:22 +0800"

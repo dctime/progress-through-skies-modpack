@@ -43,7 +43,11 @@
     },
     "assemblylinemachines:assembly_lines_and_you": {
       "viewedEntries": [
-        "assemblylinemachines:blocks/generators"
+        "assemblylinemachines:blocks/generators",
+        "assemblylinemachines:age3",
+        "assemblylinemachines:age4",
+        "assemblylinemachines:age1",
+        "assemblylinemachines:age2"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -37,8 +37,11 @@ chemical_dict = {
     'solder_mask': '1ea600',
     'chlorine': '00ff00',
     'sodium_hydroxide': 'dbdbdb',
-    'bio_waste': '16e31a'
-
+    'bio_waste': '16e31a',
+    'ammonium_bicarbonate': 'd4d4d4',
+    'sodium_bicarbonate': 'e0dcdc',
+    'ammonium_chloride': 'e6e1e1',
+    'calcium_chloride': 'f2f4e8'
 }
 for key, value in chemical_dict.items():
   id = key

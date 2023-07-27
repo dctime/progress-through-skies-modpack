@@ -33,5 +33,21 @@ ServerEvents.recipes(event => {
         }
       })
 
+      event.custom({
+        "type": "mekanism:chemical_infusing",
+        "leftInput": {
+          "amount": 1,
+          "gas": EME('gaseous_carbon_dioxide')
+        },
+        "rightInput": {
+          "amount": 1,
+          "gas": EME('gaseous_ammonia')
+        },
+        "output": {
+          "gas": EME('gaseous_sulfuric_acid'),
+          "amount": 1
+        }
+      })
+
 })
 

@@ -1,0 +1,1 @@
+{"id": "calcium_chloride", "source": "modded", "localizedName": "Calcium Chloride", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust"], "colors": {"fluidColor": "-d0b18", "materialColor": "f2f4e8", "gasColor": "f2f4e8"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}
