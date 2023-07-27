@@ -1,10 +1,11 @@
-// 1.19.2	2023-07-27T17:57:49.210903	Emendatus Enigmatica Item Tags
-355381a764052eed2819a5f0a7108a8cd20f8f3e data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-27T19:18:47.4006807	Emendatus Enigmatica Item Tags
+4619b6779e2e21e1437ec6f4e13a3485d4ca9cde data/forge/tags/items/buckets.json
 c36a5a70480bf5360c6ae5b27e94402789ecdf91 data/forge/tags/items/buckets/ammonia.json
 e2048a44f37e4efdc7ca7f50bfaf6ccca8bc2685 data/forge/tags/items/buckets/ammonium_bicarbonate.json
 22e324611f88bf7b3b9f4fbf819858f1088f45cb data/forge/tags/items/buckets/ammonium_chloride.json
 aa890c526b77161bc327189ac08e1e5cb3e38889 data/forge/tags/items/buckets/bio_waste.json
 1350689b76040e74c2d74cf94e131add1f3b0c6a data/forge/tags/items/buckets/calcium_chloride.json
+597881e395fc0d1f8361485d1aeea4e86133bbdb data/forge/tags/items/buckets/calcium_oxide.json
 972a51bda1861b5ab51498be9ae71a3f04afd634 data/forge/tags/items/buckets/carbon.json
 9a97c630f76cb6f01bba73befd7a0c65e9d991c5 data/forge/tags/items/buckets/carbon_dioxide.json
 270eccce54ff7d9534812c88490f7c871bea2d0b data/forge/tags/items/buckets/carbon_monoxide.json
@@ -39,12 +40,13 @@ b567ce03651ba12641378bd45b2bd6e2d4d50a50 data/forge/tags/items/buckets/sodium_hy
 0de7e3295b9ffad051c1a82d453153c7499a823f data/forge/tags/items/buckets/sulfurous_acid.json
 a822b74ef960a002713695220c4d4ff8f0e923a1 data/forge/tags/items/buckets/sulfur_dioxide.json
 74adef5b9a0309bf3807cd61ad84cc3c3c795fe1 data/forge/tags/items/buckets/wet_slurries_of_algae.json
-2b6e6bc6fd3899a0216a6fdb6ee2c06c5a171913 data/forge/tags/items/dusts.json
+4fb3cffa63cd7b2a582c01bd95f974fb877b82f3 data/forge/tags/items/dusts.json
 3e0145ac3778a95706db4385abfb6213b84bcf38 data/forge/tags/items/dusts/ammonia.json
 9e21996b8712ff615b1c52e01bcdffe6f69d227a data/forge/tags/items/dusts/ammonium_bicarbonate.json
 51b2777c61be46d933163b042b46bcbe260da99b data/forge/tags/items/dusts/ammonium_chloride.json
 01a7d3d0427e1cf6163220f7d3380af0ccf4198d data/forge/tags/items/dusts/bio_waste.json
 b5e85188ff394c110eae0f5d18d1268e05e87032 data/forge/tags/items/dusts/calcium_chloride.json
+a51dd497368eef9130aa4318a9cfcc5bc51726de data/forge/tags/items/dusts/calcium_oxide.json
 df7e738fcdec87a2a4697cecd726928ba4fd2b3f data/forge/tags/items/dusts/carbon.json
 4f98e43acb29e04df08fcbd990314eab01f9d78b data/forge/tags/items/dusts/carbon_dioxide.json
 34a30ecefd0d1daa2c1da3272b32431b6a8b7363 data/forge/tags/items/dusts/carbon_monoxide.json

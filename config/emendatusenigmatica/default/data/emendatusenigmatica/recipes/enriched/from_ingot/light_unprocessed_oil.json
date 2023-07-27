@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/light_unprocessed_oil"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_light_unprocessed_oil"
+  }
+}

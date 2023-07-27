@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "forge:dusts/carbon"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "infuse_type": "emendatusenigmatica:carbon"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:enriched/liquid_air"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "emendatusenigmatica:liquid_air"
+  }
+}

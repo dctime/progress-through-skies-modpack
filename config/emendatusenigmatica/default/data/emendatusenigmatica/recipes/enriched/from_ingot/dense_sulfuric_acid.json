@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/dense_sulfuric_acid"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_dense_sulfuric_acid"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "forge:dusts/wet_slurries_of_algae"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "infuse_type": "emendatusenigmatica:wet_slurries_of_algae"
+  }
+}

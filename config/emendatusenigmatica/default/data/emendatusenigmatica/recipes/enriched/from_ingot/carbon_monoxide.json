@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/carbon_monoxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_carbon_monoxide"
+  }
+}

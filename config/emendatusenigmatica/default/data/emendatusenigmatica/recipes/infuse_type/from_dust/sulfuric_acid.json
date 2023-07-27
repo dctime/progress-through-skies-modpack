@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "forge:dusts/sulfuric_acid"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "infuse_type": "emendatusenigmatica:sulfuric_acid"
+  }
+}

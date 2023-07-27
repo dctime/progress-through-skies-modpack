@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/wet_slurries_of_algae"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_wet_slurries_of_algae"
+  }
+}

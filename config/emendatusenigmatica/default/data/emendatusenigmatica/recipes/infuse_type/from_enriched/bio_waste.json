@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:enriched/bio_waste"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "emendatusenigmatica:bio_waste"
+  }
+}

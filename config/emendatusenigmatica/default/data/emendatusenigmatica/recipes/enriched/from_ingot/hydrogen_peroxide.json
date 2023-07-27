@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/hydrogen_peroxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_hydrogen_peroxide"
+  }
+}

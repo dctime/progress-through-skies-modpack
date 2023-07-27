@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-27T17:57:49.2002045	Emendatus Enigmatica Item Models
+// 1.19.2	2023-07-27T19:18:47.41368	Emendatus Enigmatica Item Models
 4daec870e3c8af5132960f7eb0c3e889bb96fbe1 assets/emendatusenigmatica/models/item/ammonia_bucket.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/ammonia_dust.json
 2073d057a58fbef08600f73ee1e8efd1d183fbca assets/emendatusenigmatica/models/item/ammonium_bicarbonate_bucket.json
@@ -12,6 +12,8 @@ d835fa32985d2b490453f4ed081002bf69b48ba7 assets/emendatusenigmatica/models/item/
 f1f35ee3f5a7412c35d811cb9376c7861ff3e935 assets/emendatusenigmatica/models/item/budding_iron.json
 9229ced756a29ea143d02c70000525e15d102e46 assets/emendatusenigmatica/models/item/calcium_chloride_bucket.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/calcium_chloride_dust.json
+8d3211aea77e2065e8ca39634efeccd08e18b149 assets/emendatusenigmatica/models/item/calcium_oxide_bucket.json
+90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/calcium_oxide_dust.json
 9df7ff9d26ec5f283b63d82bbf5b40377e5e6808 assets/emendatusenigmatica/models/item/carbon_bucket.json
 4f9f58b7fa4e6ad23e88f985d7d19adbcec0dbd2 assets/emendatusenigmatica/models/item/carbon_dioxide_bucket.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/carbon_dioxide_dust.json

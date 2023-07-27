@@ -37,6 +37,7 @@
     "#forge:buckets/lubricant",
     "#forge:buckets/calcium_chloride",
     "#forge:buckets/light_unprocessed_oil",
+    "#forge:buckets/calcium_oxide",
     "#forge:buckets/sodium_hydroxide",
     "#forge:buckets/carbon_monoxide"
   ]

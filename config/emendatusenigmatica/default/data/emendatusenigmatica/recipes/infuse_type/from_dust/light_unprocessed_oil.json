@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "forge:dusts/light_unprocessed_oil"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "infuse_type": "emendatusenigmatica:light_unprocessed_oil"
+  }
+}

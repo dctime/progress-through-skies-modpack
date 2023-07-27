@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:enriched/liquid_hydrogen"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "emendatusenigmatica:liquid_hydrogen"
+  }
+}

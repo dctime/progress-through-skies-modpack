@@ -1,9 +1,10 @@
-// 1.19.2	2023-07-27T17:57:49.207718	Emendatus Enigmatica Fluid Tags
+// 1.19.2	2023-07-27T19:18:47.4056693	Emendatus Enigmatica Fluid Tags
 04a3ff8658ef8362af31d5c5e037165cf3bd5fb9 data/forge/tags/fluids/ammonia.json
 89cfad529c48c7ea620943e5e8b551ca3b8c4315 data/forge/tags/fluids/ammonium_bicarbonate.json
 6f945b9ec74d026c90da45f192b89c1c194e5acb data/forge/tags/fluids/ammonium_chloride.json
 ab0a7a37902cb67f68435b2d8e0765de41ad2fab data/forge/tags/fluids/bio_waste.json
 c34d9b63c523d53261c013803f8c418791d79ede data/forge/tags/fluids/calcium_chloride.json
+6379e4b426e6638d6cd70b9845772307323bb51e data/forge/tags/fluids/calcium_oxide.json
 a9e0aa57a5313d11446a0b4689425f22492d159c data/forge/tags/fluids/carbon.json
 efed9167d480ae99c324480833364a421696eae7 data/forge/tags/fluids/carbon_dioxide.json
 d22849214d2087b821f01ca87619909bb3edef6a data/forge/tags/fluids/carbon_monoxide.json

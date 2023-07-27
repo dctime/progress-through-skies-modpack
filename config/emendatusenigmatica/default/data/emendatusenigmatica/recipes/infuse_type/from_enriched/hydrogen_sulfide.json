@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:enriched/hydrogen_sulfide"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "emendatusenigmatica:hydrogen_sulfide"
+  }
+}

@@ -31,7 +31,7 @@ chemical_dict = {
     'carbon': '232323',
     'sodium_carbonate': 'c9c9c9',
     'carbon_monoxide': 'd9d9d9',
-    'sodium': '0000ff',
+    'sodium': '808080',
     'sodium_peroxide': 'c9c720',
     'hydrogen_peroxide': 'e8e8e1',
     'solder_mask': '1ea600',
@@ -70,7 +70,8 @@ for key, value in chemical_dict.items():
           "gas",
           "slurry",
           "crystal",
-          "dirty_dust"
+          "dirty_dust",
+          "infuse_type"
       ],
       "colors": {
         "fluidColor": "-"+twos_hex_string,

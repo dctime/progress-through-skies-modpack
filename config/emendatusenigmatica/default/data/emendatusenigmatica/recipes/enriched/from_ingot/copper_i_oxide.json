@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/copper_i_oxide"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_copper_i_oxide"
+  }
+}

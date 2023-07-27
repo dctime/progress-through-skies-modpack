@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/natural_acid"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_natural_acid"
+  }
+}

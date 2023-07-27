@@ -37,6 +37,16 @@ ServerEvents.recipes(event => {
       "cookingtime": 10
   });
 
+  event.custom({
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": 'create:limestone'
+    },
+    "result": 'emendatusenigmatica:calcium_oxide_dust',
+    "experience": 0.35,
+    "cookingtime": 10
+});
+
 })
 
 

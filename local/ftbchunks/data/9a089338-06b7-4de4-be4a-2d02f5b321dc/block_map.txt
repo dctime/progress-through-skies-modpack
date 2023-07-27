@@ -340,6 +340,7 @@
 #29475D mekanism:ultimate_crushing_factory
 #89C1BB mekanism:ultimate_energy_cube
 #E59C37 mekanism:ultimate_enriching_factory
+#89780A mekanism:ultimate_fluid_tank
 #D02959 mekanism:ultimate_infusing_factory
 #8E5C2B mekanism:ultimate_injecting_factory
 #F4CAAD mekanism:ultimate_logistical_transporter

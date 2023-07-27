@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/bio_waste"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_bio_waste"
+  }
+}

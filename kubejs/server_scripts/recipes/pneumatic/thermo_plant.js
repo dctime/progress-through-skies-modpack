@@ -116,5 +116,26 @@ ServerEvents.recipes(event => {
           "min_temp": 401
         }
       })
+
+      event.custom({
+        "type": "pneumaticcraft:thermo_plant",
+        "exothermic": false,
+        "fluid_input": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 10,
+          "fluid": 'emendatusenigmatica:ammonium_chloride'
+        },
+        "fluid_output": {
+          "amount": 10,
+          "fluid": 'emendatusenigmatica:ammonia'
+        },
+        "item_input": {
+          "item": 'emendatusenigmatica:calcium_oxide_dust'
+        },
+        "item_output": {
+          "item": 'emendatusenigmatica:calcium_chloride_dust'
+        },
+        "speed": 1
+      })
 })
 

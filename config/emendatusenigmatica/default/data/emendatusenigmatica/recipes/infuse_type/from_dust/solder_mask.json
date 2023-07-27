@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "forge:dusts/solder_mask"
+    }
+  },
+  "output": {
+    "amount": 10,
+    "infuse_type": "emendatusenigmatica:solder_mask"
+  }
+}

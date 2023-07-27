@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-27T17:57:49.2138943	Emendatus Enigmatica Blockstates
+// 1.19.2	2023-07-27T19:18:47.4106581	Emendatus Enigmatica Blockstates
 7b7ea9e71ba28baf9c2727ced8984898951473b3 assets/emendatusenigmatica/blockstates/ammonia.json
 9b866bba60b559168879a1686797f397d8a5a2ff assets/emendatusenigmatica/blockstates/ammonium_bicarbonate.json
 ba38af01a36dae2be0864bd9d751ec4685299f54 assets/emendatusenigmatica/blockstates/ammonium_chloride.json
@@ -7,6 +7,7 @@ ba38af01a36dae2be0864bd9d751ec4685299f54 assets/emendatusenigmatica/blockstates/
 2c88bf3e773b3ddb5522ba1117ec333dce6c4673 assets/emendatusenigmatica/blockstates/budding_gold.json
 371213e695f4178b8068d0dee2ddf76204c2296d assets/emendatusenigmatica/blockstates/budding_iron.json
 cd24d891b6cef3c61f56e1a36dbff52ffd6f095b assets/emendatusenigmatica/blockstates/calcium_chloride.json
+d82c870928615c8bec43d70539f48ad9bb8fd289 assets/emendatusenigmatica/blockstates/calcium_oxide.json
 46a44c1900e78144512f58e64b124d54dd91a1d0 assets/emendatusenigmatica/blockstates/carbon.json
 0e1c3a5f3627bd193870ba9fa8361407639562ff assets/emendatusenigmatica/blockstates/carbon_dioxide.json
 f9554b487ba988ef5d75cdd9e84d009833e82526 assets/emendatusenigmatica/blockstates/carbon_monoxide.json

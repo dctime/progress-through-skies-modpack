@@ -35,6 +35,7 @@
     "emendatusenigmatica:clean_lubricant",
     "emendatusenigmatica:clean_calcium_chloride",
     "emendatusenigmatica:clean_light_unprocessed_oil",
+    "emendatusenigmatica:clean_calcium_oxide",
     "emendatusenigmatica:clean_sodium_hydroxide",
     "emendatusenigmatica:clean_carbon_monoxide"
   ]

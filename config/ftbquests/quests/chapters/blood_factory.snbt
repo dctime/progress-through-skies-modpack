@@ -257,13 +257,15 @@
 			y: 1.0d
 		}
 		{
+			icon: "emendatusenigmatica:hydrogen_peroxide_bucket"
 			id: "51069DB253DE9A92"
 			tasks: [{
 				id: "32E7B384F6AA6D0D"
 				title: "H2O2"
 				type: "checkmark"
 			}]
-			x: -10.0d
+			title: "Hydrogen Peroxide"
+			x: -10.5d
 			y: 0.0d
 		}
 		{
@@ -326,13 +328,14 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["0FD2C98C2B8331DA"]
 			id: "608540C1220EFFB6"
 			tasks: [{
-				id: "106FB0234E09D2A9"
-				title: "Na2O2"
-				type: "checkmark"
+				id: "1EA518668AF9FDAF"
+				item: "emendatusenigmatica:sodium_peroxide_dust"
+				type: "item"
 			}]
-			x: -12.0d
+			x: -11.5d
 			y: 0.0d
 		}
 		{
@@ -342,8 +345,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -2.5d
+			x: -17.0d
+			y: -3.5d
 		}
 		{
 			id: "50F8177ABA1DA2EF"
@@ -352,8 +355,8 @@
 				item: "create:steam_whistle"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -3.5d
+			x: -15.0d
+			y: -4.5d
 		}
 		{
 			id: "5C67648D56C5BC59"
@@ -362,8 +365,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -2.5d
+			x: -16.0d
+			y: -3.5d
 		}
 		{
 			id: "2154FF60062E00BB"
@@ -524,16 +527,6 @@
 			y: -3.5d
 		}
 		{
-			id: "031E965DA4E624F3"
-			tasks: [{
-				id: "7CB5CD697E730CDF"
-				item: "chemlib:water"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["5812CD396E4E9F64"]
 			id: "2649EE77715EB5FD"
 			tasks: [{
@@ -541,8 +534,8 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 6.0d
+			x: -20.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3CD61D81980BBAFE"]
@@ -552,8 +545,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 6.0d
+			x: -21.0d
+			y: 4.0d
 		}
 		{
 			id: "2B1676323B364998"
@@ -562,8 +555,8 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: -22.5d
-			y: 6.0d
+			x: -23.0d
+			y: 4.0d
 		}
 		{
 			icon: "chemlib:carbon_dioxide"
@@ -573,7 +566,7 @@
 				type: "checkmark"
 			}]
 			title: "Gaseous Carbon Dioxide"
-			x: -18.5d
+			x: -19.5d
 			y: 0.5d
 		}
 		{
@@ -584,7 +577,7 @@
 				title: "Liquid Hydrogen"
 				type: "checkmark"
 			}]
-			x: -21.5d
+			x: -22.5d
 			y: -2.5d
 		}
 		{
@@ -595,7 +588,7 @@
 				item: "assemblylinemachines:refinery"
 				type: "item"
 			}]
-			x: -22.5d
+			x: -23.5d
 			y: -1.5d
 		}
 		{
@@ -607,7 +600,7 @@
 				type: "checkmark"
 			}]
 			title: "Liquid Oxygen"
-			x: -22.5d
+			x: -23.5d
 			y: -0.5d
 		}
 		{
@@ -618,7 +611,7 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: -25.5d
+			x: -26.5d
 			y: -1.5d
 		}
 		{
@@ -629,7 +622,7 @@
 				item: "electrodynamics:lathe"
 				type: "item"
 			}]
-			x: -26.5d
+			x: -27.5d
 			y: -1.5d
 		}
 		{
@@ -640,7 +633,7 @@
 				item: "emendatusenigmatica:iron_block"
 				type: "item"
 			}]
-			x: -28.0d
+			x: -29.0d
 			y: -1.5d
 		}
 		{
@@ -651,8 +644,8 @@
 				item: "immersiveengineering:alloybrick"
 				type: "item"
 			}]
-			x: -21.5d
-			y: 6.0d
+			x: -22.0d
+			y: 4.0d
 		}
 		{
 			id: "0830F978C54C7D66"
@@ -672,8 +665,8 @@
 				item: "immersiveengineering:coal_coke"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 6.0d
+			x: -19.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7C54E9293ADC73A4"]
@@ -683,8 +676,8 @@
 				item: "immersiveengineering:dust_coke"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 6.0d
+			x: -17.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["256F7CD5D2275B16"]
@@ -695,7 +688,7 @@
 				title: "Ammonia"
 				type: "checkmark"
 			}]
-			x: -19.5d
+			x: -20.5d
 			y: -1.5d
 		}
 		{
@@ -708,7 +701,7 @@
 				type: "checkmark"
 			}]
 			title: "Liquid Nitrogen"
-			x: -21.5d
+			x: -22.5d
 			y: -1.5d
 		}
 		{
@@ -722,12 +715,11 @@
 				item: "emendatusenigmatica:carbon_dust"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 3.5d
+			x: -15.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["15B5196BB107EB8D"]
-			icon: "chemlib:sodium_carbonate"
 			id: "228DF4E2B78FA8E5"
 			tasks: [{
 				id: "2D134AE5A318CBFE"
@@ -735,28 +727,23 @@
 				type: "item"
 			}]
 			title: "Sodium Carbonate"
-			x: -14.5d
-			y: -1.0d
+			x: -15.0d
+			y: -0.5d
 		}
 		{
+			dependencies: [
+				"228DF4E2B78FA8E5"
+				"28EF5357B9C605B0"
+				"77BF3051D289F059"
+			]
 			id: "6928E786F869B29C"
 			tasks: [{
-				id: "2FA1B5395757BF35"
-				title: "sodium"
-				type: "checkmark"
+				id: "2E19F0675391AD45"
+				item: "emendatusenigmatica:sodium_dust"
+				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: 0.0d
-		}
-		{
-			id: "6702E262425F0C9B"
-			tasks: [{
-				id: "0D8AF89FBF6BD89E"
-				title: "carbon monoxide"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: -1.0d
 		}
 		{
 			id: "588FAF7B537594A7"
@@ -765,8 +752,8 @@
 				item: "chemlib:water"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 0.0d
+			x: -11.5d
+			y: 1.0d
 		}
 		{
 			id: "78BDCF24C7F76767"
@@ -903,7 +890,7 @@
 				item: "emendatusenigmatica:iron_nugget"
 				type: "item"
 			}]
-			x: -30.5d
+			x: -31.5d
 			y: -2.5d
 		}
 		{
@@ -918,7 +905,7 @@
 				item: "storagedrawers:compacting_drawers_3"
 				type: "item"
 			}]
-			x: -29.5d
+			x: -30.5d
 			y: -1.5d
 		}
 		{
@@ -929,7 +916,7 @@
 				item: "minecraft:smooth_stone"
 				type: "item"
 			}]
-			x: -31.5d
+			x: -32.5d
 			y: -1.5d
 		}
 		{
@@ -939,7 +926,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -31.5d
+			x: -32.5d
 			y: -0.5d
 		}
 		{
@@ -950,7 +937,7 @@
 				item: "storagedrawers:controller"
 				type: "item"
 			}]
-			x: -30.0d
+			x: -31.0d
 			y: 0.5d
 		}
 		{
@@ -961,7 +948,7 @@
 				item: "storagedrawers:controller_slave"
 				type: "item"
 			}]
-			x: -29.0d
+			x: -30.0d
 			y: 0.5d
 		}
 		{
@@ -971,7 +958,7 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: -32.5d
+			x: -33.5d
 			y: -1.5d
 		}
 		{
@@ -983,18 +970,21 @@
 				type: "checkmark"
 			}]
 			title: "Liquid Air"
-			x: -23.5d
+			x: -24.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["51CCF91F7AE343FE"]
+			dependencies: [
+				"51CCF91F7AE343FE"
+				"79B652E7D2AF1B76"
+			]
 			id: "6D862A142D1E2824"
 			tasks: [{
 				id: "12B7918C23D91566"
 				item: "evilcraft:sanguinary_environmental_accumulator"
 				type: "item"
 			}]
-			x: -24.5d
+			x: -25.5d
 			y: -1.5d
 		}
 		{
@@ -1021,7 +1011,7 @@
 				}
 				type: "item"
 			}]
-			x: -24.5d
+			x: -25.5d
 			y: -2.5d
 		}
 		{
@@ -1030,7 +1020,7 @@
 				id: "07AA4A4D2B9C065D"
 				type: "checkmark"
 			}]
-			x: -26.5d
+			x: -27.5d
 			y: -2.5d
 		}
 		{
@@ -1039,7 +1029,7 @@
 				id: "42E99998ECED62CF"
 				type: "checkmark"
 			}]
-			x: -24.5d
+			x: -25.5d
 			y: -3.5d
 		}
 		{
@@ -1048,7 +1038,7 @@
 				id: "6505C1555F32124E"
 				type: "checkmark"
 			}]
-			x: -24.5d
+			x: -25.5d
 			y: -0.5d
 		}
 		{
@@ -1057,7 +1047,7 @@
 				id: "23285CF6D30628BD"
 				type: "checkmark"
 			}]
-			x: -22.5d
+			x: -23.5d
 			y: -3.5d
 		}
 		{
@@ -1067,7 +1057,7 @@
 				item: "assemblylinemachines:refinery_attachment_separation"
 				type: "item"
 			}]
-			x: -22.5d
+			x: -23.5d
 			y: -2.5d
 		}
 		{
@@ -1082,7 +1072,7 @@
 				item: "pneumaticcraft:pressure_chamber_wall"
 				type: "item"
 			}]
-			x: -20.5d
+			x: -21.5d
 			y: -1.5d
 		}
 		{
@@ -1091,7 +1081,7 @@
 				id: "236189A2C508E96D"
 				type: "checkmark"
 			}]
-			x: -20.5d
+			x: -21.5d
 			y: -2.5d
 		}
 		{
@@ -1100,8 +1090,8 @@
 				id: "502D6EC53A70CE64"
 				type: "checkmark"
 			}]
-			x: -21.5d
-			y: 7.0d
+			x: -22.0d
+			y: 5.0d
 		}
 		{
 			id: "6E93B20CFDF369F4"
@@ -1110,8 +1100,8 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -23.5d
-			y: 6.0d
+			x: -24.0d
+			y: 4.0d
 		}
 		{
 			id: "21B267588B9E4CEA"
@@ -1119,8 +1109,8 @@
 				id: "6FF1DC04F758B9CA"
 				type: "checkmark"
 			}]
-			x: -19.5d
-			y: 7.0d
+			x: -20.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["08084ACFED151F15"]
@@ -1130,8 +1120,8 @@
 				item: "assemblylinemachines:mkii_purifier"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 6.0d
+			x: -16.0d
+			y: 4.0d
 		}
 		{
 			id: "1F11B112B9896DB6"
@@ -1140,8 +1130,8 @@
 				item: "assemblylinemachines:purifier_upgrade_enhanced"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.0d
+			x: -15.0d
+			y: 4.0d
 		}
 		{
 			id: "648A6595FA76CEA3"
@@ -1150,8 +1140,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -3.5d
+			x: -16.0d
+			y: -4.5d
 		}
 		{
 			id: "7FA55966DBA626E1"
@@ -1160,8 +1150,8 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -4.5d
+			x: -16.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1175,7 +1165,7 @@
 				title: "Ammonium bicarbonate"
 				type: "checkmark"
 			}]
-			x: -17.5d
+			x: -18.5d
 			y: -0.5d
 		}
 		{
@@ -1185,7 +1175,7 @@
 				item: "mekanism:salt"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -18.5d
 			y: 1.5d
 		}
 		{
@@ -1196,8 +1186,8 @@
 				item: "emendatusenigmatica:sodium_bicarbonate_dust"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 0.0d
+			x: -16.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["067AC28C2C88F14E"]
@@ -1208,28 +1198,19 @@
 				title: "Ammonium chloride"
 				type: "checkmark"
 			}]
-			x: -15.5d
-			y: 1.0d
+			x: -16.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["0F5D99B5FE668869"]
 			id: "0B4BA0DB795789DB"
 			tasks: [{
-				id: "309BF0D44DCBE736"
-				title: "Calcium oxide"
-				type: "checkmark"
+				id: "5688E65E4AC3763C"
+				item: "emendatusenigmatica:calcium_oxide_dust"
+				type: "item"
 			}]
-			x: -15.5d
-			y: 2.5d
-		}
-		{
-			id: "4FE2CC5AACF76E42"
-			tasks: [{
-				id: "6A16AF9890A53E74"
-				title: "Calcium chloride"
-				type: "checkmark"
-			}]
-			x: -14.5d
-			y: 1.5d
+			x: -16.5d
+			y: -1.5d
 		}
 		{
 			id: "7F2EB84813211FB3"
@@ -1248,8 +1229,8 @@
 				item: "emendatusenigmatica:copper_ingot"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -2.5d
+			x: -15.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4175E572FD891742"]
@@ -1259,8 +1240,8 @@
 				item: "electrodynamics:mineralcrushertriple"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 6.0d
+			x: -18.0d
+			y: 4.0d
 		}
 		{
 			id: "75E0C467994970AF"
@@ -1268,8 +1249,8 @@
 				id: "59C996CB294007B3"
 				type: "checkmark"
 			}]
-			x: -17.5d
-			y: 7.0d
+			x: -18.0d
+			y: 5.0d
 		}
 		{
 			id: "6D1A29A930E73FE8"
@@ -1277,8 +1258,8 @@
 				id: "3EC4A1C4CA0E1FA4"
 				type: "checkmark"
 			}]
-			x: -15.5d
-			y: 7.0d
+			x: -16.0d
+			y: 5.0d
 		}
 		{
 			id: "4A4FD5FA5FAE918C"
@@ -1286,8 +1267,8 @@
 				id: "2828F185E5F89B8F"
 				type: "checkmark"
 			}]
-			x: -13.5d
-			y: 7.0d
+			x: -14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["75087B109D2B3018"]
@@ -1298,7 +1279,7 @@
 				title: "Gaseous Ammonia"
 				type: "checkmark"
 			}]
-			x: -18.5d
+			x: -19.5d
 			y: -1.5d
 		}
 		{
@@ -1308,8 +1289,8 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -3.5d
+			x: -17.0d
+			y: -4.5d
 		}
 		{
 			id: "7057A22D4F73641E"
@@ -1318,8 +1299,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -4.5d
+			x: -17.0d
+			y: -5.5d
 		}
 		{
 			id: "69282FD83203468D"
@@ -1338,7 +1319,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -21.5d
+			x: -22.5d
 			y: -0.5d
 		}
 		{
@@ -1352,7 +1333,7 @@
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -17.5d
 			y: 0.5d
 		}
 		{
@@ -1364,8 +1345,79 @@
 				type: "checkmark"
 			}]
 			title: "Carbon dioxide"
-			x: -14.5d
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			id: "0F5D99B5FE668869"
+			tasks: [{
+				id: "6C8D85DE7381B986"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"63746AC0E4811B49"
+				"0B4BA0DB795789DB"
+			]
+			icon: "chemlib:ammonia"
+			id: "247D8DAE2DF55746"
+			tasks: [{
+				id: "36C24DAD4D946320"
+				type: "checkmark"
+			}]
+			title: "Ammonia"
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			id: "77BF3051D289F059"
+			tasks: [{
+				id: "0EFA1669443C6BC0"
+				item: "mekanism:ultimate_infusing_factory"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			id: "6777B2DDF48CCEF1"
+			tasks: [{
+				id: "56D2A803B40885AB"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6928E786F869B29C"]
+			id: "0FD2C98C2B8331DA"
+			tasks: [{
+				id: "76D4465A54475FA0"
+				item: "mekanism:ultimate_injecting_factory"
+				type: "item"
+			}]
+			x: -13.0d
 			y: 0.0d
+		}
+		{
+			id: "0762194C0B5C0074"
+			tasks: [{
+				id: "731029A032C67984"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			icon: "chemlib:sodium_chloride"
+			id: "1CF079D38212F79F"
+			title: "Sodium Chloride"
+			x: -10.5d
+			y: 1.0d
 		}
 	]
 	title: "Blood Factory"
