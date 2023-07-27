@@ -16,7 +16,8 @@
         "rftoolsbase:machines/infusing",
         "xnet:simple/cables",
         "xnet:simple/connector",
-        "xnet:wireless/wireless_router"
+        "xnet:wireless/wireless_router",
+        "rftoolsbase:tools/filtermodule"
       ],
       "bookmarks": [],
       "completedManualQuests": []

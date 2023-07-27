@@ -1,4 +1,5 @@
 #1A1803 create:adjustable_chain_gearshift
+#EEA2EB xnet:advanced_connector
 #4E57CD pneumaticcraft:advanced_pressure_tube
 #52B53D minecraft:air
 #E76FC6 pneumaticcraft:air_compressor
@@ -84,6 +85,7 @@
 #59C28D alchemistry:compactor
 #E2D601 minecraft:composter
 #5F5250 ad_astra:compressor
+#CCF217 xnet:controller
 #12D127 emendatusenigmatica:copper
 #F5DD09 assemblylinemachines:corrupting_basin
 #468304 minecraft:crafting_table
@@ -235,6 +237,7 @@
 #7530C9 electrodynamics:multisubnode
 #D59B0C assemblylinemachines:naphtha_turbine
 #304FCC ad_astra:nasa_workbench
+#F80B3B xnet:netcable
 #347C45 nuclearscience:nuclearboiler
 #954279 mekanism:nutritional_liquifier
 #73753E minecraft:oak_fence
@@ -330,6 +333,9 @@
 #A061A1 botania:stripped_dreamwood_log
 #A88E8E minecraft:stripped_oak_wood
 #0D42F7 advgenerators:syngas_controller
+#B12AD5 mekanism:thermal_evaporation_block
+#D5426E mekanism:thermal_evaporation_controller
+#C5F7D8 mekanism:thermal_evaporation_valve
 #A466F1 pneumaticcraft:thermal_lagging
 #F7F113 electrodynamics:thermoelectricgenerator
 #3CE0C1 pneumaticcraft:thermopneumatic_processing_plant

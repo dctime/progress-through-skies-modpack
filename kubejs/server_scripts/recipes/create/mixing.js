@@ -43,6 +43,33 @@ ServerEvents.recipes(event => {
           },
           {
             "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
+          },
+          {
+            "item": 'emendatusenigmatica:sodium_peroxide_dust',
           }
         ],
         "results": [

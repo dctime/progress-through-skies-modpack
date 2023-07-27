@@ -257,6 +257,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["60F104EBFD8E9D75"]
 			icon: "emendatusenigmatica:hydrogen_peroxide_bucket"
 			id: "51069DB253DE9A92"
 			tasks: [{
@@ -265,7 +266,7 @@
 				type: "checkmark"
 			}]
 			title: "Hydrogen Peroxide"
-			x: -10.5d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -335,7 +336,7 @@
 				item: "emendatusenigmatica:sodium_peroxide_dust"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -369,17 +370,19 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["5E9960A3DF84D24E"]
 			id: "2154FF60062E00BB"
 			tasks: [{
 				id: "124EFC42CD62DAC3"
 				item: "mekanism:salt"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.0d
+			x: -11.5d
+			y: 4.0d
 		}
 		{
 			id: "51D9951A465CCCF4"
+			subtitle: "Hint: use resistive heater"
 			tasks: [
 				{
 					id: "03AAA2CE0DCADE7B"
@@ -398,7 +401,7 @@
 				}
 			]
 			x: -8.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "7FCB58D3A85678EA"
@@ -409,16 +412,6 @@
 			}]
 			x: -7.0d
 			y: 2.0d
-		}
-		{
-			id: "1987C2FC48EFF4D0"
-			tasks: [{
-				id: "3B45E9D491C48AB7"
-				item: "chemlib:water"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 3.0d
 		}
 		{
 			id: "4028B26F2604B71B"
@@ -504,7 +497,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			id: "04B27D7A014C5A9C"
@@ -752,7 +745,7 @@
 				item: "chemlib:water"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.0d
 			y: 1.0d
 		}
 		{
@@ -1413,11 +1406,64 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["60F104EBFD8E9D75"]
 			icon: "chemlib:sodium_chloride"
 			id: "1CF079D38212F79F"
 			title: "Sodium Chloride"
-			x: -10.5d
+			x: -10.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"608540C1220EFFB6"
+				"588FAF7B537594A7"
+			]
+			id: "60F104EBFD8E9D75"
+			tasks: [{
+				id: "52172E0857B81C27"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51D9951A465CCCF4"]
+			id: "5E9960A3DF84D24E"
+			tasks: [{
+				id: "70BD0EE575CBB651"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			id: "045C6CB8B9261792"
+			tasks: [{
+				id: "42E87E731600F545"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51D9951A465CCCF4"]
+			icon: "mekanism:brine_bucket"
+			id: "1B90C04AE775BD99"
+			title: "Brine"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			id: "5FB410B3EEF03890"
+			tasks: [{
+				id: "452B58D28A561380"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
 		}
 	]
 	title: "Blood Factory"

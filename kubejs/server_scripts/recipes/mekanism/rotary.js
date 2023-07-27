@@ -63,6 +63,32 @@ ServerEvents.recipes(event => {
           "fluid": "minecraft:water"
         }
     })
+
+    event.custom({
+      "type": "mekanism:rotary",
+      "conditions": [
+        {
+          "modid": "mekanism",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "fluidInput": {
+        "amount": 1,
+        "fluid": "mekanism:brine"
+      },
+      "gasOutput": {
+        "gas": "mekanism:brine",
+        "amount": 1
+      },
+      "gasInput": {
+        "amount": 1,
+        "gas": "mekanism:brine"
+      },
+      "fluidOutput": {
+        "amount": 1,
+        "fluid": "mekanism:brine"
+      }
+  })
     
 })
 
