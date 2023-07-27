@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/calcium_chloride"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:calcium_chloride_dust"
+  }
+}

@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
     addRotaryRecipe('sulfuric_acid')
     addRotaryRecipe('carbon_dioxide')
     addRotaryRecipe('ammonia')
+    addRotaryRecipe('ammonium_bicarbonate')
 
     event.custom({
         "type": "mekanism:rotary",

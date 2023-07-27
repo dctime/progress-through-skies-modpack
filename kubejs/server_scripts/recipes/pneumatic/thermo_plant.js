@@ -76,5 +76,45 @@ ServerEvents.recipes(event => {
           "min_temp": 622
         }
       })
+
+      event.custom({
+        "type": "pneumaticcraft:thermo_plant",
+        "exothermic": false,
+        "fluid_input": {
+          "type": "pneumaticcraft:fluid",
+          "amount": 10,
+          "fluid": 'emendatusenigmatica:ammonium_bicarbonate'
+        },
+        "fluid_output": {
+          "amount": 10,
+          "fluid": 'emendatusenigmatica:ammonium_chloride'
+        },
+        "item_input": {
+          "item": 'mekanism:salt'
+        },
+        "item_output": {
+          "item": 'emendatusenigmatica:sodium_bicarbonate_dust'
+        },
+        "speed": 1
+      })
+
+      event.custom({
+        "type": "pneumaticcraft:thermo_plant",
+        "exothermic": false,
+        "fluid_output": {
+          "amount": 10,
+          "fluid": 'emendatusenigmatica:carbon_dioxide'
+        },
+        "item_input": {
+          "item": 'emendatusenigmatica:sodium_bicarbonate_dust'
+        },
+        "item_output": {
+          "item": 'emendatusenigmatica:sodium_carbonate_dust'
+        },
+        "speed": 1,
+        "temperature": {
+          "min_temp": 401
+        }
+      })
 })
 

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_ammonium_bicarbonate"
+  },
+  "output": {
+    "item": "emendatusenigmatica:ammonium_bicarbonate_crystal"
+  }
+}

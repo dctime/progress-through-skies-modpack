@@ -1,7 +1,10 @@
-// 1.19.2	2023-07-24T13:00:52.5262641	Emendatus Enigmatica Item Tags
-ddce8efdabc279c6cd4f8a8899656b6879e73c4a data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-27T17:57:49.210903	Emendatus Enigmatica Item Tags
+355381a764052eed2819a5f0a7108a8cd20f8f3e data/forge/tags/items/buckets.json
 c36a5a70480bf5360c6ae5b27e94402789ecdf91 data/forge/tags/items/buckets/ammonia.json
+e2048a44f37e4efdc7ca7f50bfaf6ccca8bc2685 data/forge/tags/items/buckets/ammonium_bicarbonate.json
+22e324611f88bf7b3b9f4fbf819858f1088f45cb data/forge/tags/items/buckets/ammonium_chloride.json
 aa890c526b77161bc327189ac08e1e5cb3e38889 data/forge/tags/items/buckets/bio_waste.json
+1350689b76040e74c2d74cf94e131add1f3b0c6a data/forge/tags/items/buckets/calcium_chloride.json
 972a51bda1861b5ab51498be9ae71a3f04afd634 data/forge/tags/items/buckets/carbon.json
 9a97c630f76cb6f01bba73befd7a0c65e9d991c5 data/forge/tags/items/buckets/carbon_dioxide.json
 270eccce54ff7d9534812c88490f7c871bea2d0b data/forge/tags/items/buckets/carbon_monoxide.json
@@ -26,6 +29,7 @@ f6bb1cb7d177fe6bccc51c32a1f62a79b0405230 data/forge/tags/items/buckets/lubricant
 88970b87ff6d10c9c5fd11e05c5415b4d8358294 data/forge/tags/items/buckets/nitrogen.json
 31274c7fd4562ddefa6877a71aa0dc4669ee2e13 data/forge/tags/items/buckets/raw_copper.json
 edfe2ad49fd61f568493c648d380fd21d95723f5 data/forge/tags/items/buckets/sodium.json
+8a05b8500dc01275e22950e7a352e0b32455d82a data/forge/tags/items/buckets/sodium_bicarbonate.json
 3b5f1dc1d68e0c6619803b0f19ec2491361ba2ef data/forge/tags/items/buckets/sodium_carbonate.json
 b567ce03651ba12641378bd45b2bd6e2d4d50a50 data/forge/tags/items/buckets/sodium_hydroxide.json
 3f291e86ba3e2475adcb6da5198d7505739e8af5 data/forge/tags/items/buckets/sodium_peroxide.json
@@ -35,9 +39,12 @@ b567ce03651ba12641378bd45b2bd6e2d4d50a50 data/forge/tags/items/buckets/sodium_hy
 0de7e3295b9ffad051c1a82d453153c7499a823f data/forge/tags/items/buckets/sulfurous_acid.json
 a822b74ef960a002713695220c4d4ff8f0e923a1 data/forge/tags/items/buckets/sulfur_dioxide.json
 74adef5b9a0309bf3807cd61ad84cc3c3c795fe1 data/forge/tags/items/buckets/wet_slurries_of_algae.json
-7c030a1b4b01672483daa057ca120761b5edb859 data/forge/tags/items/dusts.json
+2b6e6bc6fd3899a0216a6fdb6ee2c06c5a171913 data/forge/tags/items/dusts.json
 3e0145ac3778a95706db4385abfb6213b84bcf38 data/forge/tags/items/dusts/ammonia.json
+9e21996b8712ff615b1c52e01bcdffe6f69d227a data/forge/tags/items/dusts/ammonium_bicarbonate.json
+51b2777c61be46d933163b042b46bcbe260da99b data/forge/tags/items/dusts/ammonium_chloride.json
 01a7d3d0427e1cf6163220f7d3380af0ccf4198d data/forge/tags/items/dusts/bio_waste.json
+b5e85188ff394c110eae0f5d18d1268e05e87032 data/forge/tags/items/dusts/calcium_chloride.json
 df7e738fcdec87a2a4697cecd726928ba4fd2b3f data/forge/tags/items/dusts/carbon.json
 4f98e43acb29e04df08fcbd990314eab01f9d78b data/forge/tags/items/dusts/carbon_dioxide.json
 34a30ecefd0d1daa2c1da3272b32431b6a8b7363 data/forge/tags/items/dusts/carbon_monoxide.json
@@ -61,6 +68,7 @@ d319290ed3dc96c52247361bd68e93093725736d data/forge/tags/items/dusts/liquid_hydr
 7dbad2a958fd2447dc967cb2dfb2b435cd33999c data/forge/tags/items/dusts/natural_acid.json
 ae27e901d5438dda5befd381022cc311149d6409 data/forge/tags/items/dusts/nitrogen.json
 a6a92186e26f72b7a1d1e11e4807040553ffdd63 data/forge/tags/items/dusts/sodium.json
+68136d51b3301b8b028822d72698f8b3ed6151e4 data/forge/tags/items/dusts/sodium_bicarbonate.json
 c752b0bfee9f1380c553b5addcbd4f9ef3b1b155 data/forge/tags/items/dusts/sodium_carbonate.json
 10d26867cf60fd5c208fde511be23b3c31b56fb0 data/forge/tags/items/dusts/sodium_hydroxide.json
 a2497b1ad81740ddc1e09307a5626c19c1d3ccd8 data/forge/tags/items/dusts/sodium_peroxide.json

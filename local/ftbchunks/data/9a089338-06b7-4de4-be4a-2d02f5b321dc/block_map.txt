@@ -59,6 +59,7 @@
 #D43B0C mekanism:chemical_oxidizer
 #71D976 mekanism:chemical_washer
 #A67B86 electrodynamics:chemicalcrystallizer
+#DE3B54 nuclearscience:chemicalextractor
 #7C0317 electrodynamics:chemicalmixer
 #F522F4 minecraft:chest
 #6E4E7A chiselsandbits:chiseledrock
@@ -281,6 +282,8 @@
 #C8404E assemblylinemachines:refinery
 #560E1C ic2:refinery
 #509660 pneumaticcraft:refinery
+#B21F13 assemblylinemachines:refinery_attachment_cracking
+#F299FD assemblylinemachines:refinery_attachment_halogen
 #EB8E31 assemblylinemachines:refinery_attachment_separation
 #1A2F18 pneumaticcraft:refinery_output
 #DFF887 electrodynamics:reinforcedalloyer

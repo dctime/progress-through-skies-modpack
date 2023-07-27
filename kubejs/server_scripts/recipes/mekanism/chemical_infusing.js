@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
           "gas": EME('gaseous_ammonia')
         },
         "output": {
-          "gas": EME('gaseous_sulfuric_acid'),
+          "gas": EME('gaseous_ammonium_bicarbonate'),
           "amount": 1
         }
       })

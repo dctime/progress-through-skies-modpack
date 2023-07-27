@@ -1,6 +1,9 @@
-// 1.19.2	2023-07-24T13:00:52.5093093	Emendatus Enigmatica Fluid Tags
+// 1.19.2	2023-07-27T17:57:49.207718	Emendatus Enigmatica Fluid Tags
 04a3ff8658ef8362af31d5c5e037165cf3bd5fb9 data/forge/tags/fluids/ammonia.json
+89cfad529c48c7ea620943e5e8b551ca3b8c4315 data/forge/tags/fluids/ammonium_bicarbonate.json
+6f945b9ec74d026c90da45f192b89c1c194e5acb data/forge/tags/fluids/ammonium_chloride.json
 ab0a7a37902cb67f68435b2d8e0765de41ad2fab data/forge/tags/fluids/bio_waste.json
+c34d9b63c523d53261c013803f8c418791d79ede data/forge/tags/fluids/calcium_chloride.json
 a9e0aa57a5313d11446a0b4689425f22492d159c data/forge/tags/fluids/carbon.json
 efed9167d480ae99c324480833364a421696eae7 data/forge/tags/fluids/carbon_dioxide.json
 d22849214d2087b821f01ca87619909bb3edef6a data/forge/tags/fluids/carbon_monoxide.json
@@ -25,6 +28,7 @@ e0493410c0ed82123618da96aa5ddf192044404f data/forge/tags/fluids/liquid_oxygen.js
 705961c1f2aaa95de5ecc17e609fcb8f42cb5948 data/forge/tags/fluids/nitrogen.json
 c96ade08d48b1ce902296100b5caf58edcde8533 data/forge/tags/fluids/raw_copper.json
 1fd795a8d506aaac40fda3e7757d6b22b4d6e507 data/forge/tags/fluids/sodium.json
+32a5a20d2a8d1547b8899aa5bb44eac27c504a9a data/forge/tags/fluids/sodium_bicarbonate.json
 706a23c91fac514e67ff00bae1df8758507c8625 data/forge/tags/fluids/sodium_carbonate.json
 7b44f8c8e2dd5af89e13872769bf5234875015f6 data/forge/tags/fluids/sodium_hydroxide.json
 f2db18c66b39bff9941b97f2d287d4842c5478d0 data/forge/tags/fluids/sodium_peroxide.json

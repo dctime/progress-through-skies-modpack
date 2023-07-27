@@ -1,11 +1,14 @@
-// 1.19.2	2023-07-24T13:00:52.5172882	EE Mekanism Addon Item Tags
+// 1.19.2	2023-07-27T17:57:49.2179133	EE Mekanism Addon Item Tags
 46f29fe887476c50efcd873b7e1bab598ab8e5cc data/mekanism/tags/items/clumps.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
 fa70ad15829a668b584bdb48b41f02459a9cf681 data/mekanism/tags/items/clumps/iron.json
-5f7e54b8bebeae836abb845ded3798b27116627b data/mekanism/tags/items/crystals.json
+e3506ad8c1b5694beab2f72febd5f065748d1dcc data/mekanism/tags/items/crystals.json
 2f87f05378a438e882e36c4e90e9d766073fa875 data/mekanism/tags/items/crystals/ammonia.json
+e5845910a8c2694dfe86a9486f3c5a7b0937a570 data/mekanism/tags/items/crystals/ammonium_bicarbonate.json
+e0597f5deeae8841970ccb5a82dfb96a6b95f757 data/mekanism/tags/items/crystals/ammonium_chloride.json
 f33e9c0773909eff1621228983cc9b4b6beddb78 data/mekanism/tags/items/crystals/bio_waste.json
+c31aac1f08f4c1bd4eb8339ef00ad4e5ea256fbd data/mekanism/tags/items/crystals/calcium_chloride.json
 0461b432052e66006b6b639f222390ab696992d0 data/mekanism/tags/items/crystals/carbon.json
 ae52abab7fee87a3dab3e892b3f6aaa60ea6fcff data/mekanism/tags/items/crystals/carbon_dioxide.json
 1ff6d531840855ce7c28c72fd0690c6d72589d2e data/mekanism/tags/items/crystals/carbon_monoxide.json
@@ -29,6 +32,7 @@ e688c402ff6464e74c3bea6fc9e53f6015408e58 data/mekanism/tags/items/crystals/lubri
 876ce3e17b16fb72ffd758f1dc8972490f41d7ac data/mekanism/tags/items/crystals/natural_acid.json
 9c6ec98a3cff4c6a57431e181cf3c246659d93d9 data/mekanism/tags/items/crystals/nitrogen.json
 5be87087165ab44df7f88f058ae3cfc9f19920ff data/mekanism/tags/items/crystals/sodium.json
+bf8aec02f5db3b1949e4e31e5fee65ef50f4df14 data/mekanism/tags/items/crystals/sodium_bicarbonate.json
 344420e6cab14839140d9f8750df2aca17a3699a data/mekanism/tags/items/crystals/sodium_carbonate.json
 42320257994eb0ffa24d8fba71514f2e0cf8eef5 data/mekanism/tags/items/crystals/sodium_hydroxide.json
 98a83d4f786f80dcfa209b689e37578ca8289731 data/mekanism/tags/items/crystals/sodium_peroxide.json
@@ -37,9 +41,12 @@ a203c23f4014df8d47de051a79684887cdca0abc data/mekanism/tags/items/crystals/solde
 1f5ffec846e44d761461b3a85149e60bf3bccac1 data/mekanism/tags/items/crystals/sulfurous_acid.json
 38861677cf0c4e7e65249a63ae2e2542953cb578 data/mekanism/tags/items/crystals/sulfur_dioxide.json
 d9ffc19e5fd3958dc9d3ee1d8c6ed3da50f19bf9 data/mekanism/tags/items/crystals/wet_slurries_of_algae.json
-4cc619996c65dfd34777f40fbdcf1cc2a0989613 data/mekanism/tags/items/dirty_dusts.json
+ce21e3674113e78ff6f83daabd9acf80dbe3a828 data/mekanism/tags/items/dirty_dusts.json
 1ab985068d973c05d14395b43c0340f2e92f4af1 data/mekanism/tags/items/dirty_dusts/ammonia.json
+a3a046193e8e17a7ca2e8c053c980d89e52c258d data/mekanism/tags/items/dirty_dusts/ammonium_bicarbonate.json
+a43049e1fc53f43c8262eafbfeea2a702649d04d data/mekanism/tags/items/dirty_dusts/ammonium_chloride.json
 130c1c7590da6922007b27fa997f371156a11f69 data/mekanism/tags/items/dirty_dusts/bio_waste.json
+3b2eb6e89eb11ee157a2d1704380d8654ecebf6e data/mekanism/tags/items/dirty_dusts/calcium_chloride.json
 825e085bc6418a66d6dde0868c09af97613b6b09 data/mekanism/tags/items/dirty_dusts/carbon.json
 fc1f020d708a53d0a70324efc9987f993d4e45e1 data/mekanism/tags/items/dirty_dusts/carbon_dioxide.json
 8f57110def1cbd2ffa1ce049d0205884f33dae0b data/mekanism/tags/items/dirty_dusts/carbon_monoxide.json
@@ -63,6 +70,7 @@ fa7e655250d7576f905205fd7de14cd924f16c0a data/mekanism/tags/items/dirty_dusts/li
 2d38d99737478423ce607f89dc0de465e02c4530 data/mekanism/tags/items/dirty_dusts/natural_acid.json
 2afb0355f5c6795e31ca8cfd5c4746acff26bc73 data/mekanism/tags/items/dirty_dusts/nitrogen.json
 3e1abd4c794fe20877b9469ca10ca21f9e31e78f data/mekanism/tags/items/dirty_dusts/sodium.json
+1ef4a95f32990cea929cf7a6c566ed732ff30f1c data/mekanism/tags/items/dirty_dusts/sodium_bicarbonate.json
 923214e27ebda2f7339495904f59ad9785ca563d data/mekanism/tags/items/dirty_dusts/sodium_carbonate.json
 d29c2de9b037bbab7307ad2a050f10edfec37bbe data/mekanism/tags/items/dirty_dusts/sodium_hydroxide.json
 f99d7c0194f2b3820c36c4ad20353d874471f636 data/mekanism/tags/items/dirty_dusts/sodium_peroxide.json
