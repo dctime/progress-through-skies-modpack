@@ -1,5 +1,5 @@
-// 1.19.2	2023-07-27T19:18:47.4006807	Emendatus Enigmatica Item Tags
-4619b6779e2e21e1437ec6f4e13a3485d4ca9cde data/forge/tags/items/buckets.json
+// 1.19.2	2023-07-28T11:22:18.4135968	Emendatus Enigmatica Item Tags
+db531508ce6dcddfdd853300d0be501de57ea5ad data/forge/tags/items/buckets.json
 c36a5a70480bf5360c6ae5b27e94402789ecdf91 data/forge/tags/items/buckets/ammonia.json
 e2048a44f37e4efdc7ca7f50bfaf6ccca8bc2685 data/forge/tags/items/buckets/ammonium_bicarbonate.json
 22e324611f88bf7b3b9f4fbf819858f1088f45cb data/forge/tags/items/buckets/ammonium_chloride.json
@@ -18,6 +18,7 @@ bdcd978321a5bbede140866756fcf756c9214f25 data/forge/tags/items/buckets/dense_sul
 8bc5faa10fe2c2c7f8925ed98848621050dbb0bb data/forge/tags/items/buckets/example.json
 5fc321f17cf22ace1a7608dd45c485ce4d610b9f data/forge/tags/items/buckets/gold.json
 45fbb13adba76e6afd6b83b576dc6c47eb3d62c4 data/forge/tags/items/buckets/heavy_unprocessed_oil.json
+5d8f74553499f7dd0a4c1cc30e967a50557a07ea data/forge/tags/items/buckets/hydrochloric_acid.json
 dbba87142415a77c55d77254a61a8e3c1437dbdf data/forge/tags/items/buckets/hydrogen_peroxide.json
 90104ecffdf31b7c30f275722293b119117f6808 data/forge/tags/items/buckets/hydrogen_sulfide.json
 331c9aa3327cdc8189890a293056853c8b95a4d7 data/forge/tags/items/buckets/iron.json
@@ -40,7 +41,7 @@ b567ce03651ba12641378bd45b2bd6e2d4d50a50 data/forge/tags/items/buckets/sodium_hy
 0de7e3295b9ffad051c1a82d453153c7499a823f data/forge/tags/items/buckets/sulfurous_acid.json
 a822b74ef960a002713695220c4d4ff8f0e923a1 data/forge/tags/items/buckets/sulfur_dioxide.json
 74adef5b9a0309bf3807cd61ad84cc3c3c795fe1 data/forge/tags/items/buckets/wet_slurries_of_algae.json
-4fb3cffa63cd7b2a582c01bd95f974fb877b82f3 data/forge/tags/items/dusts.json
+7dbe4ba2bb743b96d79c4c1192513d7d257f61c6 data/forge/tags/items/dusts.json
 3e0145ac3778a95706db4385abfb6213b84bcf38 data/forge/tags/items/dusts/ammonia.json
 9e21996b8712ff615b1c52e01bcdffe6f69d227a data/forge/tags/items/dusts/ammonium_bicarbonate.json
 51b2777c61be46d933163b042b46bcbe260da99b data/forge/tags/items/dusts/ammonium_chloride.json
@@ -59,6 +60,7 @@ d13daefcff546e916635b81370f5c8c562fd5c19 data/forge/tags/items/dusts/chlorine.js
 dd9ca3282753734c908c0e0a95e8111cadf155d3 data/forge/tags/items/dusts/example.json
 3a7d13ce08f245fd5d2db57879e333bd8bf65494 data/forge/tags/items/dusts/gold.json
 7c47632ee2eef708ea057ac894e89ebb488c5cc0 data/forge/tags/items/dusts/heavy_unprocessed_oil.json
+69db9f84de59e3a7cf1800941cac72f98c80cfd8 data/forge/tags/items/dusts/hydrochloric_acid.json
 74ace590c7b678cf4b897563b454c901ab16c58d data/forge/tags/items/dusts/hydrogen_peroxide.json
 7139a4e2c9cf0c0d245929c5aadeacf309670e2f data/forge/tags/items/dusts/hydrogen_sulfide.json
 ea291379b1ce48ec5e7d8720f31ab90b7ed21dc4 data/forge/tags/items/dusts/iron.json

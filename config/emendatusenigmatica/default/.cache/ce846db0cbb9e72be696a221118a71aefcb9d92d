@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-27T19:18:47.3986853	Emendatus Enigmatica Fluid Models
+// 1.19.2	2023-07-28T11:22:18.4165888	Emendatus Enigmatica Fluid Models
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/ammonia.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/ammonium_bicarbonate.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/ammonium_chloride.json
@@ -17,6 +17,7 @@
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/example.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/gold.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/heavy_unprocessed_oil.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/hydrochloric_acid.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/hydrogen_peroxide.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/hydrogen_sulfide.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/iron.json

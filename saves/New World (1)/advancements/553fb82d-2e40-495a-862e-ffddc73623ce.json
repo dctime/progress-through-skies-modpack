@@ -613,6 +613,12 @@
     },
     "done": true
   },
+  "pneumaticcraft:etchacid_bucket": {
+    "criteria": {
+      "0": "2023-07-28 13:15:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2023-07-05 21:40:45 +0800"
@@ -658,6 +664,12 @@
   "simplyswords:dormant_relic": {
     "criteria": {
       "requirement": "2023-07-10 15:42:45 +0800"
+    },
+    "done": true
+  },
+  "mekanism:diversion_item_transport": {
+    "criteria": {
+      "diversion_transporter": "2023-07-28 11:10:03 +0800"
     },
     "done": true
   },
@@ -897,6 +909,12 @@
   "create:andesite_alloy": {
     "criteria": {
       "0": "2023-07-05 18:32:11 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:uv_light_box": {
+    "criteria": {
+      "0": "2023-07-28 10:19:30 +0800"
     },
     "done": true
   },
@@ -1431,6 +1449,12 @@
   "simplyswords:frostfall": {
     "criteria": {
       "requirement": "2023-07-10 15:43:50 +0800"
+    },
+    "done": true
+  },
+  "mekanism:restrictive_item_transport": {
+    "criteria": {
+      "restrictive_transporter": "2023-07-28 11:09:59 +0800"
     },
     "done": true
   },

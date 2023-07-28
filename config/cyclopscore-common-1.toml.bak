@@ -7,7 +7,7 @@
 		#Set 'true' to enable development debug mode. This will result in a lower performance!
 		debug = false
 		#The anonymous id used by the analytics service.
-		anonymousAnalyticsID = "aca0c39a-03d8-4e7a-b62f-7c9aaa420056"
+		anonymousAnalyticsID = "7f2dd821-6110-4c98-9f78-4b149f71f27d"
 		#If the recipe loader should crash when finding invalid recipes.
 		crashOnInvalidRecipe = false
 		#If an anonymous mod startup analytics request may be sent to our analytics service.

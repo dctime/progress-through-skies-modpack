@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/hydrochloric_acid"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_hydrochloric_acid"
+  }
+}

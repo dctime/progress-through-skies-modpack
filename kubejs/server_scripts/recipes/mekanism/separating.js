@@ -17,5 +17,22 @@ ServerEvents.recipes(event => {
           "amount": 2
         }
       })
+
+      event.custom({
+        "type": "mekanism:separating",
+        "leftGasOutput": {
+          "gas": 'emendatusenigmatica:gaseous_sodium_hydroxide',
+          "amount": 1
+        },
+        "rightGasOutput": {
+          "gas": 'emendatusenigmatica:gaseous_hydrochloric_acid',
+          "amount": 1
+        },
+        "energyUsage": 400,
+        "input": {
+          "fluid": 'mekanism:brine',
+          "amount": 1
+        }
+      })
 })
 

@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-27T19:18:47.4106581	Emendatus Enigmatica Blockstates
+// 1.19.2	2023-07-28T11:22:18.4076133	Emendatus Enigmatica Blockstates
 7b7ea9e71ba28baf9c2727ced8984898951473b3 assets/emendatusenigmatica/blockstates/ammonia.json
 9b866bba60b559168879a1686797f397d8a5a2ff assets/emendatusenigmatica/blockstates/ammonium_bicarbonate.json
 ba38af01a36dae2be0864bd9d751ec4685299f54 assets/emendatusenigmatica/blockstates/ammonium_chloride.json
@@ -28,6 +28,7 @@ f912737b1367861b9f76f180a909684d9cef0e0e assets/emendatusenigmatica/blockstates/
 f2b7c2369d2213e5de0880bc0bf5b62788b72a40 assets/emendatusenigmatica/blockstates/gold_cluster.json
 6a616288444862221cae64e3d5f6ed537791b1c0 assets/emendatusenigmatica/blockstates/gold_cluster_shard_block.json
 8d01820e54675db47e8def136e647207728a816a assets/emendatusenigmatica/blockstates/heavy_unprocessed_oil.json
+dd7fbdae3d7ade2e6cd7e9c6997143892eb4a47a assets/emendatusenigmatica/blockstates/hydrochloric_acid.json
 c27fa3e4dffe26fc67fe7433d8677ea26de6e931 assets/emendatusenigmatica/blockstates/hydrogen_peroxide.json
 3b703344a8c817a57d333a4858d03b1bb3df2d89 assets/emendatusenigmatica/blockstates/hydrogen_sulfide.json
 ca52746cabc41700887e4c01c573d2bb78b08177 assets/emendatusenigmatica/blockstates/iron.json

@@ -88,6 +88,26 @@ ServerEvents.recipes(event => {
     "time": 10
 })
 
+  event.custom({
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+      "type": "pneumaticcraft:fluid",
+      "fluid": 'emendatusenigmatica:hydrogen_peroxide',
+      "amount": 5
+    },
+    "input2": {
+      "type": 'pneumaticcraft:fluid',
+      "fluid": 'emendatusenigmatica:hydrochloric_acid',
+      "amount": 10
+    },
+    "fluid_output": {
+      "fluid": 'pneumaticcraft:etching_acid',
+      "amount": 15
+    },
+    "pressure": 0.0,
+    "time": 10
+  })
+
     
 })
 

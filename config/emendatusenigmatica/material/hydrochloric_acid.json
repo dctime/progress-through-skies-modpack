@@ -1,0 +1,1 @@
+{"id": "hydrochloric_acid", "source": "modded", "localizedName": "Hydrochloric Acid", "processedTypes": ["dust", "fluid", "gas", "slurry", "crystal", "dirty_dust", "infuse_type"], "colors": {"fluidColor": "-1658", "materialColor": "ffe9a8", "gasColor": "ffe9a8"}, "gas": {"isBurnable": false, "isRadioactive": false, "radioactivity": 0, "isCoolant": false, "conductivity": 3}}

@@ -34,5 +34,39 @@ ServerEvents.recipes(event => {
             "item": 'storagedrawers:compacting_drawers_3'
         }
       })
+
+      event.custom({
+        "type": "mekanism:combining",
+        "mainInput": {
+            "ingredient": {
+                "item": 'minecraft:glass_pane'
+            }
+        },
+        "extraInput": {
+            "ingredient": {
+                "item": 'immersiveengineering:hemp_fiber'
+            }
+        },
+        "output": {
+            "item": 'minecraft:light_gray_stained_glass_pane'
+        }
+      })
+
+      event.custom({
+        "type": "mekanism:combining",
+        "mainInput": {
+            "ingredient": {
+                "item": 'emendatusenigmatica:copper_plate'
+            }
+        },
+        "extraInput": {
+            "ingredient": {
+                "item": 'minecraft:light_gray_stained_glass_pane'
+            }
+        },
+        "output": {
+            "item": 'immersiveengineering:circuit_board'
+        }
+      })
 })
 

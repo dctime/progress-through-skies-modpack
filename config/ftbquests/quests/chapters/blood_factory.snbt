@@ -233,20 +233,22 @@
 				item: "emendatusenigmatica:copper_plate"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.5d
+			x: -14.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["6D7703D62B5DCF88"]
 			id: "16CEEB27F0684DB2"
 			tasks: [{
 				id: "2D169BD670F62594"
 				item: "minecraft:light_gray_stained_glass_pane"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.5d
+			x: -13.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["4028B26F2604B71B"]
 			id: "2E35C33AD7176C7E"
 			tasks: [{
 				id: "7E4FB22ECA8360D8"
@@ -270,34 +272,18 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"2EA94A2A2473F800"
+				"2AA67C940DF3C69F"
+			]
 			id: "6D7703D62B5DCF88"
 			tasks: [{
 				id: "64D345E1519C9B81"
 				item: "immersiveengineering:hemp_fiber"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.5d
-		}
-		{
-			id: "004135EA831A7D22"
-			tasks: [{
-				id: "0DF8F4C079828425"
-				title: "solder mask"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
-			id: "47261B424C2FE3A4"
-			tasks: [{
-				id: "7D7EE6EAFA9A7E24"
-				item: "thermal:resin_bucket"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.5d
+			x: -13.0d
+			y: -3.0d
 		}
 		{
 			id: "2AA67C940DF3C69F"
@@ -306,10 +292,14 @@
 				item: "minecraft:glass_pane"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.5d
+			x: -13.0d
+			y: -4.0d
 		}
 		{
+			dependencies: [
+				"51069DB253DE9A92"
+				"2E35C33AD7176C7E"
+			]
 			id: "5C70853DFE1996DF"
 			tasks: [{
 				id: "7664DE5B3306347D"
@@ -346,7 +336,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.5d
 			y: -3.5d
 		}
 		{
@@ -356,7 +346,7 @@
 				item: "create:steam_whistle"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: -4.5d
 		}
 		{
@@ -366,7 +356,7 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.5d
 			y: -3.5d
 		}
 		{
@@ -378,7 +368,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "51D9951A465CCCF4"
@@ -401,19 +391,10 @@
 				}
 			]
 			x: -8.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
-			id: "7FCB58D3A85678EA"
-			tasks: [{
-				id: "70F81E60DD096B9D"
-				item: "emendatusenigmatica:liquid_hydrogen_bucket"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 2.0d
-		}
-		{
+			dependencies: ["1B90C04AE775BD99"]
 			id: "4028B26F2604B71B"
 			tasks: [{
 				id: "65C36614577049DC"
@@ -422,16 +403,6 @@
 			}]
 			x: -9.0d
 			y: 2.0d
-		}
-		{
-			id: "39929F476A03B132"
-			tasks: [{
-				id: "487052FF74B3A8AA"
-				item: "minecraft:green_dye"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -3.5d
 		}
 		{
 			id: "150079224F11986E"
@@ -446,8 +417,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -6.5d
+			x: -16.5d
+			y: -7.5d
 		}
 		{
 			id: "2028FA4204692697"
@@ -456,8 +427,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -5.5d
+			x: -18.5d
+			y: -6.5d
 		}
 		{
 			id: "5768C0FFEB7704BC"
@@ -466,8 +437,8 @@
 				item: "create:brass_hand"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -6.5d
+			x: -18.5d
+			y: -7.5d
 		}
 		{
 			id: "3B368964E19D015A"
@@ -476,8 +447,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -5.5d
+			x: -17.5d
+			y: -6.5d
 		}
 		{
 			id: "0B530923010FC25D"
@@ -486,8 +457,8 @@
 				item: "scorchedguns:volatile_scrap"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -15.5d
+			y: -7.5d
 		}
 		{
 			id: "4163E03D8F4F141C"
@@ -497,17 +468,18 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["6A7E11AF2B505042"]
 			id: "04B27D7A014C5A9C"
 			tasks: [{
 				id: "2DE1148C553FC003"
 				item: "immersiveengineering:seed"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.5d
+			x: -14.0d
+			y: -4.0d
 		}
 		{
 			id: "1F0F22FE6BD8A0B1"
@@ -516,8 +488,8 @@
 				item: "occultism:datura_seeds"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.5d
+			x: -14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5812CD396E4E9F64"]
@@ -749,26 +721,6 @@
 			y: 1.0d
 		}
 		{
-			id: "78BDCF24C7F76767"
-			tasks: [{
-				id: "2BF267E261F8B185"
-				title: "chloride"
-				type: "checkmark"
-			}]
-			x: -8.0d
-			y: 2.0d
-		}
-		{
-			id: "2FC62E62AAB2205F"
-			tasks: [{
-				id: "1B6E9332A8A69722"
-				title: "sodium hydroxide"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: 2.0d
-		}
-		{
 			id: "3FB01FE5D4FC230B"
 			tasks: [{
 				id: "58F5C721FA63BBDA"
@@ -785,7 +737,7 @@
 				item: "pneumaticcraft:etching_tank"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: -1.5d
 		}
 		{
@@ -796,7 +748,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "43C7E1C3FE68BFB5"
@@ -805,7 +757,7 @@
 				item: "pneumaticcraft:unassembled_pcb"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
@@ -815,8 +767,8 @@
 				item: "mekanism:painting_machine"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.5d
+			x: -11.0d
+			y: -2.0d
 		}
 		{
 			id: "58DE08EF688C613C"
@@ -1133,7 +1085,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.5d
 			y: -4.5d
 		}
 		{
@@ -1143,7 +1095,7 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.5d
 			y: -5.5d
 		}
 		{
@@ -1202,7 +1154,7 @@
 				item: "emendatusenigmatica:calcium_oxide_dust"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -17.0d
 			y: -1.5d
 		}
 		{
@@ -1222,7 +1174,7 @@
 				item: "emendatusenigmatica:copper_ingot"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: -3.5d
 		}
 		{
@@ -1282,7 +1234,7 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.5d
 			y: -4.5d
 		}
 		{
@@ -1292,7 +1244,7 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.5d
 			y: -5.5d
 		}
 		{
@@ -1348,7 +1300,7 @@
 				item: "create:limestone"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -16.0d
 			y: -1.5d
 		}
 		{
@@ -1363,7 +1315,7 @@
 				type: "checkmark"
 			}]
 			title: "Ammonia"
-			x: -15.5d
+			x: -18.5d
 			y: -1.5d
 		}
 		{
@@ -1406,10 +1358,17 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["60F104EBFD8E9D75"]
-			icon: "chemlib:sodium_chloride"
+			dependencies: [
+				"60F104EBFD8E9D75"
+				"4028B26F2604B71B"
+			]
+			icon: "chemlib:sodium_hydroxide"
 			id: "1CF079D38212F79F"
-			title: "Sodium Chloride"
+			tasks: [{
+				id: "268CE41F66D90D3C"
+				type: "checkmark"
+			}]
+			title: "Sodium Hydroxide"
 			x: -10.0d
 			y: 1.0d
 		}
@@ -1436,7 +1395,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "045C6CB8B9261792"
@@ -1445,7 +1404,7 @@
 				type: "checkmark"
 			}]
 			x: -10.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51D9951A465CCCF4"]
@@ -1453,7 +1412,7 @@
 			id: "1B90C04AE775BD99"
 			title: "Brine"
 			x: -8.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			id: "5FB410B3EEF03890"
@@ -1464,6 +1423,96 @@
 			}]
 			x: -2.5d
 			y: -3.0d
+		}
+		{
+			id: "5887E6788E331C03"
+			tasks: [{
+				id: "07357939C7EF3F8C"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F0F22FE6BD8A0B1"]
+			id: "6A7E11AF2B505042"
+			tasks: [{
+				id: "1FEA409032C0D12A"
+				item: "mekanism:ultimate_purifying_factory"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			id: "2F9F14A6D42AA54D"
+			tasks: [{
+				id: "0FA99C16BAC71A96"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["04B27D7A014C5A9C"]
+			id: "2EA94A2A2473F800"
+			tasks: [{
+				id: "002ABF23358110C1"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			id: "01034CA4ECFFF84A"
+			tasks: [{
+				id: "0753C7BF8A45BD35"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			id: "1E02A199FF08B760"
+			tasks: [{
+				id: "1FF66A852658DBE6"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E02A199FF08B760"]
+			id: "2FB454EF8695642C"
+			tasks: [{
+				id: "3BD3B0D8F85FD796"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			id: "1DFA24A49119CB70"
+			tasks: [{
+				id: "6CA79B6DF73ED27B"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			id: "7BD7A21285E099B2"
+			tasks: [{
+				id: "43665C8BAA7CB78B"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
 		}
 	]
 	title: "Blood Factory"

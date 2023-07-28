@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-27T19:18:47.41368	Emendatus Enigmatica Item Models
+// 1.19.2	2023-07-28T11:22:18.419581	Emendatus Enigmatica Item Models
 4daec870e3c8af5132960f7eb0c3e889bb96fbe1 assets/emendatusenigmatica/models/item/ammonia_bucket.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/ammonia_dust.json
 2073d057a58fbef08600f73ee1e8efd1d183fbca assets/emendatusenigmatica/models/item/ammonium_bicarbonate_bucket.json
@@ -58,6 +58,8 @@ d3d3e8f4a39b6e9a6bc4ec96591b756cb4d6abf1 assets/emendatusenigmatica/models/item/
 46e3ed365711fae3b0388dbc367cdf38e282df3a assets/emendatusenigmatica/models/item/gold_rod.json
 47f6b80d270d75a1030cf64a38728d3902c85b6b assets/emendatusenigmatica/models/item/heavy_unprocessed_oil_bucket.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/heavy_unprocessed_oil_dust.json
+06b0ea00cab3b1a9c38ef577f881b4aa3dd941df assets/emendatusenigmatica/models/item/hydrochloric_acid_bucket.json
+90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/hydrochloric_acid_dust.json
 7de7ed5a3282d0b9f610f043a2d16388f9e75b2c assets/emendatusenigmatica/models/item/hydrogen_peroxide_bucket.json
 90c6bcbdf1b84c9ac9fb05d94579929748b6cc82 assets/emendatusenigmatica/models/item/hydrogen_peroxide_dust.json
 ea5faaa6a39459734af09ff0b54754b974f0ab72 assets/emendatusenigmatica/models/item/hydrogen_sulfide_bucket.json

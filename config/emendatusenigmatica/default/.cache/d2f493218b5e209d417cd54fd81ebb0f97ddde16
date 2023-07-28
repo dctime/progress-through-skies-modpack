@@ -1,4 +1,4 @@
-// 1.19.2	2023-07-27T19:18:47.4056693	Emendatus Enigmatica Fluid Tags
+// 1.19.2	2023-07-28T11:22:18.4106047	Emendatus Enigmatica Fluid Tags
 04a3ff8658ef8362af31d5c5e037165cf3bd5fb9 data/forge/tags/fluids/ammonia.json
 89cfad529c48c7ea620943e5e8b551ca3b8c4315 data/forge/tags/fluids/ammonium_bicarbonate.json
 6f945b9ec74d026c90da45f192b89c1c194e5acb data/forge/tags/fluids/ammonium_chloride.json
@@ -17,6 +17,7 @@ f8b25bd7015d3de4c06d5e96b26df508eaf38510 data/forge/tags/fluids/crude_oil.json
 1db74f8d908920d83b8e993e0bbba22b7a166bb4 data/forge/tags/fluids/example.json
 77198c56bb7f3066a11257c5d013874bac39328b data/forge/tags/fluids/gold.json
 f7cc4a24211e27d800dcab315a14d12069d26161 data/forge/tags/fluids/heavy_unprocessed_oil.json
+66a79001aae3f3379b480d506ed342454300031b data/forge/tags/fluids/hydrochloric_acid.json
 1444b90edca102dd34155f886867bbeb452ee6d6 data/forge/tags/fluids/hydrogen_peroxide.json
 13b8a5057e600d3726907d583b1362f163f43128 data/forge/tags/fluids/hydrogen_sulfide.json
 d6bfbb122d094ec4d457627063e7832018811571 data/forge/tags/fluids/iron.json

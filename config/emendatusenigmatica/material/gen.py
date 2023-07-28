@@ -42,7 +42,8 @@ chemical_dict = {
     'sodium_bicarbonate': 'e0dcdc',
     'ammonium_chloride': 'e6e1e1',
     'calcium_chloride': 'f2f4e8',
-    'calcium_oxide': 'd4d4d4'
+    'calcium_oxide': 'd4d4d4',
+    'hydrochloric_acid': 'ffe9a8'
 }
 for key, value in chemical_dict.items():
   id = key

@@ -67,6 +67,7 @@
 #504168 ic2:chunkloader
 #9EC980 immersiveengineering:circuit_table
 #6875C3 electrodynamics:circuitbreaker
+#4C2342 immersiveengineering:cloche
 #5ED905 assemblylinemachines:coal_generator
 #B6A2FC electrodynamics:coalgenerator
 #FE4F0A minecraft:coarse_dirt
@@ -108,6 +109,7 @@
 #911C0E mekanism:dimensional_stabilizer
 #80497A minecraft:dirt
 #4FA7D0 minecraft:dirt_path
+#A20927 mekanism:diversion_transporter
 #B10D64 electrodynamics:downgradetransformer
 #15EACA integrateddynamics:drying_basin
 #517451 progressthroughskies:dusted_bedrock
@@ -135,6 +137,7 @@
 #89A53C assemblylinemachines:entropy_reactor_block
 #928E04 assemblylinemachines:entropy_reactor_core
 #0913B9 evilcraft:environmental_accumulator
+#8B293A pneumaticcraft:etching_acid
 #93C567 pneumaticcraft:etching_tank
 #903899 advgenerators:exchanger_controller
 #0C4B83 assemblylinemachines:experience_hopper
@@ -228,6 +231,7 @@
 #444529 assemblylinemachines:mkii_lumber_mill
 #0B9413 assemblylinemachines:mkii_pneumatic_compressor
 #3BF867 assemblylinemachines:mkii_purifier
+#B5C21E modularrouters:modular_router
 #A4FC4B minecraft:mossy_cobblestone
 #2E4130 dynamicelectricity:motordchv
 #2E41AC dynamicelectricity:motordclv
@@ -261,6 +265,7 @@
 #5064C4 ad_astra:oxygen_sensor
 #EA6753 cyclic:packager
 #57A2E9 mekanism:painting_machine
+#32B8BC nuclearscience:particleinjector
 #247CAC irons_spellbooks:pedestal
 #AC82AE mekanism:pigment_extractor
 #675AB2 cyclic:placer
@@ -293,6 +298,8 @@
 #DF7840 mininggadgets:renderblock
 #74006B mekanism:resistive_heater
 #541803 industrialforegoing:resourceful_furnace
+#16A790 mekanism:restrictive_transporter
+#69E799 farmersdelight:rich_soil_farmland
 #879B54 mekanism:rotary_condensentrator
 #5DF8F4 botania:runic_altar
 #2248CC occultism:sacrificial_bowl

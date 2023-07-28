@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:enriched/hydrochloric_acid"
+    }
+  },
+  "output": {
+    "amount": 80,
+    "infuse_type": "emendatusenigmatica:hydrochloric_acid"
+  }
+}

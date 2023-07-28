@@ -1,9 +1,9 @@
-// 1.19.2	2023-07-27T20:56:07.1464052	EE Mekanism Addon Item Tags
+// 1.19.2	2023-07-28T11:22:18.4355388	EE Mekanism Addon Item Tags
 46f29fe887476c50efcd873b7e1bab598ab8e5cc data/mekanism/tags/items/clumps.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
 fa70ad15829a668b584bdb48b41f02459a9cf681 data/mekanism/tags/items/clumps/iron.json
-96bc05b5d297a0288389595d78fb94b1ee9161d3 data/mekanism/tags/items/crystals.json
+54bea2b9769c7b827e74e4188ec1a7d0c07a44a3 data/mekanism/tags/items/crystals.json
 2f87f05378a438e882e36c4e90e9d766073fa875 data/mekanism/tags/items/crystals/ammonia.json
 e5845910a8c2694dfe86a9486f3c5a7b0937a570 data/mekanism/tags/items/crystals/ammonium_bicarbonate.json
 e0597f5deeae8841970ccb5a82dfb96a6b95f757 data/mekanism/tags/items/crystals/ammonium_chloride.json
@@ -22,6 +22,7 @@ dbf075f86050d82ab7152c3c1f163a41eb61b55b data/mekanism/tags/items/crystals/coppe
 9df94bf74f218c0e9e06d446c803646ed2726e98 data/mekanism/tags/items/crystals/example.json
 27e632415302ad81fabe8e014c2ef7645b235fe1 data/mekanism/tags/items/crystals/gold.json
 5d8398e96e5ac551045a2e44be8aa175d3cbbb56 data/mekanism/tags/items/crystals/heavy_unprocessed_oil.json
+9e94bea592780f562259804f8d25a47705a36718 data/mekanism/tags/items/crystals/hydrochloric_acid.json
 3aae54ba786e571c05e467e35101fc96e2cd1ed6 data/mekanism/tags/items/crystals/hydrogen_peroxide.json
 fbe8ae46ac71191e834bd3e44ead323d0510ef66 data/mekanism/tags/items/crystals/hydrogen_sulfide.json
 ea5d82a5cf4c8e824fdb954a51540e100160e9a1 data/mekanism/tags/items/crystals/iron.json
@@ -42,7 +43,7 @@ a203c23f4014df8d47de051a79684887cdca0abc data/mekanism/tags/items/crystals/solde
 1f5ffec846e44d761461b3a85149e60bf3bccac1 data/mekanism/tags/items/crystals/sulfurous_acid.json
 38861677cf0c4e7e65249a63ae2e2542953cb578 data/mekanism/tags/items/crystals/sulfur_dioxide.json
 d9ffc19e5fd3958dc9d3ee1d8c6ed3da50f19bf9 data/mekanism/tags/items/crystals/wet_slurries_of_algae.json
-8362dfba43c4572a96506d05cdbee79326f336f3 data/mekanism/tags/items/dirty_dusts.json
+9d1b44c0a6b02db1ebdd648d0b788aa84d38a641 data/mekanism/tags/items/dirty_dusts.json
 1ab985068d973c05d14395b43c0340f2e92f4af1 data/mekanism/tags/items/dirty_dusts/ammonia.json
 a3a046193e8e17a7ca2e8c053c980d89e52c258d data/mekanism/tags/items/dirty_dusts/ammonium_bicarbonate.json
 a43049e1fc53f43c8262eafbfeea2a702649d04d data/mekanism/tags/items/dirty_dusts/ammonium_chloride.json
@@ -61,6 +62,7 @@ d57d979ad05e39646c13943ecee8acedab436209 data/mekanism/tags/items/dirty_dusts/de
 4c29cd6eaa894dedf68668b3b03029cbbed43f42 data/mekanism/tags/items/dirty_dusts/example.json
 638de7c65cadcd847907b4001e65a7a3da3b6dac data/mekanism/tags/items/dirty_dusts/gold.json
 197a18c3fc6b95af38643893b8dd1cecc0fd4e9b data/mekanism/tags/items/dirty_dusts/heavy_unprocessed_oil.json
+0e1a0c20c7e2dc5d8ee120b0dd8389ae0d0d61fd data/mekanism/tags/items/dirty_dusts/hydrochloric_acid.json
 056f78d1b228e121341f7166b0f8d80044bb7cac data/mekanism/tags/items/dirty_dusts/hydrogen_peroxide.json
 0b0dbe85e4f5616a1cb9fd1fddbc6ab791b500d8 data/mekanism/tags/items/dirty_dusts/hydrogen_sulfide.json
 40a9e4ec373bcddafa8e00ac33990682ea5800aa data/mekanism/tags/items/dirty_dusts/iron.json
@@ -81,7 +83,7 @@ f99d7c0194f2b3820c36c4ad20353d874471f636 data/mekanism/tags/items/dirty_dusts/so
 b140ca6ce26c710d4e2ae02dbc48175e3287c009 data/mekanism/tags/items/dirty_dusts/sulfurous_acid.json
 099c5051020ea8d532e4fec8661ff2223f6b39e0 data/mekanism/tags/items/dirty_dusts/sulfur_dioxide.json
 b8f24a7c04b0995153a2776bdf2571a37be82526 data/mekanism/tags/items/dirty_dusts/wet_slurries_of_algae.json
-5ee6bf2c2bfef4d101d879e8017e53e5870bdf05 data/mekanism/tags/items/enriched.json
+17e77b816f5bc8c7e8a40370def68d136577d1b2 data/mekanism/tags/items/enriched.json
 ff4fa687db564e372d54a9445ddbd576ec6fd820 data/mekanism/tags/items/enriched/ammonia.json
 d18bd2b803b279413867fc01d6b1bd42706993c9 data/mekanism/tags/items/enriched/ammonium_bicarbonate.json
 cb1359edea7c7d34d3e04af5494564a12004a660 data/mekanism/tags/items/enriched/ammonium_chloride.json
@@ -98,6 +100,7 @@ d797be34bf04fe4dd8f85d207a3b3b88392eee8f data/mekanism/tags/items/enriched/coppe
 38c2e74c112fdbdb1e5585f8b52ee46a14a55403 data/mekanism/tags/items/enriched/dense_sulfuric_acid.json
 f2dabd43335e9a5b65d99ad9813f341c9a279b42 data/mekanism/tags/items/enriched/gold.json
 cf1ba505a4044e2dba5b257ccb8fa88b16f88a3b data/mekanism/tags/items/enriched/heavy_unprocessed_oil.json
+38a1c9f46cd6e6ec28a84ff6a59d7b5296bca751 data/mekanism/tags/items/enriched/hydrochloric_acid.json
 7e3c901a02965a1595530197f2d28411b658ef9e data/mekanism/tags/items/enriched/hydrogen_peroxide.json
 ae9b129b70ffe8a907911693a42bb5731bb1ea61 data/mekanism/tags/items/enriched/hydrogen_sulfide.json
 2d633ff62b521cdb48536d3551334723e7b053fe data/mekanism/tags/items/enriched/iron.json

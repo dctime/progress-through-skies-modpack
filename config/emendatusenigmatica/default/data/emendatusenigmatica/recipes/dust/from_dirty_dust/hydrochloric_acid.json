@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/hydrochloric_acid"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:hydrochloric_acid_dust"
+  }
+}
