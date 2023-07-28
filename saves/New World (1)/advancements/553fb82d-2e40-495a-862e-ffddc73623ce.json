@@ -766,6 +766,12 @@
     },
     "done": true
   },
+  "pneumaticcraft:programmer": {
+    "criteria": {
+      "0": "2023-07-28 15:47:11 +0800"
+    },
+    "done": true
+  },
   "electrodynamics:thermoelectricgenerator": {
     "criteria": {
       "HasGen": "2023-07-10 18:56:50 +0800"
@@ -885,6 +891,18 @@
   "modonomicon:modonomicon/root": {
     "criteria": {
       "modonomicon_present": "2023-06-30 16:05:29 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2023-07-28 18:36:33 +0800"
+    },
+    "done": false
+  },
+  "pneumaticcraft:assembly_controller": {
+    "criteria": {
+      "0": "2023-07-28 15:46:42 +0800"
     },
     "done": true
   },
@@ -1086,6 +1104,12 @@
     },
     "done": true
   },
+  "create:chute": {
+    "criteria": {
+      "0": "2023-07-28 19:04:46 +0800"
+    },
+    "done": true
+  },
   "compactmachines:got_shrinking_device": {
     "criteria": {
       "obtained_psd": "2023-07-16 19:23:46 +0800"
@@ -1249,6 +1273,12 @@
     },
     "done": true
   },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2023-07-28 18:55:05 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:dripstone_caves": "2023-07-04 13:26:26 +0800",
@@ -1320,6 +1350,12 @@
   "electrodynamics:triplemilling": {
     "criteria": {
       "HasMill": "2023-07-05 11:43:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-07-28 18:36:33 +0800"
     },
     "done": true
   },

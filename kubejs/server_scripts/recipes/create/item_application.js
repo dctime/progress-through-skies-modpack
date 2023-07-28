@@ -55,4 +55,42 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        "type": "create:item_application",
+        "ingredients": 
+        [
+            {
+                "item": 'clickmachine:auto_clicker'
+            },
+            {
+                "item": 'create:andesite_casing'
+            }
+        ],
+        "results": 
+        [
+            {
+                'item':'create:deployer'
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "create:item_application",
+        "ingredients": 
+        [
+            {
+                "item": 'minecraft:stonecutter'
+            },
+            {
+                "item": 'create:andesite_casing'
+            }
+        ],
+        "results": 
+        [
+            {
+                'item':'create:mechanical_saw'
+            }
+        ]
+    })
 })

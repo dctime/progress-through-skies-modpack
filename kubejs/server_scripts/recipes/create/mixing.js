@@ -84,4 +84,51 @@ ServerEvents.recipes(event => {
 
         ]
       })
+
+      event.custom({
+        "type": "create:mixing",
+        "ingredients": [
+          {
+            "fluid": "minecraft:water",
+            "amount": 100
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          },
+          {
+            "item": 'create:wheat_flour',
+          }
+        ],
+        "results": [
+            {
+                "item": 'createaddition:cake_base',
+                "count": 1
+            }
+
+        ]
+      })
 })

@@ -162,4 +162,13 @@ ServerEvents.recipes(event => {
           "item": 'botania:gaia_spreader'
         }
       });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'occultism:datura_seeds'
+        },
+        "result": {
+          "item": 'minecraft:wheat_seeds'
+        }
+      });
 })

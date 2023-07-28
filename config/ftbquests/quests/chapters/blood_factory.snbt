@@ -237,7 +237,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6D7703D62B5DCF88"]
+			dependencies: [
+				"6D7703D62B5DCF88"
+				"0E22A27F479D4199"
+			]
 			id: "16CEEB27F0684DB2"
 			tasks: [{
 				id: "2D169BD670F62594"
@@ -330,34 +333,37 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2DA93AAEBE77271C"]
 			id: "79F09E369CE10C62"
 			tasks: [{
 				id: "053E28B2FC5FCD7E"
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -3.5d
+			x: -20.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["2DA93AAEBE77271C"]
 			id: "50F8177ABA1DA2EF"
 			tasks: [{
 				id: "1B1053C913E0D8FB"
 				item: "create:steam_whistle"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -19.5d
 			y: -4.5d
 		}
 		{
+			dependencies: ["2DA93AAEBE77271C"]
 			id: "5C67648D56C5BC59"
 			tasks: [{
 				id: "00380B471C53C8B9"
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -3.5d
+			x: -18.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5E9960A3DF84D24E"]
@@ -417,30 +423,22 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
+			x: -15.5d
 			y: -7.5d
 		}
 		{
+			dependencies: ["7C6832FEE3408F04"]
 			id: "2028FA4204692697"
 			tasks: [{
 				id: "7B0146390846E0FF"
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -6.5d
-		}
-		{
-			id: "5768C0FFEB7704BC"
-			tasks: [{
-				id: "5DA8EA1C9A335872"
-				item: "create:brass_hand"
-				type: "item"
-			}]
-			x: -18.5d
+			x: -19.5d
 			y: -7.5d
 		}
 		{
+			dependencies: ["0CF4595F87E184D9"]
 			id: "3B368964E19D015A"
 			tasks: [{
 				id: "0BB9AAD6A6424480"
@@ -448,7 +446,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			id: "0B530923010FC25D"
@@ -457,7 +455,7 @@
 				item: "scorchedguns:volatile_scrap"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -14.5d
 			y: -7.5d
 		}
 		{
@@ -731,6 +729,10 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"5887E6788E331C03"
+				"5C70853DFE1996DF"
+			]
 			id: "69D6FAA8ED52C285"
 			tasks: [{
 				id: "1EF12E0DA0454319"
@@ -741,6 +743,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["0C6DF22E58A1A64E"]
 			id: "4B6B48379B6ECB9F"
 			tasks: [{
 				id: "4FB5641085BF4214"
@@ -751,6 +754,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["69D6FAA8ED52C285"]
 			id: "43C7E1C3FE68BFB5"
 			tasks: [{
 				id: "68F86421DCD8EA1A"
@@ -761,6 +765,10 @@
 			y: -1.5d
 		}
 		{
+			dependencies: [
+				"7BD7A21285E099B2"
+				"2FB454EF8695642C"
+			]
 			id: "0C6DF22E58A1A64E"
 			tasks: [{
 				id: "466CA27025CCB9AB"
@@ -1085,8 +1093,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -4.5d
+			x: -21.5d
+			y: -5.5d
 		}
 		{
 			id: "7FA55966DBA626E1"
@@ -1095,8 +1103,8 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -5.5d
+			x: -20.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1168,16 +1176,6 @@
 			y: 3.0d
 		}
 		{
-			id: "06442A9278F19EC6"
-			tasks: [{
-				id: "0358A7D6719A3810"
-				item: "emendatusenigmatica:copper_ingot"
-				type: "item"
-			}]
-			x: -16.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["4175E572FD891742"]
 			id: "7C54E9293ADC73A4"
 			tasks: [{
@@ -1228,24 +1226,15 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["2DA93AAEBE77271C"]
 			id: "3C102022A5F99FCA"
 			tasks: [{
 				id: "45172C23EA4504B7"
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -18.5d
+			x: -21.5d
 			y: -4.5d
-		}
-		{
-			id: "7057A22D4F73641E"
-			tasks: [{
-				id: "3B33CAA2F0B36ED3"
-				item: "create:spout"
-				type: "item"
-			}]
-			x: -18.5d
-			y: -5.5d
 		}
 		{
 			id: "69282FD83203468D"
@@ -1425,6 +1414,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4B6B48379B6ECB9F"]
 			id: "5887E6788E331C03"
 			tasks: [{
 				id: "07357939C7EF3F8C"
@@ -1505,6 +1495,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["16CEEB27F0684DB2"]
 			id: "7BD7A21285E099B2"
 			tasks: [{
 				id: "43665C8BAA7CB78B"
@@ -1513,6 +1504,359 @@
 			}]
 			x: -12.0d
 			y: -2.0d
+		}
+		{
+			id: "423483C5C595FC71"
+			tasks: [{
+				id: "65D2418F30ACFA27"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "32A56A460E6245F4"
+			tasks: [{
+				id: "420ADB7B50AE175E"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "5E6C802B2F9F3E6E"
+			tasks: [{
+				id: "08B083039F0DCDD0"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "7C6832FEE3408F04"
+			tasks: [{
+				id: "7FCDA2A2D9CA8A33"
+				item: "clickmachine:auto_clicker"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"2028FA4204692697"
+				"5A1194C378D9A8C4"
+				"3B368964E19D015A"
+			]
+			id: "2DA93AAEBE77271C"
+			tasks: [{
+				id: "11C1928AC98F0D73"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5F1231945872EAB7"]
+			id: "5A1194C378D9A8C4"
+			tasks: [{
+				id: "253E26EAEB303C02"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			id: "5F1231945872EAB7"
+			tasks: [{
+				id: "0042DF3AAD4BDB7B"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"018611CF17F96FA0"
+				"4CA1CC7810DA46D6"
+				"6E5BD59AC208AED0"
+			]
+			id: "47C12BE347E86CEE"
+			tasks: [{
+				id: "7622352415395F9F"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.5d
+		}
+		{
+			icon: "thermal:resin_bucket"
+			id: "018611CF17F96FA0"
+			tasks: [{
+				id: "1263D0CCDAEF310B"
+				type: "checkmark"
+			}]
+			title: "Resin"
+			x: -18.0d
+			y: -9.5d
+		}
+		{
+			id: "4CA1CC7810DA46D6"
+			tasks: [{
+				id: "7119853081078D68"
+				item: "emendatusenigmatica:sulfur_dust"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["47C12BE347E86CEE"]
+			id: "0CF4595F87E184D9"
+			tasks: [{
+				id: "38E741A261C509AD"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			id: "2AE5C6B5BABB5AC2"
+			tasks: [{
+				id: "608F7949DB0F0C76"
+				item: "emendatusenigmatica:sulfur_dust"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -6.5d
+		}
+		{
+			id: "6E5BD59AC208AED0"
+			tasks: [{
+				id: "7B5D15FE1C901DEE"
+				item: "nuclearscience:chemicalextractor"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.5d
+		}
+		{
+			id: "4EA28F34FDA18528"
+			tasks: [{
+				id: "355151165C5D4AE1"
+				item: "minecraft:iron_bars"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -7.5d
+		}
+		{
+			id: "0D292EA391FC7E02"
+			tasks: [{
+				id: "2B0D3845A375F317"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -5.5d
+		}
+		{
+			id: "00A03282890696FF"
+			tasks: [{
+				id: "55AFABB0F21E18E4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.5d
+		}
+		{
+			id: "3C33B06FE2B1525D"
+			tasks: [{
+				id: "0F76E07550169458"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -7.5d
+		}
+		{
+			id: "0618DCCC57DF9D66"
+			tasks: [{
+				id: "0BAF5D51C5C04737"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A20BED1AE2E90FF"]
+			id: "1816A87DA36B306C"
+			tasks: [{
+				id: "5038650ED8AE8FBA"
+				item: "createaddition:cake_base"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67169CE79790CEB1"]
+			id: "2E41A2CCFAF45D96"
+			tasks: [{
+				id: "5F49899AC6DEE413"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EB9E02FC818625D"]
+			id: "67169CE79790CEB1"
+			tasks: [{
+				id: "6B68F15437299AE5"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -4.5d
+		}
+		{
+			id: "3EB9E02FC818625D"
+			tasks: [{
+				id: "7E630434B12FC91A"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D905F1DE0E6C953"]
+			id: "6A20BED1AE2E90FF"
+			tasks: [{
+				id: "3BDE43FF7CB27140"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E41A2CCFAF45D96"]
+			id: "1D905F1DE0E6C953"
+			tasks: [{
+				id: "1833D2A1A458AF7F"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -4.5d
+		}
+		{
+			id: "3E06165A79C3D6E0"
+			tasks: [{
+				id: "7C6103D09352152B"
+				type: "checkmark"
+			}]
+			x: -25.5d
+			y: -5.5d
+		}
+		{
+			id: "09AB85626206E768"
+			tasks: [{
+				id: "5AB5C64DD78C9419"
+				type: "checkmark"
+			}]
+			x: -25.5d
+			y: -6.5d
+		}
+		{
+			id: "271E072F0CDBA961"
+			tasks: [{
+				id: "619677A83525FFB8"
+				item: "emendatusenigmatica:iron_ingot"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -9.5d
+		}
+		{
+			id: "0F472D0D73363F1F"
+			tasks: [{
+				id: "2062DE986DEA81AA"
+				item: "emendatusenigmatica:iron_rod"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1D905F1DE0E6C953"]
+			id: "5A2E9773A203F6C5"
+			tasks: [{
+				id: "49181851BC92BC6A"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -5.5d
+		}
+		{
+			id: "2F1C37E308A8B69E"
+			tasks: [{
+				id: "591E082D7E21623C"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -6.5d
+		}
+		{
+			id: "6B6E0A649B4D2E09"
+			tasks: [{
+				id: "7EC4F9EB82184F98"
+				item: "alchemistry:liquifier"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -5.5d
+		}
+		{
+			id: "50BA61521A721204"
+			tasks: [{
+				id: "0FB3A70507207808"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -9.5d
+		}
+		{
+			id: "1CC56395567C1134"
+			tasks: [{
+				id: "7637D75CBC944E57"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: -6.5d
 		}
 	]
 	title: "Blood Factory"

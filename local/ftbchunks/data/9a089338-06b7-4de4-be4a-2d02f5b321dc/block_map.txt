@@ -19,6 +19,13 @@
 #1B5DBD irons_spellbooks:arcane_anvil
 #5A585C irons_spellbooks:armor_pile
 #798346 alexs_armoury:armourers_table
+#8CAC81 pneumaticcraft:assembly_controller
+#3471AE pneumaticcraft:assembly_drill
+#80C19B pneumaticcraft:assembly_io_unit_export
+#B9218C pneumaticcraft:assembly_io_unit_import
+#9D981E pneumaticcraft:assembly_laser
+#405B98 pneumaticcraft:assembly_platform
+#D510B6 alchemistry:atomizer
 #05F7C6 clickmachine:auto_clicker
 #BD6D5A assemblylinemachines:autocrafting_table
 #FB5E18 mekanism:basic_energy_cube
@@ -65,6 +72,7 @@
 #F522F4 minecraft:chest
 #6E4E7A chiselsandbits:chiseledrock
 #504168 ic2:chunkloader
+#F2A1A5 create:chute
 #9EC980 immersiveengineering:circuit_table
 #6875C3 electrodynamics:circuitbreaker
 #4C2342 immersiveengineering:cloche
@@ -88,6 +96,7 @@
 #5F5250 ad_astra:compressor
 #CCF217 xnet:controller
 #12D127 emendatusenigmatica:copper
+#62B857 create:copper_casing
 #F5DD09 assemblylinemachines:corrupting_basin
 #468304 minecraft:crafting_table
 #8700D4 immersiveengineering:craftingtable
@@ -100,6 +109,7 @@
 #FB5BA9 ic2:cropmatron
 #610B0F cyclic:crusher
 #3259C5 mekanism:crusher
+#7DF6E7 create:crushing_wheel
 #E48FCC ad_astra:cryo_freezer
 #004C87 evilcraft:dark_tank
 #FF48B8 create:depot
@@ -109,6 +119,7 @@
 #911C0E mekanism:dimensional_stabilizer
 #80497A minecraft:dirt
 #4FA7D0 minecraft:dirt_path
+#A47868 alchemistry:dissolver
 #A20927 mekanism:diversion_transporter
 #B10D64 electrodynamics:downgradetransformer
 #15EACA integrateddynamics:drying_basin
@@ -197,6 +208,7 @@
 #83CED3 minecraft:lava
 #72D77D minecraft:lever
 #04388B trashcans:liquid_trash_can
+#0DB31F alchemistry:liquifier
 #5FCAC2 botania:livingrock
 #9DA81C mekanism:logistical_sorter
 #4BFE53 hostilenetworks:loot_fabricator
@@ -278,6 +290,7 @@
 #48EA21 pneumaticcraft:pressure_chamber_valve
 #4E2A71 pneumaticcraft:pressure_chamber_wall
 #5F0D54 mekanism:pressurized_reaction_chamber
+#1D85C2 pneumaticcraft:programmer
 #D81542 assemblylinemachines:pump
 #28C7EC assemblylinemachines:pumpshaft
 #F7846D mekanism:purification_chamber
@@ -300,6 +313,7 @@
 #541803 industrialforegoing:resourceful_furnace
 #16A790 mekanism:restrictive_transporter
 #69E799 farmersdelight:rich_soil_farmland
+#66F4DE createaddition:rolling_mill
 #879B54 mekanism:rotary_condensentrator
 #5DF8F4 botania:runic_altar
 #2248CC occultism:sacrificial_bowl
@@ -365,12 +379,14 @@
 #57A433 mekanism:ultimate_thermodynamic_conductor
 #BC4D60 trashcans:ultimate_trash_can
 #BB3278 mekanism:ultimate_universal_cable
+#115573 kubejs:unprocessed_copper_casing
 #C8E55D electrodynamics:upgradetransformer
 #B982D8 assemblylinemachines:vacuum_hopper
 #396DA9 compactvoidminers:void_miner
 #CAC3C8 compactvoidminers:void_pump
 #AAF4B7 create:water_wheel
 #7D38EB create:water_wheel_structure
+#2900A9 createindustry:waterproof_planks
 #B7775E minecraft:white_bed
 #B04FD6 minecraft:white_candle
 #C6D1CE minecraft:white_concrete

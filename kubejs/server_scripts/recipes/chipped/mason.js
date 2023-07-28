@@ -74,6 +74,21 @@ ServerEvents.tags('item', event => {
         'storagedrawers:controller_slave'
     ]
 
+    let copper_machine =
+    [
+        'create:copper_casing',
+        'create:steam_engine',
+        'create:item_drain',
+        'create:fluid_tank',
+        'create:steam_whistle'
+    ]
+
+    let basin_machine =
+    [
+        'create:basin',
+        'create:chute'
+    ]
+
     for (let item of polished_andesite_machine)
     {
         event.add('forge:polished_andesite_machine', item)
@@ -113,6 +128,16 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:storage_drawer', item)
     }
+
+    for (let item of copper_machine)
+    {
+        event.add('forge:copper_machine', item)
+    }
+
+    for (let item of basin_machine)
+    {
+        event.add('forge:basin_machine', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -127,7 +152,9 @@ ServerEvents.recipes(event => {
             "forge:cobblestone_light_source",
             "forge:deepslate_glass_machine",
             'forge:livingrock_machine',
-            'forge:storage_drawer'
+            'forge:storage_drawer',
+            'forge:copper_machine',
+            'forge:basin_machine'
         ]
     })
 })

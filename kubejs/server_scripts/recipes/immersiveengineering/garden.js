@@ -18,5 +18,25 @@ ServerEvents.recipes(event => {
         },
         "time": 30
       })
+
+    event.custom({
+      "type": "immersiveengineering:cloche",
+      "input": {
+        "item": 'minecraft:wheat_seeds'
+      },
+      "render": {
+        "type": "crop",
+        "block": "minecraft:wheat"
+      },
+      "results": [
+        {
+          "item": 'minecraft:wheat'
+        }
+      ],
+      "soil": {
+        "item": "minecraft:dirt"
+      },
+      "time": 30
+    })
 })
 
