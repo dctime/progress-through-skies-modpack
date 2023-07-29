@@ -222,6 +222,12 @@
     },
     "done": true
   },
+  "create:funnel": {
+    "criteria": {
+      "0": "2023-07-29 18:14:56 +0800"
+    },
+    "done": true
+  },
   "simplyswords:soulstealer": {
     "criteria": {
       "requirement": "2023-07-10 15:32:52 +0800"
@@ -1026,6 +1032,12 @@
     },
     "done": true
   },
+  "create:mechanical_arm": {
+    "criteria": {
+      "0": "2023-07-29 18:14:56 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/jungle/jungle_slab_from_jungle_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2023-07-21 15:30:33 +0800"
@@ -1083,6 +1095,12 @@
   "irons_spellbooks:irons_spellbooks/make_scroll_forge": {
     "criteria": {
       "scroll_forge": "2023-07-22 11:17:59 +0800"
+    },
+    "done": true
+  },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2023-07-29 18:04:22 +0800"
     },
     "done": true
   },
@@ -1269,6 +1287,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2023-06-30 16:19:00 +0800"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2023-07-29 17:41:04 +0800"
     },
     "done": true
   },
@@ -1494,6 +1518,12 @@
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2023-07-22 10:47:39 +0800"
+    },
+    "done": true
+  },
+  "create:arm_many_targets": {
+    "criteria": {
+      "0": "2023-07-29 18:13:25 +0800"
     },
     "done": true
   },

@@ -178,29 +178,28 @@ ServerEvents.recipes(event => {
     "loops": 10
   })
 
-  // TODO: Not Changed
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": {
-      "item": 'minecraft:polished_deepslate'
+      "item": 'minecraft:dark_oak_log'
     },
     "transitionalItem": {
-      "item": 'kubejs:unprocessed_copper_casing'
+      "item": 'kubejs:incomplete_brass_casing'
     },
     "sequence": [
       {
         "type": "create:deploying",
         "ingredients": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           },
           {
-            "item": 'emendatusenigmatica:copper_plate'
+            "item": 'emendatusenigmatica:brass_plate'
           }
         ],
         "results": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           }
         ]
       },
@@ -208,17 +207,17 @@ ServerEvents.recipes(event => {
         "type": "create:filling",
         "ingredients": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           },
           {
-            "fluid": "thermal:resin",
+            "fluid": 'immersiveengineering:creosote',
             "nbt": {},
             "amount": 100
           }
         ],
         "results": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           }
         ]
       },
@@ -226,12 +225,12 @@ ServerEvents.recipes(event => {
         "type": "create:pressing",
         "ingredients": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           }
         ],
         "results": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           }
         ]
       },
@@ -239,7 +238,7 @@ ServerEvents.recipes(event => {
         "type": "create:filling",
         "ingredients": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           },
           {
             "fluid": "minecraft:water",
@@ -249,7 +248,7 @@ ServerEvents.recipes(event => {
         ],
         "results": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           }
         ]
       },
@@ -257,12 +256,12 @@ ServerEvents.recipes(event => {
         "type": "create:cutting",
         "ingredients": [
           {
-            "item": "kubejs:unprocessed_copper_casing"
+            "item": 'kubejs:incomplete_brass_casing'
           }
         ], 
       "results": [
         {
-          "item": "kubejs:unprocessed_copper_casing",
+          "item": 'kubejs:incomplete_brass_casing',
           "count": 1
         }
       ],
@@ -271,7 +270,7 @@ ServerEvents.recipes(event => {
     ],
     "results": [
       {
-        "item": 'create:copper_casing'
+        "item": 'create:brass_casing'
       }
     ],
     "loops": 6

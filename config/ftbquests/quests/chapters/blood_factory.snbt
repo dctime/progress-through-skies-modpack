@@ -1957,6 +1957,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["211A7B39347E2912"]
 			id: "25751193664E9FFA"
 			tasks: [{
 				id: "3D03845791FDB104"
@@ -2033,6 +2034,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["5512741E1C4FD6D0"]
 			id: "3EC5C8C5283E7596"
 			tasks: [{
 				id: "358AF5FD777FA490"
@@ -2043,6 +2045,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5512741E1C4FD6D0"]
 			id: "2EA27867CBF689D0"
 			tasks: [{
 				id: "77FDE17357E3C345"
@@ -2261,6 +2264,13 @@
 			y: -5.0d
 		}
 		{
+			dependencies: [
+				"211A7B39347E2912"
+				"65DA6F8F44763409"
+				"204503C1F75A59ED"
+				"7237B95842487343"
+				"6A5385DF7514B882"
+			]
 			id: "5512741E1C4FD6D0"
 			tasks: [{
 				id: "4160F17BCACF83CF"
@@ -2271,6 +2281,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["4BE2BEFD28870AAF"]
 			id: "211A7B39347E2912"
 			tasks: [{
 				id: "666B5E71418168EA"
@@ -2281,14 +2292,15 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["06EBDC0DEF55A284"]
 			id: "01359E519F93A8FD"
 			tasks: [{
 				id: "0A0D498C418CB2C4"
 				item: "emendatusenigmatica:brass_ingot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			id: "1EC42CE645A9EBE5"
@@ -2297,28 +2309,33 @@
 				item: "emendatusenigmatica:copper_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["673DCBC7D3E29E0A"]
 			id: "2188B7E327062C8D"
 			tasks: [{
 				id: "3EED02C06E09EE5A"
 				item: "emendatusenigmatica:zinc_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
+			dependencies: [
+				"1EC42CE645A9EBE5"
+				"2188B7E327062C8D"
+			]
 			id: "06EBDC0DEF55A284"
 			tasks: [{
 				id: "0EE73E1CCF8B4DDC"
 				item: "assemblylinemachines:mkii_alloy_smelter"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6550A1B51ED6E60F"]
@@ -2449,8 +2466,50 @@
 				item: "progressthroughskies:bedrock_gravel"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01359E519F93A8FD"]
+			id: "4BE2BEFD28870AAF"
+			tasks: [{
+				id: "72E83B380709678A"
+				item: "emendatusenigmatica:brass_plate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211A7B39347E2912"]
+			id: "31CB9EF9CAB1A5DC"
+			tasks: [{
+				id: "5510E164DC3EEA48"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B368964E19D015A"]
+			id: "12D882AEF7728D32"
+			tasks: [{
+				id: "24814D622F085549"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			id: "023873850E508F41"
+			tasks: [{
+				id: "749BE952FAB7A585"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
 		}
 	]
 	title: "Blood Factory"

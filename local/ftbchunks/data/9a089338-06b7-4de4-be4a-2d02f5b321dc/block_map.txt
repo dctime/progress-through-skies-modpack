@@ -51,7 +51,10 @@
 #FCDA6E evilcraft:blood
 #C3925B evilcraft:blood_infuser
 #FFC34F mekanism:bounding_block
+#6754E0 create:brass_belt_funnel
 #CCD23F create:brass_casing
+#02FE08 create:brass_funnel
+#E6E3A2 create:brass_scaffolding
 #913453 cyclic:breaker
 #53756B minecraft:brick_slab
 #1BDBFB minecraft:brick_stairs
@@ -236,6 +239,8 @@
 #413D8C botania:mana_spreader
 #565EEA chipped:mason_table
 #5BD5E4 industrialforegoing:material_stonework_factory
+#4F0350 create:mechanical_arm
+#FB37C1 create:mechanical_crafter
 #839E5A integrateddynamics:mechanical_drying_basin
 #E638FD create:mechanical_mixer
 #145137 create:mechanical_press

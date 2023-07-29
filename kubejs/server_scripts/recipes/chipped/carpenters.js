@@ -42,8 +42,36 @@ ServerEvents.tags('item', event => {
         'create:large_water_wheel',
         'create:analog_lever',
         'create:linear_chassis',
-        'create:radial_chassis'
+        'create:radial_chassis',
+        'create:andesite_funnel',
+        'create:andesite_tunnel',
+        'create:andesite_door'
 
+    ]
+
+    let brass_casing_machine =
+    [
+        'create:brass_casing',
+        'create:brass_funnel',
+        'create:brass_tunnel',
+        'create:brass_scaffolding',
+        'create:brass_door',
+        'create:content_observer',
+        'create:smart_chute',
+        'create:elevator_pulley',
+        'create:flywheel',
+        'create:mechanical_arm',
+        'create:rotation_speed_controller',
+        'create:sequenced_gearshift',
+        'create:mechanical_crafter',
+        'create:railway_casing',
+        'create:controls',
+        'create:stockpile_switch',
+        'create:display_link',
+        'create:redstone_link',
+        'create:placard',
+        'create:peculiar_bell',
+        'create:train_trapdoor'
     ]
     
     for (let item of storage_upgrade)
@@ -65,6 +93,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:andesite_casing_machine', item)
     }
+
+    for (let item of brass_casing_machine)
+    {
+        event.add('forge:brass_casing_machine', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -76,7 +109,8 @@ ServerEvents.recipes(event => {
             "forge:storage_upgrade",
             "forge:log_machine",
             "forge:cog_wheels",
-            "forge:andesite_casing_machine"
+            "forge:andesite_casing_machine",
+            'forge:brass_casing_machine'
         ]
     })
 })
