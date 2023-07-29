@@ -16,5 +16,41 @@ ServerEvents.recipes(event => {
           }
         ]
       })
+
+      event.custom({
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": 'immersiveengineering:wire_copper'
+          },
+          {
+            "fluid": 'thermal:resin',
+            "amount": 100
+          }
+        ],
+        "results": [
+          {
+            "item":'electrodynamics:wirehighlyinsulatedcopper'
+          }
+        ]
+      })
+
+      event.custom({
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": 'createaddition:cake_base'
+          },
+          {
+            "fluid": 'emendatusenigmatica:sulfur',
+            "amount": 1000
+          }
+        ],
+        "results": [
+          {
+            "item":'create:blaze_cake'
+          }
+        ]
+      })
 })
 

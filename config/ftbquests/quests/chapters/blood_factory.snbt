@@ -333,15 +333,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2DA93AAEBE77271C"]
+			dependencies: [
+				"2DA93AAEBE77271C"
+				"648A6595FA76CEA3"
+				"0618DCCC57DF9D66"
+				"5C67648D56C5BC59"
+			]
 			id: "79F09E369CE10C62"
 			tasks: [{
 				id: "053E28B2FC5FCD7E"
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -20.5d
-			y: -4.5d
+			x: -21.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2DA93AAEBE77271C"]
@@ -352,7 +357,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2DA93AAEBE77271C"]
@@ -362,8 +367,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -4.5d
+			x: -20.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E9960A3DF84D24E"]
@@ -411,6 +416,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["40708566EFF12699"]
 			id: "150079224F11986E"
 			tasks: [{
 				id: "61643174AE4E1925"
@@ -423,8 +429,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: -7.5d
+			x: -14.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7C6832FEE3408F04"]
@@ -449,14 +455,20 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"21DC360C52B8B89B"
+				"4A2932EB6A49128C"
+				"38F836E539723331"
+				"150079224F11986E"
+			]
 			id: "0B530923010FC25D"
 			tasks: [{
 				id: "1A08E4F7C40AC4FD"
 				item: "scorchedguns:volatile_scrap"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -7.5d
+			x: -13.0d
+			y: -8.5d
 		}
 		{
 			id: "4163E03D8F4F141C"
@@ -1087,6 +1099,10 @@
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"79917040C7A955EA"
+				"7FA55966DBA626E1"
+			]
 			id: "648A6595FA76CEA3"
 			tasks: [{
 				id: "6CFA87E8BDA8A89B"
@@ -1097,6 +1113,10 @@
 			y: -5.5d
 		}
 		{
+			dependencies: [
+				"4EA28F34FDA18528"
+				"0D292EA391FC7E02"
+			]
 			id: "7FA55966DBA626E1"
 			tasks: [{
 				id: "18CEAC6C909F86C9"
@@ -1233,8 +1253,8 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -4.5d
+			x: -18.5d
+			y: -3.5d
 		}
 		{
 			id: "69282FD83203468D"
@@ -1632,8 +1652,8 @@
 				item: "emendatusenigmatica:sulfur_dust"
 				type: "item"
 			}]
-			x: -22.5d
-			y: -6.5d
+			x: -23.5d
+			y: -5.5d
 		}
 		{
 			id: "6E5BD59AC208AED0"
@@ -1646,6 +1666,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["0F472D0D73363F1F"]
 			id: "4EA28F34FDA18528"
 			tasks: [{
 				id: "355151165C5D4AE1"
@@ -1653,19 +1674,24 @@
 				type: "item"
 			}]
 			x: -21.5d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["00A03282890696FF"]
 			id: "0D292EA391FC7E02"
 			tasks: [{
 				id: "2B0D3845A375F317"
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: -23.5d
-			y: -5.5d
+			x: -20.5d
+			y: -7.5d
 		}
 		{
+			dependencies: [
+				"025FB7424112F46E"
+				"3C33B06FE2B1525D"
+			]
 			id: "00A03282890696FF"
 			tasks: [{
 				id: "55AFABB0F21E18E4"
@@ -1683,8 +1709,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.5d
-			y: -6.5d
+			x: -20.5d
+			y: -8.5d
 		}
 		{
 			id: "3C33B06FE2B1525D"
@@ -1693,10 +1719,14 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			x: -23.5d
-			y: -7.5d
+			x: -20.5d
+			y: -9.5d
 		}
 		{
+			dependencies: [
+				"1816A87DA36B306C"
+				"6B6E0A649B4D2E09"
+			]
 			id: "0618DCCC57DF9D66"
 			tasks: [{
 				id: "0BAF5D51C5C04737"
@@ -1796,18 +1826,19 @@
 				item: "emendatusenigmatica:iron_ingot"
 				type: "item"
 			}]
-			x: -21.5d
+			x: -22.5d
 			y: -9.5d
 		}
 		{
+			dependencies: ["303E4826A09740E5"]
 			id: "0F472D0D73363F1F"
 			tasks: [{
 				id: "2062DE986DEA81AA"
 				item: "emendatusenigmatica:iron_rod"
 				type: "item"
 			}]
-			x: -21.5d
-			y: -8.5d
+			x: -22.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1D905F1DE0E6C953"]
@@ -1831,6 +1862,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["2AE5C6B5BABB5AC2"]
 			id: "6B6E0A649B4D2E09"
 			tasks: [{
 				id: "7EC4F9EB82184F98"
@@ -1857,6 +1889,123 @@
 			}]
 			x: -16.5d
 			y: -6.5d
+		}
+		{
+			id: "025FB7424112F46E"
+			tasks: [{
+				id: "6A7F65CB84F4C4CA"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -8.5d
+		}
+		{
+			id: "2A1F6C9651FE7682"
+			tasks: [{
+				id: "3B7D5F6CA6299AAB"
+				item: "evilcraft:hardened_blood"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -2.5d
+		}
+		{
+			id: "3FC3B40957F63664"
+			tasks: [{
+				id: "4054BA7AE2CE8F05"
+				item: "evilcraft:hardened_blood"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["271E072F0CDBA961"]
+			id: "303E4826A09740E5"
+			tasks: [{
+				id: "4DBD648CAF38236C"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2AE5C6B5BABB5AC2"]
+			id: "6E40246D99F19F20"
+			tasks: [{
+				id: "78ED698D00F8BA30"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E40246D99F19F20"]
+			icon: "summoningrituals:altar"
+			id: "79917040C7A955EA"
+			tasks: [{
+				id: "50EB25D12A1E0F38"
+				observe_type: 0
+				timer: 0L
+				to_observe: "summoningrituals:altar"
+				type: "observation"
+			}]
+			x: -22.5d
+			y: -6.5d
+		}
+		{
+			id: "25751193664E9FFA"
+			tasks: [{
+				id: "3D03845791FDB104"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "40708566EFF12699"
+			tasks: [{
+				id: "091E351C34E4F45A"
+				item: "cgm:workbench"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.5d
+		}
+		{
+			id: "4A2932EB6A49128C"
+			tasks: [{
+				id: "0E3C12D49CCC4966"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.5d
+		}
+		{
+			id: "21DC360C52B8B89B"
+			tasks: [{
+				id: "420B24D8C6F7FFD9"
+				item: "progressthroughskies:bedrock_dust"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -10.5d
+		}
+		{
+			icon: "emendatusenigmatica:sulfur_bucket"
+			id: "38F836E539723331"
+			tasks: [{
+				id: "711FED9C5B0F56B8"
+				type: "checkmark"
+			}]
+			title: "Sulfur"
+			x: -12.0d
+			y: -10.5d
 		}
 	]
 	title: "Blood Factory"

@@ -73,17 +73,16 @@ ServerEvents.recipes(event => {
     }
   })
 
-  // TODO: blood to infusing furnace
   event.custom({
     "type": "exnihilosequentia:fluid_item",
     "fluid": {
       "fluid": "hexerei:blood_fluid"
     },
     "input": {
-      "item": 'emendatusenigmatica:natural_acid_crystal'
+      "item": 'minecraft:furnace'
     },
     "result": {
-      "item": 'evilcraft:hardened_blood'
+      "item": 'evilcraft:blood_infuser'
     }
   })
 })

@@ -341,4 +341,6 @@ ServerEvents.recipes(event => {
             'emendatusenigmatica:iron_block'
         ]
     );
+
+    compact_2('emendatusenigmatica:iron_rod', 'minecraft:iron_bars')
 })

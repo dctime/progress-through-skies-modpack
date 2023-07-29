@@ -68,5 +68,40 @@ ServerEvents.recipes(event => {
             "item": 'immersiveengineering:circuit_board'
         }
       })
+
+      event.custom({
+        "type": "mekanism:combining",
+        "mainInput": {
+            "ingredient": {
+                "item": 'minecraft:iron_bars'
+            }
+        },
+        "extraInput": {
+            "ingredient": {
+                "item": 'minecraft:netherrack'
+            }
+        },
+        "output": {
+            "item": 'create:empty_blaze_burner'
+        }
+      })
+
+      event.custom({
+        "type": "mekanism:combining",
+        "mainInput": {
+            "ingredient": {
+                "item": 'emendatusenigmatica:sulfur_dust'
+            }
+        },
+        "extraInput": {
+            "ingredient": {
+                "item": 'exnihilosequentia:silkworm'
+            }
+        },
+        "output": {
+            "item": 'minecraft:blaze_powder'
+        }
+      })
+
 })
 

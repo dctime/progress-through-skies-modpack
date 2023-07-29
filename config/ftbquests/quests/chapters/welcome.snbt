@@ -9,6 +9,9 @@
 	quests: [
 		{
 			description: [
+				"&4IMPORTANT NOTE:"
+				"&4&lIf the biome yu spawn in doesn't rain or snow (etc. desert), then you are not be able to go through the rest of the chapters. Reload and regenerate the world."
+				""
 				"Well. You have no idea why there is only bedrock in the world right?"
 				""
 				"Do you know that you blow up a black hole bomb and now everything is vaporized."

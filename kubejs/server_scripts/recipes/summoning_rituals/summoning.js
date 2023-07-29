@@ -23,4 +23,15 @@ ServerEvents.recipes(event => {
         .input('64x minecraft:rotten_flesh')
         .input('64x minecraft:white_wool')
         .recipeTime(200)
+
+    event.recipes.summoningrituals
+        .altar('tinyredstone:tiny_redstone_torch')
+        .mobOutput(
+            SummoningOutput.mob('minecraft:blaze')
+                .count(1)
+                .offset(0, 3, 0)
+                .spread(4, 0, 4)
+        )
+        .input('64x minecraft:blaze_powder')
+        .recipeTime(200)
 });

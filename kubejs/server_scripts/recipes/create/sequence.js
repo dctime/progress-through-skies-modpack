@@ -96,5 +96,86 @@ ServerEvents.recipes(event => {
     ],
     "loops": 6
   })
+
+  event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": 'progressthroughskies:bedrock_dust'
+    },
+    "transitionalItem": {
+      "item": 'kubejs:incomplete_volatile_scrap'
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap'
+          },
+          {
+            "item": 'minecraft:charcoal'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap'
+          }
+        ]
+      },
+      {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap'
+          }
+        ],
+        "results": [
+            {
+                "item": 'kubejs:incomplete_volatile_scrap',
+                'count': 1
+            }
+        ],
+        "processingTime": 30,
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap'
+          },
+          {
+            "fluid": 'emendatusenigmatica:sulfur',
+            "nbt": {},
+            "amount": 10
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap'
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_volatile_scrap',
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": 'scorchedguns:volatile_scrap'
+      }
+    ],
+    "loops": 10
+  })
 })
 

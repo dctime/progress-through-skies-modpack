@@ -55,4 +55,10 @@ ServerEvents.entityLootTables((event) => {
             pool.addItem('botania:rune_water', 1)
         });
     })
+
+    event.addEntity('minecraft:blaze', (table) => {
+        table.addPool((pool) => {
+            pool.rolls = 1.0;
+        });
+    })
 })

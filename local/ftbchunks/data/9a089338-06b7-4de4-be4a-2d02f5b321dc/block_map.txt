@@ -44,6 +44,8 @@
 #870939 mekanismgenerators:bio_generator
 #DBAA89 chiselsandbits:bit_storage
 #7F8A04 minecraft:blast_furnace
+#63D15D create:blaze_burner
+#FCDA6E evilcraft:blood
 #C3925B evilcraft:blood_infuser
 #FFC34F mekanism:bounding_block
 #913453 cyclic:breaker
@@ -170,6 +172,7 @@
 #62B1B2 advgenerators:fluid_output_select
 #1440B1 packagedauto:fluid_package_filler
 #CA0A38 assemblylinemachines:fluid_router
+#DDC0C3 create:fluid_tank
 #A69C28 mekanism:fluidic_plenisher
 #299DC7 pneumaticcraft:flux_compressor
 #EFF841 mekanism:formulaic_assemblicator
@@ -190,6 +193,7 @@
 #88BAFA minecraft:gravel
 #F848D7 assemblylinemachines:greenhouse
 #87B5C3 create:hand_crank
+#7141A2 evilcraft:hardened_blood
 #04EF85 create:haunted_bell
 #8EBC8D advgenerators:heat_exchanger
 #EBDD46 electrodynamics:hydroelectricgenerator
@@ -268,6 +272,7 @@
 #374FD3 minecraft:oak_slab
 #72BC63 minecraft:oak_stairs
 #855CF4 minecraft:oak_trapdoor
+#A85426 naturesaura:offering_table
 #012007 assemblylinemachines:omnivoid
 #36555A mekanism:oredictionificator
 #2D7F28 farmersdelight:organic_compost
@@ -346,6 +351,7 @@
 #5DB983 immersiveengineering:stairs_treated_wood_horizontal
 #29EA02 additional_lights:standing_torch_l_cobblestone
 #BF1789 additional_lights:standing_torch_s_cobblestone
+#8C8A95 create:steam_engine
 #E818C8 advgenerators:steam_turbine_controller
 #DC3458 minecraft:stone
 #C283C5 exnihilosequentia:stone_barrel
