@@ -131,4 +131,20 @@ ServerEvents.recipes(event => {
 
         ]
       })
+
+      event.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "item": 'evilcraft:blood_orb_filled'
+            }
+        ],
+        "results": [
+            {
+                "fluid": 'hexerei:blood_fluid',
+                "amount": 100
+            }
+        ],
+        "heatRequirement": "heated"
+    })
 })

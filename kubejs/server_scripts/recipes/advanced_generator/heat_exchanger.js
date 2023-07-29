@@ -4,15 +4,15 @@ ServerEvents.recipes(event => {
             "type": "advgenerators:exchanger_heating",
             "input": {
             "fluids": {
-                "fluid": "minecraft:water"
+                "fluid": "hexerei:blood_fluid"
             },
-            "amount": 5
+            "amount": 1
             },
             "output": {
-            "fluid": "advgenerators:steam",
-            "amount": 15
+            "fluid": "evilcraft:blood",
+            "amount": 1
             },
-            "heat": 3
+            "heat": 1
         }
     )
 
@@ -21,15 +21,15 @@ ServerEvents.recipes(event => {
             "type": "advgenerators:exchanger_cooling",
             "input": {
               "fluids": {
-                "fluid": "minecraft:lava"
+                "fluid": 'emendatusenigmatica:natural_acid'
               },
               "amount": 1
             },
             "output": {
               "item": "minecraft:obsidian",
-              "amount": 0.001
+              "amount": 0
             },
-            "heat": 30
+            "heat": 1
           }
     )
 })

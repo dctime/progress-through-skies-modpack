@@ -45,6 +45,6 @@ ServerEvents.recipes(event => {
         )
         .input('64x minecraft:rotten_flesh')
         .input('64x occultism:datura')
-        .input('hostilenetworks:blank_data_model')
+        .input('tinyredstone:redstone_panel')
         .recipeTime(200)
 });

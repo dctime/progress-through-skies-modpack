@@ -49,6 +49,7 @@
 #7F8A04 minecraft:blast_furnace
 #63D15D create:blaze_burner
 #FCDA6E evilcraft:blood
+#718BCE hexerei:blood
 #C3925B evilcraft:blood_infuser
 #FFC34F mekanism:bounding_block
 #6754E0 create:brass_belt_funnel
@@ -97,6 +98,7 @@
 #531031 immersiveengineering:coke_oven
 #7E82C3 immersiveengineering:cokebrick
 #6CDEF4 cyclic:collector
+#13615A alchemistry:combiner
 #790C30 mekanism:combiner
 #5D3561 assemblylinemachines:combustion_generator
 #71C32B electrodynamics:combustionchamber
@@ -209,6 +211,7 @@
 #7141A2 evilcraft:hardened_blood
 #04EF85 create:haunted_bell
 #8EBC8D advgenerators:heat_exchanger
+#409DBE advgenerators:heating_chamber
 #EBDD46 electrodynamics:hydroelectricgenerator
 #52D27E minecraft:ice
 #0DDEDC exnihilosequentia:infested_leaves
@@ -234,6 +237,7 @@
 #B3761E thermal:machine_crafter
 #48B87E compactmachines:machine_giant
 #D862D9 compactmachines:machine_maximum
+#E81594 thermal:machine_press
 #F80505 thermal:machine_pyrolyzer
 #DBA448 botania:mana_pool
 #413D8C botania:mana_spreader

@@ -8,86 +8,28 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "504DB1C92D22055B"
-			tasks: [{
-				id: "0815BBD6C6EBC900"
-				item: "advgenerators:syngas_controller"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			id: "53E2E687BB174100"
-			tasks: [{
-				id: "1246323AAEAD2E8C"
-				item: {
-					Count: 1b
-					id: "woodenbucket:wooden_bucket"
-					tag: {
-						Damage: 0
-						Fluid: {
-							Amount: 1000
-							FluidName: "hexerei:blood_fluid"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.0d
-		}
-		{
 			id: "63E7721AC4FBA713"
 			tasks: [{
-				id: "49968EC398F18566"
-				item: "emendatusenigmatica:natural_acid_dust"
+				id: "0839BCD225C5119D"
+				item: "emendatusenigmatica:natural_acid_crystal"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
-			id: "6C079AAD412390BF"
-			tasks: [{
-				id: "6A107F2DB0A0E0DE"
-				item: "minecraft:sunflower"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			id: "79410628A4584F14"
-			tasks: [{
-				id: "49DE63627B000EA4"
-				item: {
-					Count: 1b
-					id: "ceramicbucket:ceramic_bucket"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "emendatusenigmatica:sulfuric_acid"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
+			dependencies: ["42DF16912A7814F2"]
 			id: "44EF434C5BDF3A2B"
 			tasks: [{
 				id: "5DF1AAA43855D993"
 				item: "evilcraft:blood_orb_filled"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["5167E4790B37D44D"]
 			id: "53F35C8BC17C1432"
 			tasks: [{
 				id: "04A4A7091E58866E"
@@ -98,7 +40,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["47BE04D9B5593CED"]
+			dependencies: ["58DE08EF688C613C"]
 			id: "59F8EB2AA1F41C76"
 			tasks: [{
 				entity: "mutantmonsters:mutant_zombie"
@@ -111,102 +53,68 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["58DE08EF688C613C"]
-			id: "47BE04D9B5593CED"
-			tasks: [{
-				id: "6B55C3FA7E59C35A"
-				item: "hostilenetworks:blank_data_model"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -6.0d
-		}
-		{
 			dependencies: ["59F8EB2AA1F41C76"]
-			id: "5167E4790B37D44D"
-			tasks: [{
-				id: "2C905493F9CE0E8F"
-				item: {
-					Count: 1b
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:zombie"
-						}
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:zombie"
 					}
 				}
-				type: "item"
+			}
+			id: "5167E4790B37D44D"
+			tasks: [{
+				id: "22A436002C397822"
+				type: "checkmark"
 			}]
+			title: "Zombie Data Model"
 			x: -2.5d
 			y: -3.0d
 		}
 		{
-			id: "46E656D055354846"
-			tasks: [{
-				id: "37735A77EA5A091D"
-				item: {
-					Count: 1b
-					id: "ceramicbucket:ceramic_bucket"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "evilcraft:blood"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
+			dependencies: ["4A734051B049EE53"]
+			icon: "emendatusenigmatica:bio_waste_bucket"
 			id: "34D3EF4D8B26D642"
 			tasks: [{
-				id: "56CC7910AA9D976D"
-				title: "bio-waste"
+				id: "127C0AB3D3AF9010"
 				type: "checkmark"
 			}]
-			x: 6.5d
+			title: "Bio Waste"
+			x: 7.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["4C62E4A294975050"]
 			id: "4A734051B049EE53"
 			tasks: [{
 				id: "381C898CA2C1D0FE"
 				item: "assemblylinemachines:refinery"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["4A734051B049EE53"]
 			id: "76D24FED86464FBE"
 			tasks: [{
 				id: "01BE4FF924DD34ED"
 				item: "emendatusenigmatica:iron_bucket"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
-			id: "103037BDC116A5E8"
-			tasks: [{
-				id: "5D26362F10E5509F"
-				item: "advgenerators:exchanger_controller"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.0d
-		}
-		{
+			dependencies: ["76D24FED86464FBE"]
 			id: "1D0D8F1B8DC0B145"
 			tasks: [{
 				id: "016ECF221DAA5A28"
 				item: "emendatusenigmatica:iron_block"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -216,7 +124,7 @@
 				item: "immersiveengineering:cloche"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -638,7 +546,7 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
@@ -746,7 +654,7 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -807,7 +715,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			id: "441D4986DAD470A8"
@@ -820,16 +728,7 @@
 			y: -1.5d
 		}
 		{
-			id: "123FBC8988730253"
-			tasks: [{
-				id: "3CE7C29139C641AC"
-				item: "hostilenetworks:overworld_prediction"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 0.0d
-		}
-		{
+			dependencies: ["53F35C8BC17C1432"]
 			id: "5D54E5E7AAD1B04D"
 			tasks: [{
 				id: "23B463FDC2C92046"
@@ -848,6 +747,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["53F35C8BC17C1432"]
 			id: "1EFC82CE27EB48DF"
 			tasks: [{
 				id: "4983D249C873F9A7"
@@ -855,7 +755,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "5C2AE357E6702173"
@@ -1195,13 +1095,14 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1D0D8F1B8DC0B145"]
 			id: "7F2EB84813211FB3"
 			tasks: [{
 				id: "5BFF6FA979FE8D7B"
 				item: "emendatusenigmatica:iron_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -2510,6 +2411,193 @@
 			}]
 			x: -1.5d
 			y: 3.5d
+		}
+		{
+			id: "4119ABEE134DAA35"
+			tasks: [{
+				id: "0081FA2A36A8BFE1"
+				item: "minecraft:light_gray_stained_glass_pane"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D54E5E7AAD1B04D"]
+			id: "42DF16912A7814F2"
+			tasks: [{
+				id: "799689CCC546EAF3"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "44065FD1A13868FD"
+			tasks: [{
+				id: "3ABB4031E16A326C"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "73C584AB2E1BB656"
+			tasks: [{
+				id: "465907EBC9F09A5E"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"050DEF899DD96C79"
+				"134C613CB985EA7E"
+			]
+			id: "3A82BAE420D9A36E"
+			tasks: [{
+				id: "6CBE2A2011ABCFEE"
+				item: "advgenerators:exchanger_controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "029C685B40B6E482"
+			tasks: [{
+				id: "686DCB01B9BCA371"
+				item: "advgenerators:fluid_input"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "37FD1F6BB3D8E0C0"
+			tasks: [{
+				id: "3A1E944A4013333E"
+				item: "advgenerators:fluid_output_select"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "53D6119F0AEB5605"
+			tasks: [{
+				id: "4846FBFB48898049"
+				item: "advgenerators:control"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "6A498007EF2A6282"
+			tasks: [{
+				id: "082E9AC9A65626B8"
+				item: "advgenerators:heat_exchanger"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "1F853789512EE76F"
+			tasks: [{
+				id: "4B7F7F71169B4D70"
+				item: "advgenerators:sensor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			icon: "hexerei:blood_bucket"
+			id: "050DEF899DD96C79"
+			tasks: [{
+				id: "4B48AF2C2E01991D"
+				type: "checkmark"
+			}]
+			title: "Blood (Hexerei)"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A82BAE420D9A36E"]
+			icon: "evilcraft:bucket_blood"
+			id: "4C62E4A294975050"
+			tasks: [{
+				id: "25F099410C22166A"
+				type: "checkmark"
+			}]
+			title: "Gooey Blood (Evilcraft)"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: "emendatusenigmatica:natural_acid_bucket"
+			id: "134C613CB985EA7E"
+			tasks: [{
+				id: "12299DAB38403DDA"
+				type: "checkmark"
+			}]
+			title: "Natural Acid "
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:sunflower"
+			id: "570EC84B6B866043"
+			tasks: [{
+				id: "4EEF1A7EB517BD01"
+				type: "checkmark"
+			}]
+			title: "Acid Flowers"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "225D7B550E0CC9D6"
+			tasks: [{
+				id: "66BE148B06FBDFCC"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "39F11322EC6EA7EB"
+			tasks: [{
+				id: "68BCD209A14662FE"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "35D47181A9497A2A"
+			tasks: [{
+				id: "32E1EC6D84B8A724"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A734051B049EE53"]
+			id: "464C25B3C2922254"
+			tasks: [{
+				id: "31458BF2F3ECE38F"
+				item: "assemblylinemachines:refinery_attachment_separation"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
 		}
 	]
 	title: "Blood Factory"

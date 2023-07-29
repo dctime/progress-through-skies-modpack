@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:zombie",
+	"subtypes": [
+		"minecraft:husk",
+		"minecraft:zombie_villager",
+		"twilightforest:rising_zombie"
+	],
+	"name": "entity.minecraft.zombie",
+	"name_color": "0x3B622F",
+	"gui_scale": 1,
+	"gui_x_offset": 0,
+	"gui_y_offset": 0,
+	"gui_z_offset": 0,
+	"sim_cost": 30000,
+	"input": {
+		"item": "hostilenetworks:empty_prediction"
+	},
+	"base_drop": {
+		"item": "minecraft:rotten_flesh"
+	},
+	"trivia": "hostilenetworks.trivia.zombie",
+	"fabricator_drops": [
+		{
+			"item": "minecraft:rotten_flesh",
+			"count": 64
+		},
+		{
+			"item": "evilcraft:blood_orb_filled",
+			"count": 64
+		}
+	]
+}

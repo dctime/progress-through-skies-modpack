@@ -49,4 +49,22 @@ ServerEvents.recipes(event => {
             "count": 4
         }
     })
+
+    event.custom({
+        "type": "cyclic:solidifier",
+        "ingredients": [
+        ],
+        "energy": {
+            "rfpertick": 0,
+            "ticks": 30
+        },
+        "mix": {
+            "fluid": 'emendatusenigmatica:iron',
+            "count": 900
+        },
+        "result": {
+            "item": 'emendatusenigmatica:iron_block',
+            "count": 10
+        }
+    })
 })

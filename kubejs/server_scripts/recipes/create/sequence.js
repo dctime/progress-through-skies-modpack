@@ -383,22 +383,22 @@ ServerEvents.recipes(event => {
       "item": 'pneumaticcraft:unassembled_pcb'
     },
     "transitionalItem": {
-      "item": 'kubejs:incomplete_printed_circuit_board'
+      "item": 'kubejs:incomplete_prediction_matrix'
     },
     "sequence": [
       {
         "type": "create:deploying",
         "ingredients": [
           {
-            "item": 'kubejs:incomplete_printed_circuit_board'
+            "item": 'kubejs:incomplete_prediction_matrix'
           },
           {
-            "item": 'pneumaticcraft:transistor'
+            "item": 'minecraft:light_gray_stained_glass_pane'
           }
         ],
         "results": [
           {
-            "item": 'kubejs:incomplete_printed_circuit_board'
+            "item": 'kubejs:incomplete_prediction_matrix'
           }
         ]
       },
@@ -406,12 +406,12 @@ ServerEvents.recipes(event => {
         "type": "create:pressing",
         "ingredients": [
           {
-            "item": 'kubejs:incomplete_brass_casing'
+            "item": 'kubejs:incomplete_prediction_matrix'
           }
         ],
         "results": [
           {
-            "item": 'kubejs:incomplete_brass_casing'
+            "item": 'kubejs:incomplete_prediction_matrix'
           }
         ]
       },
@@ -419,13 +419,13 @@ ServerEvents.recipes(event => {
         "type": "create:cutting",
         "ingredients": [
           {
-            "item": 'kubejs:incomplete_brass_casing'
+            "item": 'kubejs:incomplete_prediction_matrix'
           }
         ], 
       "results": [
         {
-          "item": 'kubejs:incomplete_brass_casing',
-          "count": 1
+          "item": 'kubejs:incomplete_prediction_matrix',
+          
         }
       ],
       "processingTime": 50
@@ -435,7 +435,8 @@ ServerEvents.recipes(event => {
     ],
     "results": [
       {
-        "item": 'pneumaticcraft:printed_circuit_board'
+        "item": 'hostilenetworks:empty_prediction',
+        "count": 64
       }
     ],
     "loops": 1

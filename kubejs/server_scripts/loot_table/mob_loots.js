@@ -65,7 +65,7 @@ ServerEvents.entityLootTables((event) => {
     event.addEntity('mutantmonsters:mutant_zombie', (table) => {
         table.addPool((pool) => {
             pool.rolls = 1.0;
-            pool.addItem(Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:zombie"}}'), 1)
+            pool.addItem(Item.of('hostilenetworks:data_model', '{data_model:{data:6,id:"hostilenetworks:zombie"}}'), 1)
         });
     })
 })

@@ -1,5 +1,10 @@
 {
-    "block.advgenerators.syngas_controller": "Blood Processing Controller",
     "block.evilcraft.blood": "Gooey Blood",
-    "advgenerators.gui.syngas.title": "Syngas Producer Control"
+    "item.evilcraft.bucket_blood": "Gooey Blood Bucket",
+    "bdlib.unit.hu": "AU",
+    "advgenerators.label.exchanger.heat": "Current Acid Level",
+    "advgenerators.label.exchanger.maxtransfer": "Maximum Acid Unit Transfer",
+    "advgenerators.label.exchanger.heatloss": "Acid Loss Due to DCtime's Poor Maintenance",
+    "block.advgenerators.exchanger_controller": "Blood Processing Controller",
+    "advgenerators.gui.exchanger.title": "Blood Processing Control"
 }
