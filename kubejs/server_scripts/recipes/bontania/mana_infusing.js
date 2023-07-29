@@ -58,4 +58,16 @@ ServerEvents.recipes(event => {
             },
             "mana": 40000
         })
+
+        event.custom(
+            {
+                "type": "botania:mana_infusion",
+                "input": {
+                    "item": 'tinyredstone:redstone_panel'
+                },
+                "output": {
+                    "item": 'hostilenetworks:blank_data_model'
+                },
+                "mana": 10000
+            })
 })

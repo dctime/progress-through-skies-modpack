@@ -275,5 +275,170 @@ ServerEvents.recipes(event => {
     ],
     "loops": 6
   })
+
+  event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": 'pneumaticcraft:unassembled_pcb'
+    },
+    "transitionalItem": {
+      "item": 'kubejs:incomplete_printed_circuit_board'
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          },
+          {
+            "item": 'pneumaticcraft:transistor'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          },
+          {
+            "item": 'pneumaticcraft:capacitor'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          },
+          {
+            "item": 'pneumaticcraft:transistor'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          },
+          {
+            "item": 'pneumaticcraft:capacitor'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_brass_casing'
+          },
+          {
+            "fluid": 'emendatusenigmatica:tin',
+            "nbt": {},
+            "amount": 10
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_brass_casing'
+          }
+        ]
+      }
+      
+    ],
+    "results": [
+      {
+        "item": 'pneumaticcraft:printed_circuit_board'
+      }
+    ],
+    "loops": 1
+  })
+
+  event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": 'pneumaticcraft:unassembled_pcb'
+    },
+    "transitionalItem": {
+      "item": 'kubejs:incomplete_printed_circuit_board'
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          },
+          {
+            "item": 'pneumaticcraft:transistor'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_printed_circuit_board'
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_brass_casing'
+          }
+        ],
+        "results": [
+          {
+            "item": 'kubejs:incomplete_brass_casing'
+          }
+        ]
+      },
+      {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": 'kubejs:incomplete_brass_casing'
+          }
+        ], 
+      "results": [
+        {
+          "item": 'kubejs:incomplete_brass_casing',
+          "count": 1
+        }
+      ],
+      "processingTime": 50
+    }
+      
+      
+    ],
+    "results": [
+      {
+        "item": 'pneumaticcraft:printed_circuit_board'
+      }
+    ],
+    "loops": 1
+  })
 })
 

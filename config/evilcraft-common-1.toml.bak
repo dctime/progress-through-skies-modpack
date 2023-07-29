@@ -83,7 +83,7 @@
 		#Sets the default default speed in increments per tick with which an item will move when being process by an environmental accumulator.
 		defaultProcessItemSpeed = 0.015
 		#Sets the default amount of ticks the environmental accumulator takes to cool down
-		defaultTickCooldown = 1200
+		defaultTickCooldown = 10
 
 	[machine.purifier]
 		#The duration limit in ticks for which potion effect can be collected. Set to a negative value to allow any duration.
@@ -139,7 +139,7 @@
 
 	[machine.sang_envir_acc]
 		#The base blood usage in mB for recipes, this is multiplied with the cooldown time per recipe.
-		baseUsage = 50
+		baseUsage = 1
 
 [item]
 

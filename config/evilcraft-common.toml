@@ -45,7 +45,7 @@
 
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
-		bloodMBPerHP = 0
+		bloodMBPerHP = 20
 		#Blocks onto which no blood stains can be spawned. Regular expressions are allowed.
 		spawnBlacklist = ["tconstruct:.*"]
 		#If blood stains should be spawned on block entities.
@@ -83,7 +83,7 @@
 		#Sets the default default speed in increments per tick with which an item will move when being process by an environmental accumulator.
 		defaultProcessItemSpeed = 0.015
 		#Sets the default amount of ticks the environmental accumulator takes to cool down
-		defaultTickCooldown = 10
+		defaultTickCooldown = 1200
 
 	[machine.purifier]
 		#The duration limit in ticks for which potion effect can be collected. Set to a negative value to allow any duration.
@@ -139,7 +139,7 @@
 
 	[machine.sang_envir_acc]
 		#The base blood usage in mB for recipes, this is multiplied with the cooldown time per recipe.
-		baseUsage = 1
+		baseUsage = 50
 
 [item]
 
@@ -337,7 +337,7 @@
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
 		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon"]
 		#Whether vengeance spirits should always be visible in creative mode.
-		alwaysVisibleInCreative = true
+		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
 		spawnLimit = 5
 

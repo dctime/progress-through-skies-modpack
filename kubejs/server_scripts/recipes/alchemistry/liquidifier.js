@@ -43,5 +43,20 @@ ServerEvents.recipes(event => {
           "amount": "10"
         }
       })
+
+      event.custom({
+        "type": "alchemistry:liquifier",
+        "group": "alchemistry:liquifier",
+        "input": {
+          "ingredient": {
+            "item": 'emendatusenigmatica:tin_ingot'
+          },
+          "count": 1
+        },
+        "result": {
+          "fluid": 'emendatusenigmatica:tin',
+          "amount": "10"
+        }
+      })
 })
 
