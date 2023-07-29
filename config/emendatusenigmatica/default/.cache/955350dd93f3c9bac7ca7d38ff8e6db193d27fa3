@@ -1,9 +1,10 @@
-// 1.19.2	2023-07-28T11:22:18.4355388	EE Mekanism Addon Item Tags
-46f29fe887476c50efcd873b7e1bab598ab8e5cc data/mekanism/tags/items/clumps.json
+// 1.19.2	2023-07-29T13:30:42.6885239	EE Mekanism Addon Item Tags
+d25d3f7ac4a6da499fd118d011e44e1dca2a5c2e data/mekanism/tags/items/clumps.json
 0a5a336c1620cca5b78602d12ffa3643da369d8a data/mekanism/tags/items/clumps/copper.json
 5366f59a45f508d5a45dbf6adb42e02fb95119cc data/mekanism/tags/items/clumps/gold.json
 fa70ad15829a668b584bdb48b41f02459a9cf681 data/mekanism/tags/items/clumps/iron.json
-54bea2b9769c7b827e74e4188ec1a7d0c07a44a3 data/mekanism/tags/items/crystals.json
+4585f07ed22eec6684c56a53cb51bb5c141602ef data/mekanism/tags/items/clumps/tin.json
+9c40fb9ddf6ec8f17598d588457ee63ac7804bd7 data/mekanism/tags/items/crystals.json
 2f87f05378a438e882e36c4e90e9d766073fa875 data/mekanism/tags/items/crystals/ammonia.json
 e5845910a8c2694dfe86a9486f3c5a7b0937a570 data/mekanism/tags/items/crystals/ammonium_bicarbonate.json
 e0597f5deeae8841970ccb5a82dfb96a6b95f757 data/mekanism/tags/items/crystals/ammonium_chloride.json
@@ -42,8 +43,9 @@ a203c23f4014df8d47de051a79684887cdca0abc data/mekanism/tags/items/crystals/solde
 0c35af6bb7e4e13487b757aec463a59c074591a0 data/mekanism/tags/items/crystals/sulfuric_acid.json
 1f5ffec846e44d761461b3a85149e60bf3bccac1 data/mekanism/tags/items/crystals/sulfurous_acid.json
 38861677cf0c4e7e65249a63ae2e2542953cb578 data/mekanism/tags/items/crystals/sulfur_dioxide.json
+d75fa92f7aed1f63b84baebe45a181c4d0ce24b8 data/mekanism/tags/items/crystals/tin.json
 d9ffc19e5fd3958dc9d3ee1d8c6ed3da50f19bf9 data/mekanism/tags/items/crystals/wet_slurries_of_algae.json
-9d1b44c0a6b02db1ebdd648d0b788aa84d38a641 data/mekanism/tags/items/dirty_dusts.json
+407f02dc24625969e2e510d52c8be7a777a30d19 data/mekanism/tags/items/dirty_dusts.json
 1ab985068d973c05d14395b43c0340f2e92f4af1 data/mekanism/tags/items/dirty_dusts/ammonia.json
 a3a046193e8e17a7ca2e8c053c980d89e52c258d data/mekanism/tags/items/dirty_dusts/ammonium_bicarbonate.json
 a43049e1fc53f43c8262eafbfeea2a702649d04d data/mekanism/tags/items/dirty_dusts/ammonium_chloride.json
@@ -82,8 +84,9 @@ f99d7c0194f2b3820c36c4ad20353d874471f636 data/mekanism/tags/items/dirty_dusts/so
 0a67fcda9e435584d76fa2b60b3d931e7adbb967 data/mekanism/tags/items/dirty_dusts/sulfuric_acid.json
 b140ca6ce26c710d4e2ae02dbc48175e3287c009 data/mekanism/tags/items/dirty_dusts/sulfurous_acid.json
 099c5051020ea8d532e4fec8661ff2223f6b39e0 data/mekanism/tags/items/dirty_dusts/sulfur_dioxide.json
+9c310270944591f27f3c93d69e43fbed6c8ba17d data/mekanism/tags/items/dirty_dusts/tin.json
 b8f24a7c04b0995153a2776bdf2571a37be82526 data/mekanism/tags/items/dirty_dusts/wet_slurries_of_algae.json
-17e77b816f5bc8c7e8a40370def68d136577d1b2 data/mekanism/tags/items/enriched.json
+d93459c5cf8d9b1a6247a0ae76944260fd309451 data/mekanism/tags/items/enriched.json
 ff4fa687db564e372d54a9445ddbd576ec6fd820 data/mekanism/tags/items/enriched/ammonia.json
 d18bd2b803b279413867fc01d6b1bd42706993c9 data/mekanism/tags/items/enriched/ammonium_bicarbonate.json
 cb1359edea7c7d34d3e04af5494564a12004a660 data/mekanism/tags/items/enriched/ammonium_chloride.json
@@ -120,8 +123,10 @@ d420a3a37bdc1f5739ae9e80afdca505c7f212c2 data/mekanism/tags/items/enriched/sodiu
 ffc4952e9da0a8e7f8dda4aae8fd45996729d681 data/mekanism/tags/items/enriched/sulfuric_acid.json
 34ffd9cad1f3c7ca8c67eaf05f5222cd07fc8b72 data/mekanism/tags/items/enriched/sulfurous_acid.json
 8c744c1b43ce55a5edaedcb0bb1614a2bf41c968 data/mekanism/tags/items/enriched/sulfur_dioxide.json
+4aeca4076c21f0264ada79491311f8216832d614 data/mekanism/tags/items/enriched/tin.json
 9943a577a9aa9ae21f037932c40795038f70bf27 data/mekanism/tags/items/enriched/wet_slurries_of_algae.json
-a65f19f0d6eef58be3fa4c9eb1d20016b36bdbb5 data/mekanism/tags/items/shards.json
+6b14bb13b85df247bf8242af9a2f307efa6eaf20 data/mekanism/tags/items/shards.json
 9a9ca4ee6be77dcbb089ce1bc6155f6cd02e220f data/mekanism/tags/items/shards/copper.json
 f593ece874b87777b2557b375afe2d43a77a6897 data/mekanism/tags/items/shards/gold.json
 db7677d149aa199bea0e59f15ad35c27110bf087 data/mekanism/tags/items/shards/iron.json
+deeebf536e38d9ca6ef6fdb94602e8cd3d903099 data/mekanism/tags/items/shards/tin.json

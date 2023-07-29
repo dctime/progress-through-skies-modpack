@@ -89,6 +89,13 @@ ServerEvents.tags('item', event => {
         'create:chute'
     ]
 
+    let stone_machine =
+    [
+        'minecraft:stone',
+        'minecraft:stone_bricks',
+        'minecraft:chiseled_stone_bricks'
+    ]
+
     for (let item of polished_andesite_machine)
     {
         event.add('forge:polished_andesite_machine', item)
@@ -138,6 +145,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:basin_machine', item)
     }
+
+    for (let item of stone_machine)
+    {
+        event.add('forge:stone_machine', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -154,7 +166,8 @@ ServerEvents.recipes(event => {
             'forge:livingrock_machine',
             'forge:storage_drawer',
             'forge:copper_machine',
-            'forge:basin_machine'
+            'forge:basin_machine',
+            'forge:stone_machine'
         ]
     })
 })

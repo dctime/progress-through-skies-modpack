@@ -19,7 +19,8 @@ ServerEvents.tags('item', event => {
     let log_machine =
     [
         'thermal:device_tree_extractor',
-        'minecraft:oak_log'
+        'minecraft:oak_log',
+        'minecraft:oak_planks'
     ]
 
     let cog_wheels =

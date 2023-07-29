@@ -1,6 +1,7 @@
 {
   "values": [
     "#forge:gears/gold",
+    "#forge:gears/tin",
     "#forge:gears/copper",
     "#forge:gears/raw_copper",
     "#forge:gears/iron"

@@ -53,6 +53,13 @@ ServerEvents.tags('item', event => {
         'electrodynamics:mineralgrindertriple',
         'electrodynamics:chemicalcrystallizer'
     ]
+
+    let goggles =
+    [
+        'create:goggles',
+        'botania:cosmetic_engineer_goggles',
+        'naturesaura:eye',
+    ]
     
     for (let item of wrench_list)
     {
@@ -84,6 +91,11 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:motor_complex_list', item)
     }
+
+    for (let item of goggles)
+    {
+        event.add('forge:goggles', item)
+    }
     
 })
 
@@ -97,7 +109,8 @@ ServerEvents.recipes(event => {
             "forge:wool_function_block_list",
             "forge:motor_list",
             "forge:transformer_list",
-            "forge:motor_complex_list"
+            "forge:motor_complex_list",
+            'forge:goggles'
         ]    
     })
 })

@@ -11,6 +11,9 @@
 #AC584B summoningrituals:altar
 #222F76 createaddition:alternator
 #17F1FF create:analog_lever
+#9D11B0 naturesaura:ancient_bark
+#29E5D4 naturesaura:ancient_leaves
+#93DB0E naturesaura:ancient_log
 #A4683B create:andesite_casing
 #89AB26 create:andesite_scaffolding
 #A292CE mekanism:antiprotonic_nucleosynthesizer
@@ -72,6 +75,7 @@
 #DE3B54 nuclearscience:chemicalextractor
 #7C0317 electrodynamics:chemicalmixer
 #F522F4 minecraft:chest
+#AA9109 minecraft:chiseled_stone_bricks
 #6E4E7A chiselsandbits:chiseledrock
 #504168 ic2:chunkloader
 #F2A1A5 create:chute
@@ -97,6 +101,7 @@
 #E2D601 minecraft:composter
 #5F5250 ad_astra:compressor
 #CCF217 xnet:controller
+#C75153 naturesaura:conversion_catalyst
 #12D127 emendatusenigmatica:copper
 #62B857 create:copper_casing
 #F5DD09 assemblylinemachines:corrupting_basin
@@ -114,6 +119,7 @@
 #7DF6E7 create:crushing_wheel
 #E48FCC ad_astra:cryo_freezer
 #004C87 evilcraft:dark_tank
+#449393 naturesaura:decayed_leaves
 #FF48B8 create:depot
 #59CD2D thermal:device_collector
 #5720C8 thermal:device_water_gen
@@ -165,6 +171,7 @@
 #BDA880 additional_lights:fire_for_standing_torch_l
 #BDA887 additional_lights:fire_for_standing_torch_s
 #740445 exnihilosequentia:fired_crucible
+#7C5BC0 naturesaura:flower_generator
 #2A7B22 assemblylinemachines:fluid_bath
 #EAF200 thermal:fluid_cell
 #BD5E82 advgenerators:fluid_input
@@ -186,6 +193,7 @@
 #D60460 create:gearbox
 #F832D7 create:gearshift
 #0A9178 chipped:glassblower
+#4EC573 naturesaura:gold_brick
 #042549 naturesaura:gold_powder
 #C34942 occultism:golden_sacrificial_bowl
 #3F84B7 minecraft:grass_block
@@ -257,6 +265,7 @@
 #7530C9 electrodynamics:multisubnode
 #D59B0C assemblylinemachines:naphtha_turbine
 #304FCC ad_astra:nasa_workbench
+#BD87D3 naturesaura:nature_altar
 #F80B3B xnet:netcable
 #347C45 nuclearscience:nuclearboiler
 #954279 mekanism:nutritional_liquifier
@@ -355,10 +364,12 @@
 #E818C8 advgenerators:steam_turbine_controller
 #DC3458 minecraft:stone
 #C283C5 exnihilosequentia:stone_barrel
+#F8955F minecraft:stone_bricks
 #7D07A9 minecraft:stone_pressure_plate
 #2E9337 minecraft:stonecutter
 #A061A1 botania:stripped_dreamwood_log
 #A88E8E minecraft:stripped_oak_wood
+#B96EB4 minecraft:structure_block
 #0D42F7 advgenerators:syngas_controller
 #B12AD5 mekanism:thermal_evaporation_block
 #D5426E mekanism:thermal_evaporation_controller

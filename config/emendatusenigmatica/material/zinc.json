@@ -1,0 +1,46 @@
+{
+    "id": "zinc",
+    "source": "modded",
+    "localizedName": "Zinc",
+    "processedTypes": [
+        "storage_block",
+        "ingot",
+        "ore",
+        "raw",
+        "nugget",
+        "dust",
+        "plate",
+        "gear",
+        "rod",
+        "fluid",
+        "cluster",
+        "infuse_type",
+        "gas",
+        "slurry",
+        "crystal",
+        "shard",
+        "clump",
+        "dirty_dust",
+        "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": false
+    },
+    "colors": {
+      "fluidColor": "-453b38",
+      "particlesColor": "bac4c8",
+      "materialColor": "bac4c8",
+      "gasColor":"bac4c8"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 0.27
+    }
+  }

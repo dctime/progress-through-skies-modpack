@@ -1,0 +1,46 @@
+{
+    "id": "brass",
+    "source": "modded",
+    "localizedName": "Brass",
+    "processedTypes": [
+        "storage_block",
+        "ingot",
+        "ore",
+        "raw",
+        "nugget",
+        "dust",
+        "plate",
+        "gear",
+        "rod",
+        "fluid",
+        "cluster",
+        "infuse_type",
+        "gas",
+        "slurry",
+        "crystal",
+        "shard",
+        "clump",
+        "dirty_dust",
+        "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": false
+    },
+    "colors": {
+      "fluidColor": "-4a59be",
+      "particlesColor": "b5a642",
+      "materialColor": "b5a642",
+      "gasColor":"b5a642"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 0.28
+    }
+  }

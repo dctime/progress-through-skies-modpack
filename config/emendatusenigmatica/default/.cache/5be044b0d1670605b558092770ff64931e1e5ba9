@@ -1,5 +1,6 @@
-// 1.19.2	2023-07-24T13:00:52.5212778	EE Create Addon Item Tags
-013cb436af96e3688a1264fc09b769e4f662b6f3 data/create/tags/items/crushed_ores.json
+// 1.19.2	2023-07-29T13:30:42.6800153	EE Create Addon Item Tags
+23f50d8dc293ae243c71d3d5678de4b1f762486d data/create/tags/items/crushed_ores.json
 13a687050fbe94297186bad9ad58cde1474682e9 data/create/tags/items/crushed_ores/copper.json
 3fce353d6026e612c8320226bba4b4ecf5f445ea data/create/tags/items/crushed_ores/gold.json
 b0de3d1904771593be97ec09168847f73a81db34 data/create/tags/items/crushed_ores/iron.json
+a665ef865ce4ba8cfcaa31815ce1a47353396929 data/create/tags/items/crushed_ores/tin.json

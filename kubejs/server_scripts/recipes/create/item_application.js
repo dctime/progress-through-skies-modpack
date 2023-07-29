@@ -93,4 +93,23 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        "type": "create:item_application",
+        "ingredients": 
+        [
+            {
+                "item": 'minecraft:stone_bricks'
+            },
+            {
+                "item": 'naturesaura:gold_powder'
+            }
+        ],
+        "results": 
+        [
+            {
+                'item':'naturesaura:gold_brick'
+            }
+        ]
+    })
 })

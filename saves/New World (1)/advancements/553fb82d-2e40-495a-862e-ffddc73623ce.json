@@ -402,6 +402,12 @@
     },
     "done": true
   },
+  "naturesaura:eye": {
+    "criteria": {
+      "eye": "2023-07-29 14:02:21 +0800"
+    },
+    "done": true
+  },
   "mekanism:energy_transport": {
     "criteria": {
       "basic_universal_cable": "2023-07-01 11:36:30 +0800"
@@ -495,6 +501,12 @@
   "compactvoidminers:void_miner": {
     "criteria": {
       "void_miner": "2023-07-23 18:15:02 +0800"
+    },
+    "done": true
+  },
+  "naturesaura:altar": {
+    "criteria": {
+      "book": "2023-07-29 13:57:48 +0800"
     },
     "done": true
   },
@@ -1348,6 +1360,12 @@
   "tombstone:recipes/from_grave_dust": {
     "criteria": {
       "has_ingredient": "2023-07-05 19:25:30 +0800"
+    },
+    "done": true
+  },
+  "naturesaura:conversion_catalyst": {
+    "criteria": {
+      "catalyst": "2023-07-29 14:24:07 +0800"
     },
     "done": true
   },

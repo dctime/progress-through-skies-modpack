@@ -1,6 +1,7 @@
 {
   "values": [
     "#forge:rods/gold",
+    "#forge:rods/tin",
     "#forge:rods/copper",
     "#forge:rods/raw_copper",
     "#forge:rods/iron"

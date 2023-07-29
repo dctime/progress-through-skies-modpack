@@ -14,7 +14,7 @@
 				item: "advgenerators:syngas_controller"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -35,7 +35,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -45,7 +45,7 @@
 				item: "emendatusenigmatica:natural_acid_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -55,7 +55,7 @@
 				item: "minecraft:sunflower"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -74,7 +74,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -84,7 +84,7 @@
 				item: "evilcraft:blood_orb_filled"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -94,7 +94,7 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -1.5d
 		}
 		{
@@ -106,7 +106,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -4.5d
 		}
 		{
@@ -116,7 +116,7 @@
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -6.0d
 		}
 		{
@@ -134,7 +134,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -153,7 +153,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -163,7 +163,7 @@
 				title: "bio-waste"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -173,7 +173,7 @@
 				item: "assemblylinemachines:refinery"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -183,7 +183,7 @@
 				item: "emendatusenigmatica:iron_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: "advgenerators:exchanger_controller"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -203,7 +203,7 @@
 				item: "emendatusenigmatica:iron_block"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 3.0d
 		}
 		{
@@ -213,7 +213,7 @@
 				item: "immersiveengineering:cloche"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
@@ -223,7 +223,7 @@
 				item: "pneumaticcraft:printed_circuit_board"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -629,7 +629,7 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -6.5d
 		}
 		{
@@ -737,7 +737,7 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
@@ -797,7 +797,7 @@
 				item: "tinyredstone:redstone_panel"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -7.5d
 		}
 		{
@@ -807,7 +807,7 @@
 				item: "hostilenetworks:empty_prediction"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -817,7 +817,7 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -835,7 +835,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -845,7 +845,7 @@
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: 1.0d
 		}
 		{
@@ -1192,7 +1192,7 @@
 				item: "emendatusenigmatica:iron_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -1430,7 +1430,7 @@
 				item: "xnet:controller"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -1963,7 +1963,7 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -2006,6 +2006,269 @@
 			title: "Sulfur"
 			x: -12.0d
 			y: -10.5d
+		}
+		{
+			dependencies: [
+				"05241E21249FFEC5"
+				"13C98ECBA04B84BB"
+			]
+			id: "4761667B1BD711CD"
+			tasks: [{
+				id: "266694E1A414FA14"
+				item: "emendatusenigmatica:tin_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			icon: "emendatusenigmatica:tin_bucket"
+			id: "1A228477A0829C73"
+			tasks: [{
+				id: "0B69BC3261BE6FA7"
+				type: "checkmark"
+			}]
+			title: "Tin"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "3EC5C8C5283E7596"
+			tasks: [{
+				id: "358AF5FD777FA490"
+				item: "pneumaticcraft:capacitor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "2EA27867CBF689D0"
+			tasks: [{
+				id: "77FDE17357E3C345"
+				item: "pneumaticcraft:transistor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "204503C1F75A59ED"
+			tasks: [{
+				id: "6C64A9464CC29911"
+				item: "emendatusenigmatica:copper_plate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "65DA6F8F44763409"
+			tasks: [{
+				id: "666AB87A8BDE471D"
+				item: "emendatusenigmatica:copper_rod"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A67CF5324FFCEB2"]
+			id: "20A6470C8E5BC651"
+			tasks: [{
+				id: "3A0900BF44128309"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79B4881F0CC55736"]
+			id: "2B07EE9B514A3613"
+			tasks: [{
+				id: "66B28D02199547CE"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79B4881F0CC55736"]
+			id: "1B6BE4581153AF02"
+			tasks: [{
+				id: "6747CF09EC854351"
+				item: "minecraft:chiseled_stone_bricks"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B6BE4581153AF02"]
+			id: "5288CCF150842E69"
+			tasks: [{
+				id: "7ECCDC21B1646C0E"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "52EAC45A7524298A"
+			tasks: [{
+				id: "58BB728223B6B373"
+				item: "naturesaura:gold_brick"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C009328DE2FFA59"]
+			id: "151507531F0572C1"
+			tasks: [{
+				id: "79D0BAB1E26096D9"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5EF2520625571310"]
+			id: "02D5787C26B23624"
+			tasks: [{
+				id: "1B3CE9630DCD9CE1"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			id: "5D0473FF7C896E55"
+			tasks: [{
+				id: "6AEFDDF683021B8B"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			id: "09764F53848BA0CD"
+			tasks: [{
+				id: "5E33411F2C759687"
+				item: "additional_lights:fire_pit_s_cobblestone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"09764F53848BA0CD"
+				"20A6470C8E5BC651"
+				"2B07EE9B514A3613"
+				"1B6BE4581153AF02"
+				"5288CCF150842E69"
+				"52EAC45A7524298A"
+			]
+			id: "05241E21249FFEC5"
+			tasks: [{
+				hasCustomPicture: false
+				id: "3E0477F503317181"
+				ignoreState: false
+				layer: true
+				name: "natura_altar"
+				rightclick: false
+				type: "questsadditions:structure"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "5EF2520625571310"
+			tasks: [{
+				id: "50FBCAED4F8A6F6B"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			id: "5C009328DE2FFA59"
+			tasks: [{
+				id: "545F6ECDA55B249D"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			id: "164950C3A7E14E56"
+			tasks: [{
+				id: "65295CC8BF60C30F"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			id: "79B4881F0CC55736"
+			tasks: [{
+				id: "724C3C932C78E01D"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			id: "1A67CF5324FFCEB2"
+			tasks: [{
+				id: "6ED9B7F775E0BEB3"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			id: "5B737D180F931C2E"
+			tasks: [{
+				id: "1AF89605D71B8C89"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			id: "13C98ECBA04B84BB"
+			tasks: [{
+				id: "75953C255708A348"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "5512741E1C4FD6D0"
+			tasks: [{
+				id: "4160F17BCACF83CF"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
 		}
 	]
 	title: "Blood Factory"

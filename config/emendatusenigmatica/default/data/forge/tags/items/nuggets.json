@@ -1,6 +1,7 @@
 {
   "values": [
     "#forge:nuggets/gold",
+    "#forge:nuggets/tin",
     "#forge:nuggets/copper",
     "#forge:nuggets/iron"
   ]
