@@ -18,5 +18,41 @@ ServerEvents.recipes(event => {
           "count": 20
         }
       })
+
+      event.custom({
+        "type": "mekanism:injecting",
+        "itemInput": {
+          "amount": 1,
+          "ingredient": {
+            "item": 'emendatusenigmatica:silicon_ingot'
+          }
+        },
+        "chemicalInput": {
+          "amount": 1,
+          "gas": EME('gaseous_phosphorus')
+        },
+        "output": {
+          "item": 'emendatusenigmatica:n_type_silicon_ingot',
+          "count": 1
+        }
+      })
+
+      event.custom({
+        "type": "mekanism:injecting",
+        "itemInput": {
+          "amount": 1,
+          "ingredient": {
+            "item": 'emendatusenigmatica:silicon_ingot'
+          }
+        },
+        "chemicalInput": {
+          "amount": 1,
+          "gas": EME('gaseous_boron')
+        },
+        "output": {
+          "item": 'emendatusenigmatica:p_type_silicon_ingot',
+          "count": 1
+        }
+      })
 })
 

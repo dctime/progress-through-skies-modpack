@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "emendatusenigmatica",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/n_type_silicon"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "emendatusenigmatica:n_type_silicon_nugget"
+  }
+}

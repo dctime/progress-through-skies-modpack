@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_boron"
+  },
+  "output": {
+    "item": "emendatusenigmatica:boron_crystal"
+  }
+}

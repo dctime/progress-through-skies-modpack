@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_phosphorus"
+  },
+  "output": {
+    "item": "emendatusenigmatica:phosphorus_crystal"
+  }
+}

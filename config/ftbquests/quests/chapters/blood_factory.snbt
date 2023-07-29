@@ -817,7 +817,7 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -835,7 +835,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -845,7 +845,7 @@
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -1964,7 +1964,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: 1.0d
 		}
 		{
 			id: "40708566EFF12699"
@@ -2059,7 +2059,7 @@
 				item: "emendatusenigmatica:copper_plate"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -2069,7 +2069,7 @@
 				item: "emendatusenigmatica:copper_rod"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 2.0d
 		}
 		{
@@ -2269,6 +2269,188 @@
 			}]
 			x: -5.5d
 			y: 1.0d
+		}
+		{
+			id: "211A7B39347E2912"
+			tasks: [{
+				id: "666B5E71418168EA"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "01359E519F93A8FD"
+			tasks: [{
+				id: "0A0D498C418CB2C4"
+				item: "emendatusenigmatica:brass_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "1EC42CE645A9EBE5"
+			tasks: [{
+				id: "7AF5FA4DD884C1B3"
+				item: "emendatusenigmatica:copper_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "2188B7E327062C8D"
+			tasks: [{
+				id: "3EED02C06E09EE5A"
+				item: "emendatusenigmatica:zinc_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "06EBDC0DEF55A284"
+			tasks: [{
+				id: "0EE73E1CCF8B4DDC"
+				item: "assemblylinemachines:mkii_alloy_smelter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6550A1B51ED6E60F"]
+			id: "7237B95842487343"
+			tasks: [{
+				id: "507540B7C953CC58"
+				item: "emendatusenigmatica:n_type_silicon_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6550A1B51ED6E60F"]
+			id: "6A5385DF7514B882"
+			tasks: [{
+				id: "74ED2AB122C76D70"
+				item: "emendatusenigmatica:p_type_silicon_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["671B0148EE5D4779"]
+			id: "624F7FF1BED1C461"
+			tasks: [{
+				id: "572FBF16E81FFABB"
+				item: "emendatusenigmatica:silicon_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5412C16C753D3967"]
+			id: "558AE505CE0213D4"
+			tasks: [{
+				id: "2E52538768135E83"
+				item: "emendatusenigmatica:phosphorus_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["79A523261EE774B2"]
+			id: "3D94C7F5837A1563"
+			tasks: [{
+				id: "233FA920F421EDAC"
+				item: "emendatusenigmatica:boron_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			id: "671B0148EE5D4779"
+			tasks: [{
+				id: "3320CACA3C458BD3"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "79A523261EE774B2"
+			tasks: [{
+				id: "2093BD6F0F7F2ABB"
+				item: "progressthroughskies:bedrock_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			id: "5412C16C753D3967"
+			tasks: [{
+				id: "0BD0A6A79601B079"
+				item: "emendatusenigmatica:sulfur_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"22F80A4C117FCA81"
+				"624F7FF1BED1C461"
+			]
+			id: "6550A1B51ED6E60F"
+			tasks: [{
+				id: "0C2FD925E3E3F240"
+				item: "mekanism:ultimate_injecting_factory"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "6F20A8240B3684C6"
+			tasks: [{
+				id: "6735DAC791939E06"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"558AE505CE0213D4"
+				"3D94C7F5837A1563"
+			]
+			id: "22F80A4C117FCA81"
+			tasks: [{
+				id: "611A3FB78CCD26C8"
+				item: "alchemistry:liquifier"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "673DCBC7D3E29E0A"
+			tasks: [{
+				id: "17075F647D61FF03"
+				item: "progressthroughskies:bedrock_gravel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "Blood Factory"

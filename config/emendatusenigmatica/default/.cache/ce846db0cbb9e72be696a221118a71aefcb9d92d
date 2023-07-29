@@ -1,8 +1,10 @@
-// 1.19.2	2023-07-29T13:30:42.6610776	Emendatus Enigmatica Fluid Models
+// 1.19.2	2023-07-29T16:15:44.9708164	Emendatus Enigmatica Fluid Models
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/ammonia.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/ammonium_bicarbonate.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/ammonium_chloride.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/bio_waste.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/boron.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/brass.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/calcium_chloride.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/calcium_oxide.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/carbon.json
@@ -28,7 +30,11 @@
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/lubricant.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/natural_acid.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/nitrogen.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/n_type_silicon.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/phosphorus.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/p_type_silicon.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/raw_copper.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/silicon.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/sodium.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/sodium_bicarbonate.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/sodium_carbonate.json
@@ -41,3 +47,4 @@
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/sulfur_dioxide.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/tin.json
 2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/wet_slurries_of_algae.json
+2ffe242de50ce988b9f27eb00e6cf0667b452b33 assets/emendatusenigmatica/models/block/zinc.json

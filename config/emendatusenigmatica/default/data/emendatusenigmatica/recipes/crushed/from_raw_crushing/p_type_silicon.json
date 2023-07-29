@@ -1,0 +1,21 @@
+{
+  "type": "create:crushing",
+  "group": "emendatusenigmatica:compat_recipe",
+  "ingredients": [
+    {
+      "item": "emendatusenigmatica:raw_p_type_silicon"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 1,
+      "item": "emendatusenigmatica:crushed_p_type_silicon_ore"
+    },
+    {
+      "chance": 0.75,
+      "count": 1,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

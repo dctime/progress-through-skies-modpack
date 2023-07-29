@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/boron"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_boron"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "id": "boron",
+    "source": "modded",
+    "localizedName": "Boron",
+    "processedTypes": [
+      "storage_block",
+      "ingot",
+      "ore",
+      "raw",
+      "nugget",
+      "dust",
+      "plate",
+      "gear",
+      "rod",
+      "fluid",
+      "cluster",
+      "infuse_type",
+      "gas",
+      "slurry",
+      "crystal",
+      "shard",
+      "clump",
+      "dirty_dust",
+      "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "-7c8187",
+      "particlesColor": "837e79",
+      "materialColor": "837e79",
+      "gasColor":"837e79",
+      "oxidizationColor": "837e79"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 0
+    }
+  }

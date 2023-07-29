@@ -1,0 +1,16 @@
+{
+  "type": "thermal:press",
+  "group": "emendatusenigmatica:compat_recipe",
+  "ingredients": [
+    {
+      "count": 4,
+      "tag": "forge:ingots/p_type_silicon"
+    },
+    {
+      "item": "thermal:press_gear_die"
+    }
+  ],
+  "results": {
+    "item": "emendatusenigmatica:p_type_silicon_gear"
+  }
+}

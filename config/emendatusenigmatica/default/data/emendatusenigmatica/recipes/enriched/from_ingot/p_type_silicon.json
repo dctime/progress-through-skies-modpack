@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/p_type_silicon"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:enriched_p_type_silicon"
+  }
+}

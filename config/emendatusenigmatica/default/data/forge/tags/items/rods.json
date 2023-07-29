@@ -1,9 +1,16 @@
 {
   "values": [
+    "#forge:rods/n_type_silicon",
     "#forge:rods/gold",
+    "#forge:rods/p_type_silicon",
     "#forge:rods/tin",
     "#forge:rods/copper",
+    "#forge:rods/zinc",
+    "#forge:rods/phosphorus",
+    "#forge:rods/brass",
     "#forge:rods/raw_copper",
-    "#forge:rods/iron"
+    "#forge:rods/silicon",
+    "#forge:rods/iron",
+    "#forge:rods/boron"
   ]
 }

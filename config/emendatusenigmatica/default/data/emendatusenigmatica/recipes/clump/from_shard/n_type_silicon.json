@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "mekanism:shards/n_type_silicon"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:n_type_silicon_clump"
+  }
+}

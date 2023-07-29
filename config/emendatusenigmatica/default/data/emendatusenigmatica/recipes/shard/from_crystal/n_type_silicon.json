@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "mekanism:crystals/n_type_silicon"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:n_type_silicon_shard"
+  }
+}

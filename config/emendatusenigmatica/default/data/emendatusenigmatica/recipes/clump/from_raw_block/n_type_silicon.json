@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 2,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:storage_blocks/raw_n_type_silicon"
+    }
+  },
+  "output": {
+    "count": 18,
+    "item": "emendatusenigmatica:n_type_silicon_clump"
+  }
+}

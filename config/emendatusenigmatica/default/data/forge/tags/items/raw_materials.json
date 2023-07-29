@@ -1,8 +1,15 @@
 {
   "values": [
+    "#forge:raw_materials/n_type_silicon",
     "#forge:raw_materials/gold",
+    "#forge:raw_materials/p_type_silicon",
     "#forge:raw_materials/tin",
     "#forge:raw_materials/copper",
-    "#forge:raw_materials/iron"
+    "#forge:raw_materials/zinc",
+    "#forge:raw_materials/phosphorus",
+    "#forge:raw_materials/brass",
+    "#forge:raw_materials/silicon",
+    "#forge:raw_materials/iron",
+    "#forge:raw_materials/boron"
   ]
 }

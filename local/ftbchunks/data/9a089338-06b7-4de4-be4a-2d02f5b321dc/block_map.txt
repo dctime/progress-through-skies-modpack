@@ -51,6 +51,7 @@
 #FCDA6E evilcraft:blood
 #C3925B evilcraft:blood_infuser
 #FFC34F mekanism:bounding_block
+#CCD23F create:brass_casing
 #913453 cyclic:breaker
 #53756B minecraft:brick_slab
 #1BDBFB minecraft:brick_stairs
@@ -118,6 +119,7 @@
 #3259C5 mekanism:crusher
 #7DF6E7 create:crushing_wheel
 #E48FCC ad_astra:cryo_freezer
+#A66708 minecraft:dark_oak_log
 #004C87 evilcraft:dark_tank
 #449393 naturesaura:decayed_leaves
 #FF48B8 create:depot
@@ -222,6 +224,7 @@
 #04388B trashcans:liquid_trash_can
 #0DB31F alchemistry:liquifier
 #5FCAC2 botania:livingrock
+#30898F botania:livingwood_log
 #9DA81C mekanism:logistical_sorter
 #4BFE53 hostilenetworks:loot_fabricator
 #165822 thermal:machine_chiller
@@ -356,6 +359,7 @@
 #7C5BEF occultism:spirit_fire
 #4AFD83 industrialforegoing:spores_recreator
 #D7A655 create:spout
+#6A8B3A minecraft:spruce_log
 #55A311 chipped:square_oak_glass
 #5DB983 immersiveengineering:stairs_treated_wood_horizontal
 #29EA02 additional_lights:standing_torch_l_cobblestone

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "tag": "forge:dusts/p_type_silicon"
+  },
+  "result": "emendatusenigmatica:p_type_silicon_ingot"
+}

@@ -1,9 +1,16 @@
 {
   "values": [
+    "#forge:plates/n_type_silicon",
     "#forge:plates/gold",
+    "#forge:plates/p_type_silicon",
     "#forge:plates/tin",
     "#forge:plates/copper",
+    "#forge:plates/zinc",
+    "#forge:plates/phosphorus",
+    "#forge:plates/brass",
     "#forge:plates/raw_copper",
-    "#forge:plates/iron"
+    "#forge:plates/silicon",
+    "#forge:plates/iron",
+    "#forge:plates/boron"
   ]
 }

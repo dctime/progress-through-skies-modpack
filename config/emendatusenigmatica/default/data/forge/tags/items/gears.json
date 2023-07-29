@@ -1,9 +1,16 @@
 {
   "values": [
+    "#forge:gears/n_type_silicon",
     "#forge:gears/gold",
+    "#forge:gears/p_type_silicon",
     "#forge:gears/tin",
     "#forge:gears/copper",
+    "#forge:gears/zinc",
+    "#forge:gears/phosphorus",
+    "#forge:gears/brass",
     "#forge:gears/raw_copper",
-    "#forge:gears/iron"
+    "#forge:gears/silicon",
+    "#forge:gears/iron",
+    "#forge:gears/boron"
   ]
 }

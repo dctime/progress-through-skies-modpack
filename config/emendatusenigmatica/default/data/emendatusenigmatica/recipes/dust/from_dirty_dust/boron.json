@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/boron"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:boron_dust"
+  }
+}

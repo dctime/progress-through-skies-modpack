@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 2,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:storage_blocks/raw_n_type_silicon"
+    }
+  },
+  "output": {
+    "count": 24,
+    "item": "emendatusenigmatica:n_type_silicon_shard"
+  }
+}

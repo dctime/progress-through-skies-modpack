@@ -1,8 +1,15 @@
 {
   "values": [
+    "#forge:nuggets/n_type_silicon",
     "#forge:nuggets/gold",
+    "#forge:nuggets/p_type_silicon",
     "#forge:nuggets/tin",
     "#forge:nuggets/copper",
-    "#forge:nuggets/iron"
+    "#forge:nuggets/zinc",
+    "#forge:nuggets/phosphorus",
+    "#forge:nuggets/brass",
+    "#forge:nuggets/silicon",
+    "#forge:nuggets/iron",
+    "#forge:nuggets/boron"
   ]
 }

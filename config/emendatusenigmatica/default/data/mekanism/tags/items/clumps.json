@@ -1,8 +1,15 @@
 {
   "values": [
+    "#mekanism:clumps/n_type_silicon",
     "#mekanism:clumps/gold",
+    "#mekanism:clumps/p_type_silicon",
     "#mekanism:clumps/tin",
     "#mekanism:clumps/copper",
-    "#mekanism:clumps/iron"
+    "#mekanism:clumps/zinc",
+    "#mekanism:clumps/phosphorus",
+    "#mekanism:clumps/brass",
+    "#mekanism:clumps/silicon",
+    "#mekanism:clumps/iron",
+    "#mekanism:clumps/boron"
   ]
 }

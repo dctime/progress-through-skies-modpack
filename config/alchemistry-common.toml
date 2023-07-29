@@ -76,7 +76,7 @@
 	#Ticks per operation when using the Liquifier.
 	#Default: 100 ticks
 	#Range: > 1
-	ticksPerOperation = 100
+	ticksPerOperation = 10
 	#Fluid capacity in Liquifier tank.
 	#Default: 16000 (16 buckets)
 	#Range: > 1

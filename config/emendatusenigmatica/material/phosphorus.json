@@ -1,0 +1,47 @@
+{
+    "id": "phosphorus",
+    "source": "modded",
+    "localizedName": "Phosphorus",
+    "processedTypes": [
+      "storage_block",
+      "ingot",
+      "ore",
+      "raw",
+      "nugget",
+      "dust",
+      "plate",
+      "gear",
+      "rod",
+      "fluid",
+      "cluster",
+      "infuse_type",
+      "gas",
+      "slurry",
+      "crystal",
+      "shard",
+      "clump",
+      "dirty_dust",
+      "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "-5a3039",
+      "particlesColor": "a5cfc7",
+      "materialColor": "a5cfc7",
+      "gasColor":"a5cfc7",
+      "oxidizationColor": "a5cfc7"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 0
+    }
+  }

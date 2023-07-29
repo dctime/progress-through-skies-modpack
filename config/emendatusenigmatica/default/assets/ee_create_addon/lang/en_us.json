@@ -1,6 +1,13 @@
 {
+  "item.emendatusenigmatica.crushed_boron_ore": "Crushed Boron Ore",
+  "item.emendatusenigmatica.crushed_brass_ore": "Crushed Brass Ore",
   "item.emendatusenigmatica.crushed_copper_ore": "Crushed Copper Ore",
   "item.emendatusenigmatica.crushed_gold_ore": "Crushed Gold Ore",
   "item.emendatusenigmatica.crushed_iron_ore": "Crushed Iron Ore",
-  "item.emendatusenigmatica.crushed_tin_ore": "Crushed Tin Ore"
+  "item.emendatusenigmatica.crushed_n_type_silicon_ore": "Crushed N Type Silicon Ore",
+  "item.emendatusenigmatica.crushed_p_type_silicon_ore": "Crushed P Type Silicon Ore",
+  "item.emendatusenigmatica.crushed_phosphorus_ore": "Crushed Phosphorus Ore",
+  "item.emendatusenigmatica.crushed_silicon_ore": "Crushed Silicon Ore",
+  "item.emendatusenigmatica.crushed_tin_ore": "Crushed Tin Ore",
+  "item.emendatusenigmatica.crushed_zinc_ore": "Crushed Zinc Ore"
 }

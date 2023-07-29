@@ -1,0 +1,12 @@
+{
+  "type": "thermal:press",
+  "group": "emendatusenigmatica:compat_recipe",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/p_type_silicon"
+    }
+  ],
+  "results": {
+    "item": "emendatusenigmatica:p_type_silicon_plate"
+  }
+}

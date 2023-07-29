@@ -39,6 +39,8 @@ ServerEvents.recipes(event => {
     addRotaryRecipe('ammonium_bicarbonate')
     addRotaryRecipe('sodium_hydroxide')
     addRotaryRecipe('hydrochloric_acid')
+    addRotaryRecipe('boron')
+    addRotaryRecipe('phosphorus')
 
     event.custom({
         "type": "mekanism:rotary",

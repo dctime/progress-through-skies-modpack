@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "slurry",
+  "input": {
+    "amount": 200,
+    "slurry": "emendatusenigmatica:clean_p_type_silicon"
+  },
+  "output": {
+    "item": "emendatusenigmatica:p_type_silicon_crystal"
+  }
+}

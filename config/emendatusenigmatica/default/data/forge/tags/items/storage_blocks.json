@@ -1,12 +1,26 @@
 {
   "values": [
+    "#forge:storage_blocks/n_type_silicon",
+    "#forge:storage_blocks/raw_n_type_silicon",
     "#forge:storage_blocks/gold",
     "#forge:storage_blocks/raw_gold",
+    "#forge:storage_blocks/p_type_silicon",
+    "#forge:storage_blocks/raw_p_type_silicon",
     "#forge:storage_blocks/tin",
     "#forge:storage_blocks/raw_tin",
     "#forge:storage_blocks/copper",
     "#forge:storage_blocks/raw_copper",
+    "#forge:storage_blocks/zinc",
+    "#forge:storage_blocks/raw_zinc",
+    "#forge:storage_blocks/phosphorus",
+    "#forge:storage_blocks/raw_phosphorus",
+    "#forge:storage_blocks/brass",
+    "#forge:storage_blocks/raw_brass",
+    "#forge:storage_blocks/silicon",
+    "#forge:storage_blocks/raw_silicon",
     "#forge:storage_blocks/iron",
-    "#forge:storage_blocks/raw_iron"
+    "#forge:storage_blocks/raw_iron",
+    "#forge:storage_blocks/boron",
+    "#forge:storage_blocks/raw_boron"
   ]
 }

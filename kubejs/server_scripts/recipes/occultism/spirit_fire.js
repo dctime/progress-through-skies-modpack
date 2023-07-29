@@ -171,4 +171,13 @@ ServerEvents.recipes(event => {
           "item": 'minecraft:wheat_seeds'
         }
       });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'emendatusenigmatica:sulfur_dust'
+        },
+        "result": {
+          "item": 'emendatusenigmatica:phosphorus_dust'
+        }
+      });
 })

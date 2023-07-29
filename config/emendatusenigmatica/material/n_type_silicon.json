@@ -1,0 +1,47 @@
+{
+    "id": "n_type_silicon",
+    "source": "modded",
+    "localizedName": "N Type Silicon",
+    "processedTypes": [
+      "storage_block",
+      "ingot",
+      "ore",
+      "raw",
+      "nugget",
+      "dust",
+      "plate",
+      "gear",
+      "rod",
+      "fluid",
+      "cluster",
+      "infuse_type",
+      "gas",
+      "slurry",
+      "crystal",
+      "shard",
+      "clump",
+      "dirty_dust",
+      "crushed_ore"
+    ],
+    "properties": {
+      "materialType": "metal",
+      "harvestLevel": 1,
+      "isBurnable": false,
+      "isEmissive": true,
+      "hasOxidization": true
+    },
+    "colors": {
+      "fluidColor": "-6a665b",
+      "particlesColor": "9599a5",
+      "materialColor": "9599a5",
+      "gasColor":"9599a5",
+      "oxidizationColor": "9599a5"
+    },
+    "gas": {
+      "isBurnable": false,
+      "isRadioactive": false,
+      "radioactivity": 0,
+      "isCoolant": false,
+      "conductivity": 0
+    }
+  }

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:clumps/p_type_silicon"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:p_type_silicon_dirty_dust"
+  }
+}

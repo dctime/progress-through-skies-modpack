@@ -1,8 +1,15 @@
 {
   "values": [
+    "#mekanism:shards/n_type_silicon",
     "#mekanism:shards/gold",
+    "#mekanism:shards/p_type_silicon",
     "#mekanism:shards/tin",
     "#mekanism:shards/copper",
-    "#mekanism:shards/iron"
+    "#mekanism:shards/zinc",
+    "#mekanism:shards/phosphorus",
+    "#mekanism:shards/brass",
+    "#mekanism:shards/silicon",
+    "#mekanism:shards/iron",
+    "#mekanism:shards/boron"
   ]
 }

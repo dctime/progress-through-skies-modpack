@@ -1,8 +1,15 @@
 {
   "values": [
+    "emendatusenigmatica:n_type_silicon_ingot",
     "emendatusenigmatica:gold_ingot",
+    "emendatusenigmatica:p_type_silicon_ingot",
     "emendatusenigmatica:tin_ingot",
     "emendatusenigmatica:copper_ingot",
-    "emendatusenigmatica:iron_ingot"
+    "emendatusenigmatica:zinc_ingot",
+    "emendatusenigmatica:phosphorus_ingot",
+    "emendatusenigmatica:brass_ingot",
+    "emendatusenigmatica:silicon_ingot",
+    "emendatusenigmatica:iron_ingot",
+    "emendatusenigmatica:boron_ingot"
   ]
 }

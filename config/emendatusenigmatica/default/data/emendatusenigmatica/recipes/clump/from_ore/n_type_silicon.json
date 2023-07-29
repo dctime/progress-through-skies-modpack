@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ores/n_type_silicon"
+    }
+  },
+  "output": {
+    "count": 3,
+    "item": "emendatusenigmatica:n_type_silicon_clump"
+  }
+}

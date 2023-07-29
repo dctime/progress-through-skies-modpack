@@ -1,10 +1,24 @@
-// 1.19.2	2023-07-29T13:30:42.7008138	Emendatus Enigmatica Block Tags
-2c4f281f345ef7518b71eb5408c57058b90eae04 data/forge/tags/blocks/storage_blocks.json
+// 1.19.2	2023-07-29T16:15:44.9867734	Emendatus Enigmatica Block Tags
+21812f3a14b00c7d0b50c7f0d029584ae81eda6e data/forge/tags/blocks/storage_blocks.json
+18ddda8ab276477b128c77c5a40de3fec5f8dfb2 data/forge/tags/blocks/storage_blocks/boron.json
+86afe004137e11fb7fe5c116391d4e2a712aa01e data/forge/tags/blocks/storage_blocks/brass.json
 fc8b41a128ab114cd3bdda499d9692343f4f11ea data/forge/tags/blocks/storage_blocks/copper.json
 267621f2b5dc0152044a41603185f05decb41392 data/forge/tags/blocks/storage_blocks/gold.json
 424cdb30e36f7c60c76d3f2e83ea90dbdcb57be1 data/forge/tags/blocks/storage_blocks/iron.json
+7fb9a9f7d1ae957a8166986537bca90582d8fdf3 data/forge/tags/blocks/storage_blocks/n_type_silicon.json
+b15bd5b763d7fabc03f7e48f0ad0d7aef3ce3821 data/forge/tags/blocks/storage_blocks/phosphorus.json
+70c8d7d709df6102db147c301fb34df95494be06 data/forge/tags/blocks/storage_blocks/p_type_silicon.json
+091bdaf8c36d258be91131202f3d06e81594c07d data/forge/tags/blocks/storage_blocks/raw_boron.json
+c134b9080bedf32acbc828d4769acf3d9b9a0e5f data/forge/tags/blocks/storage_blocks/raw_brass.json
 c807fb03cf5cd015c541fbd590093619e6ff41b9 data/forge/tags/blocks/storage_blocks/raw_copper.json
 91ca67c76754964e9388f91e06f613fa253a1159 data/forge/tags/blocks/storage_blocks/raw_gold.json
 7e7a5c7c5ededbe8ddb6f6ea95659016742520e2 data/forge/tags/blocks/storage_blocks/raw_iron.json
+516b0e439f2e187152a4b261adbc1e04e4935a82 data/forge/tags/blocks/storage_blocks/raw_n_type_silicon.json
+2bbe004633c39095fb37b0742a3f9bb873eec53b data/forge/tags/blocks/storage_blocks/raw_phosphorus.json
+2c5e8bdd7ea8c3b0be709678cde6767eff4a1166 data/forge/tags/blocks/storage_blocks/raw_p_type_silicon.json
+e1ef88e7ea69f9a36b019cea5cd156e2e9ecf862 data/forge/tags/blocks/storage_blocks/raw_silicon.json
 36ad9f30aab29a333ec39aa947deb4664f6c621a data/forge/tags/blocks/storage_blocks/raw_tin.json
+d773fb91c1ffc8778ac1ba619c778fa0c748893b data/forge/tags/blocks/storage_blocks/raw_zinc.json
+ab000ff7a4ea2f20ade5f93db4ccd4c25774a8a8 data/forge/tags/blocks/storage_blocks/silicon.json
 cb5d85c7fb5a739f09af71a3515c3442261b5058 data/forge/tags/blocks/storage_blocks/tin.json
+44a0b8dc6542ca2ecfa529100552cc41621deb01 data/forge/tags/blocks/storage_blocks/zinc.json

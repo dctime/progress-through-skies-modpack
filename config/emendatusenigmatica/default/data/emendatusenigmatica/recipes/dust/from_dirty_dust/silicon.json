@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "mekanism:dirty_dusts/silicon"
+    }
+  },
+  "output": {
+    "item": "emendatusenigmatica:silicon_dust"
+  }
+}

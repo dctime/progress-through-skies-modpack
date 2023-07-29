@@ -1,8 +1,15 @@
 {
   "values": [
+    "#create:crushed_ores/n_type_silicon",
     "#create:crushed_ores/gold",
+    "#create:crushed_ores/p_type_silicon",
     "#create:crushed_ores/tin",
     "#create:crushed_ores/copper",
-    "#create:crushed_ores/iron"
+    "#create:crushed_ores/zinc",
+    "#create:crushed_ores/phosphorus",
+    "#create:crushed_ores/brass",
+    "#create:crushed_ores/silicon",
+    "#create:crushed_ores/iron",
+    "#create:crushed_ores/boron"
   ]
 }

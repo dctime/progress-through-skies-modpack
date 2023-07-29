@@ -5,4 +5,8 @@ StartupEvents.registry('block', event => {
       .material('rock')
       .hardness(0.5)
 
+    event.create('incomplete_brass_casing')
+      .material('rock')
+      .hardness(0.5)
+
   })
