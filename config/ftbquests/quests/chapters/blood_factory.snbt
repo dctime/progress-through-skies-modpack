@@ -8,16 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "63E7721AC4FBA713"
-			tasks: [{
-				id: "0839BCD225C5119D"
-				item: "emendatusenigmatica:natural_acid_crystal"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["42DF16912A7814F2"]
 			id: "44EF434C5BDF3A2B"
 			tasks: [{
@@ -2539,6 +2529,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["206693A154244AB7"]
 			icon: "emendatusenigmatica:natural_acid_bucket"
 			id: "134C613CB985EA7E"
 			tasks: [{
@@ -2561,6 +2552,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: [
+				"00A96AEB6632AF55"
+				"570EC84B6B866043"
+			]
 			id: "225D7B550E0CC9D6"
 			tasks: [{
 				id: "66BE148B06FBDFCC"
@@ -2598,6 +2593,17 @@
 			}]
 			x: 6.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["225D7B550E0CC9D6"]
+			id: "206693A154244AB7"
+			tasks: [{
+				id: "72D3A55645A2208C"
+				item: "emendatusenigmatica:natural_acid_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
 		}
 	]
 	title: "Blood Factory"

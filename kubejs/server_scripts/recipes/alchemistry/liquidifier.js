@@ -58,5 +58,20 @@ ServerEvents.recipes(event => {
           "amount": "10"
         }
       })
+
+      event.custom({
+        "type": "alchemistry:liquifier",
+        "group": "alchemistry:liquifier",
+        "input": {
+          "ingredient": {
+            "item": 'emendatusenigmatica:natural_acid_crystal'
+          },
+          "count": 1
+        },
+        "result": {
+          "fluid": 'emendatusenigmatica:natural_acid',
+          "amount": "1000"
+        }
+      })
 })
 
