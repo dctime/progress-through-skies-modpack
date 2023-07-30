@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
           },
           {
             "fluid": 'emendatusenigmatica:sulfur',
-            "amount": 1000
+            "amount": 100
           }
         ],
         "results": [

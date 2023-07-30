@@ -15,7 +15,8 @@ ServerEvents.tags('item', event => {
         'mekanism:basic_pressurized_tube',
         'mekanism:basic_logistical_transporter',
         'chipped:square_oak_glass',
-        'minecraft:glass_bottle'
+        'minecraft:glass_bottle',
+        'evilcraft:dark_tank'
     ]
     for (let item of glass_machine_list)
     {

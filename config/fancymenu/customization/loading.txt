@@ -50,39 +50,15 @@ customization {
 }
 
 customization {
-  path = fancymenu_data/surprised-pikachu-removebg-preview.png
-  orientation = bottom-right
-  x = -167
-  width = 154
-  action = addtexture
-  actionid = 7c2a39b4-d4ad-4973-9ecf-6e0e01e305611690017267616
-  y = -138
-  height = 100
-}
-
-customization {
-  orientation = mid-right
-  background_color = #555555
-  x = -96
-  width = 5
-  bar_color = #c40000
-  action = custom_layout_element:drippy_custom_loading_bar
-  actionid = f62116c4-07d0-479a-a415-cd8757e1218f1690016672615
-  y = -91
-  progress_for_element_orientation = false
-  direction = down
-  height = 206
-}
-
-customization {
-  path = fancymenu_data/ketchup_bottle-removebg.png
-  orientation = top-right
-  x = -128
-  width = 70
-  action = addtexture
-  actionid = bdd84ec3-495d-4751-815f-d5fedc3ed8fd1690017108876
-  y = 0
-  height = 100
+  orientation = bottom-centered
+  shape = rectangle
+  color = #2e0700
+  x = -272
+  width = 532
+  action = addshape
+  actionid = 62e1eaac-741c-4a45-93eb-15d77266c9ff1690690983234
+  y = -108
+  height = 78
 }
 
 customization {
@@ -108,24 +84,71 @@ customization {
 }
 
 customization {
-  path = fancymenu_data/cute-pikachu-eating-and-licking-bottle.gif
-  orientation = bottom-left
-  x = 144
-  width = 75
+  path = fancymenu_data/mutant_zombie.png
+  orientation = top-right
+  x = -159
+  width = 96
   action = addtexture
-  actionid = ebf61b21-6a6d-47d0-8871-6203f63b05651690017310321
-  y = -141
-  height = 59
+  actionid = 9bc1ea9d-e1d9-458a-aacb-44fd671d7cf51690690403504
+  y = 62
+  height = 100
 }
 
 customization {
-  path = fancymenu_data/hexeri_pot.png
-  orientation = bottom-left
-  x = 70
-  width = 100
+  orientation = bottom-centered
+  background_color = #000000
+  x = -257
+  width = 501
+  bar_color = #ffffff
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = cc5ec5e3-d681-47fa-ab6d-fcd82fc0ea3a1690690821711
+  y = -96
+  progress_for_element_orientation = false
+  direction = right
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  background_color = #000000
+  x = -257
+  width = 502
+  bar_color = #ffffff
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = 67e7e748-38ec-4deb-a29a-7f51993d51c91690690833683
+  y = -63
+  progress_for_element_orientation = false
+  direction = left
+  height = 20
+}
+
+customization {
+  path = fancymenu_data/sim_chamber.png
+  orientation = bottom-centered
+  x = -32
+  width = 52
   action = addtexture
-  actionid = ad8c8c53-2ede-4059-9f44-106ca3bd0c291690017419286
-  y = -152
-  height = 100
+  actionid = 2d209e88-999b-4950-b04f-46f30adb6cce1690690763715
+  y = -97
+  height = 53
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Loading ...
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -27
+  width = 54
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 853671f2-793c-4dd6-8efb-c895800a365e1690691260363
+  y = -27
+  alignment = left
+  height = 40
 }
 

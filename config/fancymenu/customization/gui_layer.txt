@@ -10,7 +10,7 @@ customization-meta {
 
 customization {
   restart_on_load = false
-  name = blood_diamond_pts
+  name = pts_ai_blood
   action = animatebackground
 }
 
@@ -151,7 +151,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
-  x = 2
+  x = 1
   action = movebutton
   y = -21
 }
@@ -272,26 +272,26 @@ customization {
 customization {
   orientation = top-left
   loop = true
+  audio_source:b27111c4-bf78-4c84-b5e9-38859baaa74e1690689933748 = fancymenu_data/sounds/minecraft_story_mode_theme_of_the_wither_storm_remix_cover.ogg;EXTERNAL_LOCAL;400;0
   channel = music
   x = 62
   width = 50
   action = custom_layout_element:fancymenu_extension:audio_item
   actionid = e8d9c694-7a30-4219-bebb-20edd910e5ba1688312415797
   y = 70
-  audio_source:ca74e90d-f5bd-421e-9153-0a9a909647751690015577347 = fancymenu_data/sounds/pigstep_minecraft_remix.ogg;EXTERNAL_LOCAL;400;0
   once_per_session = false
   height = 50
 }
 
 customization {
-  path = fancymenu_data/blood_diamond.png
+  path = fancymenu_data/ai_blood_logo.png
   orientation = top-right
-  x = -227
-  width = 210
+  x = -284
+  width = 268
   action = addtexture
-  actionid = 966bac7a-35b1-4391-af68-c310384798d61690015683490
+  actionid = 44772ce6-1e34-455c-8ecb-db59d3b11f5f1690689298006
   y = 63
-  height = 29
+  height = 17
 }
 
 customization {
@@ -303,10 +303,10 @@ customization {
   refresh = false
   bouncing = true
   vanilla-like = false
-  x = -252
-  actionid = 74a699bb-5a2a-4369-bce8-9733bb4005851690015831917
+  x = -294
+  actionid = fbac8470-ca3c-46c6-9b44-490f837d455e1690689885097
   action = addsplash
-  y = 99
-  text = Pigstep ▸ Minecraft Remix By GameChops
+  y = 92
+  text = Minecraft Story Mode: Theme of The Wither Storm (Remix/Cover)
 }
 

@@ -112,4 +112,23 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        "type": "create:item_application",
+        "ingredients": 
+        [
+            {
+                "item": 'energymeter:meter'
+            },
+            {
+                "item": 'pneumaticcraft:printed_circuit_board'
+            }
+        ],
+        "results": 
+        [
+            {
+                'item':'hostilenetworks:sim_chamber'
+            }
+        ]
+    })
 })

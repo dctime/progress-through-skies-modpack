@@ -47,6 +47,16 @@ ServerEvents.recipes(event => {
     "cookingtime": 10
 });
 
+  event.custom({
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": 'minecraft:clay'
+    },
+    "result": 'immersiveengineering:alloybrick',
+    "experience": 0.35,
+    "cookingtime": 10
+  });
+
 })
 
 

@@ -23,6 +23,12 @@ ServerEvents.tags('item', event => {
         'minecraft:oak_planks'
     ]
 
+    let livingwood_machine =
+    [
+        'botania:gaia_spreader',
+        'naturesaura:flower_generator'
+    ]
+
     let cog_wheels =
     [
         'create:shaft',
@@ -45,7 +51,9 @@ ServerEvents.tags('item', event => {
         'create:radial_chassis',
         'create:andesite_funnel',
         'create:andesite_tunnel',
-        'create:andesite_door'
+        'create:andesite_door',
+        'createaddition:rolling_mill',
+        'create:crushing_wheel'
 
     ]
 
@@ -73,6 +81,18 @@ ServerEvents.tags('item', event => {
         'create:peculiar_bell',
         'create:train_trapdoor'
     ]
+
+    let copper_casing_machine =
+    [
+        'create:copper_casing',
+        'create:steam_engine',
+        'create:item_drain',
+        'create:fluid_tank',
+        'create:steam_whistle',
+        'mekanism:thermal_evaporation_controller',
+        'mekanism:thermal_evaporation_valve',
+        'mekanism:thermal_evaporation_block'
+    ]
     
     for (let item of storage_upgrade)
     {
@@ -98,6 +118,16 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:brass_casing_machine', item)
     }
+
+    for (let item of copper_casing_machine)
+    {
+        event.add('forge:copper_casing_machine', item)
+    }
+
+    for (let item of livingwood_machine)
+    {
+        event.add('forge:livingwood_machine', item)
+    }
 })
 
 ServerEvents.recipes(event => {
@@ -110,7 +140,9 @@ ServerEvents.recipes(event => {
             "forge:log_machine",
             "forge:cog_wheels",
             "forge:andesite_casing_machine",
-            'forge:brass_casing_machine'
+            'forge:brass_casing_machine',
+            'forge:copper_casing_machine',
+            'forge:livingwood_machine'
         ]
     })
 })

@@ -180,4 +180,31 @@ ServerEvents.recipes(event => {
           "item": 'emendatusenigmatica:phosphorus_dust'
         }
       });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'minecraft:chiseled_stone_bricks'
+        },
+        "result": {
+          "item": 'pneumaticcraft:pressure_chamber_wall'
+        }
+      });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'evilcraft:blood_infuser'
+        },
+        "result": {
+          "item": 'evilcraft:sanguinary_environmental_accumulator'
+        }
+      });
+      event.custom({
+        "type": "occultism:spirit_fire",
+        "ingredient": {
+          "item": 'evilcraft:sanguinary_environmental_accumulator'
+        },
+        "result": {
+          "item": 'evilcraft:blood_infuser'
+        }
+      });
 })

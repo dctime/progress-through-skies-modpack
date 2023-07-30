@@ -1,7 +1,6 @@
 minecraft:canyon
 minecraft:cave
 minecraft:cave_extra_underground
-assemblylinemachines:chaos_plane_carver
 twilightforest:highland_caves
 minecraft:nether_cave
 twilightforest:tf_caves

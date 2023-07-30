@@ -223,6 +223,7 @@
 #4E69A2 trashcans:item_trash_can
 #2FD1C8 assemblylinemachines:kinetic_fluid_mixer
 #9FFC35 assemblylinemachines:kinetic_grinder
+#6C55C8 create:large_cogwheel
 #290DB3 create:large_water_wheel
 #661EBC electrodynamics:lathe
 #83CED3 minecraft:lava
@@ -311,6 +312,7 @@
 #274219 minecraft:polished_blackstone_pressure_plate
 #EA3611 minecraft:polished_deepslate
 #AFAC0D minecraft:poppy
+#D1BD63 create:powered_shaft
 #70A1E1 mekanism:precision_sawmill
 #E16B4A pneumaticcraft:pressure_chamber_interface
 #48EA21 pneumaticcraft:pressure_chamber_valve
@@ -341,6 +343,7 @@
 #69E799 farmersdelight:rich_soil_farmland
 #66F4DE createaddition:rolling_mill
 #879B54 mekanism:rotary_condensentrator
+#E493B9 create:rotation_speed_controller
 #5DF8F4 botania:runic_altar
 #2248CC occultism:sacrificial_bowl
 #86FC77 minecraft:sand
@@ -375,6 +378,7 @@
 #BF1789 additional_lights:standing_torch_s_cobblestone
 #8C8A95 create:steam_engine
 #E818C8 advgenerators:steam_turbine_controller
+#E5DDE7 create:steam_whistle
 #DC3458 minecraft:stone
 #C283C5 exnihilosequentia:stone_barrel
 #F8955F minecraft:stone_bricks

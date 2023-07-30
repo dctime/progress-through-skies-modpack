@@ -51,7 +51,12 @@ ServerEvents.tags('item', event => {
         'electrodynamics:fermentationplant',
         'electrodynamics:mineralwasher',
         'electrodynamics:mineralgrindertriple',
-        'electrodynamics:chemicalcrystallizer'
+        'electrodynamics:chemicalcrystallizer',
+        'electrodynamics:lathe',
+        'electrodynamics:mineralcrushertriple',
+        'nuclearscience:chemicalextractor',
+        'assemblylinemachines:mkii_purifier',
+        'assemblylinemachines:mkii_alloy_smelter'
     ]
 
     let goggles =
@@ -59,6 +64,21 @@ ServerEvents.tags('item', event => {
         'create:goggles',
         'botania:cosmetic_engineer_goggles',
         'naturesaura:eye',
+    ]
+
+    let copper_plate_upgrades =
+    [
+        'assemblylinemachines:purifier_upgrade_enhanced',
+        'emendatusenigmatica:copper_plate',
+        'storagedrawers:drawer_key',
+        'storagedrawers:quantify_key',
+        'storagedrawers:shroud_key'
+    ]
+
+    let computer_block =
+    [
+        'hostilenetworks:sim_chamber',
+        'hostilenetworks:loot_fabricator'
     ]
     
     for (let item of wrench_list)
@@ -96,6 +116,16 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:goggles', item)
     }
+
+    for (let item of copper_plate_upgrades)
+    {
+        event.add('forge:copper_plate_upgrades', item)
+    }
+
+    for (let item of computer_block)
+    {
+        event.add('forge:computer_block', item)
+    }
     
 })
 
@@ -110,7 +140,9 @@ ServerEvents.recipes(event => {
             "forge:motor_list",
             "forge:transformer_list",
             "forge:motor_complex_list",
-            'forge:goggles'
+            'forge:goggles',
+            'forge:copper_plate_upgrades',
+            'forge:computer_block'
         ]    
     })
 })

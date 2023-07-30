@@ -315,4 +315,27 @@ ServerEvents.recipes(event => {
     );
 
     compact_2('emendatusenigmatica:iron_rod', 'minecraft:iron_bars')
+    event.shaped(
+        Item.of('immersiveengineering:cloche', 1),
+        [
+            'A',
+            'B'
+        ],
+        {
+            'A': 'minecraft:glass',
+            'B': 'botania:livingwood_log'
+        }
+    );
+
+    event.shaped(
+        Item.of('cgm:workbench', 1),
+        [
+            'A',
+            'B'
+        ],
+        {
+            'A': 'emendatusenigmatica:copper_plate',
+            'B': 'minecraft:crafting_table'
+        }
+    );
 })

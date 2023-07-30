@@ -380,7 +380,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": {
-      "item": 'pneumaticcraft:unassembled_pcb'
+      "item": 'pneumaticcraft:printed_circuit_board'
     },
     "transitionalItem": {
       "item": 'kubejs:incomplete_prediction_matrix'

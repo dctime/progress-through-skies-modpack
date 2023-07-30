@@ -441,7 +441,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6B228CE1B64C412E"]
+			dependencies: [
+				"6B228CE1B64C412E"
+				"446606DBCF33D9D3"
+				"7E59C973FB15DEC0"
+			]
 			id: "6304AD3FBB58CB67"
 			shape: "gear"
 			tasks: [{
@@ -460,7 +464,7 @@
 				}
 				type: "item"
 			}]
-			title: "Blood Factory[WIP]"
+			title: "Go to \"Artificial Intelliblood\" Chapter"
 			x: 10.0d
 			y: 2.0d
 		}

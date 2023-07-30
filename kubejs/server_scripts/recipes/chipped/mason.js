@@ -29,7 +29,13 @@ ServerEvents.tags('item', event => {
         'mekanism:chemical_oxidizer',
         'thermal:device_water_gen',
         'mekanism:electrolytic_separator',
-        'irons_spellbooks:scroll_forge'
+        'irons_spellbooks:scroll_forge',
+        'mekanism:ultimate_purifying_factory',
+        'mekanism:ultimate_injecting_factory',
+        'mekanism:ultimate_infusing_factory',
+        'mekanism:painting_machine',
+        'mekanism:pigment_extractor',
+        'mekanism:chemical_crystallizer'
     ]
 
     let cobblestone_machine =
@@ -64,7 +70,9 @@ ServerEvents.tags('item', event => {
         'pneumaticcraft:fluid_mixer',
         'pneumaticcraft:thermopneumatic_processing_plant',
         'pneumaticcraft:refinery',
-        'pneumaticcraft:refinery_output'
+        'pneumaticcraft:refinery_output',
+        'pneumaticcraft:etching_tank',
+        'pneumaticcraft:uv_light_box'
     ]
 
     let storage_drawer =
@@ -72,15 +80,6 @@ ServerEvents.tags('item', event => {
         'storagedrawers:controller',
         'storagedrawers:compacting_drawers_3',
         'storagedrawers:controller_slave'
-    ]
-
-    let copper_machine =
-    [
-        'create:copper_casing',
-        'create:steam_engine',
-        'create:item_drain',
-        'create:fluid_tank',
-        'create:steam_whistle'
     ]
 
     let basin_machine =
@@ -94,6 +93,26 @@ ServerEvents.tags('item', event => {
         'minecraft:stone',
         'minecraft:stone_bricks',
         'minecraft:chiseled_stone_bricks'
+    ]
+
+    let pressure_chamber =
+    [
+        'pneumaticcraft:pressure_chamber_wall',
+        'pneumaticcraft:pressure_chamber_interface',
+        'pneumaticcraft:pressure_chamber_valve'
+    ]
+
+    let smooth_stone_machine =
+    [
+        'minecraft:smooth_stone',
+        'assemblylinemachines:refinery',
+        'assemblylinemachines:refinery_attachment_separation',
+        'advgenerators:exchanger_controller',
+        'advgenerators:fluid_input',
+        'advgenerators:fluid_output_select',
+        'advgenerators:heat_exchanger',
+        'advgenerators:control',
+        'advgenerators:sensor'
     ]
 
     for (let item of polished_andesite_machine)
@@ -136,17 +155,22 @@ ServerEvents.tags('item', event => {
         event.add('forge:storage_drawer', item)
     }
 
-    for (let item of copper_machine)
-    {
-        event.add('forge:copper_machine', item)
-    }
-
     for (let item of basin_machine)
     {
         event.add('forge:basin_machine', item)
     }
 
     for (let item of stone_machine)
+    {
+        event.add('forge:stone_machine', item)
+    }
+
+    for (let item of pressure_chamber)
+    {
+        event.add('forge:pressure_chamber', item)
+    }
+
+    for (let item of smooth_stone_machine)
     {
         event.add('forge:stone_machine', item)
     }
@@ -165,9 +189,10 @@ ServerEvents.recipes(event => {
             "forge:deepslate_glass_machine",
             'forge:livingrock_machine',
             'forge:storage_drawer',
-            'forge:copper_machine',
             'forge:basin_machine',
-            'forge:stone_machine'
+            'forge:stone_machine',
+            'forge:pressure_chamber',
+            'forge:smooth_stone_machine'
         ]
     })
 })
