@@ -139,7 +139,7 @@
 
 	[machine.sang_envir_acc]
 		#The base blood usage in mB for recipes, this is multiplied with the cooldown time per recipe.
-		baseUsage = 50
+		baseUsage = 1
 
 [item]
 

@@ -26,5 +26,15 @@ ServerEvents.recipes(event => {
         "experience": 0.35,
         "cookingtime": 10
       });
+
+      event.custom({
+        "type": "minecraft:smelting",
+        "ingredient": {
+          "item": 'minecraft:clay'
+        },
+        "result": 'minecraft:terracotta',
+        "experience": 0.35,
+        "cookingtime": 10
+      });
     
 })

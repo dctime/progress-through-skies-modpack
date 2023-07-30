@@ -314,6 +314,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2023-07-30 16:41:34 +0800",
       "chicken": "2023-07-08 12:13:47 +0800",
       "apple": "2023-06-30 16:17:21 +0800",
       "golden_apple": "2023-07-21 14:15:55 +0800",
@@ -1116,6 +1117,12 @@
     },
     "done": true
   },
+  "botanypots:husbandry/get_hopper_pot": {
+    "criteria": {
+      "get_hopper_pot": "2023-07-30 16:18:27 +0800"
+    },
+    "done": true
+  },
   "create:mechanical_crafter": {
     "criteria": {
       "0": "2023-07-29 18:04:22 +0800"
@@ -1137,6 +1144,12 @@
   "exmachinis:flux_compactor": {
     "criteria": {
       "has_flux_compactor": "2023-07-05 21:19:09 +0800"
+    },
+    "done": true
+  },
+  "botanypots:husbandry/get_basic_pot": {
+    "criteria": {
+      "get_botany_pot": "2023-07-30 16:44:31 +0800"
     },
     "done": true
   },

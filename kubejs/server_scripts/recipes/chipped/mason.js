@@ -99,7 +99,8 @@ ServerEvents.tags('item', event => {
     [
         'pneumaticcraft:pressure_chamber_wall',
         'pneumaticcraft:pressure_chamber_interface',
-        'pneumaticcraft:pressure_chamber_valve'
+        'pneumaticcraft:pressure_chamber_valve',
+        'pneumaticcraft:pressure_chamber_glass'
     ]
 
     let smooth_stone_machine =

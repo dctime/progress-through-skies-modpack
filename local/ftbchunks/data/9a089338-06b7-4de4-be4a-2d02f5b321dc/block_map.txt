@@ -388,6 +388,8 @@
 #A88E8E minecraft:stripped_oak_wood
 #B96EB4 minecraft:structure_block
 #0D42F7 advgenerators:syngas_controller
+#0CBFD2 botanypots:terracotta_botany_pot
+#1FF249 botanypots:terracotta_hopper_botany_pot
 #B12AD5 mekanism:thermal_evaporation_block
 #D5426E mekanism:thermal_evaporation_controller
 #C5F7D8 mekanism:thermal_evaporation_valve

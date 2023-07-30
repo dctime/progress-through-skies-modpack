@@ -2522,20 +2522,6 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"446606DBCF33D9D3"
-				"6B228CE1B64C412E"
-			]
-			id: "5DF44BB03340C642"
-			tasks: [{
-				id: "00677B8289315CB4"
-				item: "immersiveengineering:cloche"
-				type: "item"
-			}]
-			x: -24.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["0E22A27F479D4199"]
 			id: "3355F658B953E07E"
 			tasks: [{
@@ -2545,6 +2531,57 @@
 			}]
 			x: -15.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6718489496B54EC9"
+				"2B1676323B364998"
+			]
+			id: "4B2A577E39CB17A5"
+			subtitle: "check its recipe from sapling"
+			tasks: [{
+				id: "2D4E553C6C2576EA"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6B228CE1B64C412E"
+				"446606DBCF33D9D3"
+			]
+			id: "0CE1496A4C098510"
+			tasks: [{
+				id: "7DB1ED6D061EF327"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0CE1496A4C098510"]
+			id: "6718489496B54EC9"
+			tasks: [{
+				id: "15227933CB1D5FFE"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DA93AAEBE77271C"]
+			id: "78D577C5E1FDCB18"
+			tasks: [{
+				id: "040B8C0E75549153"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
 		}
 	]
 	title: "Artificial Intelliblood"

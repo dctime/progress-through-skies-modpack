@@ -91,7 +91,12 @@ ServerEvents.tags('item', event => {
         'create:steam_whistle',
         'mekanism:thermal_evaporation_controller',
         'mekanism:thermal_evaporation_valve',
-        'mekanism:thermal_evaporation_block'
+        'mekanism:thermal_evaporation_block',
+        'create:fluid_pipe',
+        'create:mechanical_pump',
+        'create:smart_fluid_pipe',
+        'create:fluid_valve',
+        'create:copper_valve_handle'
     ]
     
     for (let item of storage_upgrade)

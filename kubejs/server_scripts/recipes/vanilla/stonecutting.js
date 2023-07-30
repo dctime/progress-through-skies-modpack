@@ -17,4 +17,5 @@ ServerEvents.recipes(event => {
     event.stonecutting('pneumaticcraft:heat_sink', 'minecraft:stone_slab');
     event.stonecutting('16x minecraft:glass_pane', 'minecraft:glass');
     event.stonecutting(Item.of('cyclic:shears_flint', '{Damage:0}'), 'minecraft:flint');
+    event.stonecutting('botanypots:terracotta_hopper_botany_pot', 'minecraft:terracotta');
 })
