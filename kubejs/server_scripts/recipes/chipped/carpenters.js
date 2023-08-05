@@ -79,7 +79,8 @@ ServerEvents.tags('item', event => {
         'create:redstone_link',
         'create:placard',
         'create:peculiar_bell',
-        'create:train_trapdoor'
+        'create:train_trapdoor',
+        'create:extendo_grip'
     ]
 
     let copper_casing_machine =

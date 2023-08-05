@@ -72,8 +72,8 @@
     "allowDisassembly": true
   },
   "PowerRatios": {
-    "ForgeEnergy": 0.5,
-    "UsageMultiplier": 1.0
+    "ForgeEnergy": 1.0,
+    "UsageMultiplier": 100.0
   },
   "Condenser": {
     "MatterBalls": 256,

@@ -113,7 +113,8 @@ ServerEvents.tags('item', event => {
         'advgenerators:fluid_output_select',
         'advgenerators:heat_exchanger',
         'advgenerators:control',
-        'advgenerators:sensor'
+        'advgenerators:sensor',
+        'alchemistry:liquifier'
     ]
 
     for (let item of polished_andesite_machine)

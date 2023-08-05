@@ -106,7 +106,6 @@ minecraft:disk_sand
 minecraft:dripleaf
 minecraft:dripstone_cluster
 twilightforest:druid_hut
-powah:dry_ice
 minecraft:end_gateway_delayed
 minecraft:end_gateway_return
 minecraft:end_island
@@ -529,9 +528,6 @@ twilightforest:uberous_soil_patch_big
 twilightforest:uberous_soil_patch_small
 occultism:underground_grove
 minecraft:underwater_magma
-powah:uraninite_ore
-powah:uraninite_ore_dense
-powah:uraninite_ore_poor
 immersiveengineering:uranium
 twilightforest:vanilla_roots
 ferdinandsflowers:venus

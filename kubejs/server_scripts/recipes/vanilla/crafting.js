@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
         )
     }
 
-
+    compact_2(PTS('bedrock_dust'), PTS('bedrock_gravel'));
     compact_2(PTS('gravel_dust'), MC('gravel'));
     compact_2(PTS('sand_dust'), MC("sand"));
     checker(COMP('gravel_1'), COMP('sand_1'), MC('cobblestone'));
@@ -336,6 +336,16 @@ ServerEvents.recipes(event => {
         {
             'A': 'emendatusenigmatica:copper_plate',
             'B': 'minecraft:crafting_table'
+        }
+    );
+
+    event.shaped(
+        Item.of('ae2:color_applicator', '{amts:[L;64L,64L,64L,64L,64L,64L,64L,64L,64L,64L,64L,64L,64L,64L,64L,64L],color:{Count:1b,id:"ae2:pink_paint_ball"},ic:1024L,keys:[{"#c":"ae2:i",id:"ae2:gray_paint_ball"},{"#c":"ae2:i",id:"ae2:orange_paint_ball"},{"#c":"ae2:i",id:"ae2:light_gray_paint_ball"},{"#c":"ae2:i",id:"ae2:green_paint_ball"},{"#c":"ae2:i",id:"ae2:yellow_paint_ball"},{"#c":"ae2:i",id:"ae2:magenta_paint_ball"},{"#c":"ae2:i",id:"ae2:pink_paint_ball"},{"#c":"ae2:i",id:"ae2:cyan_paint_ball"},{"#c":"ae2:i",id:"ae2:white_paint_ball"},{"#c":"ae2:i",id:"ae2:brown_paint_ball"},{"#c":"ae2:i",id:"ae2:light_blue_paint_ball"},{"#c":"ae2:i",id:"ae2:black_paint_ball"},{"#c":"ae2:i",id:"ae2:lime_paint_ball"},{"#c":"ae2:i",id:"ae2:purple_paint_ball"},{"#c":"ae2:i",id:"ae2:red_paint_ball"},{"#c":"ae2:i",id:"ae2:blue_paint_ball"}]}'),
+        [
+            'A'
+        ],
+        {
+            'A': Item.of('constructionwand:infinity_wand', '{wand_options:{}}')
         }
     );
 })

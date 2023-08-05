@@ -211,6 +211,7 @@
 			}
 			id: "3C17E472CB27FD04"
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "2ED0EC9C4C67AA2D"
 				type: "checkmark"
@@ -314,6 +315,7 @@
 			icon: "chemlib:sulfuric_acid"
 			id: "446606DBCF33D9D3"
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "11254C2CD465A1C5"
 				type: "checkmark"
@@ -332,7 +334,7 @@
 			rewards: [{
 				count: 128
 				id: "6FA108CFD7AE81F1"
-				item: "emendatusenigmatica:iron_nugget"
+				item: "emendatusenigmatica:iron_ingot"
 				type: "item"
 			}]
 			size: 1.5d
@@ -446,27 +448,28 @@
 				"446606DBCF33D9D3"
 				"7E59C973FB15DEC0"
 			]
+			icon: "hostilenetworks:sim_chamber"
 			id: "6304AD3FBB58CB67"
 			shape: "gear"
-			tasks: [{
-				id: "1A13E8FB346912F5"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Amount: 500
-							FluidName: "evilcraft:blood"
-							capacity: 1000
-						}
-					}
-					id: "evilcraft:creative_blood_drop"
-					tag: { }
-				}
-				type: "item"
-			}]
+			size: 1.5d
 			title: "Go to \"Artificial Intelliblood\" Chapter"
 			x: 10.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6304AD3FBB58CB67"]
+			icon: "ae2:controller"
+			id: "5CB55545851C5880"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7D77534B637EA477"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Your Mighty Server Room[WIP]"
+			x: 10.0d
+			y: 4.0d
 		}
 	]
 	title: "Welcome!"

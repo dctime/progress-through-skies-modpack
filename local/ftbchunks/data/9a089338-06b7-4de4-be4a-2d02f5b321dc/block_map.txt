@@ -61,14 +61,17 @@
 #1BDBFB minecraft:brick_stairs
 #551EFB minecraft:brick_wall
 #03DC45 minecraft:bricks
+#208CB0 ae2:cable_bus
 #FC842A minecraft:campfire
 #CF0EA2 occultism:candle_white
 #AA8FDD twilightforest:canopy_chest
 #C510FF mekanism:cardboard_box
 #CC0363 chipped:carpenters_table
 #BE24A4 botania:cell_block
+#75D854 ae2:cell_workbench
 #ED2D62 occultism:chalk_glyph_gold
 #114E5D occultism:chalk_glyph_white
+#3ACD70 ae2:charger
 #F3C652 pneumaticcraft:charging_station
 #5162BE mekanism:chemical_crystallizer
 #1740D6 mekanism:chemical_dissolution_chamber
@@ -79,6 +82,7 @@
 #A67B86 electrodynamics:chemicalcrystallizer
 #DE3B54 nuclearscience:chemicalextractor
 #7C0317 electrodynamics:chemicalmixer
+#D18033 ae2:chest
 #F522F4 minecraft:chest
 #AA9109 minecraft:chiseled_stone_bricks
 #6E4E7A chiselsandbits:chiseledrock
@@ -106,6 +110,7 @@
 #59C28D alchemistry:compactor
 #E2D601 minecraft:composter
 #5F5250 ad_astra:compressor
+#2BFCCE ae2:controller
 #CCF217 xnet:controller
 #C75153 naturesaura:conversion_catalyst
 #12D127 emendatusenigmatica:copper
@@ -127,6 +132,7 @@
 #A66708 minecraft:dark_oak_log
 #004C87 evilcraft:dark_tank
 #449393 naturesaura:decayed_leaves
+#3068CB ae2:dense_energy_cell
 #FF48B8 create:depot
 #59CD2D thermal:device_collector
 #5720C8 thermal:device_water_gen
@@ -137,6 +143,7 @@
 #A47868 alchemistry:dissolver
 #A20927 mekanism:diversion_transporter
 #B10D64 electrodynamics:downgradetransformer
+#E432BC ae2:drive
 #15EACA integrateddynamics:drying_basin
 #517451 progressthroughskies:dusted_bedrock
 #FDB3B3 kubejs:dusted_water
@@ -216,8 +223,10 @@
 #52D27E minecraft:ice
 #0DDEDC exnihilosequentia:infested_leaves
 #38EE63 exnihilosequentia:infesting_leaves
+#D47B15 ae2:inscriber
 #E9E8D1 irons_spellbooks:inscription_table
 #165573 assemblylinemachines:interactor
+#75252C ae2:io_port
 #20FC50 create:item_drain
 #6EF91A advgenerators:item_output
 #4E69A2 trashcans:item_trash_can
@@ -436,6 +445,7 @@
 #A8C245 electrodynamics:wiregold
 #D7B65C electrodynamics:wirehighlyinsulatedcopper
 #30A52B electrodynamics:wireinsulatedcopper
+#541F28 ae2:wireless_access_point
 #AB6601 electrodynamics:wiremill
 #53959F electrodynamics:wiremilltriple
 #79B995 naturesaura:wood_stand

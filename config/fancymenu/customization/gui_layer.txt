@@ -273,7 +273,7 @@ customization {
   orientation = top-left
   loop = true
   audio_source:b27111c4-bf78-4c84-b5e9-38859baaa74e1690689933748 = fancymenu_data/sounds/minecraft_story_mode_theme_of_the_wither_storm_remix_cover.ogg;EXTERNAL_LOCAL;400;0
-  channel = music
+  channel = master
   x = 62
   width = 50
   action = custom_layout_element:fancymenu_extension:audio_item
@@ -308,5 +308,22 @@ customization {
   action = addsplash
   y = 92
   text = Minecraft Story Mode: Theme of The Wither Storm (Remix/Cover)
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/dctime/progress-through-skies-modpack/issues%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/button_hover_on.png
+  description = I CANT TEST EVERYTHING DURING A UPDATE.%n%REPORT IF THERE IS BUGS IN IT. %n%IM VERY SORRY THAT GITHUB NEEDS TO LOG-IN.
+  label = REPORT BUG
+  loopbackgroundanimations = true
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = 6ed7cf19-65b6-4f6b-9e42-e7b514eb7a411690803849371
+  y = -66
+  backgroundnormal = fancymenu_data/button.png
+  height = 20
 }
 
