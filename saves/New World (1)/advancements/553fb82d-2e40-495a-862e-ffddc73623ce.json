@@ -357,9 +357,10 @@
   },
   "mekanism:stabilizing_chunks": {
     "criteria": {
+      "upgrade_anchor": "2023-08-12 12:04:46 +0800",
       "dimensional_stabilizer": "2023-07-10 18:22:56 +0800"
     },
-    "done": false
+    "done": true
   },
   "electrodynamics:evenbetterwiring": {
     "criteria": {
@@ -1360,6 +1361,12 @@
   "immersiveengineering:main/place_windmill": {
     "criteria": {
       "place_block": "2023-07-04 13:42:19 +0800"
+    },
+    "done": true
+  },
+  "pneumaticcraft:speed_upgrade": {
+    "criteria": {
+      "0": "2023-08-12 12:27:57 +0800"
     },
     "done": true
   },

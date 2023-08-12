@@ -22,4 +22,22 @@ ServerEvents.recipes(event => {
               }
             ]
           })
+
+  event.custom(
+    {
+        "type": "create:compacting",
+        "ingredients": [
+          {
+            "item": 'pneumaticcraft:printed_circuit_board',
+          },
+          {
+            "item": 'minecraft:polished_deepslate',
+          }
+        ],
+        "results": [
+          {
+            "item": 'mekanism:upgrade_energy'
+          }
+        ]
+      })
 })

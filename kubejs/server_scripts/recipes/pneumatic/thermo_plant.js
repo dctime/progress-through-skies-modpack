@@ -47,12 +47,12 @@ ServerEvents.recipes(event => {
         "type": "pneumaticcraft:thermo_plant",
         "exothermic": false,
         "item_input": {
-          "item": 'emendatusenigmatica:copper_dust',
+          "item": 'emendatusenigmatica:copper_dust'
         },
         "item_output": {
           "item": 'emendatusenigmatica:copper_nugget'
         },
-        "speed": 1,
+        "speed": 9,
         "temperature": {
           "min_temp": 1358
         }

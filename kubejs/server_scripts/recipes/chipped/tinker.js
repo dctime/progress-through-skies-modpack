@@ -80,6 +80,27 @@ ServerEvents.tags('item', event => {
         'hostilenetworks:sim_chamber',
         'hostilenetworks:loot_fabricator'
     ]
+
+    let mekanism_upgrade_list =
+    [
+        'mekanism:upgrade_speed',
+        'mekanism:upgrade_energy',
+        'mekanism:upgrade_gas',
+        'mekanism:upgrade_anchor',
+        'mekanism:upgrade_muffling',
+        'pneumaticcraft:volume_upgrade',
+        'pneumaticcraft:dispenser_upgrade',
+        'pneumaticcraft:speed_upgrade',
+        'pneumaticcraft:security_upgrade'
+    ]
+
+    let block_meters = 
+    [
+        'energymeter:meter',
+        'create:stressometer',
+        'create:speedometer',
+        'electrodynamics:multimeterblock'
+    ]
     
     for (let item of wrench_list)
     {
@@ -126,6 +147,16 @@ ServerEvents.tags('item', event => {
     {
         event.add('forge:computer_block', item)
     }
+
+    for (let item of mekanism_upgrade_list)
+    {
+        event.add('forge:mekanism_upgrade_list', item)
+    }
+
+    for (let item of block_meters)
+    {
+        event.add('forge:block_meters', item)
+    }
     
 })
 
@@ -142,7 +173,9 @@ ServerEvents.recipes(event => {
             "forge:motor_complex_list",
             'forge:goggles',
             'forge:copper_plate_upgrades',
-            'forge:computer_block'
+            'forge:computer_block',
+            'forge:mekanism_upgrade_list',
+            'forge:block_meters'
         ]    
     })
 })

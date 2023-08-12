@@ -1241,6 +1241,10 @@
 			dependencies: ["51D9951A465CCCF4"]
 			icon: "mekanism:brine_bucket"
 			id: "1B90C04AE775BD99"
+			tasks: [{
+				id: "7AAD0E9A50EE9567"
+				type: "checkmark"
+			}]
 			title: "Brine"
 			x: -8.0d
 			y: 3.0d
@@ -2581,6 +2585,39 @@
 				type: "item"
 			}]
 			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6FEA35944F833404"]
+			id: "10C05197206ECEFC"
+			tasks: [{
+				id: "1D6959D153AF61FB"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E28AC373F0B9DD2"]
+			id: "6FEA35944F833404"
+			tasks: [{
+				id: "28BAF4B4B3EE8F51"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FEA35944F833404"]
+			id: "02CABB82460B9809"
+			tasks: [{
+				id: "72C8933144E72BF0"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
 			y: -3.5d
 		}
 	]

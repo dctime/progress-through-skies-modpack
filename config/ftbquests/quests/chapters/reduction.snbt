@@ -1120,8 +1120,20 @@
 				item: "electrodynamics:multimeter"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2834920357454D47"]
+			id: "49AA7B28CCD32F9C"
+			shape: "circle"
+			tasks: [{
+				id: "53BDBD92D93AF1BA"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
 		}
 	]
 	title: "Reduction"

@@ -1,6 +1,7 @@
 ServerEvents.tags('item', event => {
     event.add('forge:wooden_storage_block', 'minecraft:chest')
     event.add('forge:wooden_storage_block', '#storagedrawers:drawers')
+    event.add('forge:wooden_storage_block', 'storagedrawers:oak_trim')
 
     let storage_upgrade =
     [
@@ -13,7 +14,8 @@ ServerEvents.tags('item', event => {
         'storagedrawers:max_redstone_upgrade',
         'storagedrawers:fill_level_upgrade',
         'storagedrawers:illumination_upgrade',
-        'minecraft:oak_slab'
+        'minecraft:oak_slab',
+        'storagedrawers:one_stack_upgrade'
     ]
 
     let log_machine =
