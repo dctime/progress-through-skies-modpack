@@ -397,6 +397,7 @@
 #A88E8E minecraft:stripped_oak_wood
 #B96EB4 minecraft:structure_block
 #0D42F7 advgenerators:syngas_controller
+#757E1A nuclearscience:teleporter
 #0CBFD2 botanypots:terracotta_botany_pot
 #1FF249 botanypots:terracotta_hopper_botany_pot
 #B12AD5 mekanism:thermal_evaporation_block
@@ -408,6 +409,7 @@
 #28EC0F chipped:tinkering_table
 #D6558C advgenerators:turbine_tier1
 #05FFF5 create:turntable
+#BE2EA6 mekanism:ultimate_chemical_tank
 #062EB6 mekanism:ultimate_combining_factory
 #29475D mekanism:ultimate_crushing_factory
 #89C1BB mekanism:ultimate_energy_cube

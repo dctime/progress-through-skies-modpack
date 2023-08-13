@@ -1135,6 +1135,32 @@
 			x: -8.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["28C2ACDE2A3CFCC7"]
+			id: "31178EF36B7A9224"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1CC7BAD7095A5501"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28C2ACDE2A3CFCC7"]
+			id: "56D3AFF4A725F72C"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "220DBE3845F709ED"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.75d
+		}
 	]
 	title: "Reduction"
 }

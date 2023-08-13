@@ -53,7 +53,8 @@ ServerEvents.tags('item', event => {
         'ad_astra:engine_fan',
         'pneumaticcraft:charging_station',
         'pneumaticcraft:advanced_pressure_tube',
-        'hexerei:blood_sigil'
+        'hexerei:blood_sigil',
+        'mekanism:ultimate_chemical_tank'
     ]
 
     let cobblestone_light_source =

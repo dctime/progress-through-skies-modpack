@@ -171,12 +171,13 @@
 		}
 		{
 			dependencies: ["4028B26F2604B71B"]
+			icon: "chemlib:hydrochloric_acid"
 			id: "2E35C33AD7176C7E"
 			tasks: [{
-				id: "7E4FB22ECA8360D8"
-				item: "chemlib:hydrochloric_acid"
-				type: "item"
+				id: "2EFC911E0702BB9B"
+				type: "checkmark"
 			}]
+			title: "Hydrochloric Acid"
 			x: -8.0d
 			y: 1.0d
 		}
@@ -239,6 +240,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -9.0d
@@ -648,12 +650,13 @@
 				"446606DBCF33D9D3"
 				"6B228CE1B64C412E"
 			]
+			icon: "chemlib:water"
 			id: "588FAF7B537594A7"
 			tasks: [{
-				id: "19066496E0C04F4A"
-				item: "chemlib:water"
-				type: "item"
+				id: "1F41DB56CD100298"
+				type: "checkmark"
 			}]
+			title: "H2O"
 			x: -12.0d
 			y: 1.0d
 		}
@@ -935,6 +938,7 @@
 		{
 			dependencies: ["08084ACFED151F15"]
 			id: "0D15976DCF8E332E"
+			subtitle: "Put mesh first then put other stuff into it"
 			tasks: [{
 				id: "6AA04F264F28241C"
 				item: "assemblylinemachines:mkii_purifier"
@@ -1827,7 +1831,7 @@
 				item: "pneumaticcraft:capacitor"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -1838,8 +1842,8 @@
 				item: "pneumaticcraft:transistor"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [

@@ -210,6 +210,12 @@
     },
     "done": true
   },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2023-08-13 14:12:52 +0800"
+    },
+    "done": true
+  },
   "naturesaura:get_book": {
     "criteria": {
       "book": "2023-07-21 20:22:11 +0800"
@@ -1031,6 +1037,12 @@
   "tombstone:adventure/ashes_and_bones": {
     "criteria": {
       "coded_trigger": "2023-07-05 21:45:17 +0800"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2023-08-13 14:12:52 +0800"
     },
     "done": true
   },

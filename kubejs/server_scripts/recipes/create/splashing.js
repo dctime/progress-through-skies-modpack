@@ -13,4 +13,19 @@ ServerEvents.recipes(event => {
           }
         ]
       })
+
+  event.custom({
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item":'immersiveengineering:hemp_fiber'
+      }
+    ],
+    "results": [
+      {
+        "item" : 'minecraft:string',
+        "count": 1
+      }
+    ]
+  })
 })

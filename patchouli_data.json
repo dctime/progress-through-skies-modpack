@@ -17,7 +17,10 @@
         "xnet:simple/cables",
         "xnet:simple/connector",
         "xnet:wireless/wireless_router",
-        "rftoolsbase:tools/filtermodule"
+        "rftoolsbase:tools/filtermodule",
+        "rftoolsbase:basics/bugs",
+        "rftoolsbase:basics/machine_bases",
+        "rftoolsbase:basics/modules"
       ],
       "bookmarks": [],
       "completedManualQuests": []

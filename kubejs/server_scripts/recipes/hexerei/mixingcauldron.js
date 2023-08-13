@@ -71,7 +71,8 @@ ServerEvents.recipes(event => {
           }
         ],
         "output": {
-          "item": 'emendatusenigmatica:natural_acid_crystal'
+          "item": 'emendatusenigmatica:natural_acid_crystal',
+          "count": 64
         },
         "liquidOutput": {
           "fluid": 'emendatusenigmatica:sulfuric_acid'
